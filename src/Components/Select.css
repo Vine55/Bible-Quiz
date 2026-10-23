@@ -71,6 +71,7 @@
   transition: max-height 200ms ease, opacity 160ms ease,
     transform 160ms ease, visibility 160ms;
   overscroll-behavior: contain;
+  gap: 0.5rem;
 }
 
 .show-options {
