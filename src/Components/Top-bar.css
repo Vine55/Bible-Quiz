@@ -1,0 +1,17 @@
+.top-bar {
+    background-color: white;
+    border-bottom: 1px solid var(--color-background-dark);
+    display: flex;
+    padding: 1rem;
+    width: 100dvw;
+    justify-content: start;
+    text-align: center;
+}
+
+.title {
+    color:var(--color-text-light);
+}
+
+.title-icon {
+    color: var(--color-primary);
+}

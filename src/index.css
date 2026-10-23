@@ -1,0 +1,71 @@
+:root {
+  --color-primary: #5359A5;
+  --color-primary-dark: #333985;
+  --color-primary-light: #a3a9f5;
+  --color-primary-lighter: #F0F0FA;
+
+  --color-background: #E4E3DF;
+  --color-background-dark: #C4C3BF;
+  --color-background-light: #F0F0FA;
+
+  --color-border: #E4E3DF;
+  --color-border-primary: #5359A5;
+
+  --color-text: black;
+  --color-text-light: #70717B;
+
+  --border-radius: 8px;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 80dvh;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.header {
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.button {
+  height: 3rem;
+  transition: all 200ms;
+  border: 0;
+  border-radius: inherit;
+  width: 100%;
+  padding: 0.8rem;
+  transition: all 200ms;
+  border: 0;
+  border-radius: var(--border-radius);
+  height: 46px;
+  font-size: 0.8rem;
+  font-weight:700;
+  cursor: pointer;
+}
+.button-primary {
+  background-color: var(--color-primary);
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.button-primary:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-4px);
+}

@@ -1,0 +1,13506 @@
+const Proverbs = {
+'1': [
+    {
+        id: 1,
+        question: 'Who does Proverbs say is the author of the first section of Proverbs (Prov.1:1)?',
+        options: [
+            'David',
+            'Solomon',
+            'Moses',
+            'The Rabbis'
+        ],
+        answer: 'Solomon',
+        reference: 'Proverbs 1:1'
+    },
+    {
+        id: 2,
+        question: 'Solomon was the son of (Prov 1:1)?',
+        options: [
+            'Samuel',
+            'Hezekiah',
+            'David',
+            'Abraham'
+        ],
+        answer: 'David',
+        reference: 'Proverbs 1:1'
+    },
+    {
+        id: 3,
+        question: "Solomon had what role in Israel's society (Prov 1:1)?",
+        options: [
+            'Priest',
+            'Prophet',
+            'Judge',
+            'King'
+        ],
+        answer: 'King',
+        reference: 'Proverbs 1:1'
+    },
+    {
+        id: 4,
+        question: 'What is the purpose of these proverbs (Prov 1:2)?',
+        options: [
+            'For worship',
+            'For living a godly life',
+            'For avoiding folly',
+            'For attaining discipline'
+        ],
+        answer: 'For attaining discipline',
+        reference: 'Proverbs 1:2'
+    },
+    {
+        id: 5,
+        question: 'What kind of life do the proverbs promote (Prov 1:3)?',
+        options: [
+            'Disciplined and prudent',
+            'Wise and obedient',
+            'Holy and good',
+            'Righteous and holy'
+        ],
+        answer: 'Disciplined and prudent',
+        reference: 'Proverbs 1:3'
+    },
+    {
+        id: 6,
+        question: 'Proverbs are designed to help do all of the following EXCEPT (Prov 1:3).',
+        options: [
+            'What is fair',
+            'What is just',
+            'What is holy',
+            'What is right'
+        ],
+        answer: 'What is holy',
+        reference: 'Proverbs 1:3'
+    },
+    {
+        id: 7,
+        question: 'What do these proverbs give to the simple (Prov 1:4)?',
+        options: [
+            'Knowledge',
+            'Discretion',
+            'Prudence',
+            'Learning'
+        ],
+        answer: 'Prudence',
+        reference: 'Proverbs 1:4'
+    },
+    {
+        id: 8,
+        question: 'What do these proverbs give to the young (Prov 1:4)?',
+        options: [
+            'Discernment and kindness',
+            'Knowledge and discretion',
+            'Wisdom and righteousness',
+            'Prudence and excellence'
+        ],
+        answer: 'Knowledge and discretion',
+        reference: 'Proverbs 1:4'
+    },
+    {
+        id: 9,
+        question: 'What should the wise add to (Prov 1:5)?',
+        options: [
+            'Their discernment',
+            'Their guidance',
+            'Their righteousness',
+            'Their learning'
+        ],
+        answer: 'Their learning',
+        reference: 'Proverbs 1:5'
+    },
+    {
+        id: 10,
+        question: 'What should the discerning get (Prov 1:5)?',
+        options: [
+            'Guidance',
+            'Generosity',
+            'Holiness',
+            'Kindness'
+        ],
+        answer: 'Guidance',
+        reference: 'Proverbs 1:5'
+    },
+    {
+        id: 11,
+        question: 'The discerning should get guidance for understanding all of the following EXCEPT (Prov 1:6).',
+        options: [
+            'Proverbs',
+            'Parables',
+            'Stories',
+            'Riddles'
+        ],
+        answer: 'Stories',
+        reference: 'Proverbs 1:6'
+    },
+    {
+        id: 12,
+        question: 'What is the beginning of knowledge (Prov 1:7)?',
+        options: [
+            'The fear of the Lord',
+            'Wisdom',
+            'Discipline',
+            'A holy life'
+        ],
+        answer: 'The fear of the Lord',
+        reference: 'Proverbs 1:7'
+    },
+    {
+        id: 13,
+        question: 'Who despises wisdom and discipline (Prov 1:7)?',
+        options: [
+            'The wicked',
+            'Fools',
+            'The Ignorant',
+            'A wayward man'
+        ],
+        answer: 'Fools',
+        reference: 'Proverbs 1:7'
+    },
+    {
+        id: 14,
+        question: 'What do fools despise (Prov 1:7)?',
+        options: [
+            'The way of the righteous',
+            'Pardon',
+            'Discipline',
+            'Kindness'
+        ],
+        answer: 'Discipline',
+        reference: 'Proverbs 1:7'
+    },
+    {
+        id: 15,
+        question: 'Who does the father call to listen to his instruction (Prov 1:8)?',
+        options: [
+            'His student',
+            'All humankind',
+            'The wise of heart',
+            'His son'
+        ],
+        answer: 'His son',
+        reference: 'Proverbs 1:8'
+    },
+    {
+        id: 16,
+        question: 'What was the son admonished not to forsake (Prov 1:8)?',
+        options: [
+            "His mother's teaching",
+            'The path of holiness',
+            'The words of the wise',
+            'A prudent life'
+        ],
+        answer: "His mother's teaching",
+        reference: 'Proverbs 1:8'
+    },
+    {
+        id: 17,
+        question: "The parents' instructions would be a _____ for their head (Prov 1:9).",
+        options: [
+            'Crown',
+            'Garland',
+            'Hat',
+            'Shade'
+        ],
+        answer: 'Garland',
+        reference: 'Proverbs 1:9'
+    },
+    {
+        id: 18,
+        question: "What would the parents' instruction be for the young person (Prov 1:9)?",
+        options: [
+            'A coat of many colors',
+            'Gold ring for their finger',
+            'Mantel of honor',
+            'A chain for their neck'
+        ],
+        answer: 'A chain for their neck',
+        reference: 'Proverbs 1:9'
+    },
+    {
+        id: 19,
+        question: 'What should one do in response to being enticed by sinners (Pr.1:10)?',
+        options: [
+            'Refute him',
+            "Don't give in",
+            'Ignore him',
+            "Don't give up"
+        ],
+        answer: "Don't give in",
+        reference: 'Proverbs 1:10'
+    },
+    {
+        id: 20,
+        question: 'Who does the father warn the young person would try to entice him (Prov 1:10)?',
+        options: [
+            'Sinners',
+            'Fools',
+            'The wicked',
+            'Sluggards'
+        ],
+        answer: 'Sinners',
+        reference: 'Proverbs 1:10'
+    },
+    {
+        id: 21,
+        question: 'What do sinners lie in wait for (Prov 1:11)?',
+        options: [
+            "Someone's soul",
+            "Someone's life",
+            "Someone's blood",
+            'A righteous man'
+        ],
+        answer: "Someone's blood",
+        reference: 'Proverbs 1:11'
+    },
+    {
+        id: 22,
+        question: 'Sinners entice the young person to join them waylaying _____ (Prov 1:11)?',
+        options: [
+            'The wise heart',
+            'Some of diligent hands',
+            'The helpless',
+            'Some harmless soul'
+        ],
+        answer: 'Some harmless soul',
+        reference: 'Proverbs 1:11'
+    },
+    {
+        id: 23,
+        question: 'The sinners claim they would swallow their victims like _____ (Prov 1:12).',
+        options: [
+            'The grave',
+            'A lion',
+            'The warrior',
+            'Locust in a barley field'
+        ],
+        answer: 'The grave',
+        reference: 'Proverbs 1:12'
+    },
+    {
+        id: 24,
+        question: 'With what did the sinners hope to fill their houses (Pr.1:13)?',
+        options: [
+            'Plunder',
+            'Furniture',
+            'Prostitutes',
+            'Gold'
+        ],
+        answer: 'Plunder',
+        reference: 'Proverbs 1:13'
+    },
+    {
+        id: 25,
+        question: 'What will the sinner ask the young person to share (Prov 1:14)?',
+        options: [
+            'A common vow',
+            'A common bed',
+            'A common purse',
+            'A common sword'
+        ],
+        answer: 'A common purse',
+        reference: 'Proverbs 1:14'
+    },
+    {
+        id: 26,
+        question: "What should you not set on the sinner's path (Prov 1:15)?",
+        options: [
+            'Their eyes',
+            'Their mind',
+            'Their heart',
+            'Their foot'
+        ],
+        answer: 'Their foot',
+        reference: 'Proverbs 1:15'
+    },
+    {
+        id: 27,
+        question: 'What are the sinners swift to do (Prov 1:16)?',
+        options: [
+            'Cause strife',
+            'Shed blood',
+            'Entice',
+            'Deceive'
+        ],
+        answer: 'Shed blood',
+        reference: 'Proverbs 1:16'
+    },
+    {
+        id: 28,
+        question: 'What part of the sinner rushes to sin (Prov 1:16)?',
+        options: [
+            'Their mind',
+            'Their hands',
+            'Their feet',
+            'Their path'
+        ],
+        answer: 'Their feet',
+        reference: 'Proverbs 1:16'
+    },
+    {
+        id: 29,
+        question: 'In whose view is it useless to spread a net (Prov 1:17)?',
+        options: [
+            'A bird',
+            'An ox',
+            'A lion',
+            'An ant'
+        ],
+        answer: 'A bird',
+        reference: 'Proverbs 1:17'
+    },
+    {
+        id: 30,
+        question: 'These men lie in wait for whose blood (Prov 1:18)?',
+        options: [
+            'Their own',
+            "Their enemies'",
+            'The foolish',
+            'The wise'
+        ],
+        answer: 'Their own',
+        reference: 'Proverbs 1:18'
+    },
+    {
+        id: 31,
+        question: 'What does "ill-gotten gain" do to people (Prov 1:19)?',
+        options: [
+            'Corrupts them',
+            'Makes them foolish',
+            'Takes their lives',
+            'Makes them proud'
+        ],
+        answer: 'Takes their lives',
+        reference: 'Proverbs 1:19'
+    },
+    {
+        id: 32,
+        question: 'Who raises her voice in the public squares (Prov 1:20)?',
+        options: [
+            'Madame folly',
+            'The virtuous woman',
+            'The Temptress',
+            'Madame Wisdom'
+        ],
+        answer: 'Madame Wisdom',
+        reference: 'Proverbs 1:20'
+    },
+    {
+        id: 33,
+        question: 'Where does Madame Wisdom raise her voice (Prov 1:20)?',
+        options: [
+            'In her house',
+            'In the public square',
+            'From the window of her house',
+            'In the market'
+        ],
+        answer: 'In the public square',
+        reference: 'Proverbs 1:20'
+    },
+    {
+        id: 34,
+        question: 'Where does Madame Wisdom make her speech (Prov 1:21)?',
+        options: [
+            "In the king's court",
+            'On the city wall',
+            'In the city gateways',
+            'On the straight path'
+        ],
+        answer: 'In the city gateways',
+        reference: 'Proverbs 1:21'
+    },
+    {
+        id: 35,
+        question: 'What do the simple love (Prov 1:22)?',
+        options: [
+            'Their simple ways',
+            'The path of folly',
+            'Their empty reward',
+            'The sleep of the sluggard'
+        ],
+        answer: 'Their simple ways',
+        reference: 'Proverbs 1:22'
+    },
+    {
+        id: 36,
+        question: 'What do fools hate (Prov 1:22)?',
+        options: [
+            'Sin',
+            'God',
+            'Truth',
+            'Knowledge'
+        ],
+        answer: 'Knowledge',
+        reference: 'Proverbs 1:22'
+    },
+    {
+        id: 37,
+        question: 'What would Madame Wisdom pour out if people responded to her (Prov 1:23)?',
+        options: [
+            'Her heart',
+            'Her knowledge',
+            'Love',
+            'Righteousness'
+        ],
+        answer: 'Her heart',
+        reference: 'Proverbs 1:23'
+    },
+    {
+        id: 38,
+        question: 'Madame Wisdom will pour herself out to the one who responds to her _____ (Prov 1:23).',
+        options: [
+            'Instruction',
+            'Enticing',
+            'Rebuke',
+            'Pleas'
+        ],
+        answer: 'Rebuke',
+        reference: 'Proverbs 1:23'
+    },
+    {
+        id: 39,
+        question: 'Madame Wisdom claims that no one responded when (Prov 1:24).',
+        options: [
+            'She stretched out her hand',
+            'She opened her doors',
+            'She looked out her window',
+            'She invited people to her banquet'
+        ],
+        answer: 'She stretched out her hand',
+        reference: 'Proverbs 1:24'
+    },
+    {
+        id: 40,
+        question: "What did most do with Madame Wisdom's advice (Prov 1:25)?",
+        options: [
+            'Misunderstood it',
+            'Hated it',
+            'Ignored it',
+            'Accepted it'
+        ],
+        answer: 'Ignored it',
+        reference: 'Proverbs 1:25'
+    },
+    {
+        id: 41,
+        question: 'What will Madame Wisdom do when calamity overtakes the sinners (Prov 1:26)?',
+        options: [
+            'Mock them',
+            'Ignore them',
+            'Call to them',
+            'Save them'
+        ],
+        answer: 'Mock them',
+        reference: 'Proverbs 1:26'
+    },
+    {
+        id: 42,
+        question: 'When disaster hits those who rejected Madame Wisdom, what will she do (Prov 1:26)?',
+        options: [
+            'Sit in silence',
+            'Remind them that they rejected her',
+            'Call out to them',
+            'Laugh'
+        ],
+        answer: 'Laugh',
+        reference: 'Proverbs 1:26'
+    },
+    {
+        id: 43,
+        question: 'Calamity will overtake those who reject Madame Wisdom like a _____ (Prov 1:27).',
+        options: [
+            'Wave',
+            'Storm',
+            'Avalanche',
+            'Lion'
+        ],
+        answer: 'Storm',
+        reference: 'Proverbs 1:27'
+    },
+    {
+        id: 44,
+        question: "When the sinners call, what won't Madame Wisdom do (Prov 1:28)?",
+        options: [
+            'Ignore them',
+            'Answer them',
+            'Forsake them',
+            'Come to their aid'
+        ],
+        answer: 'Answer them',
+        reference: 'Proverbs 1:28'
+    },
+    {
+        id: 45,
+        question: 'When will those who reject Madame Wisdom not be able to find her (Prov 1:28)?',
+        options: [
+            'When they look for her',
+            'When they kill her',
+            'When they call for her',
+            'When they go down to the grave'
+        ],
+        answer: 'When they call for her',
+        reference: 'Proverbs 1:28'
+    },
+    {
+        id: 46,
+        question: 'Who/What did the sinner choose not to fear (Prov 1:29)?',
+        options: [
+            'Death',
+            'Madame Wisdom',
+            'Foolishness',
+            'The Lord'
+        ],
+        answer: 'The Lord',
+        reference: 'Proverbs 1:29'
+    },
+    {
+        id: 47,
+        question: 'What do those that reject Madame Wisdom hate (Prov 1:29)?',
+        options: [
+            'Wisdom',
+            'Discipline',
+            'Knowledge',
+            'Righteousness'
+        ],
+        answer: 'Knowledge',
+        reference: 'Proverbs 1:29'
+    },
+    {
+        id: 48,
+        question: 'With what will those that reject Madame Wisdom be filled (Prov 1:31)?',
+        options: [
+            'The fruit of their schemes',
+            'Envy against the righteous',
+            'Bitterness of heart',
+            'Calamity'
+        ],
+        answer: 'The fruit of their schemes',
+        reference: 'Proverbs 1:31'
+    },
+    {
+        id: 49,
+        question: "Whose waywardness will kill those that reject Madame Wisdom (Prov 1:32)?",
+        options: [
+            'The foolish',
+            'The simple',
+            'The wicked',
+            'The sluggard'
+        ],
+        answer: 'The simple',
+        reference: 'Proverbs 1:32'
+    },
+    {
+        id: 50,
+        question: "Whose complacency will destroy those that reject Madame Wisdom (Prov 1:32)?",
+        options: [
+            'The Fool',
+            'The Deceitful',
+            'The Wicked',
+            'The Sluggard'
+        ],
+        answer: 'The Fool',
+        reference: 'Proverbs 1:32'
+    }
+],
+'2': [
+    {
+        id: 51,
+        question: "What of the father's should the son store up (Prov 2:1)?",
+        options: [
+            'Words',
+            'Wisdom',
+            'Commands',
+            'Wealth'
+        ],
+        answer: 'Commands',
+        reference: 'Proverbs 2:1'
+    },
+    {
+        id: 52,
+        question: 'What should the young person turn their ear toward (Prov 2:2)?',
+        options: [
+            'Commands',
+            'Wisdom',
+            'Understanding',
+            'The father'
+        ],
+        answer: 'Wisdom',
+        reference: 'Proverbs 2:2'
+    },
+    {
+        id: 53,
+        question: "What part of the young person's body should be applied to understanding (Prov 2:2)?",
+        options: [
+            'Their ear',
+            'Their mind',
+            'Their eyes',
+            'Their heart'
+        ],
+        answer: 'Their heart',
+        reference: 'Proverbs 2:2'
+    },
+    {
+        id: 54,
+        question: 'For what should the young person cry out (Prov 2:3)?',
+        options: [
+            'Wisdom',
+            'Righteousness',
+            'Insight',
+            'Mercy'
+        ],
+        answer: 'Insight',
+        reference: 'Proverbs 2:3'
+    },
+    {
+        id: 55,
+        question: 'For what should one cry aloud (Prov 2:3)?',
+        options: [
+            'Wisdom',
+            'Understanding',
+            'Righteousness',
+            'Mercy'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 2:3'
+    },
+    {
+        id: 56,
+        question: 'One should look for understanding as for _____ (Prov 2:4).',
+        options: [
+            'Gold',
+            'Silver',
+            'Rubies',
+            'Diamonds'
+        ],
+        answer: 'Silver',
+        reference: 'Proverbs 2:4'
+    },
+    {
+        id: 57,
+        question: 'One should search for wisdom and understanding as for _____ (Prov 2:4).',
+        options: [
+            'Hidden treasure',
+            'A pearl of great price',
+            'A lost friend',
+            'A lost coin'
+        ],
+        answer: 'Hidden treasure',
+        reference: 'Proverbs 2:4'
+    },
+    {
+        id: 58,
+        question: 'If you search for wisdom, what will you find (Prov 2:5)?',
+        options: [
+            'Treasure',
+            'Life',
+            'Knowledge of God',
+            'Righteousness'
+        ],
+        answer: 'Knowledge of God',
+        reference: 'Proverbs 2:5'
+    },
+    {
+        id: 59,
+        question: 'If you search for wisdom, what will you understand (Prov 2:5)?',
+        options: [
+            'The mysteries of God',
+            'The fear of the LORD',
+            'Peace that passes understanding',
+            'The awesomeness of God'
+        ],
+        answer: 'The fear of the LORD',
+        reference: 'Proverbs 2:5'
+    },
+    {
+        id: 60,
+        question: 'Who gives wisdom (Prov 2:6)?',
+        options: [
+            'Madame Wisdom',
+            'The LORD',
+            'The teacher',
+            'The father'
+        ],
+        answer: 'The LORD',
+        reference: 'Proverbs 2:6'
+    },
+    {
+        id: 61,
+        question: "What proceeds from the LORD's mouth (Prov 2:6)?",
+        options: [
+            'Wisdom',
+            'Life',
+            'Righteousness',
+            'Understanding'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 2:6'
+    },
+    {
+        id: 62,
+        question: 'What does God hold in store for the upright (Prov 2:7)?',
+        options: [
+            'Life',
+            'Rest',
+            'Victory',
+            'Prosperity'
+        ],
+        answer: 'Victory',
+        reference: 'Proverbs 2:7'
+    },
+    {
+        id: 63,
+        question: 'What is God to those whose walk is blameless (Prov 2:7)?',
+        options: [
+            'A shield',
+            'A rock',
+            'A fortress',
+            'A sword'
+        ],
+        answer: 'A shield',
+        reference: 'Proverbs 2:7'
+    },
+    {
+        id: 64,
+        question: 'For whom does the LORD hold victory in store (Prov 2:7)?',
+        options: [
+            'The wise',
+            'The diligent',
+            'The righteous',
+            'The upright'
+        ],
+        answer: 'The upright',
+        reference: 'Proverbs 2:7'
+    },
+    {
+        id: 65,
+        question: 'For whom does the LORD become a shield of protection (Prov 2:7)?',
+        options: [
+            'The diligent',
+            'The blameless',
+            'The righteous',
+            'The upright'
+        ],
+        answer: 'The blameless',
+        reference: 'Proverbs 2:7'
+    },
+    {
+        id: 66,
+        question: "Whose course does the LORD guard (Prov 2:8)?",
+        options: [
+            'The diligent',
+            'The blameless',
+            'The just',
+            'The upright'
+        ],
+        answer: 'The just',
+        reference: 'Proverbs 2:8'
+    },
+    {
+        id: 67,
+        question: 'Whose way does the LORD protect (Prov 2:8)?',
+        options: [
+            'The diligent',
+            'The blameless',
+            'The righteous',
+            'The faithful'
+        ],
+        answer: 'The faithful',
+        reference: 'Proverbs 2:8'
+    },
+    {
+        id: 68,
+        question: 'Wisdom helps one understand all of the following EXCEPT (Prov 2:9).',
+        options: [
+            'What is right',
+            'What is just',
+            'What is fair',
+            'What is holy'
+        ],
+        answer: 'What is holy',
+        reference: 'Proverbs 2:9'
+    },
+    {
+        id: 69,
+        question: 'To what will knowledge become pleasant (Prov 2:10)?',
+        options: [
+            'The body',
+            'The senses',
+            'The soul',
+            'The heart'
+        ],
+        answer: 'The soul',
+        reference: 'Proverbs 2:10'
+    },
+    {
+        id: 70,
+        question: 'If one searches for wisdom, into what part of the body will wisdom enter (Prov 2:10)?',
+        options: [
+            'The mind',
+            'The heart',
+            'The soul',
+            'The ears'
+        ],
+        answer: 'The heart',
+        reference: 'Proverbs 2:10'
+    },
+    {
+        id: 71,
+        question: 'What will discretion do for one that is wise (Prov 2:11)?',
+        options: [
+            'Love',
+            'Protect',
+            'Help',
+            'Guide'
+        ],
+        answer: 'Protect',
+        reference: 'Proverbs 2:11'
+    },
+    {
+        id: 72,
+        question: 'What will understanding do for one that is wise (Prov 2:11)?',
+        options: [
+            'Guard',
+            'Love',
+            'Help',
+            'Guide'
+        ],
+        answer: 'Guard',
+        reference: 'Proverbs 2:11'
+    },
+    {
+        id: 73,
+        question: 'From whose ways will wisdom save you (Prov 2:12)?',
+        options: [
+            'The wicked',
+            'The foolish',
+            'The simple',
+            'The sluggard'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 2:12'
+    },
+    {
+        id: 74,
+        question: 'Wicked people have words that are _____ (Prov 2:12).',
+        options: [
+            'Treacherous',
+            'Slanderous',
+            'Evil',
+            'Perverse'
+        ],
+        answer: 'Perverse',
+        reference: 'Proverbs 2:12'
+    },
+    {
+        id: 75,
+        question: 'Where do wicked men walk (Prov 2:13)?',
+        options: [
+            'Straight paths',
+            'Wide paths',
+            'Dark ways',
+            'By the grave'
+        ],
+        answer: 'Dark ways',
+        reference: 'Proverbs 2:13'
+    },
+    {
+        id: 76,
+        question: 'What paths do the wicked leave (Prov 2:13)?',
+        options: [
+            'Straight',
+            'Righteous',
+            'Wise',
+            'Upright'
+        ],
+        answer: 'Straight',
+        reference: 'Proverbs 2:13'
+    },
+    {
+        id: 77,
+        question: 'In what do the wicked delight (Prov 2:14)?',
+        options: [
+            'Ignorance',
+            'The Evil One',
+            'Darkness',
+            'Doing wrong'
+        ],
+        answer: 'Doing wrong',
+        reference: 'Proverbs 2:14'
+    },
+    {
+        id: 78,
+        question: 'The paths of the wicked are _____ (Prov 2:15).',
+        options: [
+            'Shameful',
+            'Crooked',
+            'Narrow',
+            'Broad'
+        ],
+        answer: 'Crooked',
+        reference: 'Proverbs 2:15'
+    },
+    {
+        id: 79,
+        question: 'The ways of the wicked are _____ (Prov 2:15).',
+        options: [
+            'Treacherous',
+            'Lazy',
+            'Devious',
+            'Slippery'
+        ],
+        answer: 'Devious',
+        reference: 'Proverbs 2:15'
+    },
+    {
+        id: 80,
+        question: 'Wisdom will save one from what type of person (Prov 2:16)?',
+        options: [
+            'The adulteress',
+            'The sluggard',
+            'The unfaithful',
+            'The mocker'
+        ],
+        answer: 'The adulteress',
+        reference: 'Proverbs 2:16'
+    },
+    {
+        id: 81,
+        question: 'What type of words does the adulteress speak (Prov 2:16)?',
+        options: [
+            'Evil',
+            'Foolish',
+            'Seductive',
+            'Sly'
+        ],
+        answer: 'Seductive',
+        reference: 'Proverbs 2:16'
+    },
+    {
+        id: 82,
+        question: 'What has the adulteress ignored (Prov 2:17)?',
+        options: [
+            'Her covenant',
+            'Her conscience',
+            'Her lover',
+            'Wisdom'
+        ],
+        answer: 'Her covenant',
+        reference: 'Proverbs 2:17'
+    },
+    {
+        id: 83,
+        question: 'The covenant the adulteress made with her partner was made before _____ (Prov 2:17).',
+        options: [
+            'The king',
+            'A judge',
+            'God',
+            'Witnesses'
+        ],
+        answer: 'God',
+        reference: 'Proverbs 2:17'
+    },
+    {
+        id: 84,
+        question: 'Who has the adulteress left (Prov 2:17)?',
+        options: [
+            'Her God',
+            'Her partner',
+            'Her father',
+            'Her children'
+        ],
+        answer: 'Her partner',
+        reference: 'Proverbs 2:17'
+    },
+    {
+        id: 85,
+        question: 'To where does the house of the adulteress lead (Prov 2:18)?',
+        options: [
+            'The grave',
+            'Hell',
+            'Death',
+            'Destruction'
+        ],
+        answer: 'Death',
+        reference: 'Proverbs 2:18'
+    },
+    {
+        id: 86,
+        question: 'The paths of an adulteress lead to _____ (Prov 2:18).',
+        options: [
+            'The spirits of the dead',
+            'Judgment before many',
+            'The terrors of the grave',
+            'Failure and ruin'
+        ],
+        answer: 'The spirits of the dead',
+        reference: 'Proverbs 2:18'
+    },
+    {
+        id: 87,
+        question: 'What happens to those who visit the adulteress (Prov 2:19)?',
+        options: [
+            'They follow the dark path',
+            'They do not return',
+            'They lose their inheritance',
+            'They are defiled'
+        ],
+        answer: 'They do not return',
+        reference: 'Proverbs 2:19'
+    },
+    {
+        id: 88,
+        question: 'What paths does the one going to an adulteress not attain (Prov 2:19)?',
+        options: [
+            'Wise',
+            'Righteous',
+            'Life',
+            'Victory'
+        ],
+        answer: 'Life',
+        reference: 'Proverbs 2:19'
+    },
+    {
+        id: 89,
+        question: 'Those gaining wisdom will walk in the ways of whom (Prov 2:20)?',
+        options: [
+            'The Lord',
+            'The wise',
+            'The fathers',
+            'Good men'
+        ],
+        answer: 'Good men',
+        reference: 'Proverbs 2:20'
+    },
+    {
+        id: 90,
+        question: 'Those gaining wisdom will keep to the paths of what type of people (Prov 2:20)?',
+        options: [
+            'Righteous',
+            'Upright',
+            'Wise',
+            'Diligent'
+        ],
+        answer: 'Righteous',
+        reference: 'Proverbs 2:20'
+    },
+    {
+        id: 91,
+        question: 'Who will live in the land (Prov 2:21)?',
+        options: [
+            'The sinners',
+            'The upright',
+            'The holy',
+            'The wise men'
+        ],
+        answer: 'The upright',
+        reference: 'Proverbs 2:21'
+    },
+    {
+        id: 92,
+        question: 'Who will remain in the land (Prov 2:21)?',
+        options: [
+            'Righteous',
+            'Wise',
+            'Diligent',
+            'Just'
+        ],
+        answer: 'Righteous',
+        reference: 'Proverbs 2:21'
+    },
+    {
+        id: 93,
+        question: 'Who will be cut off from the land (Prov 2:22)?',
+        options: [
+            'The foolish',
+            'The mocker',
+            'The wicked',
+            'The evil ones'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 2:22'
+    },
+    {
+        id: 94,
+        question: 'Who will be torn from the land (Prov 2:22)?',
+        options: [
+            'The foolish',
+            'The mocker',
+            'The wicked',
+            'The unfaithful'
+        ],
+        answer: 'The unfaithful',
+        reference: 'Proverbs 2:22'
+    }
+],
+'3': [
+            {
+                id: 98,
+                question: "What should the son not forget (Prov. 3:1)?",
+                options: ["The commandments", "Wisdom", "The father's teaching", "The mother's love"],
+                answer: "C",
+                reference: "Proverbs 3:1"
+            },
+            {
+                id: 99,
+                question: "Where should the son keep his father's commands (Prov. 3:1)?",
+                options: ["In his mind", "Written down", "In his heart", "Close to himself"],
+                answer: "C",
+                reference: "Proverbs 3:1"
+            },
+            {
+                id: 100,
+                question: "What will the father's commands bring the son (Prov. 3:2)?",
+                options: ["Long life and wisdom", "Good fortune and protection", "Eternal life and success", "Long life and prosperity"],
+                answer: "D",
+                reference: "Proverbs 3:2"
+            },
+            {
+                id: 101,
+                question: "What should be bound around the neck (Prov. 3:3)?",
+                options: ["The commandments", "Love and faithfulness", "Love and knowledge", "Knowledge and faithfulness"],
+                answer: "B",
+                reference: "Proverbs 3:3"
+            },
+            {
+                id: 102,
+                question: "Where should love and faithfulness be written (Prov. 3:3)?",
+                options: ["On the doorposts", "On tablets of stone", "On the tablet of the heart", "On their foreheads and hands"],
+                answer: "C",
+                reference: "Proverbs 3:3"
+            },
+            {
+                id: 103,
+                question: "In whose eyes will the wise win favor (Prov. 3:4)?",
+                options: ["Each other", "God", "Man", "God and man"],
+                answer: "D",
+                reference: "Proverbs 3:4"
+            },
+            {
+                id: 104,
+                question: "If one binds love and faithfulness around their neck, what will that win for them (Prov. 3:4)?",
+                options: ["A good name", "Victory", "Success", "The desires of their heart"],
+                answer: "A",
+                reference: "Proverbs 3:4"
+            },
+            {
+                id: 105,
+                question: "We are to trust in the LORD with all of what (Prov. 3:5)?",
+                options: ["Our heart", "Our soul", "Our mind", "Our strength"],
+                answer: "A",
+                reference: "Proverbs 3:5"
+            },
+            {
+                id: 106,
+                question: "What is not to be leaned on (Prov. 3:5)?",
+                options: ["Me", "Our own understanding", "The advice of the wicked", "The counsel of one's peers"],
+                answer: "B",
+                reference: "Proverbs 3:5"
+            },
+            {
+                id: 107,
+                question: "What will the LORD do to our paths (Prov. 3:6)?",
+                options: ["Make them clear", "Make them light", "Make them straight", "Soften them"],
+                answer: "C",
+                reference: "Proverbs 3:6"
+            },
+            {
+                id: 108,
+                question: "What should one not be in their own eyes (Prov. 3:7)?",
+                options: ["Proud", "Righteous", "Humble", "Wise"],
+                answer: "D",
+                reference: "Proverbs 3:7"
+            },
+            {
+                id: 109,
+                question: "What are we to fear, and what are we to shun (Prov. 3:7)?",
+                options: ["Evil", "Wickedness", "Deceit", "Slander"],
+                answer: "A",
+                reference: "Proverbs 3:7"
+            },
+            {
+                id: 110,
+                question: "What will the fear of the LORD bring health to (Prov. 3:8)?",
+                options: ["The mind", "The body", "The soul", "All of the above"],
+                answer: "B",
+                reference: "Proverbs 3:8"
+            },
+            {
+                id: 111,
+                question: "What will the fear of the LORD bring nourishment to (Prov. 3:8)?",
+                options: ["The stomach", "The mouth", "The bones", "The body"],
+                answer: "C",
+                reference: "Proverbs 3:8"
+            },
+            {
+                id: 112,
+                question: "We are to honor the LORD with what part of our crops (Prov. 3:9)?",
+                options: ["The best", "The firstfruits", "10%", "All of them"],
+                answer: "B",
+                reference: "Proverbs 3:9"
+            },
+            {
+                id: 113,
+                question: "With what is God to be honored (Prov. 3:9)?",
+                options: ["One's mind", "One's heart", "One's home", "One's wealth"],
+                answer: "D",
+                reference: "Proverbs 3:9"
+            },
+            {
+                id: 114,
+                question: "What will one receive when they honor the LORD with their wealth (Prov. 3:10)?",
+                options: ["Money", "Wisdom", "Plenty of new wine", "Honor"],
+                answer: "C",
+                reference: "Proverbs 3:10"
+            },
+            {
+                id: 115,
+                question: "What will happen to one's barns when they honor the LORD with their wealth (Prov. 3:10)?",
+                options: ["They will be filled to overflowing", "They will be a fortress of protection", "They will never lack oxen", "They will be filled with animals"],
+                answer: "A",
+                reference: "Proverbs 3:10"
+            },
+            {
+                id: 116,
+                question: "What should not be despised (Prov. 3:11)?",
+                options: ["The LORD's discipline", "The father's instruction", "The master's rebuke", "The poor"],
+                answer: "A",
+                reference: "Proverbs 3:11"
+            },
+            {
+                id: 117,
+                question: "What should not be resented (Prov. 3:11)?",
+                options: ["The instruction of the wise", "The LORD's rebuke", "The discipline of a judge", "The way of holiness"],
+                answer: "B",
+                reference: "Proverbs 3:11"
+            },
+            {
+                id: 118,
+                question: "Whom does the LORD discipline (Prov. 3:12)?",
+                options: ["His faithful ones", "All His children", "Those He loves", "Those He hates"],
+                answer: "C",
+                reference: "Proverbs 3:12"
+            },
+            {
+                id: 119,
+                question: "How does the LORD discipline (Prov. 3:12)?",
+                options: ["As a warrior", "As a judge", "As a father", "As a king"],
+                answer: "C",
+                reference: "Proverbs 3:12"
+            },
+            {
+                id: 120,
+                question: "What is the state of the man who finds wisdom (Prov. 3:13)?",
+                options: ["He is happy", "He is fortunate", "He is wise", "He is blessed"],
+                answer: "D",
+                reference: "Proverbs 3:13"
+            },
+            {
+                id: 121,
+                question: "What is more profitable than silver (Prov. 3:14)?",
+                options: ["Love", "Wisdom", "The fear of the LORD", "Joy"],
+                answer: "B",
+                reference: "Proverbs 3:14"
+            },
+            {
+                id: 122,
+                question: "Wisdom is more precious than what (Prov. 3:15)?",
+                options: ["Gold", "Silver", "Diamonds", "Rubies"],
+                answer: "D",
+                reference: "Proverbs 3:15"
+            },
+            {
+                id: 123,
+                question: "What is in Madame Wisdom's right hand (Prov. 3:16)?",
+                options: ["Justice", "Victory", "Long life", "Riches"],
+                answer: "C",
+                reference: "Proverbs 3:16"
+            },
+            {
+                id: 124,
+                question: "What is in Madame Wisdom's left hand (Prov. 3:16)?",
+                options: ["Justice", "Victory", "Long life", "Riches"],
+                answer: "D",
+                reference: "Proverbs 3:16"
+            },
+            {
+                id: 125,
+                question: "What are Madame Wisdom's paths characterized by (Prov. 3:17)?",
+                options: ["Pleasant paths", "Straight paths", "Paths of peace", "Paths of truth"],
+                answer: "C",
+                reference: "Proverbs 3:17"
+            },
+            {
+                id: 126,
+                question: "Madame Wisdom is a tree of what (Prov. 3:18)?",
+                options: ["Knowledge", "Life", "Gold", "Blessing"],
+                answer: "B",
+                reference: "Proverbs 3:18"
+            },
+            {
+                id: 127,
+                question: "To whom is Madame Wisdom a tree of life (Prov. 3:18)?",
+                options: ["To those who embrace her", "To those who pursue her", "To those who find her", "To those who listen to her"],
+                answer: "A",
+                reference: "Proverbs 3:18"
+            },
+            {
+                id: 128,
+                question: "In what, specifically, did wisdom aid the LORD (Prov. 3:19)?",
+                options: ["Creating the world", "Dividing the deep", "Creating man in God's image", "Laying the earth's foundation"],
+                answer: "D",
+                reference: "Proverbs 3:19"
+            },
+            {
+                id: 129,
+                question: "By what did the LORD establish the earth (Prov. 3:19-20)?",
+                options: ["Knowledge", "Wisdom", "Understanding", "All of the above"],
+                answer: "D",
+                reference: "Proverbs 3:19-20"
+            },
+            {
+                id: 130,
+                question: "What did the LORD's understanding establish (Prov. 3:19)?",
+                options: ["The foundations of the earth", "The trees of the field", "The heavens", "The dividing of the deeps"],
+                answer: "C",
+                reference: "Proverbs 3:19"
+            },
+            {
+                id: 131,
+                question: "What did the LORD's knowledge divide (Prov. 3:20)?",
+                options: ["The deeps", "The heavens", "The mountains", "The peoples of the earth"],
+                answer: "A",
+                reference: "Proverbs 3:20"
+            },
+            {
+                id: 132,
+                question: "By wisdom, what did the clouds drop down (Prov. 3:20)?",
+                options: ["Rain", "Dew", "Hail", "Fire"],
+                answer: "B",
+                reference: "Proverbs 3:20"
+            },
+            {
+                id: 133,
+                question: "What is the son to do with sound wisdom and discretion (Prov. 3:21)?",
+                options: ["Love them", "Preserve them", "Teach them", "Learn them"],
+                answer: "B",
+                reference: "Proverbs 3:21"
+            },
+            {
+                id: 134,
+                question: "What will sound wisdom and discretion be if they are preserved (Prov. 3:22)?",
+                options: ["Pearls for the neck", "Life to the bones", "An ornament of grace", "A crown for the head"],
+                answer: "C",
+                reference: "Proverbs 3:22"
+            },
+            {
+                id: 135,
+                question: "What will be an ornament of grace to one's neck (Prov. 3:22)?",
+                options: ["Discipline and discernment", "Justice and righteousness", "Wisdom and understanding", "Judgment and discernment"],
+                answer: "D",
+                reference: "Proverbs 3:22"
+            },
+            {
+                id: 136,
+                question: "What is one benefit of preserving sound wisdom and discretion (Prov. 3:23)?",
+                options: ["Safety on the way", "Straight paths", "A successful journey", "Blessedness"],
+                answer: "A",
+                reference: "Proverbs 3:23"
+            },
+            {
+                id: 137,
+                question: "What will happen when one preserves sound wisdom and discretion (Prov. 3:23)?",
+                options: ["No regrets", "No shame", "No stumbling", "No worries"],
+                answer: "C",
+                reference: "Proverbs 3:23"
+            },
+            {
+                id: 138,
+                question: "When will one who preserves sound wisdom not be afraid (Prov. 3:24)?",
+                options: ["When calamity comes", "When they lie down", "When they go to war", "When evil approaches"],
+                answer: "B",
+                reference: "Proverbs 3:24"
+            },
+            {
+                id: 139,
+                question: "For one preserving sound wisdom, what will be sweet (Prov. 3:24)?",
+                options: ["Honey", "Victory", "Their paths", "Sleep"],
+                answer: "D",
+                reference: "Proverbs 3:24"
+            },
+            {
+                id: 140,
+                question: "What should one not fear (Prov. 3:25)?",
+                options: ["The storm", "Sudden disaster", "The locust plague", "Judgment"],
+                answer: "B",
+                reference: "Proverbs 3:25"
+            },
+            {
+                id: 141,
+                question: "What overtakes the wicked (Prov. 3:25)?",
+                options: ["Ruin", "Justice", "Defeat", "Calamity"],
+                answer: "A",
+                reference: "Proverbs 3:25"
+            },
+            {
+                id: 142,
+                question: "What will the LORD be to the one who preserves sound wisdom (Prov. 3:26)?",
+                options: ["Their strength", "Their guide", "Their confidence", "Their protection"],
+                answer: "C",
+                reference: "Proverbs 3:26"
+            },
+            {
+                id: 143,
+                question: "From what will the LORD keep the foot of the one who preserves sound wisdom (Prov. 3:26)?",
+                options: ["Slipping", "Stumbling", "The path of the wicked", "Being snared"],
+                answer: "D",
+                reference: "Proverbs 3:26"
+            },
+            {
+                id: 144,
+                question: "From whom should one not withhold good when it is in their power to act (Prov. 3:27)?",
+                options: ["Your neighbor", "Those who deserve it", "Those who are holy", "Your enemies"],
+                answer: "B",
+                reference: "Proverbs 3:27"
+            },
+            {
+                id: 145,
+                question: "What should not be said to a neighbor who needs help when you have the means to help (Prov. 3:28)?",
+                options: ["Come back later", "Go to the priest", "Sell me your land", "I have no coat to give you"],
+                answer: "A",
+                reference: "Proverbs 3:28"
+            },
+            {
+                id: 146,
+                question: "Against whom should one not plot harm (Prov. 3:29)?",
+                options: ["Their neighbor", "Those who deserve it", "Those who are holy", "Their enemies"],
+                answer: "A",
+                reference: "Proverbs 3:29"
+            },
+            {
+                id: 147,
+                question: "What should not be done when someone has done no harm (Prov. 3:30)?",
+                options: ["Harm them", "Reject them", "Accuse them", "Judge them"],
+                answer: "C",
+                reference: "Proverbs 3:30"
+            },
+            {
+                id: 148,
+                question: "What should you not do to a violent man (Prov. 3:31)?",
+                options: ["Provoke him", "Envy him", "Love him", "Hate him"],
+                answer: "B",
+                reference: "Proverbs 3:31"
+            }
+],
+'4': [
+    {
+        id: 146,
+        question: 'What should the sons do with the father’s instruction (Prov 4:1)?',
+        options: [
+            'Listen',
+            'Pay attention',
+            'Gain understanding',
+            'All of the above'
+        ],
+        answer: 'All of the above',
+        reference: 'Proverbs 4:1'
+    },
+    {
+        id: 147,
+        question: 'What kind of learning does the father give (Prov 4:2)?',
+        options: [
+            'Wise',
+            'Sound',
+            'Good',
+            'Right'
+        ],
+        answer: 'Sound',
+        reference: 'Proverbs 4:2'
+    },
+    {
+        id: 148,
+        question: 'What was the son not to forsake (Prov 4:2)?',
+        options: [
+            "The father's words",
+            "The father's correction",
+            "The father's teaching",
+            "The father's rebuke"
+        ],
+        answer: "The father's teaching",
+        reference: 'Proverbs 4:2'
+    },
+    {
+        id: 149,
+        question: 'When was the father taught (Prov 4:3)?',
+        options: [
+            'When he was a boy',
+            'When he was born',
+            'When he left his home',
+            'When he was an old man'
+        ],
+        answer: 'When he was a boy',
+        reference: 'Proverbs 4:3'
+    },
+    {
+        id: 150,
+        question: 'Who originally taught the father (Prov 4:4)?',
+        options: [
+            'The wise',
+            "The sages in the king's court",
+            'The LORD',
+            'His father'
+        ],
+        answer: 'His father',
+        reference: 'Proverbs 4:4'
+    },
+    {
+        id: 151,
+        question: "What would happen to the person who kept their father's commands (Prov 4:4)?",
+        options: [
+            'They would gain wisdom',
+            'They would live',
+            'They would please their father',
+            'They would be happy'
+        ],
+        answer: 'They would live',
+        reference: 'Proverbs 4:4'
+    },
+    {
+        id: 152,
+        question: 'What two things is the young person instructed to get (Prov 4:5)?',
+        options: [
+            'Wisdom and righteousness',
+            'Virtue and righteousness',
+            'Wisdom and understanding',
+            'Virtue and understanding'
+        ],
+        answer: 'Wisdom and understanding',
+        reference: 'Proverbs 4:5'
+    },
+    {
+        id: 153,
+        question: 'What is not to be forgotten (Prov 4:5)?',
+        options: [
+            'The paths of the righteous',
+            'The words of the wise',
+            'The memory of the upright',
+            "The father's words"
+        ],
+        answer: "The father's words",
+        reference: 'Proverbs 4:5'
+    },
+    {
+        id: 154,
+        question: 'When will wisdom watch over you (Prov 4:6)?',
+        options: [
+            'When one understands her',
+            'When one pays attention to her',
+            'When one listens to her',
+            'When one loves her'
+        ],
+        answer: 'When one loves her',
+        reference: 'Proverbs 4:6'
+    },
+    {
+        id: 155,
+        question: 'If one does not forsake wisdom, how will she respond (Prov 4:6)?',
+        options: [
+            'She will protect the person',
+            'She will guide the person',
+            'She will prosper the person',
+            'She will not forsake the person'
+        ],
+        answer: 'She will protect the person',
+        reference: 'Proverbs 4:6'
+    },
+    {
+        id: 156,
+        question: 'Why should we get wisdom (Prov 4:7)?',
+        options: [
+            'It is omnipotent',
+            'It is supreme',
+            'It leads to righteousness',
+            'It leads to understanding'
+        ],
+        answer: 'It is supreme',
+        reference: 'Proverbs 4:7'
+    },
+    {
+        id: 157,
+        question: 'What should be gotten at all costs (Prov 4:7)?',
+        options: [
+            'Righteousness',
+            'Faithfulness',
+            'Understanding',
+            'Discipline'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 4:7'
+    },
+    {
+        id: 158,
+        question: 'When will wisdom exalt someone (Prov 4:8)?',
+        options: [
+            'When they love her',
+            'When they esteem her',
+            'When they seek her',
+            'Never, wisdom will humble us'
+        ],
+        answer: 'When they esteem her',
+        reference: 'Proverbs 4:8'
+    },
+    {
+        id: 159,
+        question: 'How will Madame Wisdom respond when she is embraced (Prov 4:8)?',
+        options: [
+            'She will reward the person',
+            'She will provide insight',
+            'She will protect',
+            'She will honor the person'
+        ],
+        answer: 'She will honor the person',
+        reference: 'Proverbs 4:8'
+    },
+    {
+        id: 160,
+        question: 'Where will Wisdom place a garland of grace (Prov 4:9)?',
+        options: [
+            'On your head',
+            'On your heart',
+            'On your spirit',
+            'On your shoulders'
+        ],
+        answer: 'On your head',
+        reference: 'Proverbs 4:9'
+    },
+    {
+        id: 161,
+        question: "What will Madame Wisdom place on one's head (Prov 4:9)?",
+        options: [
+            'A hat of honor',
+            'A garland of grace',
+            'A golden crown',
+            'A wreath of insight'
+        ],
+        answer: 'A garland of grace',
+        reference: 'Proverbs 4:9'
+    },
+    {
+        id: 162,
+        question: 'What kind of crown will Madame Wisdom present (Prov 4:9)?',
+        options: [
+            'Gold',
+            'Silver',
+            'Insight',
+            'Splendor'
+        ],
+        answer: 'Splendor',
+        reference: 'Proverbs 4:9'
+    },
+    {
+        id: 163,
+        question: 'What will the years of the son’s life be if he listens to his father (Prov 4:10)?',
+        options: [
+            'One hundred',
+            'Eternal',
+            'Many',
+            'Lengthened'
+        ],
+        answer: 'Many',
+        reference: 'Proverbs 4:10'
+    },
+    {
+        id: 164,
+        question: 'Where will the father lead the son (Prov 4:11)?',
+        options: [
+            'In the way of discipline',
+            'To the LORD',
+            'To the truth',
+            'Down straight paths'
+        ],
+        answer: 'Down straight paths',
+        reference: 'Proverbs 4:11'
+    },
+    {
+        id: 165,
+        question: 'What will not happen when the son runs down a straight path (Prov 4:12)?',
+        options: [
+            'Stumbling',
+            'Missing the mark',
+            'Missing the turn',
+            'Defeat'
+        ],
+        answer: 'Stumbling',
+        reference: 'Proverbs 4:12'
+    },
+    {
+        id: 166,
+        question: 'When the accepting son walks, what will not happen (Prov 4:12)?',
+        options: [
+            'He will not trip',
+            'He will not slip',
+            'His steps will not be hampered',
+            'His way will lead him to victory'
+        ],
+        answer: 'His steps will not be hampered',
+        reference: 'Proverbs 4:12'
+    },
+    {
+        id: 167,
+        question: 'What is your life (Prov 4:13)?',
+        options: [
+            'The LORD',
+            "God's blessing",
+            'Wisdom',
+            'Instruction'
+        ],
+        answer: 'Instruction',
+        reference: 'Proverbs 4:13'
+    },
+    {
+        id: 168,
+        question: 'What was to be well guarded (Prov 4:13)?',
+        options: [
+            'Wisdom',
+            'Discipline',
+            'Instruction',
+            'Justice'
+        ],
+        answer: 'Instruction',
+        reference: 'Proverbs 4:13'
+    },
+    {
+        id: 169,
+        question: 'Where should one not walk (Prov 4:14)?',
+        options: [
+            'The crooked path',
+            'The path of the wicked',
+            'The path of the foolish',
+            'All of the above'
+        ],
+        answer: 'The path of the wicked',
+        reference: 'Proverbs 4:14'
+    },
+    {
+        id: 170,
+        question: 'What should we do when we see the path of the wicked (Prov 4:15)?',
+        options: [
+            'Avoid it',
+            'Turn from it',
+            'Do not travel it',
+            'All of the above'
+        ],
+        answer: 'All of the above',
+        reference: 'Proverbs 4:15'
+    },
+    {
+        id: 171,
+        question: 'What are the wicked robbed of until they make someone fall (Prov 4:16)?',
+        options: [
+            'Satisfaction',
+            'Resolve',
+            'Sleep',
+            'Wickedness'
+        ],
+        answer: 'Sleep',
+        reference: 'Proverbs 4:16'
+    },
+    {
+        id: 172,
+        question: 'The wicked cannot sleep until they do what (Prov 4:16)?',
+        options: [
+            'Evil',
+            'Injustice',
+            'Harm',
+            'Folly'
+        ],
+        answer: 'Evil',
+        reference: 'Proverbs 4:16'
+    },
+    {
+        id: 173,
+        question: 'What do the wicked eat (Prov 4:17)?',
+        options: [
+            'The lamb of hardship',
+            'The bread of wickedness',
+            'The grapes of wrath',
+            'The dirt of their paths'
+        ],
+
+        answer: 'The bread of wickedness',
+        reference: 'Proverbs 4:17'
+    },
+    {
+        id: 174,
+        question: 'What kind of wine do the wicked drink (Prov 4:17)?',
+        options: [
+            'New wine',
+            'Old wine',
+            'The wine of violence',
+            'The wine of death'
+        ],
+        answer: 'The wine of violence',
+        reference: 'Proverbs 4:17'
+    },
+    {
+        id: 175,
+        question: 'The path of the righteous shines brighter than what (Prov 4:18)?',
+        options: [
+            'The light of day',
+            'The path of the wicked',
+            'The stars',
+            'Heaven'
+        ],
+        answer: 'The light of day',
+        reference: 'Proverbs 4:18'
+    },
+    {
+        id: 176,
+        question: 'What is the path of the righteous like (Prov 4:18)?',
+        options: [
+            'The morning star',
+            'A beacon on a hill',
+            'The firstfruits of the harvest',
+            'The first gleam of dawn'
+        ],
+        answer: 'The first gleam of dawn',
+        reference: 'Proverbs 4:18'
+    },
+    {
+        id: 177,
+        question: 'What makes the wicked stumble (Prov 4:19)?',
+        options: [
+            'Darkness',
+            'They do not know',
+            'The LORD',
+            'Wickedness'
+        ],
+        answer: 'They do not know',
+        reference: 'Proverbs 4:19'
+    },
+    {
+        id: 178,
+        question: 'What are the wicked like (Prov 4:19)?',
+        options: [
+            'A trap',
+            'A thief in the night',
+            'Deep darkness',
+            'An open grave'
+        ],
+        answer: 'Deep darkness',
+        reference: 'Proverbs 4:19'
+    },
+    {
+        id: 179,
+        question: 'What should the son do with the father’s words (Prov 4:20-21)?',
+        options: [
+            'Pay attention to them',
+            'Listen closely to them',
+            'Keep them within his heart',
+            'All of the above'
+        ],
+        answer: 'All of the above',
+        reference: 'Proverbs 4:20-21'
+    },
+    {
+        id: 180,
+        question: "Where should the father's words be kept (Prov 4:21)?",
+        options: [
+            'In the heart',
+            'In the soul',
+            'In the path',
+            'In the mind'
+        ],
+        answer: 'In the heart',
+        reference: 'Proverbs 4:21'
+    },
+    {
+        id: 181,
+        question: 'What are the father’s words health to (Prov 4:22)?',
+        options: [
+            'Heart',
+            'Mind',
+            'Body',
+            'Soul'
+        ],
+        answer: 'Body',
+        reference: 'Proverbs 4:22'
+    },
+    {
+        id: 182,
+        question: 'What should we guard as it is the wellspring of life (Prov 4:23)?',
+        options: [
+            'Wisdom',
+            'The heart',
+            'The body',
+            'The soul'
+        ],
+        answer: 'The heart',
+        reference: 'Proverbs 4:23'
+    },
+    {
+        id: 183,
+        question: 'The heart was likened to a _____ (Prov 4:23).',
+        options: [
+            'Tree of life',
+            'Lovely doe',
+            'Cloud of water',
+            'Wellspring of life'
+        ],
+        answer: 'Wellspring of life',
+        reference: 'Proverbs 4:23'
+    },
+    {
+        id: 184,
+        question: 'What should you put far away from your mouth (Prov 4:24)?',
+        options: [
+            'Perversity',
+            'Lies',
+            'Slander',
+            'All of the above'
+        ],
+        answer: 'Perversity',
+        reference: 'Proverbs 4:24'
+    },
+    {
+        id: 185,
+        question: 'What should be kept from one’s lips (Prov 4:24)?',
+        options: [
+            'Lies',
+            'Deceitful talk',
+            'Slander',
+            'Corrupt talk'
+        ],
+        answer: 'Corrupt talk',
+        reference: 'Proverbs 4:24'
+    },
+    {
+        id: 186,
+        question: 'Where should you fix your gaze (Prov 4:25)?',
+        options: [
+            'On the LORD',
+            'On wisdom',
+            'Straight ahead',
+            'High'
+        ],
+        answer: 'Straight ahead',
+        reference: 'Proverbs 4:25'
+    },
+    {
+        id: 187,
+        question: 'What type of paths should be made for one’s feet (Prov 4:26)?',
+        options: [
+            'Straight',
+            'Easy',
+            'Level',
+            'Narrow'
+        ],
+        answer: 'Level',
+        reference: 'Proverbs 4:26'
+    },
+    {
+        id: 188,
+        question: 'From what should you keep your foot (Prov 4:27)?',
+        options: [
+            'The crooked path',
+            'The easy path',
+            'Violence',
+            'Evil'
+        ],
+        answer: 'Evil',
+        reference: 'Proverbs 4:27'
+    }
+],
+'5': [
+    {
+        id: 200,
+        question: 'What type of words does the father have (Prov 5:1)?',
+        options: [
+            'Intelligent',
+            'Insightful',
+            'Loving',
+            'Helpful'
+        ],
+        answer: 'Insightful',
+        reference: 'Proverbs 5:1'
+    },
+    {
+        id: 201,
+        question: 'What does the father hope his son’s lips will preserve (Prov 5:2)?',
+        options: [
+            'The father’s words',
+            'Honesty',
+            'Knowledge',
+            'Insight'
+        ],
+        answer: 'Knowledge',
+        reference: 'Proverbs 5:2'
+    },
+    {
+        id: 202,
+        question: 'What does the father advise his son to maintain (Prov 5:1)?',
+        options: [
+            'Understanding',
+            'Discipline',
+            'Uprightness',
+            'Discretion'
+        ],
+        answer: 'Discretion',
+        reference: 'Proverbs 5:1'
+    },
+    {
+        id: 203,
+        question: 'What drips from the lips of the adulteress (Prov 5:3)?',
+        options: [
+            'Honey',
+            'Oil',
+            'Temptation',
+            'Lies'
+        ],
+        answer: 'Honey',
+        reference: 'Proverbs 5:3'
+    },
+    {
+        id: 204,
+        question: 'What is the speech of an adulteress smoother than (Prov 5:3)?',
+        options: [
+            'Honey',
+            'Oil',
+            'Water',
+            'Silk'
+        ],
+        answer: 'Oil',
+        reference: 'Proverbs 5:3'
+    },
+    {
+        id: 205,
+        question: 'What instrument of damage is the adulteress compared to (Prov 5:4)?',
+        options: [
+            'A knife',
+            'A sword',
+            'An arrow',
+            'A spear'
+        ],
+        answer: 'A sword',
+        reference: 'Proverbs 5:4'
+    },
+    {
+        id: 206,
+        question: 'What is the adulteress said to be as bitter as (Prov 5:4)?',
+        options: [
+            'Gall',
+            'Spoiled milk',
+            'Sour grapes',
+            'Parsley'
+        ],
+        answer: 'Gall',
+        reference: 'Proverbs 5:4'
+    },
+    {
+        id: 207,
+        question: 'Where do the steps of the adulteress lead (Prov 5:5)?',
+        options: [
+            'Wickedness',
+            'Hell',
+            'Foolishness',
+            'The grave'
+        ],
+        answer: 'The grave',
+        reference: 'Proverbs 5:5'
+    },
+    {
+        id: 208,
+        question: 'Where do the feet of an adulteress go (Prov 5:5)?',
+        options: [
+            'Poverty',
+            'Her house',
+            'Death',
+            'Ruin'
+        ],
+        answer: 'Death',
+        reference: 'Proverbs 5:5'
+    },
+    {
+        id: 209,
+        question: 'To what does the adulteress give no thought (Prov 5:6)?',
+        options: [
+            'Reason',
+            'Wisdom',
+            'The way of life',
+            'The LORD'
+        ],
+        answer: 'The way of life',
+        reference: 'Proverbs 5:6'
+    },
+    {
+        id: 210,
+        question: 'How are the paths of the adulteress described (Prov 5:6)?',
+        options: [
+            'Crooked',
+            'Dangerous',
+            'Evil',
+            'Slippery'
+        ],
+        answer: 'Crooked',
+        reference: 'Proverbs 5:6'
+    },
+    {
+        id: 211,
+        question: 'What does the adulteress not know (Prov 5:6)?',
+        options: [
+            'The way of the upright',
+            'Her paths are crooked',
+            'Her ways lead to death',
+            'The way of faithfulness'
+        ],
+        answer: 'Her paths are crooked',
+        reference: 'Proverbs 5:6'
+    },
+    {
+        id: 212,
+        question: 'From what should the sons not turn away (Prov 5:7)?',
+        options: [
+            'The straight path',
+            'The LORD',
+            'Wisdom',
+            'What the father says'
+        ],
+        answer: 'What the father says',
+        reference: 'Proverbs 5:7'
+    },
+    {
+        id: 213,
+        question: 'To what path should the son keep (Prov 5:8)?',
+        options: [
+            'The narrow path',
+            'One far from the adulteress',
+            'The path of wisdom',
+            'One far from wickedness'
+        ],
+        answer: 'One far from the adulteress',
+        reference: 'Proverbs 5:8'
+    },
+    {
+        id: 214,
+        question: 'What part of the adulteress’s house was the son not to go near (Prov 5:8)?',
+        options: [
+            'The door',
+            'The window',
+            'The roof',
+            'The gate'
+        ],
+        answer: 'The door',
+        reference: 'Proverbs 5:8'
+    },
+    {
+        id: 215,
+        question: 'To whom should you not give your best strength (Prov 5:9)?',
+        options: [
+            'The LORD',
+            'Yourself',
+            'Others',
+            'The adulteress'
+        ],
+        answer: 'Others',
+        reference: 'Proverbs 5:9'
+    },
+    {
+        id: 216,
+        question: 'To whom will one who goes to an adulteress give the years of his life (Prov 5:9)?',
+        options: [
+            'The wicked',
+            'The unfaithful',
+            'Death',
+            'The cruel'
+        ],
+        answer: 'The cruel',
+        reference: 'Proverbs 5:9'
+    },
+    {
+        id: 217,
+        question: 'What might enrich another man’s house if one follows the adulteress (Prov 5:10)?',
+        options: [
+            'One’s toil',
+            'One’s wealth',
+            'One’s life',
+            'One’s wife'
+        ],
+        answer: 'One’s toil',
+        reference: 'Proverbs 5:10'
+    },
+    {
+        id: 218,
+        question: 'If one goes to an adulteress, who will feed on their wealth (Prov 5:10)?',
+        options: [
+            'Her husband',
+            'Strangers',
+            'The enemy',
+            'The wicked'
+        ],
+        answer: 'Strangers',
+        reference: 'Proverbs 5:10'
+    },
+    {
+        id: 219,
+        question: 'When will one following an adulteress groan (Prov 5:11)?',
+        options: [
+            'When following the path of the wicked',
+            'When suffering',
+            'At the end of life',
+            'When the light of day shines'
+        ],
+        answer: 'At the end of life',
+        reference: 'Proverbs 5:11'
+    },
+    {
+        id: 220,
+        question: 'What will one who goes to an adulteress spend (Prov 5:11)?',
+        options: [
+            'Gold',
+            'Wealth',
+            'Wisdom',
+            'Body'
+        ],
+        answer: 'Body',
+        reference: 'Proverbs 5:11'
+    },
+    {
+        id: 221,
+        question: 'What will one who goes to an adulteress say at the end of life (Prov 5:12)?',
+        options: [
+            'Woe is me',
+            'I hated discipline',
+            'I ignored wisdom',
+            'I hate myself'
+        ],
+        answer: 'I hated discipline',
+        reference: 'Proverbs 5:12'
+    },
+    {
+        id: 222,
+        question: 'One who goes to an adulteress will say, “My heart _____” (Prov 5:12).',
+        options: [
+            'Betrayed wisdom',
+            'Despised knowledge',
+            'Spurned correction',
+            'Hated freedom'
+        ],
+        answer: 'Spurned correction',
+        reference: 'Proverbs 5:12'
+    },
+    {
+        id: 223,
+        question: 'Who would the son who went to an adulteress say he did not obey (Prov 5:13)?',
+        options: [
+            'His father',
+            'God',
+            'Wisdom',
+            'His teachers'
+        ],
+        answer: 'His teachers',
+        reference: 'Proverbs 5:13'
+    },
+    {
+        id: 224,
+        question: 'The son who went to the adulteress would acknowledge that he came to the brink of ruin in the midst of whom (Prov 5:14)?',
+        options: [
+            'His friends',
+            'His enemies',
+            'The whole assembly',
+            'The whole world'
+        ],
+        answer: 'The whole assembly',
+        reference: 'Proverbs 5:14'
+    },
+    {
+        id: 225,
+        question: 'To what brink would one who went to an adulteress acknowledge that they came (Prov 5:14)?',
+        options: [
+            'Utter ruin',
+            'The grave',
+            'Destruction',
+            'Calamity'
+        ],
+        answer: 'Utter ruin',
+        reference: 'Proverbs 5:14'
+    },
+    {
+        id: 226,
+        question: 'From whose well should one drink (Prov 5:15)?',
+        options: [
+            'Madame Wisdom’s',
+            'Their own',
+            'The LORD’s',
+            'The teacher’s'
+        ],
+        answer: 'Their own',
+        reference: 'Proverbs 5:15'
+    },
+    {
+        id: 227,
+        question: 'One should get water from their own _____ (Prov 5:15).',
+        options: [
+            'Pool',
+            'Stream',
+            'River',
+            'Cistern'
+        ],
+        answer: 'Cistern',
+        reference: 'Proverbs 5:15'
+    },
+    {
+        id: 228,
+        question: 'What should one do with their springs (Prov 5:17)?',
+        options: [
+            'Keep them for yourself',
+            'Share them with strangers',
+            'Share them with your friends',
+            'Share them with your enemies'
+        ],
+        answer: 'Keep them for yourself',
+        reference: 'Proverbs 5:17'
+    },
+    {
+        id: 229,
+        question: 'Where should one’s streams not overflow (Prov 5:16)?',
+        options: [
+            'In the gardens',
+            'In the public squares',
+            'In the house of another',
+            'In the mountains'
+        ],
+        answer: 'In the public squares',
+        reference: 'Proverbs 5:16'
+    },
+    {
+        id: 230,
+        question: 'With whom should one’s springs never be shared (Prov 5:17)?',
+        options: [
+            'Another',
+            'The wicked',
+            'Strangers',
+            'Foreigners'
+        ],
+        answer: 'Strangers',
+        reference: 'Proverbs 5:17'
+    },
+    {
+        id: 231,
+        question: 'In whom should one rejoice (Prov 5:18)?',
+        options: [
+            'The LORD',
+            'Their wife',
+            'Their father',
+            'Their wisdom'
+        ],
+        answer: 'Their wife',
+        reference: 'Proverbs 5:18'
+    },
+    {
+        id: 232,
+        question: 'What does the father bless (Prov 5:18)?',
+        options: [
+            'Mouth',
+            'Family',
+            'Children',
+            'Fountain'
+        ],
+        answer: 'Fountain',
+        reference: 'Proverbs 5:18'
+    },
+    {
+        id: 233,
+        question: 'What is the son’s wife compared to (Prov 5:19)?',
+        options: [
+            'A graceful dove',
+            'A tree of life',
+            'A beautiful peacock',
+            'A loving doe'
+        ],
+        answer: 'A loving doe',
+        reference: 'Proverbs 5:19'
+    },
+    {
+        id: 234,
+        question: 'What, with regard to his wife, should always satisfy the son (Prov 5:19)?',
+        options: [
+            'Her love',
+            'Her embrace',
+            'Her breasts',
+            'Her arms'
+        ],
+        answer: 'Her breasts',
+        reference: 'Proverbs 5:19'
+    },
+    {
+        id: 235,
+        question: 'The son should be captivated by his wife’s _____ (Prov 5:19).',
+        options: [
+            'Love',
+            'Embrace',
+            'Breasts',
+            'Arms'
+        ],
+        answer: 'Love',
+        reference: 'Proverbs 5:19'
+    },
+    {
+        id: 236,
+        question: 'What should the son not be captivated by (Prov 5:20)?',
+        options: [
+            'Evil',
+            'The adulteress',
+            'Lust',
+            'Himself'
+        ],
+        answer: 'The adulteress',
+        reference: 'Proverbs 5:20'
+    },
+    {
+        id: 237,
+        question: 'What should the son not embrace (Prov 5:20)?',
+        options: [
+            'The way of folly',
+            'The treacherous woman',
+            'The door of the adulteress',
+            'The bosom of another man’s wife'
+        ],
+        answer: 'The bosom of another man’s wife',
+        reference: 'Proverbs 5:20'
+    },
+    {
+        id: 238,
+        question: 'What is in full view of the LORD (Prov 5:21)?',
+        options: [
+            'The wise',
+            'A person’s heart',
+            'The evil',
+            'A person’s ways'
+        ],
+        answer: 'A person’s ways',
+        reference: 'Proverbs 5:21'
+    },
+    {
+        id: 239,
+        question: 'What does the LORD examine (Prov 5:21)?',
+        options: [
+            'The hearts of men',
+            'Every cistern',
+            'All of a person’s paths',
+            'The thoughts and intents of every man'
+        ],
+        answer: 'All of a person’s paths',
+        reference: 'Proverbs 5:21'
+    },
+    {
+        id: 240,
+        question: 'What do evil deeds do to a wicked person (Prov 5:22)?',
+        options: [
+            'Expose them',
+            'Ensnare them',
+            'Corrupt them',
+            'Condemn them'
+        ],
+        answer: 'Ensnare them',
+        reference: 'Proverbs 5:22'
+    },
+    {
+        id: 241,
+        question: 'What will the wicked man die from lack of (Prov 5:23)?',
+        options: [
+            'Wisdom',
+            'Guidance',
+            'Discipline',
+            'Love'
+        ],
+        answer: 'Discipline',
+        reference: 'Proverbs 5:23'
+    },
+    {
+        id: 242,
+        question: 'What will lead the wicked person astray (Prov 5:23)?',
+        options: [
+            'Their own folly',
+            'Violence',
+            'Injustice',
+            'Their own deception'
+        ],
+        answer: 'Their own folly',
+        reference: 'Proverbs 5:23'
+    }
+],
+'6': [
+    {
+        id: 203,
+        question: 'The father warns against doing what for a neighbor (Prov 6:1)?',
+        options: [
+            'Giving them the first fruits of the harvest',
+            'Putting up security for them',
+            'Helping them in their time of need',
+            'Farming the neighbors land'
+        ],
+        answer: 'Putting up security for them',
+        reference: 'Proverbs 6:1'
+    },
+    {
+        id: 204,
+        question: 'Hands were struck in order to make a pledge (Prov 6:1)?',
+        options: [
+            'Vow',
+            'Peace',
+            'Pledge',
+            'Covenant'
+        ],
+        answer: 'Pledge',
+        reference: 'Proverbs 6:1'
+    },
+    {
+        id: 205,
+        question: 'What does the father warn about being trapped by (Prov 6:2)?',
+        options: [
+            'One’s own words',
+            'The pledge of another',
+            'A vow made to an adulteress',
+            'The snare of the wicked'
+        ],
+        answer: 'One’s own words',
+        reference: 'Proverbs 6:2'
+    },
+    {
+        id: 206,
+        question: 'What is the son told to do to free himself from his neighbor’s hands (Prov 6:3)?',
+        options: [
+            'Forgive his neighbor',
+            'Pay money to his neighbor',
+            'Humble himself and plea with his neighbor',
+            'Avoid his neighbor and do not listen to him'
+        ],
+        answer: 'Humble himself and plea with his neighbor',
+        reference: 'Proverbs 6:3'
+    },
+    {
+        id: 207,
+        question: 'In order to free himself with whom was the son to press his plea (Prov 6:3)?',
+        options: [
+            'The wicked',
+            'His neighbor',
+            'His friend',
+            'His enemy'
+        ],
+        answer: 'His neighbor',
+        reference: 'Proverbs 6:3'
+    },
+    {
+        id: 208,
+        question: 'In order to escape being ensnared by a neighbor the son was to allow no sleep to (Prov 6:4).',
+        options: [
+            'His eyes',
+            'His hands',
+            'His feet',
+            'His head'
+        ],
+        answer: 'His eyes',
+        reference: 'Proverbs 6:4'
+    },
+    {
+        id: 209,
+        question: 'The son was advised to free himself like what animal (Prov 6:5)?',
+        options: [
+            'The ant',
+            'The graceful deer',
+            'The gazelle',
+            'The camel'
+        ],
+        answer: 'The gazelle',
+        reference: 'Proverbs 6:5'
+    },
+    {
+        id: 210,
+        question: 'The son was advised to free himself like a bird from (Prov 6:5).',
+        options: [
+            'The trap of the wicked',
+            'The pit of the adulteress',
+            'The arrow of the hunter',
+            'The snare of the fowler'
+        ],
+        answer: 'The snare of the fowler',
+        reference: 'Proverbs 6:5'
+    },
+    {
+        id: 211,
+        question: 'Whose ways is the sluggard instructed to consider in order to become wise (Prov 6:6)?',
+        options: [
+            'The ant’s',
+            'The owl’s',
+            'The fox’s',
+            'The lion’s'
+        ],
+        answer: 'The ant’s',
+        reference: 'Proverbs 6:6'
+    },
+    {
+        id: 212,
+        question: 'Who is advised to go and learn from the ant (Prov 6:6)?',
+        options: [
+            'The son',
+            'The wicked',
+            'The sluggard',
+            'The fool'
+        ],
+        answer: 'The sluggard',
+        reference: 'Proverbs 6:6'
+    },
+    {
+        id: 213,
+        question: 'What does the ant not have (Prov 6:7)?',
+        options: [
+            'Hands',
+            'A ruler',
+            'A teacher',
+            'Wisdom'
+        ],
+        answer: 'A ruler',
+        reference: 'Proverbs 6:7'
+    },
+    {
+        id: 214,
+        question: 'What does the ant do in the summer (Prov 6:8)?',
+        options: [
+            'Sows its seed',
+            'Plows the ground',
+            'Gathers its food',
+            'Stores its provisions'
+        ],
+        answer: 'Stores its provisions',
+        reference: 'Proverbs 6:8'
+    },
+    {
+        id: 215,
+        question: 'What does the ant do in the harvest (Prov 6:8)?',
+        options: [
+            'Sews its seed',
+            'Plows the ground',
+            'Gathers its food',
+            'Stores its provisions'
+        ],
+        answer: 'Gathers its food',
+        reference: 'Proverbs 6:8'
+    },
+    {
+        id: 216,
+        question: 'To whom does the sage say "How long will you lie there?" (Prov 6:9)?',
+        options: [
+            'The sluggard',
+            'The fool',
+            'The wicked',
+            'The adulteress'
+        ],
+        answer: 'The sluggard',
+        reference: 'Proverbs 6:9'
+    },
+    {
+        id: 217,
+        question: 'The sage rebukes the sluggard saying "A little slumber, a little" (Prov 6:10).',
+        options: [
+            'Closing of the eyes to sleep',
+            'Folding of the hands to rest',
+            'Resting of the head',
+            'Nap for the body'
+        ],
+        answer: 'Folding of the hands to rest',
+        reference: 'Proverbs 6:10'
+    },
+    {
+        id: 218,
+        question: 'What will come on the sluggard like a bandit (Prov 6:11)?',
+        options: [
+            'Folly',
+            'Destruction',
+            'Poverty',
+            'Calamity'
+        ],
+        answer: 'Poverty',
+        reference: 'Proverbs 6:11'
+    },
+    {
+        id: 219,
+        question: 'Like what will scarcity come on the sluggard (Prov 6:11)?',
+        options: [
+            'An armed man',
+            'A judge',
+            'A raging bull',
+            'An avenger of blood'
+        ],
+        answer: 'An armed man',
+        reference: 'Proverbs 6:11'
+    },
+    {
+        id: 220,
+        question: 'What is NOT listed as a characteristic of a scoundrel and a villain (Prov 6:12-15)?',
+        options: [
+            'One who goes about with a corrupt mouth',
+            'One who plots evil with deceit in his heart',
+            'One who always stirs up dissension',
+            'One who will not repay debts'
+        ],
+        answer: 'One who will not repay debts',
+        reference: 'Proverbs 6:12-15'
+    },
+    {
+        id: 221,
+        question: 'What does the scoundrel do with his eyes (Prov 6:13)?',
+        options: [
+            'They look for the way of evil',
+            'They wink',
+            'They close in sleep',
+            'They hunt for the helpless'
+        ],
+        answer: 'They wink',
+        reference: 'Proverbs 6:13'
+    },
+    {
+        id: 222,
+        question: 'The scoundrel signals his evil intents with all of the following EXCEPT (Prov 6:13).',
+        options: [
+            'Winks of the eye',
+            'Signals with his feet',
+            'Tips of his head',
+            'Motions with his fingers'
+        ],
+        answer: 'Tips of his head',
+        reference: 'Proverbs 6:13'
+    },
+    {
+        id: 223,
+        question: 'What does the scoundrel plot in his heart (Prov 6:14)?',
+        options: [
+            'Deceit',
+            'Destruction',
+            'Violence',
+            'Iniquity'
+        ],
+        answer: 'Deceit',
+        reference: 'Proverbs 6:14'
+    },
+    {
+        id: 224,
+        question: 'What does the scoundrel stir up (Prov 6:14)?',
+        options: [
+            'Destruction',
+            'Hatred',
+            'Violence',
+            'Dissension'
+        ],
+        answer: 'Dissension',
+        reference: 'Proverbs 6:14'
+    },
+    {
+        id: 225,
+        question: 'There are six things the LORD (Prov 6:16)?',
+        options: [
+            'Commands',
+            'Loves',
+            'Hates',
+            'Destroys'
+        ],
+        answer: 'Hates',
+        reference: 'Proverbs 6:16'
+    },
+    {
+        id: 226,
+        question: 'Which is NOT one of the six things the LORD hates (Prov 6:16-19)?',
+        options: [
+            'Feet rushing to evil',
+            'A lying tongue',
+            'Hands that shed innocent blood',
+            'Winking eyes'
+        ],
+        answer: 'Winking eyes',
+        reference: 'Proverbs 6:16-19'
+    },
+    {
+        id: 227,
+        question: 'The LORD hates what kind of eyes (Prov 6:17)?',
+        options: [
+            'Winking eyes',
+            'Haughty eyes',
+            'Sleepy eyes',
+            'Lying eyes'
+        ],
+        answer: 'Haughty eyes',
+        reference: 'Proverbs 6:17'
+    },
+    {
+        id: 228,
+        question: 'What kind of heart does the LORD detest (Prov 6:17)?',
+        options: [
+            'One that devises wicked schemes',
+            'One that harbors hatred of a neighbor',
+            'One that will not forgive',
+            'One that is angry without a cause'
+        ],
+        answer: 'One that devises wicked schemes',
+        reference: 'Proverbs 6:17'
+    },
+    {
+        id: 229,
+        question: 'Who pours out lies (Prov 6:19)?',
+        options: [
+            'The adulteress',
+            'The scoundrel',
+            'A false witness',
+            'The wicked'
+        ],
+        answer: 'A false witness',
+        reference: 'Proverbs 6:19'
+    },
+    {
+        id: 230,
+        question: 'The LORD detests a person who stirs up what (Prov 6:19)?',
+        options: [
+            'Hatred among the assembly of the righteous',
+            'Dissension among brothers',
+            'Bitterness in a family',
+            'Violence against the poor'
+        ],
+        answer: 'Dissension among brothers',
+        reference: 'Proverbs 6:19'
+    },
+    {
+        id: 231,
+        question: 'Whose teaching was the son admonished not to forsake (Prov 6:20)?',
+        options: [
+            'The mother’s',
+            'The sage’s',
+            'The king’s',
+            'The LORD’s'
+        ],
+        answer: 'The mother’s',
+        reference: 'Proverbs 6:20'
+    },
+    {
+        id: 232,
+        question: 'What is the son to keep of the fathers (Prov 6:20)?',
+        options: [
+            'His robe',
+            'His sheep',
+            'His commands',
+            'His blessing'
+        ],
+        answer: 'His commands',
+        reference: 'Proverbs 6:20'
+    },
+    {
+        id: 233,
+        question: 'Where were the father’s and mother’s teaching to be fastened (Prov 6:21)?',
+        options: [
+            'On the hands',
+            'Around the ankle',
+            'Between the eyes',
+            'Around the neck'
+        ],
+        answer: 'Around the neck',
+        reference: 'Proverbs 6:21'
+    },
+    {
+        id: 234,
+        question: 'Which is NOT listed as a way that a father’s command and mother’s teaching will help the son (Prov 6:22)?',
+        options: [
+            'They will guide you',
+            'They will grant prosperity to you',
+            'They will watch over you',
+            'They will speak to you'
+        ],
+        answer: 'They will grant prosperity to you',
+        reference: 'Proverbs 6:22'
+    },
+    {
+        id: 235,
+        question: 'When the son sleeps, what will the mother’s teaching do for the son (Prov 6:22)?',
+        options: [
+            'Watch over him',
+            'Guide him',
+            'Give him a clear conscience',
+            'Give him a peaceful sleep'
+        ],
+        answer: 'Watch over him',
+        reference: 'Proverbs 6:22'
+    },
+    {
+        id: 236,
+        question: 'When the son awakens, what will his mother’s teaching do for him (Prov 6:22)?',
+        options: [
+            'Guide him',
+            'Deliver him',
+            'Speak to him',
+            'Protect him'
+        ],
+        answer: 'Speak to him',
+        reference: 'Proverbs 6:22'
+    },
+    {
+        id: 237,
+        question: 'What are the parent’s commands like (Prov 6:23)?',
+        options: [
+            'A lamp',
+            'A guide',
+            'A set of rules',
+            'The Law of Moses'
+        ],
+        answer: 'A lamp',
+        reference: 'Proverbs 6:23'
+    },
+    {
+        id: 238,
+        question: 'The parent’s teachings are like a (Prov 6:23)?',
+        options: [
+            'Beacon',
+            'Light',
+            'Torch',
+            'Candle in the wind'
+        ],
+        answer: 'Light',
+        reference: 'Proverbs 6:23'
+    },
+    {
+        id: 239,
+        question: 'The corrections of discipline are the way to life (Prov 6:23).',
+        options: [
+            'Corrections of discipline',
+            'Commands of the father',
+            'Wise sayings',
+            'Righteous actions'
+        ],
+        answer: 'Corrections of discipline',
+        reference: 'Proverbs 6:23'
+    },
+    {
+        id: 240,
+        question: 'What are the commands and correction meant to keep the son away from (Prov 6:23-24)?',
+        options: [
+            'Idols',
+            'The immoral woman',
+            'Debt',
+            'Enemies'
+        ],
+        answer: 'The immoral woman',
+        reference: 'Proverbs 6:23-24'
+    },
+    {
+        id: 241,
+        question: 'What does the wayward wife have (Prov 6:24)?',
+        options: [
+            'A seductive smile',
+            'An unfaithful heart',
+            'Inviting eyes',
+            'A smooth tongue'
+        ],
+        answer: 'A smooth tongue',
+        reference: 'Proverbs 6:24'
+    },
+    {
+        id: 242,
+        question: 'The son was not to lust after the immoral woman’s (Prov 6:25)?',
+        options: [
+            'Eyes',
+            'Breasts',
+            'Beauty',
+            'Mouth'
+        ],
+        answer: 'Beauty',
+        reference: 'Proverbs 6:25'
+    },
+    {
+        id: 243,
+        question: 'The prostitute reduces you to a(n) (Prov 6:26).',
+        options: [
+            'Worthless rag',
+            'Pile of sand',
+            'Loaf of bread',
+            'Donkey'
+        ],
+        answer: 'Loaf of bread',
+        reference: 'Proverbs 6:26'
+    },
+    {
+        id: 244,
+        question: 'Who preys on one’s life (Prov 6:26)?',
+        options: [
+            'A prostitute',
+            'An adulteress',
+            'The wicked',
+            'The evil one'
+        ],
+        answer: 'An adulteress',
+        reference: 'Proverbs 6:26'
+    },
+    {
+        id: 245,
+        question: 'When are a person’s clothes burned (Prov 6:27)?',
+        options: [
+            'When they scoop fire into their lap',
+            'When they get too close to the fire',
+            'When they play with fire',
+            'When their passions overpower them'
+        ],
+        answer: 'When they scoop fire into their lap',
+        reference: 'Proverbs 6:27'
+    },
+    {
+        id: 246,
+        question: 'Where can a person not walk without being burned (Prov 6:28)?',
+        options: [
+            'On hot coals',
+            'In a furnace',
+            'In the desert heat',
+            'On lightning'
+        ],
+        answer: 'On hot coals',
+        reference: 'Proverbs 6:28'
+    },
+    {
+        id: 247,
+        question: 'Who will not go unpunished (Prov 6:29)?',
+        options: [
+            'The wicked',
+            'One who touches another man’s wife',
+            'One who pursues a prostitute',
+            'One who sleeps in the harvest'
+        ],
+        answer: 'One who touches another man’s wife',
+        reference: 'Proverbs 6:29'
+    },
+    {
+        id: 248,
+        question: 'Like walking on hot coals is one who (Prov 6:29).',
+        options: [
+            'Pursues Madame Folly',
+            'Sleeps with a prostitute',
+            'Destroys the needy',
+            'Sleeps with another man’s wife'
+        ],
+        answer: 'Sleeps with another man’s wife',
+        reference: 'Proverbs 6:29'
+    },
+    {
+        id: 249,
+        question: 'How much must a thief pay if he is caught (Prov 6:31)?',
+        options: [
+            'Sevenfold',
+            'Double',
+            'Quadruple',
+            'The loss of a hand'
+        ],
+        answer: 'Sevenfold',
+        reference: 'Proverbs 6:31'
+    },
+    {
+        id: 250,
+        question: 'A man who commits what lacks judgment (Prov 6:32)?',
+        options: [
+            'Blasphemy',
+            'Idolatry',
+            'Murder',
+            'Adultery'
+        ],
+        answer: 'Adultery',
+        reference: 'Proverbs 6:32'
+    },
+    {
+        id: 251,
+        question: 'What does one who commits adultery lack (Prov 6:32)?',
+        options: [
+            'Wisdom',
+            'Judgment',
+            'Common sense',
+            'Discipline'
+        ],
+        answer: 'Judgment',
+        reference: 'Proverbs 6:32'
+    },
+    {
+        id: 252,
+        question: 'Who destroys themselves (Prov 6:32)?',
+        options: [
+            'Those who leave the path',
+            'Those who steal what is not theirs',
+            'Those who commit adultery',
+            'Those who pursue dishonest gain'
+        ],
+        answer: 'Those who commit adultery',
+        reference: 'Proverbs 6:32'
+    }
+],
+'7': [
+    {
+        id: 253,
+        question: 'What did the father advise the son to store up (Prov 7:1)?',
+        options: [
+            'Truth',
+            'Discipline',
+            'Instruction',
+            'Commands'
+        ],
+        answer: 'Commands',
+        reference: 'Proverbs 7:1'
+    },
+    {
+        id: 254,
+        question: 'What is the benefit of keeping the father’s commands (Prov 7:2)?',
+        options: [
+            'You will get Blessing',
+            'You will live',
+            'You will receive riches',
+            'Your Name will be made great'
+        ],
+        answer: 'You will live',
+        reference: 'Proverbs 7:2'
+    },
+    {
+        id: 255,
+        question: 'The father’s commands were to be guarded as one would guard what (Prov 7:2)?',
+        options: [
+            'The apple of their eye',
+            'Their hearts',
+            'Jerusalem',
+            'A pearl of great price'
+        ],
+        answer: 'The apple of their eye',
+        reference: 'Proverbs 7:2'
+    },
+    {
+        id: 256,
+        question: 'Where were the father’s commands to be bound (Prov 7:3)?',
+        options: [
+            'In their hearts',
+            'Between their eyes',
+            'On their fingers',
+            'On their lips'
+        ],
+        answer: 'On their fingers',
+        reference: 'Proverbs 7:3'
+    },
+    {
+        id: 257,
+        question: 'Where is the son told to write the commands of his father (Prov 7:3)?',
+        options: [
+            'On the tablet of his heart',
+            'On his forehead',
+            'On his fingers',
+            'On his doorpost'
+        ],
+        answer: 'On the tablet of his heart',
+        reference: 'Proverbs 7:3'
+    },
+    {
+        id: 258,
+        question: 'What was wisdom to be called (Prov 7:4)?',
+        options: [
+            'A friend',
+            'A brother',
+            'A sister',
+            'A king'
+        ],
+        answer: 'A sister',
+        reference: 'Proverbs 7:4'
+    },
+    {
+        id: 259,
+        question: 'What should be called your kinsman (Prov 7:4)?',
+        options: [
+            'Wisdom',
+            'Truth',
+            'Knowledge',
+            'Understanding'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 7:4'
+    },
+    {
+        id: 260,
+        question: 'What will wisdom and understanding keep you away from (Prov 7:5)?',
+        options: [
+            'The unrighteous',
+            'The foolish man',
+            'The adulteress',
+            'The wicked'
+        ],
+        answer: 'The adulteress',
+        reference: 'Proverbs 7:5'
+    },
+    {
+        id: 261,
+        question: 'Who uses seductive words (Prov 7:5)?',
+        options: [
+            'The foolish man',
+            'The money lenders',
+            'The wayward wife',
+            'The Sluggard'
+        ],
+        answer: 'The wayward wife',
+        reference: 'Proverbs 7:5'
+    },
+    {
+        id: 262,
+        question: 'Through what did the father look out to observe the simple (Prov 7:6)?',
+        options: [
+            'The doorway',
+            'The lattice',
+            'The words of his mouth',
+            'Veil of his window'
+        ],
+        answer: 'The lattice',
+        reference: 'Proverbs 7:6'
+    },
+    {
+        id: 263,
+        question: 'Where did the father see a young person who lacked judgment (Prov 7:7)?',
+        options: [
+            'Among the simple',
+            'Among the wicked',
+            'Among the immoral',
+            'Among the foolish'
+        ],
+        answer: 'Among the simple',
+        reference: 'Proverbs 7:7'
+    },
+    {
+        id: 264,
+        question: 'Who did the father see among the young men (Prov 7:7)?',
+        options: [
+            'Someone who lacked wisdom',
+            'Someone who lacked discipline',
+            'Someone who lacked insight',
+            'Someone who lacked judgment'
+        ],
+        answer: 'Someone who lacked judgment',
+        reference: 'Proverbs 7:7'
+    },
+    {
+        id: 265,
+        question: 'At what time did the youth who lacked judgment go down the street (Prov 7:8-9)?',
+        options: [
+            'In the morning, as light pierces the darkness',
+            'At twilight, as the dark of night set in',
+            'At midday, with the sun illuminating all',
+            'At midnight, in the pitch black shadows of night'
+        ],
+        answer: 'At twilight, as the dark of night set in',
+        reference: 'Proverbs 7:8-9'
+    },
+    {
+        id: 266,
+        question: 'Where was the youth who lacked judgment walking when the father saw him (Prov 7:8)?',
+        options: [
+            'By the house of folly',
+            'Near the pit where he would stumble',
+            'Going down the street near a corner',
+            'Walking in the way of the wicked'
+        ],
+        answer: 'Going down the street near a corner',
+        reference: 'Proverbs 7:8'
+    },
+    {
+        id: 267,
+        question: 'The woman who came out to meet him was dressed like a (Prov 7:10).',
+        options: [
+            'Bride',
+            'Prostitute',
+            'Queen',
+            'Peasant'
+        ],
+        answer: 'Prostitute',
+        reference: 'Proverbs 7:10'
+    },
+    {
+        id: 268,
+        question: 'The woman who greeted the young man who lacked judgment had what (Prov 7:10)?',
+        options: [
+            'Wicked intentions',
+            'Seductive lips',
+            'Soft skin',
+            'Crafty intent'
+        ],
+        answer: 'Crafty intent',
+        reference: 'Proverbs 7:10'
+    },
+    {
+        id: 269,
+        question: 'The woman who greeted the young man who lacked judgment was what (Prov 7:11)?',
+        options: [
+            'Loud and defiant',
+            'Quiet and crafty',
+            'Seductive and beautiful',
+            'Enticing and deceptive'
+        ],
+        answer: 'Loud and defiant',
+        reference: 'Proverbs 7:11'
+    },
+    {
+        id: 270,
+        question: 'Where do the immoral woman’s feet never stay (Prov 7:11)?',
+        options: [
+            'On the path of righteousness',
+            'In the way of wisdom',
+            'At home',
+            'In the public square'
+        ],
+        answer: 'At home',
+        reference: 'Proverbs 7:11'
+    },
+    {
+        id: 271,
+        question: 'Where does the immoral woman lurk (Prov 7:12)?',
+        options: [
+            'In her house',
+            'At every corner',
+            'Under every green tree',
+            'Beside a flowing stream'
+        ],
+        answer: 'At every corner',
+        reference: 'Proverbs 7:12'
+    },
+    {
+        id: 272,
+        question: 'What did the adulteress do when she took hold of the young man who lacked judgment (Prov 7:13)?',
+        options: [
+            'Kissed him',
+            'Pushed him down',
+            'Whispered to him',
+            'Looked into his eyes'
+        ],
+        answer: 'Kissed him',
+        reference: 'Proverbs 7:13'
+    },
+    {
+        id: 273,
+        question: 'What did the immoral woman tell the young man she had at home (Prov 7:14)?',
+        options: [
+            'Wine and song',
+            'A many colored robe',
+            'Fellowship offerings',
+            'Privacy and security'
+        ],
+        answer: 'Fellowship offerings',
+        reference: 'Proverbs 7:14'
+    },
+    {
+        id: 274,
+        question: 'What did the immoral woman claim she had fulfilled (Prov 7:14)?',
+        options: [
+            'Her vows',
+            'Her duty',
+            'Her kindness',
+            'Her desires'
+        ],
+        answer: 'Her vows',
+        reference: 'Proverbs 7:14'
+    },
+    {
+        id: 275,
+        question: 'With what did the adulteress cover her bed (Prov 7:16)?',
+        options: [
+            'Silk',
+            'Animal furs',
+            'Flowers and sweet aromas',
+            'Colored linens'
+        ],
+        answer: 'Colored linens',
+        reference: 'Proverbs 7:16'
+    },
+    {
+        id: 276,
+        question: 'Where were the immoral woman’s bed coverings from (Prov 7:16)?',
+        options: [
+            'Babylon',
+            'Edom',
+            'Egypt',
+            'Moab'
+        ],
+        answer: 'Egypt',
+        reference: 'Proverbs 7:16'
+    },
+    {
+        id: 277,
+        question: 'Which is something the adulteress did not perfume her bed with (Prov 7:17)?',
+        options: [
+            'Frankincense',
+            'Myrrh',
+            'Aloes',
+            'Cinnamon'
+        ],
+        answer: 'Frankincense',
+        reference: 'Proverbs 7:17'
+    },
+    {
+        id: 278,
+        question: 'What did the adulteress desire to drink deep (Prov 7:18)?',
+        options: [
+            'Desire',
+            'Lust',
+            'Love',
+            'Passion'
+        ],
+        answer: 'Love',
+        reference: 'Proverbs 7:18'
+    },
+    {
+        id: 279,
+        question: 'For how long did the adulteress desire to drink of love (Prov 7:18)?',
+        options: [
+            'Until midnight',
+            'Until morning',
+            'Forever',
+            'As long as desire remained'
+        ],
+        answer: 'Until morning',
+        reference: 'Proverbs 7:18'
+    },
+    {
+        id: 280,
+        question: 'Who did the adulteress say had gone on a long journey (Prov 7:19)?',
+        options: [
+            'The judge',
+            'The LORD',
+            'The young man',
+            'Her husband'
+        ],
+        answer: 'Her husband',
+        reference: 'Proverbs 7:19'
+    },
+    {
+        id: 281,
+        question: 'Who took a purse full of money (Prov 7:20)?',
+        options: [
+            'The young man',
+            'The adulteress',
+            'The adulteress’ husband',
+            'The sage'
+        ],
+        answer: 'The adulteress’ husband',
+        reference: 'Proverbs 7:20'
+    },
+    {
+        id: 282,
+        question: 'When was the husband of the adulteress coming home (Prov 7:20)?',
+        options: [
+            'At full moon',
+            'Next weekend',
+            'At sunset',
+            'At harvest'
+        ],
+        answer: 'At full moon',
+        reference: 'Proverbs 7:20'
+    },
+    {
+        id: 283,
+        question: 'With what did the adulteress lead the young man astray (Prov 7:21)?',
+        options: [
+            'Her beauty',
+            'Persuasive words',
+            'A promise',
+            'Money'
+        ],
+        answer: 'Persuasive words',
+        reference: 'Proverbs 7:21'
+    },
+    {
+        id: 284,
+        question: 'With what did the adulteress seduce the young man (Prov 7:21)?',
+        options: [
+            'Her beauty',
+            'A promise',
+            'A smooth talk',
+            'Money'
+        ],
+        answer: 'A smooth talk',
+        reference: 'Proverbs 7:21'
+    },
+    {
+        id: 285,
+        question: 'Which is NOT a way the young man followed the adulteress (Prov 7:22-23)?',
+        options: [
+            'Like an ox going to the slaughter',
+            'Like a deer stepping into a noose',
+            'Like a cat on the prowl',
+            'Like a bird darting into a snare'
+        ],
+        answer: 'Like a cat on the prowl',
+        reference: 'Proverbs 7:22-23'
+    },
+    {
+        id: 286,
+        question: 'Until when did the young man follow the adulteress (Prov 7:23)?',
+        options: [
+            'Until an arrow pierces his liver',
+            'Until a spear strikes his heart',
+            'Until a knife splits his belly',
+            'Until his streams are spilled in the street'
+        ],
+        answer: 'Until an arrow pierces his liver',
+        reference: 'Proverbs 7:23'
+    },
+    {
+        id: 287,
+        question: 'The young man did not know that following the adulteress would cost him what (Prov 7:23)?',
+        options: [
+            'Everything he owned',
+            'His life',
+            'His honor',
+            'His family'
+        ],
+        answer: 'His life',
+        reference: 'Proverbs 7:23'
+    },
+    {
+        id: 288,
+        question: 'The father warns not to let the heart do what to the adulteress’ paths (Prov 7:25)?',
+        options: [
+            'Rush into',
+            'Wander onto',
+            'Turn to',
+            'Desire'
+        ],
+        answer: 'Turn to',
+        reference: 'Proverbs 7:25'
+    },
+    {
+        id: 289,
+        question: 'What are those slain by the adulteress (Prov 7:26)?',
+        options: [
+            'A passing vapor',
+            'A candle in the wind',
+            'A band of fools',
+            'A mighty throng'
+        ],
+        answer: 'A mighty throng',
+        reference: 'Proverbs 7:26'
+    },
+    {
+        id: 290,
+        question: 'The adulteress’ house is a what (Prov 7:27)?',
+        options: [
+            'Den of robbers',
+            'Shelter to sin',
+            'Highway to the grave',
+            'Place of wickedness'
+        ],
+        answer: 'Highway to the grave',
+        reference: 'Proverbs 7:27'
+    },
+    {
+        id: 291,
+        question: 'What leads down to the chambers of death (Prov 7:27)?',
+        options: [
+            'The path of the adulteress',
+            'The adulteress’ house',
+            'The mouth of the adulteress',
+            'The smooth speech of an adulteress'
+        ],
+        answer: 'The adulteress’ house',
+        reference: 'Proverbs 7:27'
+    },
+],
+'8': [
+    {
+        id: 292,
+        question: 'What calls out (Prov 8:1)?',
+        options: [
+            'Wisdom',
+            'Discretion',
+            'Understanding',
+            'Righteousness'
+        ],
+        answer: 'Wisdom',
+        reference: 'Proverbs 8:1'
+    },
+    {
+        id: 293,
+        question: 'What raises her voice (Prov 8:1)?',
+        options: [
+            'Wisdom',
+            'Discretion',
+            'Understanding',
+            'Righteousness'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 8:1'
+    },
+    {
+        id: 294,
+        question: 'Where does Madame Wisdom take her stand (Prov 8:2)?',
+        options: [
+            'On the roof top',
+            'In the palace',
+            'Where the ways turn',
+            'Where the paths meet'
+        ],
+        answer: 'Where the paths meet',
+        reference: 'Proverbs 8:2'
+    },
+    {
+        id: 295,
+        question: 'Where does Madame Wisdom cry aloud (Prov 8:3)?',
+        options: [
+            'In the palace',
+            'Beside the city gates',
+            'At the temple',
+            'In the valley of the shadow of death'
+        ],
+        answer: 'Beside the city gates',
+        reference: 'Proverbs 8:3'
+    },
+    {
+        id: 296,
+        question: 'To whom does Madame Wisdom raise her voice (Prov 8:4)?',
+        options: [
+            'All mankind',
+            'The wise',
+            'The simple',
+            'The young'
+        ],
+        answer: 'All mankind',
+        reference: 'Proverbs 8:4'
+    },
+    {
+        id: 297,
+        question: 'What are the simple to gain (Prov 8:5)?',
+        options: [
+            'Patience',
+            'Understanding',
+            'Prudence',
+            'Discipline'
+        ],
+        answer: 'Prudence',
+        reference: 'Proverbs 8:5'
+    },
+    {
+        id: 298,
+        question: 'What are the foolish to gain (Prov 8:5)?',
+        options: [
+            'Wisdom',
+            'Understanding',
+            'Prudence',
+            'Truth'
+        ],
+        answer: 'Understanding',
+        reference: 'Proverbs 8:5'
+    },
+    {
+        id: 299,
+        question: 'When Madame Wisdom opens her lips, what does she speak (Prov 8:6)?',
+        options: [
+            'Good advice',
+            'A sincere rebuke',
+            'Instruction',
+            'What is right'
+        ],
+        answer: 'What is right',
+        reference: 'Proverbs 8:6'
+    },
+    {
+        id: 300,
+        question: 'What kind of things does Madame Wisdom have to say (Prov 8:6)?',
+        options: [
+            'Noble',
+            'Righteous',
+            'Worthy',
+            'Prudent'
+        ],
+        answer: 'Worthy',
+        reference: 'Proverbs 8:6'
+    },
+    {
+        id: 301,
+        question: 'What do the lips of Madame Wisdom detest (Prov 8:7)?',
+        options: [
+            'Unrighteousness',
+            'Wickedness',
+            'Sloth',
+            'Gossip'
+        ],
+        answer: 'Wickedness',
+        reference: 'Proverbs 8:7'
+    },
+    {
+        id: 302,
+        question: 'What are all the words of Madame Wisdom (Prov 8:8)?',
+        options: [
+            'Just',
+            'Wise',
+            'Right',
+            'Discerning'
+        ],
+        answer: 'Just',
+        reference: 'Proverbs 8:8'
+    },
+    {
+        id: 303,
+        question: 'What are none of Madame Wisdom’s words (Prov 8:8)?',
+        options: [
+            'Worthless',
+            'Deceitful',
+            'Crooked',
+            'False'
+        ],
+        answer: 'Crooked',
+        reference: 'Proverbs 8:8'
+    },
+    {
+        id: 304,
+        question: 'To whom are Madame Wisdom’s words faultless (Prov 8:9)?',
+        options: [
+            'To those who accept correction',
+            'To those who have knowledge',
+            'To the wise of heart',
+            'To those pursuing righteousness'
+        ],
+        answer: 'To those who have knowledge',
+        reference: 'Proverbs 8:9'
+    },
+    {
+        id: 305,
+        question: 'To whom are Madame Wisdom’s words right (Prov 8:9)?',
+        options: [
+            'To those who accept correction',
+            'To those who have knowledge',
+            'To the wise of heart',
+            'To the discerning'
+        ],
+        answer: 'To the discerning',
+        reference: 'Proverbs 8:9'
+    },
+    {
+        id: 306,
+        question: 'Which is NOT one of the precious objects that one should choose wisdom, knowledge, and instruction over (Prov 8:10-11)?',
+        options: [
+            'Rubies',
+            'Diamonds',
+            'Silver',
+            'Gold'
+        ],
+        answer: 'Diamonds',
+        reference: 'Proverbs 8:10-11'
+    },
+    {
+        id: 307,
+        question: 'Over what does Wisdom advise that her instruction be chosen (Prov 8:10)?',
+        options: [
+            'Rubies',
+            'Diamonds',
+            'Silver',
+            'Gold'
+        ],
+        answer: 'Silver',
+        reference: 'Proverbs 8:10'
+    },
+    {
+        id: 308,
+        question: 'What is Wisdom said to be more precious than (Prov 8:11)?',
+        options: [
+            'Rubies',
+            'Diamonds',
+            'Silver',
+            'Gold'
+        ],
+        answer: 'Rubies',
+        reference: 'Proverbs 8:11'
+    },
+    {
+        id: 309,
+        question: 'What desires can compare to wisdom (Prov 8:12)?',
+        options: [
+            'Diamonds',
+            'Nothing',
+            'Friends',
+            'Long life'
+        ],
+        answer: 'Nothing',
+        reference: 'Proverbs 8:12'
+    },
+    {
+        id: 310,
+        question: 'What does wisdom dwell together with (Prov 8:12)?',
+        options: [
+            'Knowledge',
+            'Discipline',
+            'Truth',
+            'Prudence'
+        ],
+        answer: 'Prudence',
+        reference: 'Proverbs 8:12'
+    },
+    {
+        id: 311,
+        question: 'What does Madame Wisdom possess (Prov 8:12)?',
+        options: [
+            'Knowledge and discretion',
+            'Discipline and uprightness',
+            'Kindness and faithfulness',
+            'Understanding and discernment'
+        ],
+        answer: 'Knowledge and discretion',
+        reference: 'Proverbs 8:12'
+    },
+    {
+        id: 312,
+        question: 'Which is NOT something that Madame Wisdom hates (Prov 8:13)?',
+        options: [
+            'Arrogance',
+            'Pride',
+            'Foolishness',
+            'Evil behavior'
+        ],
+        answer: 'Foolishness',
+        reference: 'Proverbs 8:13'
+    },
+    {
+        id: 313,
+        question: 'To fear the LORD is to do what (Prov 8:13)?',
+        options: [
+            'Pursue righteousness',
+            'Obey the commandments',
+            'Forgive one’s enemy',
+            'Hate evil'
+        ],
+        answer: 'Hate evil',
+        reference: 'Proverbs 8:13'
+    },
+    {
+        id: 314,
+        question: 'What two things does Madame Wisdom possess (Prov 8:14)?',
+        options: [
+            'Understanding and power',
+            'Riches and prosperity',
+            'Truth and love',
+            'Hope and hospitality'
+        ],
+        answer: 'Understanding and power',
+        reference: 'Proverbs 8:14'
+    },
+    {
+        id: 315,
+        question: 'What two things does Madame Wisdom possess (Prov 8:14)?',
+        options: [
+            'Riches and prosperity',
+            'Counsel and sound judgment',
+            'Truth and love',
+            'Hope and hospitality'
+        ],
+        answer: 'Counsel and sound judgment',
+        reference: 'Proverbs 8:14'
+    },
+    {
+        id: 316,
+        question: 'By Wisdom what do rulers make (Prov 8:15)?',
+        options: [
+            'Just laws',
+            'Good decisions',
+            'Righteous judgments',
+            'A blessed people'
+        ],
+        answer: 'Just laws',
+        reference: 'Proverbs 8:15'
+    },
+    {
+        id: 317,
+        question: 'All of the following reign by wisdom EXCEPT (Prov 8:15).',
+        options: [
+            'Judges',
+            'Princes',
+            'Kings',
+            'Nobles'
+        ],
+        answer: 'Judges',
+        reference: 'Proverbs 8:15'
+    },
+    {
+        id: 318,
+        question: 'Who does Madame Wisdom love (Prov 8:17)?',
+        options: [
+            'Those who call out to her',
+            'Those who pursue her',
+            'Those who listen to her voice',
+            'Those who love her'
+        ],
+        answer: 'Those who love her',
+        reference: 'Proverbs 8:17'
+    },
+    {
+        id: 319,
+        question: 'Who find Madame Wisdom (Prov 8:17)?',
+        options: [
+            'Those who trust her',
+            'Those who obey her',
+            'Those who seek her',
+            'Those who listen to her'
+        ],
+        answer: 'Those who seek her',
+        reference: 'Proverbs 8:17'
+    },
+    {
+        id: 320,
+        question: 'Which is NOT something that Wisdom has with her (Prov 8:18)?',
+        options: [
+            'Enduring wealth',
+            'Riches',
+            'Vast land',
+            'Honor'
+        ],
+        answer: 'Vast land',
+        reference: 'Proverbs 8:18'
+    },
+    {
+        id: 321,
+        question: 'Wisdom claims that her what is better than fine gold (Prov 8:19)?',
+        options: [
+            'Instruction',
+            'Fruit',
+            'House',
+            'Advice'
+        ],
+        answer: 'Fruit',
+        reference: 'Proverbs 8:19'
+    },
+    {
+        id: 322,
+        question: 'In what paths does Madame Wisdom walk (Prov 8:20)?',
+        options: [
+            'Paths of justice',
+            'Paths of kindness',
+            'Paths of peace',
+            'Paths of insight'
+        ],
+        answer: 'Paths of justice',
+        reference: 'Proverbs 8:20'
+    },
+    {
+        id: 323,
+        question: 'What does Wisdom bestow on those who love her (Prov 8:21)?',
+        options: [
+            'Long life',
+            'Honor',
+            'Insight',
+            'Wealth'
+        ],
+        answer: 'Wealth',
+        reference: 'Proverbs 8:21'
+    },
+    {
+        id: 324,
+        question: 'Whose treasuries will Madame Wisdom make full (Prov 8:21)?',
+        options: [
+            'Those who take her advice',
+            'Those who accept her rebuke',
+            'Those who love her',
+            'Those who seek her'
+        ],
+        answer: 'Those who love her',
+        reference: 'Proverbs 8:21'
+    },
+    {
+        id: 325,
+        question: 'Who possessed wisdom at the beginning of their work (Prov 8:22)?',
+        options: [
+            'The prudent',
+            'The LORD',
+            'The king',
+            'Solomon'
+        ],
+        answer: 'The LORD',
+        reference: 'Proverbs 8:22'
+    },
+    {
+        id: 326,
+        question: 'When did the LORD possess wisdom (Prov 8:22)?',
+        options: [
+            'At the beginning of his work',
+            'When he called Abraham, Isaac and Jacob',
+            'At Sinai',
+            'When he made the sun and moon'
+        ],
+        answer: 'At the beginning of his work',
+        reference: 'Proverbs 8:22'
+    },
+    {
+        id: 327,
+        question: 'Before what was Wisdom appointed (Prov 8:23)?',
+        options: [
+            'The kings began to rule',
+            'Fools spouted their folly',
+            'The foundations of the world were laid',
+            'The world began'
+        ],
+        answer: 'The world began',
+        reference: 'Proverbs 8:23'
+    },
+    {
+        id: 328,
+        question: 'When was wisdom appointed (Prov 8:23)?',
+        options: [
+            'From the beginning',
+            'From eternity',
+            'From when the LORD divided the heavens',
+            'From when the waters were gathered'
+        ],
+        answer: 'From eternity',
+        reference: 'Proverbs 8:23'
+    },
+    {
+        id: 329,
+        question: 'When was wisdom given birth (Prov 8:24)?',
+        options: [
+            'When the stars had not shone',
+            'Before there was rain upon the earth',
+            'When there were no oceans',
+            'When there were no trees'
+        ],
+        answer: 'When there were no oceans',
+        reference: 'Proverbs 8:24'
+    },
+    {
+        id: 330,
+        question: 'When was wisdom given birth (Prov 8:24)?',
+        options: [
+            'Before the mountains were settled in place',
+            'Before the rivers filled with water',
+            'Before the land produced its crops',
+            'Before the sun shone in the sky'
+        ],
+        answer: 'Before the mountains were settled in place',
+        reference: 'Proverbs 8:24'
+    },
+    {
+        id: 331,
+        question: 'Wisdom was given birth before God made what (Prov 8:26)?',
+        options: [
+            'The rain from the heavens',
+            'The sun in the sky',
+            'Trees of the field',
+            'The dust of the world'
+        ],
+        answer: 'The dust of the world',
+        reference: 'Proverbs 8:26'
+    },
+    {
+        id: 332,
+        question: 'What did God mark out on the face of the deep (Prov 8:27)?',
+        options: [
+            'Boundary of humankind',
+            'The horizon',
+            'The tall waves',
+            'Path of the gull'
+        ],
+        answer: 'The horizon',
+        reference: 'Proverbs 8:27'
+    },
+    {
+        id: 333,
+        question: 'Wisdom was there when God fixed what firmly in place (Prov 8:28)?',
+        options: [
+            'Garden of paradise',
+            'Paths of all living beings',
+            'The foundations of the deep',
+            'The foundations of the mountains'
+        ],
+        answer: 'The foundations of the deep',
+        reference: 'Proverbs 8:28'
+    },
+    {
+        id: 334,
+        question: 'What did God give a boundary to (Prov 8:29)?',
+        options: [
+            'The sea',
+            'The clouds',
+            'The land',
+            'The sun'
+        ],
+        answer: 'The sea',
+        reference: 'Proverbs 8:29'
+    },
+    {
+        id: 335,
+        question: 'What could not overstep God’s commands (Prov 8:29)?',
+        options: [
+            'The birds',
+            'The lion',
+            'The waters',
+            'The moon'
+        ],
+        answer: 'The waters',
+        reference: 'Proverbs 8:29'
+    },
+    {
+        id: 336,
+        question: 'When God was creating, what was Madame Wisdom by his side (Prov 8:30)?',
+        options: [
+            'An advisor',
+            'A craftsman',
+            'A servant',
+            'An architect'
+        ],
+        answer: 'A craftsman',
+        reference: 'Proverbs 8:30'
+    },
+    {
+        id: 337,
+        question: 'What did Madame Wisdom do in God’s presence as he created (Prov 8:30)?',
+        options: [
+            'Worshipped',
+            'Clapped her hands',
+            'Fell at his feet',
+            'Rejoiced'
+        ],
+        answer: 'Rejoiced',
+        reference: 'Proverbs 8:30'
+    },
+    {
+        id: 338,
+        question: 'What in God’s creation did Wisdom take delight in (Prov 8:31)?',
+        options: [
+            'The oceans',
+            'The clouds',
+            'Mankind',
+            'The birds'
+        ],
+        answer: 'Mankind',
+        reference: 'Proverbs 8:31'
+    },
+    {
+        id: 339,
+        question: 'Who does Madame Wisdom say is blessed (Prov 8:32)?',
+        options: [
+            'Those that keep her ways',
+            'Those who accept her rebuke',
+            'Those who seek her',
+            'Those who inherit understanding'
+        ],
+        answer: 'Those that keep her ways',
+        reference: 'Proverbs 8:32'
+    },
+    {
+        id: 340,
+        question: 'What does Madame Wisdom advise that one not ignore (Prov 8:33)?',
+        options: [
+            'Her rebuke',
+            'Her instruction',
+            'Her ways',
+            'Her commands'
+        ],
+        answer: 'Her instruction',
+        reference: 'Proverbs 8:33'
+    },
+    {
+        id: 341,
+        question: 'How does one become wise (Prov 8:33)?',
+        options: [
+            'By accepting Madame Wisdom’s rebuke',
+            'By coming to Madame Wisdom’s house',
+            'By walking in the way with Madame Wisdom',
+            'By listening to Madame Wisdom’s instruction'
+        ],
+        answer: 'By listening to Madame Wisdom’s instruction',
+        reference: 'Proverbs 8:33'
+    }
+],
+'9': [
+    {
+        id: 342,
+        question: 'What has Madame Wisdom built (Prov 9:1)?',
+        options: [
+            'Her throne',
+            'Her house',
+            'Her mountain',
+            'Her path'
+        ],
+        answer: 'Her house',
+        reference: 'Proverbs 9:1'
+    },
+    {
+        id: 343,
+        question: 'What has Madame Wisdom hewn out (Prov 9:1)?',
+        options: [
+            'Seven caves',
+            'Seven paths',
+            'Seven pillars',
+            'Seven rocks'
+        ],
+        answer: 'Seven pillars',
+        reference: 'Proverbs 9:1'
+    },
+    {
+        id: 344,
+        question: 'Madame Wisdom has done all of the following in preparation for calling the simple EXCEPT (Prov 9:2)?',
+        options: [
+            'Put out her silverware',
+            'Mixed her wine',
+            'Prepared her meat',
+            'Set her table'
+        ],
+        answer: 'Put out her silverware',
+        reference: 'Proverbs 9:2'
+    },
+    {
+        id: 345,
+        question: 'Who has Madame Wisdom sent out as she calls (Prov 9:3)?',
+        options: [
+            'Understanding and discretion',
+            'Her heralds',
+            'Her invitation',
+            'Her maids'
+        ],
+        answer: 'Her maids',
+        reference: 'Proverbs 9:3'
+    },
+    {
+        id: 346,
+        question: 'From where does Madame Wisdom call out (Prov 9:3)?',
+        options: [
+            'From the top of the city walls',
+            'From the highest point of the city',
+            'From the roof of her house',
+            'From the window of her bedroom'
+        ],
+        answer: 'From the highest point of the city',
+        reference: 'Proverbs 9:3'
+    },
+    {
+        id: 347,
+        question: 'Who does Madame Wisdom invite to come (Prov 9:4)?',
+        options: [
+            'Fools',
+            'The wicked',
+            'The simple',
+            'The poor'
+        ],
+        answer: 'The simple',
+        reference: 'Proverbs 9:4'
+    },
+    {
+        id: 348,
+        question: 'To whom does Madame Wisdom say "Come eat" (Prov 9:5-6)?',
+        options: [
+            'Those who are fools',
+            'Those who are seeking her',
+            'Those who are wandering by her doorway',
+            'Those that lack judgment'
+        ],
+        answer: 'Those that lack judgment',
+        reference: 'Proverbs 9:5-6'
+    },
+    {
+        id: 349,
+        question: 'What does Madame Wisdom offer the simple to drink (Prov 9:5)?',
+        options: [
+            'Honey',
+            'Wine',
+            'Water',
+            'Nectar'
+        ],
+        answer: 'Wine',
+        reference: 'Proverbs 9:5'
+    },
+    {
+        id: 350,
+        question: 'What must the simple do in order to live (Prov 9:6)?',
+        options: [
+            'Leave their simple ways',
+            'Seek wisdom',
+            'Guard their hearts',
+            'Listen to the voice of wisdom'
+        ],
+        answer: 'Leave their simple ways',
+        reference: 'Proverbs 9:6'
+    },
+    {
+        id: 351,
+        question: 'In what way should the simple walk (Prov 9:6)?',
+        options: [
+            'The way of wisdom',
+            'The way of discretion',
+            'The way of understanding',
+            'The way of justice'
+        ],
+        answer: 'The way of understanding',
+        reference: 'Proverbs 9:6'
+    },
+    {
+        id: 352,
+        question: 'Who invites insult (Prov 9:7)?',
+        options: [
+            'One who advises a sluggard',
+            'One who corrects a mocker',
+            'One who pursues folly',
+            'One who rejects wisdom'
+        ],
+        answer: 'One who corrects a mocker',
+        reference: 'Proverbs 9:7'
+    },
+    {
+        id: 353,
+        question: 'Who incurs abuse (Prov 9:7)?',
+        options: [
+            'One who rebukes a wicked person',
+            'One who advises a sluggard',
+            'One who rejects wisdom',
+            'One who pursues folly'
+        ],
+        answer: 'One who rebukes a wicked person',
+        reference: 'Proverbs 9:7'
+    },
+    {
+        id: 354,
+        question: 'What is the mocker’s response to rebuke (Prov 9:8)?',
+        options: [
+            'They will run into ruin',
+            'They will not listen to the rebuke',
+            'They will hate the one rebuking them',
+            'They will reject the rebuke'
+        ],
+        answer: 'They will hate the one rebuking them',
+        reference: 'Proverbs 9:8'
+    },
+    {
+        id: 355,
+        question: 'What is the response of a wise person to the one rebuking them (Prov 9:8)?',
+        options: [
+            'Listen to them',
+            'Love them',
+            'Protect them',
+            'Reward them'
+        ],
+        answer: 'Love them',
+        reference: 'Proverbs 9:8'
+    },
+    {
+        id: 356,
+        question: 'How does a wise person get wiser still (Prov 9:9)?',
+        options: [
+            'By discipline',
+            'By listening',
+            'By walking on the path of righteousness',
+            'By instruction'
+        ],
+        answer: 'By instruction',
+        reference: 'Proverbs 9:9'
+    },
+    {
+        id: 357,
+        question: 'Who will add to their learning when taught (Prov 9:9)?',
+        options: [
+            'A wise person',
+            'An understanding person',
+            'A righteous person',
+            'A disciplined person'
+        ],
+        answer: 'A righteous person',
+        reference: 'Proverbs 9:9'
+    },
+    {
+        id: 358,
+        question: 'What is the fear of the LORD (Prov 9:10)?',
+        options: [
+            'The beginning of wisdom',
+            'The way to life',
+            'The path of righteousness',
+            'A tree of life'
+        ],
+        answer: 'The beginning of wisdom',
+        reference: 'Proverbs 9:10'
+    },
+    {
+        id: 359,
+        question: 'What is understanding (Prov 9:10)?',
+        options: [
+            'Keeping the commandments',
+            'Knowledge of the Holy One',
+            'Hearing the voice of wisdom',
+            'To shun evil'
+        ],
+        answer: 'Knowledge of the Holy One',
+        reference: 'Proverbs 9:10'
+    },
+    {
+        id: 360,
+        question: 'What will be added to one’s life by wisdom (Prov 9:11)?',
+        options: [
+            'Gold',
+            'Land',
+            'Success',
+            'Years'
+        ],
+        answer: 'Years',
+        reference: 'Proverbs 9:11'
+    },
+    {
+        id: 361,
+        question: 'Who alone will suffer (Prov 9:12)?',
+        options: [
+            'A sluggard',
+            'The unrighteous',
+            'A mocker',
+            'The wicked'
+        ],
+        answer: 'A mocker',
+        reference: 'Proverbs 9:12'
+    },
+    {
+        id: 362,
+        question: 'What will wisdom do for the wise person (Prov 9:12)?',
+        options: [
+            'Reward them',
+            'Honor them',
+            'Protect them',
+            'Give them food'
+        ],
+        answer: 'Reward them',
+        reference: 'Proverbs 9:12'
+    },
+    {
+        id: 363,
+        question: 'Who is loud (Prov 9:13)?',
+        options: [
+            'The mocker',
+            'Woman Folly',
+            'The adulteress',
+            'The wicked'
+        ],
+        answer: 'Woman Folly',
+        reference: 'Proverbs 9:13'
+    },
+    {
+        id: 364,
+        question: 'Woman Folly is all of the following EXCEPT (Prov 9:13)?',
+        options: [
+            'Loud',
+            'Unfriendly',
+            'Undisciplined',
+            'Without knowledge'
+        ],
+        answer: 'Unfriendly',
+        reference: 'Proverbs 9:13'
+    },
+    {
+        id: 365,
+        question: 'Where does Woman Folly sit (Prov 9:14)?',
+        options: [
+            'On her throne',
+            'Under the shadow of a tree',
+            'At the highest point of the city',
+            'In the depths of the valley'
+        ],
+        answer: 'At the highest point of the city',
+        reference: 'Proverbs 9:14'
+    },
+    {
+        id: 366,
+        question: 'Where in her house does Woman Folly sit (Prov 9:14)?',
+        options: [
+            'In her bedroom',
+            'On the roof',
+            'By the window',
+            'By the door'
+        ],
+        answer: 'By the door',
+        reference: 'Proverbs 9:14'
+    },
+    {
+        id: 367,
+        question: 'To whom does Woman Folly call out (Prov 9:15)?',
+        options: [
+            'To those who pass by',
+            'To the foolish',
+            'To the evil ones',
+            'To the gossip'
+        ],
+        answer: 'To those who pass by',
+        reference: 'Proverbs 9:15'
+    },
+    {
+        id: 368,
+        question: 'Who does Woman Folly invite in (Prov 9:16)?',
+        options: [
+            'The mocker',
+            'The simpleton',
+            'Fools',
+            'The wicked'
+        ],
+        answer: 'The simpleton',
+        reference: 'Proverbs 9:16'
+    },
+    {
+        id: 369,
+        question: 'To whom does Woman Folly say "Stolen waters are sweet" (Prov 9:16-17)?',
+        options: [
+            'To the mocker',
+            'To the ones walking on the crooked path',
+            'To the ones who lack judgment',
+            'To the young who do not know the left from the right'
+        ],
+        answer: 'To the ones who lack judgment',
+        reference: 'Proverbs 9:16-17'
+    },
+    {
+        id: 370,
+        question: 'Woman Folly says what is sweet (Prov 9:17)?',
+        options: [
+            'Stolen water',
+            'Wine mixed with spices',
+            'The grapes of wrath',
+            'The bread of wickedness'
+        ],
+        answer: 'Stolen water',
+        reference: 'Proverbs 9:17'
+    },
+    {
+        id: 371,
+        question: 'What kind of food does Woman Folly say is delicious (Prov 9:17)?',
+        options: [
+            'Food of the oppressed',
+            'Food stolen from the wise',
+            'The meat of an adulteress',
+            'Food eaten in secret'
+        ],
+        answer: 'Food eaten in secret',
+        reference: 'Proverbs 9:17'
+    },
+    {
+        id: 372,
+        question: 'Who are at Woman Folly’s meal (Prov 9:18)?',
+        options: [
+            'The wicked',
+            'The dead',
+            'The mocker',
+            'The foolish'
+        ],
+        answer: 'The dead',
+        reference: 'Proverbs 9:18'
+    },
+    {
+        id: 373,
+        question: 'Where are the guests at Woman Folly’s meal (Prov 9:18)?',
+        options: [
+            'Under the shade of trees',
+            'In the heights of the mountain',
+            'In the depths of the grave',
+            'In the hands of the destroyer'
+        ],
+        answer: 'In the depths of the grave',
+        reference: 'Proverbs 9:18'
+    }
+],
+'10': [
+    {
+        id: 374,
+        question: 'Who is credited as the author/collector of Proverbs 10 (Proverbs 10:1)?',
+        options: [
+            'David',
+            'Lemuel',
+            'Solomon',
+            'Hezekiah'
+        ],
+        answer: 'Solomon',
+        reference: 'Proverbs 10:1'
+    },
+    {
+        id: 375,
+        question: 'What does a wise son bring to his father (Proverbs 10:1)?',
+        options: [
+            'Joy',
+            'Knowledge',
+            'A gift',
+            'Peace'
+        ],
+        answer: 'Joy',
+        reference: 'Proverbs 10:1'
+    },
+    {
+        id: 376,
+        question: 'What does a foolish son bring to his mother (Prov 10:1)?',
+        options: [
+            'Pain',
+            'Grief',
+            'Damage',
+            'Regret'
+        ],
+        answer: 'Grief',
+        reference: 'Proverbs 10:1'
+    },
+    {
+        id: 377,
+        question: 'What are of no value (Prov 10:2)?',
+        options: [
+            'Stolen waters',
+            'Lazy hands',
+            'Ill-gotten treasures',
+            'The gold of deceit'
+        ],
+        answer: 'Ill-gotten treasures',
+        reference: 'Proverbs 10:2'
+    },
+    {
+        id: 378,
+        question: 'From what does righteousness deliver (Prov 10:2)?',
+        options: [
+            'Folly',
+            'Adultery',
+            'Death',
+            'Sin'
+        ],
+        answer: 'Death',
+        reference: 'Proverbs 10:2'
+    },
+    {
+        id: 379,
+        question: 'Who does the Lord not let go hungry (Prov 10:3)?',
+        options: [
+            'The poor',
+            'The righteous',
+            'The sick',
+            'The faithful'
+        ],
+        answer: 'The righteous',
+        reference: 'Proverbs 10:3'
+    },
+    {
+        id: 380,
+        question: 'What does the LORD do to the wicked (Prov 10:3)?',
+        options: [
+            'He puts thorns in their way',
+            'He guides them to the grave',
+            'He gives them poverty',
+            'He thwarts their craving'
+        ],
+        answer: 'He thwarts their craving',
+        reference: 'Proverbs 10:3'
+    },
+    {
+        id: 381,
+        question: 'Whose craving does the LORD thwart (Prov 10:3)?',
+        options: [
+            'The lazy',
+            'The gossip',
+            'The wicked',
+            'The mocker'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 10:3'
+    },
+    {
+        id: 382,
+        question: 'What makes a person poor (Prov 10:4)?',
+        options: [
+            'Unfaithfulness',
+            'A lack of wisdom',
+            'A dull spirit',
+            'Lazy hands'
+        ],
+        answer: 'Lazy hands',
+        reference: 'Proverbs 10:4'
+    },
+    {
+        id: 383,
+        question: 'What brings a person wealth (Prov 10:4)?',
+        options: [
+            'A wise reply',
+            'Diligent hands',
+            'Many friends',
+            'The way of the righteous'
+        ],
+        answer: 'Diligent hands',
+        reference: 'Proverbs 10:4'
+    },
+    {
+        id: 384,
+        question: 'What does a wise son do (Prov 10:5)?',
+        options: [
+            'Gathers crops in summer',
+            'Plants his seed in spring',
+            'Harvests his grain in fall',
+            'Plows his field before planting'
+        ],
+        answer: 'Gathers crops in summer',
+        reference: 'Proverbs 10:5'
+    },
+    {
+        id: 385,
+        question: 'One who sleeps during the harvest is what (Prov 10:5)?',
+        options: [
+            'A foolish son',
+            'A lazy son',
+            'A disgraceful son',
+            'A wicked son'
+        ],
+        answer: 'A disgraceful son',
+        reference: 'Proverbs 10:5'
+    },
+    {
+        id: 386,
+        question: 'When does a disgraceful son sleep (Prov 10:5)?',
+        options: [
+            'All day',
+            'During the harvest',
+            'During the battle',
+            'While others are planting'
+        ],
+        answer: 'During the harvest',
+        reference: 'Proverbs 10:5'
+    },
+    {
+        id: 387,
+        question: 'What crowns the head of the righteous (Proverbs 10:6)?',
+        options: [
+            'Blessings',
+            'Riches',
+            'Security',
+            'Peace'
+        ],
+        answer: 'Blessings',
+        reference: 'Proverbs 10:6'
+    },
+    {
+        id: 388,
+        question: 'What does violence overwhelm (Prov 10:6)?',
+        options: [
+            'The hands of the unjust',
+            'The lips of the adulteress',
+            'The heart of the fool',
+            'The mouth of the wicked'
+        ],
+        answer: 'The mouth of the wicked',
+        reference: 'Proverbs 10:6'
+    },
+    {
+        id: 389,
+        question: 'The _____ of the wicked will rot (Prov 10:7).',
+        options: [
+            'Heart',
+            'Soul',
+            'Name',
+            'Hand'
+        ],
+        answer: 'Name',
+        reference: 'Proverbs 10:7'
+    },
+    {
+        id: 390,
+        question: 'What of the righteous will be a blessing (Prov 10:7)?',
+        options: [
+            'The prosperity',
+            'The memory',
+            'The advice',
+            'The generosity'
+        ],
+        answer: 'The memory',
+        reference: 'Proverbs 10:7'
+    },
+    {
+        id: 391,
+        question: 'What do the wise in heart do (Prov 10:8)?',
+        options: [
+            'Accept commands',
+            'Listen to a life-giving rebuke',
+            'Walk in the way of wisdom',
+            'Overlook an insult'
+        ],
+        answer: 'Accept commands',
+        reference: 'Proverbs 10:8'
+    },
+    {
+        id: 392,
+        question: 'Who comes to ruin (Prov 10:8)?',
+        options: [
+            'A sluggard',
+            'The treacherous wicked',
+            'A chattering fool',
+            'A scornful mocker'
+        ],
+        answer: 'A chattering fool',
+        reference: 'Proverbs 10:8'
+    },
+    {
+        id: 393,
+        question: 'Who is it that walks securely (Prov 10:9)?',
+        options: [
+            'The wise son',
+            'The man of integrity',
+            'The woman of understanding',
+            'The wise father'
+        ],
+        answer: 'The man of integrity',
+        reference: 'Proverbs 10:9'
+    },
+    {
+        id: 394,
+        question: 'Who will be found out (Prov 10:9)?',
+        options: [
+            'One who is violent',
+            'One who slanders his neighbor',
+            'Those who hide iniquity in their hearts',
+            'One who takes crooked paths'
+        ],
+        answer: 'One who takes crooked paths',
+        reference: 'Proverbs 10:9'
+    },
+    {
+        id: 395,
+        question: 'What does one who winks cause (Prov 10:10)?',
+        options: [
+            'Grief',
+            'Treachery',
+            'Deception',
+            'Injustice'
+        ],
+        answer: 'Grief',
+        reference: 'Proverbs 10:10'
+    },
+    {
+        id: 396,
+        question: 'Who causes grief (Prov 10:10)?',
+        options: [
+            'The fool who speaks before listening',
+            'The wicked who trap the poor',
+            'The one who maliciously winks',
+            'The one who slanders his neighbor'
+        ],
+        answer: 'The one who maliciously winks',
+        reference: 'Proverbs 10:10'
+    },
+    {
+        id: 397,
+        question: 'The mouth of the righteous is what (Prov 10:11)?',
+        options: [
+            'A blessing to all',
+            'A stream of wisdom',
+            'A fountain of life',
+            'A cloud full of water'
+        ],
+        answer: 'A fountain of life',
+        reference: 'Proverbs 10:11'
+    },
+    {
+        id: 398,
+        question: 'What is a fountain of life (Prov 10:11)?',
+        options: [
+            'The rewards of the diligent',
+            'The advice of the wise',
+            'The wealth of the rich',
+            'The mouth of the righteous'
+        ],
+        answer: 'The mouth of the righteous',
+        reference: 'Proverbs 10:11'
+    },
+    {
+        id: 399,
+        question: 'What covers all wrongs (Prov 10:12)?',
+        options: [
+            'Love',
+            'Forgiveness',
+            'Sacrifice',
+            'Righteousness'
+        ],
+        answer: 'Love',
+        reference: 'Proverbs 10:12'
+    },
+    {
+        id: 400,
+        question: 'What stirs up dissension (Prov 10:12)?',
+        options: [
+            'Violence',
+            'Deception',
+            'Hatred',
+            'Jealousy'
+        ],
+        answer: 'Hatred',
+        reference: 'Proverbs 10:12'
+    },
+    {
+        id: 401,
+        question: 'For whose back is the rod (Prov 10:13)?',
+        options: [
+            'The one who lacks judgment',
+            'The one without understanding',
+            'The fool who goes astray',
+            'The one who is wicked'
+        ],
+        answer: 'The one who lacks judgment',
+        reference: 'Proverbs 10:13'
+    },
+    {
+        id: 402,
+        question: 'Where is wisdom found (Prov 10:13)?',
+        options: [
+            'In the heart of the humble',
+            'On the lips of the discerning',
+            'Everywhere',
+            'In the path of the righteous'
+        ],
+        answer: 'On the lips of the discerning',
+        reference: 'Proverbs 10:13'
+    },
+    {
+        id: 403,
+        question: 'What do wise men do with knowledge (Prov 10:14)?',
+        options: [
+            'Share it',
+            'Store it up',
+            'Desire it',
+            'Value it'
+        ],
+        answer: 'Store it up',
+        reference: 'Proverbs 10:14'
+    },
+    {
+        id: 404,
+        question: 'What does the mouth of the fool invite (Prov 10:14)?',
+        options: [
+            'Ruin',
+            'Calamity',
+            'Death',
+            'Blows and wounds'
+        ],
+        answer: 'Ruin',
+        reference: 'Proverbs 10:14'
+    },
+    {
+        id: 405,
+        question: 'What is the ruin of the poor (Prov 10:15)?',
+        options: [
+            'Laziness',
+            'Ignorance',
+            'Poverty',
+            'Jealousy'
+        ],
+        answer: 'Poverty',
+        reference: 'Proverbs 10:15'
+    },
+    {
+        id: 406,
+        question: 'To what is the wealth of the rich compared (Prov 10:15)?',
+        options: [
+            'A strong tower',
+            'A wall of defense',
+            'A rock of protection',
+            'A fortified city'
+        ],
+        answer: 'A fortified city',
+        reference: 'Proverbs 10:15'
+    },
+    {
+        id: 407,
+        question: 'What is brought by the wages of the righteous (Prov 10:16)?',
+        options: [
+            'Life',
+            'Happiness',
+            'Wealth',
+            'Honor'
+        ],
+        answer: 'Life',
+        reference: 'Proverbs 10:16'
+    },
+    {
+        id: 408,
+        question: 'What does the income of the wicked bring them (Prov 10:16)?',
+        options: [
+            'Poverty',
+            'Punishment',
+            'Nothing',
+            'Wounds'
+        ],
+        answer: 'Punishment',
+        reference: 'Proverbs 10:16'
+    },
+    {
+        id: 409,
+        question: 'Who shows the way to life (Prov 10:17)?',
+        options: [
+            'He who is righteous',
+            'He who heeds discipline',
+            'He who is wise',
+            'He who has knowledge'
+        ],
+        answer: 'He who heeds discipline',
+        reference: 'Proverbs 10:17'
+    },
+    {
+        id: 410,
+        question: 'Who leads others astray (Prov 10:17)?',
+        options: [
+            'One shedding innocent blood',
+            'Those who walk a crooked path',
+            'One who ignores correction',
+            'The mouth of a fool'
+        ],
+        answer: 'One who ignores correction',
+        reference: 'Proverbs 10:17'
+    },
+    {
+        id: 411,
+        question: 'Who is a fool (Prov 10:18)?',
+        options: [
+            'One who spreads slander',
+            'One who sheds innocent blood',
+            'One who deceives a neighbor',
+            'One who sleeps in the harvest'
+        ],
+        answer: 'One who spreads slander',
+        reference: 'Proverbs 10:18'
+    },
+    {
+        id: 412,
+        question: 'When is sin not absent (Prov 10:19)?',
+        options: [
+            'When fools gather',
+            'When the wicked lead the way',
+            'When deceivers meet',
+            'When words are many'
+        ],
+        answer: 'When words are many',
+        reference: 'Proverbs 10:19'
+    },
+    {
+        id: 413,
+        question: 'One who holds his tongue is considered what (Prov 10:19)?',
+        options: [
+            'Discerning',
+            'Wise',
+            'Righteous',
+            'Diligent'
+        ],
+        answer: 'Wise',
+        reference: 'Proverbs 10:19'
+    },
+    {
+        id: 414,
+        question: 'The heart of the wicked is what (Prov 10:20)?',
+        options: [
+            'Deceitful',
+            'Violent',
+            'Of little value',
+            'Cruel'
+        ],
+        answer: 'Of little value',
+        reference: 'Proverbs 10:20'
+    },
+    {
+        id: 415,
+        question: 'What is like choice silver (Prov 10:20)?',
+        options: [
+            'The hands of the diligent',
+            'The heart of the understanding',
+            'The mouth of the wise',
+            'The tongue of the righteous'
+        ],
+        answer: 'The tongue of the righteous',
+        reference: 'Proverbs 10:20'
+    },
+    {
+        id: 416,
+        question: 'What nourishes many (Prov 10:21)?',
+        options: [
+            'The hands of the diligent',
+            'The wealth of the wise',
+            'The lips of the righteous',
+            'The fields of the poor'
+        ],
+        answer: 'The lips of the righteous',
+        reference: 'Proverbs 10:21'
+    },
+    {
+        id: 417,
+        question: 'From what do fools die (Prov 10:21)?',
+        options: [
+            'Lack of judgment',
+            'Their own folly',
+            'Their own desires',
+            'No discretion'
+        ],
+        answer: 'Lack of judgment',
+        reference: 'Proverbs 10:21'
+    },
+    {
+        id: 418,
+        question: 'The blessing of the Lord brings what (Prov 10:22)?',
+        options: [
+            'Wealth',
+            'Peace',
+            'Knowledge',
+            'Comfort'
+        ],
+        answer: 'Wealth',
+        reference: 'Proverbs 10:22'
+    },
+    {
+        id: 419,
+        question: 'Who delights in wisdom (Prov 10:23)?',
+        options: [
+            'The wise in heart',
+            'A person of understanding',
+            'A righteous person',
+            'A wise son'
+        ],
+        answer: 'A person of understanding',
+        reference: 'Proverbs 10:23'
+    },
+    {
+        id: 420,
+        question: 'In what does a fool find pleasure (Prov 10:23)?',
+        options: [
+            'Gossip',
+            'Sleep',
+            'Evil conduct',
+            'Violence'
+        ],
+        answer: 'Evil conduct',
+        reference: 'Proverbs 10:23'
+    },
+    {
+        id: 421,
+        question: 'What will overtake the wicked (Prov 10:24)?',
+        options: [
+            'Violence',
+            'Poverty in the fields',
+            'Beatings on the back',
+            'What they dread'
+        ],
+        answer: 'What they dread',
+        reference: 'Proverbs 10:24'
+    },
+    {
+        id: 422,
+        question: 'What will be granted to the righteous (Prov 10:24)?',
+        options: [
+            'Their hopes',
+            'Their desires',
+            'Their promises',
+            'Their rewards'
+        ],
+        answer: 'Their desires',
+        reference: 'Proverbs 10:24'
+    },
+    {
+        id: 423,
+        question: 'When the storm has swept by, who will stand firm (Prov 10:25)?',
+        options: [
+            'The wise',
+            'The diligent',
+            'The faithful',
+            'The righteous'
+        ],
+        answer: 'The righteous',
+        reference: 'Proverbs 10:25'
+    }
+],
+'11': [
+    {
+        id: 424,
+        question: 'What kind of scales does the LORD abhor (Prov 11:1)?',
+        options: [
+            'Wicked',
+            'Dishonest',
+            'Cheating',
+            'Unrighteous'
+        ],
+        answer: 'Dishonest',
+        reference: 'Proverbs 11:1'
+    },
+    {
+        id: 425,
+        question: 'How does the Lord react to accurate scales (Prov 11:1)?',
+        options: [
+            'Justice',
+            'Kindness',
+            'Love',
+            'Delight'
+        ],
+        answer: 'Delight',
+        reference: 'Proverbs 11:1'
+    },
+    {
+        id: 426,
+        question: 'What comes after pride (Prov 11:2)?',
+        options: [
+            'The fall',
+            'Wickedness',
+            'Disgrace',
+            'Humility'
+        ],
+        answer: 'Disgrace',
+        reference: 'Proverbs 11:2'
+    },
+    {
+        id: 427,
+        question: 'What comes after humility (Prov 11:2)?',
+        options: [
+            'Honor',
+            'Wisdom',
+            'Success',
+            'Wisdom'
+        ],
+        answer: 'Wisdom',
+        reference: 'Proverbs 11:2'
+    },
+    {
+        id: 428,
+        question: 'What guides the upright (Prov 11:3)?',
+        options: [
+            'Integrity',
+            'The LORD',
+            'Humility',
+            'The light'
+        ],
+        answer: 'Integrity',
+        reference: 'Proverbs 11:3'
+    },
+    {
+        id: 429,
+        question: 'What destroys the unfaithful (Prov 11:3)?',
+        options: [
+            'Their duplicity',
+            'Their foolishness',
+            'Their wickedness',
+            'Their unrighteousness'
+        ],
+        answer: 'Their foolishness',
+        reference: 'Proverbs 11:3'
+    },
+    {
+        id: 430,
+        question: 'What is worthless in the day of wrath (Prov 11:4)?',
+        options: [
+            'Honor',
+            'Integrity',
+            'Wealth',
+            'Pride'
+        ],
+        answer: 'Wealth',
+        reference: 'Proverbs 11:4'
+    },
+    {
+        id: 431,
+        question: 'What is able to deliver one from death (Prov 11:4)?',
+        options: [
+            'Righteousness',
+            'Integrity',
+            'Faithfulness',
+            'Justice'
+        ],
+        answer: 'Righteousness',
+        reference: 'Proverbs 11:4'
+    },
+    {
+        id: 432,
+        question: 'What brings down the wicked (Prov 11:5)?',
+        options: [
+            'Their own wickedness',
+            'The pit that they dug',
+            'The LORD',
+            'The angel of righteousness'
+        ],
+        answer: 'Their own wickedness',
+        reference: 'Proverbs 11:5'
+    },
+    {
+        id: 433,
+        question: 'The righteousness of the blameless does what for them (Prov 11:5)?',
+        options: [
+            'Covers over all wrongs',
+            'Is a blessing',
+            'Gains them respect',
+            'Makes a straight path for them'
+        ],
+        answer: 'Makes a straight path for them',
+        reference: 'Proverbs 11:5'
+    },
+    {
+        id: 434,
+        question: 'Those who are unfaithful are trapped by what (Prov 11:6)?',
+        options: [
+            'Their own unfaithfulness',
+            'The LORD',
+            'A snare',
+            'Evil desires'
+        ],
+        answer: 'Evil desires',
+        reference: 'Proverbs 11:6'
+    },
+    {
+        id: 435,
+        question: 'When a wicked man dies, what else perishes (Prov 11:7)?',
+        options: [
+            'His life',
+            'His slander of the righteous',
+            'His hopes',
+            'His schemes'
+        ],
+        answer: 'His hopes',
+        reference: 'Proverbs 11:7'
+    },
+    {
+        id: 436,
+        question: 'When a righteous man is rescued from trouble, to whom does the trouble go (Prov 11:8)?',
+        options: [
+            'The wicked',
+            'His friend',
+            'His sons',
+            'The godless'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 11:8'
+    },
+    {
+        id: 437,
+        question: 'Through what does the righteous escape (Prov 11:9)?',
+        options: [
+            'A door',
+            'Faith',
+            'Wisdom',
+            'Knowledge'
+        ],
+        answer: 'Knowledge',
+        reference: 'Proverbs 11:9'
+    },
+    {
+        id: 438,
+        question: 'How does the godless destroy his neighbor (Prov 11:9)?',
+        options: [
+            'A snare set for his feet',
+            'With his mouth',
+            'A pit',
+            'With deceit'
+        ],
+        answer: 'With his mouth',
+        reference: 'Proverbs 11:9'
+    },
+    {
+        id: 439,
+        question: 'What causes many people to rejoice (Prov 11:10)?',
+        options: [
+            'A righteous man prospering',
+            'When a gossip is disciplined',
+            'The perishing of a wicked man',
+            'A and C'
+        ],
+        answer: 'A and C',
+        reference: 'Proverbs 11:10'
+    },
+    {
+        id: 440,
+        question: 'What has the ability to destroy a city (Prov 11:11)?',
+        options: [
+            'A man who takes crooked paths',
+            'Famine',
+            'The folly of a fool',
+            'The mouth of the wicked'
+        ],
+        answer: 'The mouth of the wicked',
+        reference: 'Proverbs 11:11'
+    },
+    {
+        id: 441,
+        question: 'What exalts a city (Prov 11:11)?',
+        options: [
+            'The fear of the LORD',
+            'The death of the wicked',
+            'Blessing of the upright',
+            'Accurate scales'
+        ],
+        answer: 'Blessing of the upright',
+        reference: 'Proverbs 11:11'
+    },
+    {
+        id: 442,
+        question: 'What does an understanding man hold (Prov 11:12)?',
+        options: [
+            'His integrity',
+            'Wisdom',
+            'His tongue',
+            'His sword'
+        ],
+        answer: 'His tongue',
+        reference: 'Proverbs 11:12'
+    },
+    {
+        id: 443,
+        question: 'Who derides his neighbor (Prov 11:12)?',
+        options: [
+            'A man who lacks judgment',
+            'A fool',
+            'The wicked',
+            'A poor man'
+        ],
+        answer: 'A man who lacks judgment',
+        reference: 'Proverbs 11:12'
+    },
+    {
+        id: 444,
+        question: 'What kind of person betrays confidence placed in them (Prov 11:13)?',
+        options: [
+            'A wicked man',
+            'A fool',
+            'A worker of iniquity',
+            'A gossip'
+        ],
+        answer: 'A gossip',
+        reference: 'Proverbs 11:13'
+    },
+    {
+        id: 445,
+        question: 'What kind of person keeps a secret (Prov 11:13)?',
+        options: [
+            'Faithful',
+            'Trustworthy',
+            'Righteous',
+            'Wise'
+        ],
+        answer: 'Trustworthy',
+        reference: 'Proverbs 11:13'
+    },
+    {
+        id: 446,
+        question: 'What makes victory sure (Prov 11:14)?',
+        options: [
+            'Numerous advisors',
+            'The arm of the LORD',
+            'Righteousness',
+            'A thousand chariots'
+        ],
+        answer: 'Numerous advisors',
+        reference: 'Proverbs 11:14'
+    },
+    {
+        id: 447,
+        question: 'A nation falls because of what (Prov 11:14)?',
+        options: [
+            'A slanderous mouth',
+            'The deceit of the wicked',
+            'Lack of guidance',
+            'A foolish king'
+        ],
+        answer: 'Lack of guidance',
+        reference: 'Proverbs 11:14'
+    },
+    {
+        id: 448,
+        question: 'What will happen to the one who puts up security for another (Prov 11:15)? They will...',
+        options: [
+            'Suffer',
+            'Be taken advantage of',
+            'Be thought of as a fool',
+            'Regret it'
+        ],
+        answer: 'Suffer',
+        reference: 'Proverbs 11:15'
+    },
+    {
+        id: 449,
+        question: 'Who is safe in a pledge (Prov 11:15)?',
+        options: [
+            'One who has integrity',
+            'One who refuses to strike hands',
+            'One who is silent',
+            'One who is faithful'
+        ],
+        answer: 'One who refuses to strike hands',
+        reference: 'Proverbs 11:15'
+    },
+    {
+        id: 450,
+        question: 'What does a kind-hearted woman gain (Prov 11:16)?',
+        options: [
+            'Honor',
+            'Respect',
+            'Wisdom',
+            'The LORD’s favor'
+        ],
+        answer: 'Respect',
+        reference: 'Proverbs 11:16'
+    },
+    {
+        id: 451,
+        question: 'What is the only thing a ruthless person gains (Prov 11:16)?',
+        options: [
+            'Hatred',
+            'Enemies',
+            'Wealth',
+            'Blows'
+        ],
+        answer: 'Wealth',
+        reference: 'Proverbs 11:16'
+    },
+    {
+        id: 452,
+        question: 'What does a cruel man do (Prov 11:17)?',
+        options: [
+            'Harm the defenseless',
+            'Steal from a widow',
+            'Will be judged harshly in court',
+            'Brings trouble on himself'
+        ],
+        answer: 'Brings trouble on himself',
+        reference: 'Proverbs 11:17'
+    },
+    {
+        id: 453,
+        question: 'Who benefits themselves (Prov 11:17)?',
+        options: [
+            'A kind person',
+            'A righteous person',
+            'A wise person',
+            'Those who control their mouths'
+        ],
+        answer: 'A kind person',
+        reference: 'Proverbs 11:17'
+    },
+    {
+        id: 454,
+        question: 'What must a man sow to reap a sure reward (Prov 11:18)?',
+        options: [
+            'Righteousness',
+            'Wisdom',
+            'Understanding',
+            'Knowledge'
+        ],
+        answer: 'Righteousness',
+        reference: 'Proverbs 11:18'
+    },
+    {
+        id: 455,
+        question: 'What does a wicked man earn (Prov 11:18)?',
+        options: [
+            'Empty barns',
+            'Blows and beatings',
+            'Deceptive wages',
+            'Poverty'
+        ],
+        answer: 'Deceptive wages',
+        reference: 'Proverbs 11:18'
+    },
+    {
+        id: 456,
+        question: 'What must a man be to attain life (Prov 11:19)?',
+        options: [
+            'Truly faithful',
+            'Truly wise',
+            'Truly honest',
+            'Truly righteous'
+        ],
+        answer: 'Truly righteous',
+        reference: 'Proverbs 11:19'
+    },
+    {
+        id: 457,
+        question: 'Who does the LORD delight in (Prov 11:20)?',
+        options: [
+            'Those whose ways are blameless',
+            'Those who make proper sacrifices',
+            'Those who do not accept a bribe',
+            'Those who have integrity'
+        ],
+        answer: 'Those whose ways are blameless',
+        reference: 'Proverbs 11:20'
+    },
+    {
+        id: 458,
+        question: 'What kind of heart does the LORD detest (Prov 11:20)?',
+        options: [
+            'Wicked',
+            'Deceitful',
+            'Perverse',
+            'Miserly'
+        ],
+        answer: 'Perverse',
+        reference: 'Proverbs 11:20'
+    },
+    {
+        id: 459,
+        question: 'Who will not go unpunished (Prov 11:21)?',
+        options: [
+            'Children who disobey their parents',
+            'The workers of iniquity',
+            'The wicked',
+            'The unrighteous'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 11:21'
+    },
+    {
+        id: 460,
+        question: 'Who will be set free (Prov 11:21)?',
+        options: [
+            'The wise',
+            'The righteous',
+            'The one who wins souls',
+            'The generous one'
+        ],
+        answer: 'The righteous',
+        reference: 'Proverbs 11:21'
+    },
+    {
+        id: 461,
+        question: 'What is a gold ring in a pig’s snout similar to (Prov 11:22)?',
+        options: [
+            'Those who take their wealth for granted',
+            'Those who do not thank the LORD for blessings',
+            'A wife who does not obey',
+            'A beautiful woman without discretion'
+        ],
+        answer: 'A beautiful woman without discretion',
+        reference: 'Proverbs 11:22'
+    },
+    {
+        id: 462,
+        question: 'A beautiful woman without discretion is like what (Prov 11:22)?',
+        options: [
+            'A pig with a gold ring in its snout',
+            'A well that is dried up',
+            'Empty clouds during the harvest',
+            'Snow on flowers'
+        ],
+        answer: 'A pig with a gold ring in its snout',
+        reference: 'Proverbs 11:22'
+    },
+    {
+        id: 463,
+        question: 'In what does the desire of the righteous end (Prov 11:23)?',
+        options: [
+            'Good',
+            'Victory',
+            'Faithfulness to the LORD',
+            'Success'
+        ],
+        answer: 'Good',
+        reference: 'Proverbs 11:23'
+    },
+    {
+        id: 464,
+        question: 'What does the hope of the wicked end in (Prov 11:23)?',
+        options: [
+            'Loneliness',
+            'Failure',
+            'Wrath',
+            'Defeat'
+        ],
+        answer: 'Wrath',
+        reference: 'Proverbs 11:23'
+    },
+    {
+        id: 465,
+        question: 'What will come of the man who gives freely of what he has (Prov 11:24)?',
+        options: [
+            'He will come to ruin',
+            'Poverty will seek him',
+            'He gains even more',
+            'Rewards from the LORD'
+        ],
+        answer: 'He gains even more',
+        reference: 'Proverbs 11:24'
+    },
+    {
+        id: 466,
+        question: 'Who comes to poverty (Prov 11:24)?',
+        options: [
+            'The one who gives freely',
+            'The one who withholds unduly',
+            'The one who plots evil',
+            'The one who accepts a bribe'
+        ],
+        answer: 'The one who withholds unduly',
+        reference: 'Proverbs 11:24'
+    },
+    {
+        id: 467,
+        question: 'What happens to him who refreshes others (Prov 11:25)?',
+        options: [
+            'Many travelers come to him',
+            'He must have a well',
+            'He is considered righteous',
+            'He will be refreshed'
+        ],
+        answer: 'He will be refreshed',
+        reference: 'Proverbs 11:25'
+    },
+    {
+        id: 468,
+        question: 'Who will prosper (Prov 11:25)?',
+        options: [
+            'A generous person',
+            'A righteous person',
+            'A wise person',
+            'A faithful person'
+        ],
+        answer: 'A generous person',
+        reference: 'Proverbs 11:25'
+    },
+    {
+        id: 469,
+        question: 'Who is cursed (Prov 11:26)?',
+        options: [
+            'The wicked',
+            'A fool',
+            'One who hoards grain',
+            'One who does not pay tithes'
+        ],
+        answer: 'One who hoards grain',
+        reference: 'Proverbs 11:26'
+    },
+    {
+        id: 470,
+        question: 'The righteous will thrive like a what (Prov 11:28)?',
+        options: [
+            'Wheat in the harvest',
+            'Green leaf',
+            'Tree by streams of water',
+            'Grape on the vine'
+        ],
+        answer: 'Green leaf',
+        reference: 'Proverbs 11:28'
+    },
+    {
+        id: 471,
+        question: 'When one brings trouble on his family, what will he inherit (Prov 11:29)?',
+        options: [
+            'Nothing',
+            'Anger',
+            'Wind',
+            'Only a goat'
+        ],
+        answer: 'Anger',
+        reference: 'Proverbs 11:29'
+    },
+    {
+        id: 472,
+        question: 'Who will be the servant of the wise (Prov 11:29)?',
+        options: [
+            'The wicked',
+            'The one lacking integrity',
+            'The unrighteous',
+            'The fool'
+        ],
+        answer: 'The fool',
+        reference: 'Proverbs 11:29'
+    },
+    {
+        id: 473,
+        question: 'The one winning souls is considered what (Prov 11:30)?',
+        options: [
+            'Wise',
+            'Faithful',
+            'Righteous',
+            'Having integrity'
+        ],
+        answer: 'Wise',
+        reference: 'Proverbs 11:30'
+    }
+],
+'12': [
+    {
+        id: 474,
+        question: 'What are people who hate correction (Prov 12:1)?',
+        options: [
+            'Undisciplined',
+            'Foolish',
+            'Wicked',
+            'Stupid'
+        ],
+        answer: 'Stupid',
+        reference: 'Proverbs 12:1'
+    },
+    {
+        id: 475,
+        question: 'Those who love discipline also love what (Prov 12:1)?',
+        options: [
+            'Wisdom',
+            'Knowledge',
+            'Wealth',
+            'Righteousness'
+        ],
+        answer: 'Knowledge',
+        reference: 'Proverbs 12:1'
+    },
+    {
+        id: 476,
+        question: 'What kind of person does the LORD condemn (Prov 12:2)?',
+        options: [
+            'Wicked',
+            'Crafty',
+            'Deceitful',
+            'Sinful'
+        ],
+        answer: 'Crafty',
+        reference: 'Proverbs 12:2'
+    },
+    {
+        id: 477,
+        question: 'What kind of person does the LORD favor (Prov 12:2)?',
+        options: [
+            'Kind',
+            'Wise',
+            'Good',
+            'Righteous'
+        ],
+        answer: 'Good',
+        reference: 'Proverbs 12:2'
+    },
+    {
+        id: 478,
+        question: 'What can a man not be established through (Prov 12:3)?',
+        options: [
+            'Wealth',
+            'Dishonest scales',
+            'Unrighteousness',
+            'Wickedness'
+        ],
+        answer: 'Wickedness',
+        reference: 'Proverbs 12:3'
+    },
+    {
+        id: 479,
+        question: 'What cannot happen to the righteous (Prov 12:3)?',
+        options: [
+            'They cannot fall',
+            'They cannot be uprooted',
+            'They cannot go hungry',
+            'They cannot be deceived'
+        ],
+        answer: 'They cannot be uprooted',
+        reference: 'Proverbs 12:3'
+    },
+    {
+        id: 480,
+        question: 'What kind of wife is a husband’s crown (Prov 12:4)?',
+        options: [
+            'A wife who obeys',
+            'A wife who is wise',
+            'A wife of noble character',
+            'A wife of honest character'
+        ],
+        answer: 'A wife of noble character',
+        reference: 'Proverbs 12:4'
+    },
+    {
+        id: 481,
+        question: 'What is a disgraceful wife similar to (Prov 12:4)?',
+        options: [
+            'A broken foot',
+            'Decay in the bones',
+            'A headache',
+            'Leprosy'
+        ],
+        answer: 'Decay in the bones',
+        reference: 'Proverbs 12:4'
+    },
+    {
+        id: 482,
+        question: 'What is the advice of the wicked (Prov 12:5)?',
+        options: [
+            'Treacherous',
+            'Evil',
+            'Tempting',
+            'Deceitful'
+        ],
+        answer: 'Deceitful',
+        reference: 'Proverbs 12:5'
+    },
+    {
+        id: 483,
+        question: 'The plans of the righteous are (Prov 12:5)?',
+        options: [
+            'Just',
+            'Wise',
+            'Generous',
+            'Kind'
+        ],
+        answer: 'Just',
+        reference: 'Proverbs 12:5'
+    },
+    {
+        id: 484,
+        question: 'What do the words of the wicked lie in wait for (Prov 12:6)?',
+        options: [
+            'Blood',
+            'The righteous',
+            'The innocent',
+            'Their enemy'
+        ],
+        answer: 'Blood',
+        reference: 'Proverbs 12:6'
+    },
+    {
+        id: 485,
+        question: 'What rescues the upright (Prov 12:6)?',
+        options: [
+            'The plans of the upright',
+            'The way of the upright',
+            'The speech of the upright',
+            'The destruction of the wicked'
+        ],
+        answer: 'The speech of the upright',
+        reference: 'Proverbs 12:6'
+    },
+    {
+        id: 486,
+        question: 'What happens to the house of the righteous (Prov 12:7)?',
+        options: [
+            'It is a strong tower',
+            'It stands firm',
+            'It is blessed by the LORD',
+            'It is protected from the enemy'
+        ],
+        answer: 'It stands firm',
+        reference: 'Proverbs 12:7'
+    },
+    {
+        id: 487,
+        question: 'What is a man praised according to (Prov 12:8)?',
+        options: [
+            'His property',
+            'His wisdom',
+            'His avoidance of folly',
+            'His righteousness'
+        ],
+        answer: 'His wisdom',
+        reference: 'Proverbs 12:8'
+    },
+    {
+        id: 488,
+        question: 'Who are despised (Prov 12:8)?',
+        options: [
+            'People with warped minds',
+            'The wicked who rule',
+            'People who take advantage of the poor',
+            'The slanderer'
+        ],
+        answer: 'People with warped minds',
+        reference: 'Proverbs 12:8'
+    },
+    {
+        id: 489,
+        question: 'It’s better to be nobody and have (Prov 12:9)?',
+        options: [
+            'Food',
+            'A servant',
+            'A faithful wife',
+            'Land'
+        ],
+        answer: 'A servant',
+        reference: 'Proverbs 12:9'
+    },
+    {
+        id: 490,
+        question: 'It’s not good to pretend to be somebody and not have (Prov 12:9).',
+        options: [
+            'A servant',
+            'Land',
+            'Food',
+            'Righteousness'
+        ],
+        answer: 'Food',
+        reference: 'Proverbs 12:9'
+    },
+    {
+        id: 491,
+        question: 'How are the kindest acts of the wicked described (Prov 12:10)?',
+        options: [
+            'A misguided effort',
+            'Deceitful',
+            'Self-centered',
+            'Cruel'
+        ],
+        answer: 'Cruel',
+        reference: 'Proverbs 12:10'
+    },
+    {
+        id: 492,
+        question: 'What does a righteous man care for (Prov 12:10)?',
+        options: [
+            'The needs of his animals',
+            'His family',
+            'The poor without food',
+            'The instruction of his father'
+        ],
+        answer: 'The needs of his animals',
+        reference: 'Proverbs 12:10'
+    },
+    {
+        id: 493,
+        question: 'What will the man who works his field have (Prov 12:11)?',
+        options: [
+            'Abundant food',
+            'A thankful family',
+            'Enough to get through winter',
+            'Wealth from selling'
+        ],
+        answer: 'Abundant food',
+        reference: 'Proverbs 12:11'
+    },
+    {
+        id: 494,
+        question: 'Who lacks judgment (Prov 12:11)?',
+        options: [
+            'One who turns off the path',
+            'One who sleeps during planting',
+            'One who chases fantasies',
+            'One who pretends to be righteous'
+        ],
+        answer: 'One who chases fantasies',
+        reference: 'Proverbs 12:11'
+    },
+    {
+        id: 495,
+        question: 'What do the wicked desire (Prov 12:12)?',
+        options: [
+            'The plunder of upright men',
+            'The plunder of evil men',
+            'The wages of the righteous',
+            'The wages of deceitful ways'
+        ],
+        answer: 'The plunder of evil men',
+        reference: 'Proverbs 12:12'
+    },
+    {
+        id: 496,
+        question: 'What will flourish (Prov 12:12)?',
+        options: [
+            'The leaf of the wise',
+            'The fruit of the generous',
+            'The root of the righteous',
+            'The tree of the diligent'
+        ],
+        answer: 'The root of the righteous',
+        reference: 'Proverbs 12:12'
+    },
+    {
+        id: 497,
+        question: 'What will trap an evil man (Prov 12:13)?',
+        options: [
+            'A pit',
+            'His sinful talk',
+            'The words of a wise man',
+            'A net'
+        ],
+        answer: 'His sinful talk',
+        reference: 'Proverbs 12:13'
+    },
+    {
+        id: 498,
+        question: 'What does the work of a man’s hands do (Prov 12:14)?',
+        options: [
+            'Makes him famous',
+            'Teaches him wisdom',
+            'Makes him wealthy',
+            'Rewards him'
+        ],
+        answer: 'Rewards him',
+        reference: 'Proverbs 12:14'
+    },
+    {
+        id: 499,
+        question: 'What is filled with good things (Prov 12:14)?',
+        options: [
+            'The fruit of a person’s lips',
+            'The fruit of a wise heart',
+            'The house of the righteous',
+            'The home of the virtuous woman'
+        ],
+        answer: 'The fruit of a person’s lips',
+        reference: 'Proverbs 12:14'
+    },
+    {
+        id: 500,
+        question: 'If the way of a fool seems right to him, what do wise men do (Prov 12:15)?',
+        options: [
+            'Give advice to the fool',
+            'Stay out of a fool’s way',
+            'Tell the fool to listen',
+            'Listen to advice'
+        ],
+        answer: 'Listen to advice',
+        reference: 'Proverbs 12:15'
+    },
+    {
+        id: 501,
+        question: 'What seems right to a fool (Prov 12:15)?',
+        options: [
+            'The deceitfulness of riches',
+            'His own way',
+            'The way of the wicked',
+            'The snare of the treacherous'
+        ],
+        answer: 'His own way',
+        reference: 'Proverbs 12:15'
+    },
+    {
+        id: 502,
+        question: 'What will a fool express instantly (Prov 12:16)?',
+        options: [
+            'His folly',
+            'His lack of discernment',
+            'His opinion',
+            'His annoyance'
+        ],
+        answer: 'His annoyance',
+        reference: 'Proverbs 12:16'
+    },
+    {
+        id: 503,
+        question: 'What does a prudent man overlook (Prov 12:16)?',
+        options: [
+            'An insult',
+            'An annoyance',
+            'Injustice',
+            'The wrongs of his enemy'
+        ],
+        answer: 'An insult',
+        reference: 'Proverbs 12:16'
+    },
+    {
+        id: 504,
+        question: 'What does a false witness tell (Prov 12:17)?',
+        options: [
+            'Fiction',
+            'Stories',
+            'Lies',
+            'What he was bribed to tell'
+        ],
+        answer: 'Lies',
+        reference: 'Proverbs 12:17'
+    },
+    {
+        id: 505,
+        question: 'What weapon are reckless words likened to (Prov 12:18)?',
+        options: [
+            'A spear',
+            'A sword',
+            'A club',
+            'A chariot'
+        ],
+        answer: 'A sword',
+        reference: 'Proverbs 12:18'
+    },
+    {
+        id: 506,
+        question: 'What does the tongue of the wise bring (Prov 12:18)?',
+        options: [
+            'Kindness',
+            'Forgiveness',
+            'Friends',
+            'Healing'
+        ],
+        answer: 'Healing',
+        reference: 'Proverbs 12:18'
+    },
+    {
+        id: 507,
+        question: 'What lasts forever (Prov 12:19)?',
+        options: [
+            'The way of the righteous',
+            'The words of the wise',
+            'Truthful lips',
+            'A kindness spoken'
+        ],
+        answer: 'Truthful lips',
+        reference: 'Proverbs 12:19'
+    },
+    {
+        id: 508,
+        question: 'What lasts only for a moment (Prov 12:19)?',
+        options: [
+            'The mocker',
+            'Lying tongue',
+            'Plots of the wicked',
+            'Injustice'
+        ],
+        answer: 'Lying tongue',
+        reference: 'Proverbs 12:19'
+    },
+    {
+        id: 509,
+        question: 'What is in the hearts of those who plot evil (Prov 12:20)?',
+        options: [
+            'Evil desires',
+            'Sin',
+            'Wickedness',
+            'Deceit'
+        ],
+        answer: 'Deceit',
+        reference: 'Proverbs 12:20'
+    },
+    {
+        id: 510,
+        question: 'What kind of person does harm not befall (Prov 12:21)?',
+        options: [
+            'The one with integrity',
+            'Wise',
+            'Just',
+            'Righteous'
+        ],
+        answer: 'Righteous',
+        reference: 'Proverbs 12:21'
+    },
+    {
+        id: 511,
+        question: 'Who has their fill of trouble (Prov 12:21)?',
+        options: [
+            'The wicked',
+            'The unrighteous',
+            'The fool',
+            'Those who lack sense'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 12:21'
+    },
+    {
+        id: 512,
+        question: 'What kind of men does the LORD delight in (Prov 12:22)?',
+        options: [
+            'Those who are caring',
+            'Those who are truthful',
+            'Those who are loving',
+            'Those who are servants of others'
+        ],
+        answer: 'Those who are truthful',
+        reference: 'Proverbs 12:22'
+    },
+    {
+        id: 513,
+        question: 'What does the LORD detest (Prov 12:22)?',
+        options: [
+            'The arm of injustice',
+            'A bribe in the bosom',
+            'Lying lips',
+            'An evil heart'
+        ],
+        answer: 'Lying lips',
+        reference: 'Proverbs 12:22'
+    },
+    {
+        id: 514,
+        question: 'What does the heart of a fool blurt out (Prov 12:23)?',
+        options: [
+            'Folly',
+            'Gossip',
+            'Lies',
+            'Deceit'
+        ],
+        answer: 'Folly',
+        reference: 'Proverbs 12:23'
+    },
+    {
+        id: 515,
+        question: 'Who keeps his knowledge to himself (Prov 12:23)?',
+        options: [
+            'A wise person',
+            'A prudent person',
+            'A righteous person',
+            'A diligent person'
+        ],
+        answer: 'A prudent person',
+        reference: 'Proverbs 12:23'
+    },
+    {
+        id: 516,
+        question: 'What does laziness end in (Prov 12:24)?',
+        options: [
+            'An empty stomach',
+            'Poverty',
+            'Slave labor',
+            'A poor harvest'
+        ],
+        answer: 'Slave labor',
+        reference: 'Proverbs 12:24'
+    },
+    {
+        id: 517,
+        question: 'Diligent hands will (Prov 12:24).',
+        options: [
+            'Have plenty',
+            'Be strong',
+            'Be generous',
+            'Rule'
+        ],
+        answer: 'Rule',
+        reference: 'Proverbs 12:24'
+    },
+    {
+        id: 518,
+        question: 'What does an anxious heart do to a person (Prov 12:25)?',
+        options: [
+            'Makes them worry',
+            'Weighs them down',
+            'Makes them angry',
+            'Makes them turn to the LORD'
+        ],
+        answer: 'Weighs them down',
+        reference: 'Proverbs 12:25'
+    },
+    {
+        id: 519,
+        question: 'What does a kind word do (Prov 12:25)?',
+        options: [
+            'Cheers one up',
+            'Wins friends',
+            'Makes good neighbors',
+            'Soothes the aching heart'
+        ],
+        answer: 'Cheers one up',
+        reference: 'Proverbs 12:25'
+    },
+    {
+        id: 520,
+        question: 'Where does the way of a wicked man lead him (Prov 12:26)?',
+        options: [
+            'Into death',
+            'Into the wilderness',
+            'Astray',
+            'To destruction'
+        ],
+        answer: 'Astray',
+        reference: 'Proverbs 12:26'
+    },
+    {
+        id: 521,
+        question: 'In what is a righteous man cautious (Prov 12:26)?',
+        options: [
+            'His ways',
+            'His friendship',
+            'His servants',
+            'His sleep'
+        ],
+        answer: 'His friendship',
+        reference: 'Proverbs 12:26'
+    },
+    {
+        id: 522,
+        question: 'What does a diligent man do with his possessions (Prov 12:27)?',
+        options: [
+            'Dedicates them to the LORD',
+            'Sells them for a profit',
+            'He prizes them',
+            'He keeps them in good condition'
+        ],
+        answer: 'He prizes them',
+        reference: 'Proverbs 12:27'
+    },
+    {
+        id: 523,
+        question: 'What does a lazy person not do (Prov 12:27)?',
+        options: [
+            'Plow his field',
+            'Weed his garden',
+            'Value his friends',
+            'Roast his game'
+        ],
+        answer: 'Roast his game',
+        reference: 'Proverbs 12:27'
+    }
+],
+'13': [
+    {
+        id: 524,
+        question: 'What does a wise son heed (Prov 13:1)?',
+        options: [
+            'His mother’s instruction',
+            'His father’s instruction',
+            'The LORD’s instruction',
+            'The Law’s instruction'
+        ],
+        answer: 'His father’s instruction',
+        reference: 'Proverbs 13:1'
+    },
+    {
+        id: 525,
+        question: 'What does a mocker not listen to (Prov 13:1)?',
+        options: [
+            'The praise of the LORD',
+            'Rebuke',
+            'Wisdom',
+            'Knowledge'
+        ],
+        answer: 'Rebuke',
+        reference: 'Proverbs 13:1'
+    },
+    {
+        id: 526,
+        question: 'Who does not listen to rebuke (Prov 13:1)?',
+        options: [
+            'The wicked',
+            'A sluggard',
+            'A mocker',
+            'A fool'
+        ],
+        answer: 'A mocker',
+        reference: 'Proverbs 13:1'
+    },
+    {
+        id: 527,
+        question: 'What do the unfaithful crave (Prov 13:2)?',
+        options: [
+            'Violence',
+            'Wickedness',
+            'Unjust wealth',
+            'Blood'
+        ],
+        answer: 'Violence',
+        reference: 'Proverbs 13:2'
+    },
+    {
+        id: 528,
+        question: 'From what does a person enjoy good things (Prov 13:2)?',
+        options: [
+            'From the work of his hands',
+            'From the fruit of his mouth',
+            'From the strength of his back',
+            'From the generosity of his heart'
+        ],
+        answer: 'From the fruit of his mouth',
+        reference: 'Proverbs 13:2'
+    },
+    {
+        id: 529,
+        question: 'What comes upon those who speak rashly (Prov 13:3)?',
+        options: [
+            'Punishment',
+            'Persecution',
+            'Ruin',
+            'Rejection'
+        ],
+        answer: 'Ruin',
+        reference: 'Proverbs 13:3'
+    },
+    {
+        id: 530,
+        question: 'What must a man guard if he wishes to guard his life/soul (Prov 13:3)?',
+        options: [
+            'His heart',
+            'His head',
+            'His lips',
+            'His family'
+        ],
+        answer: 'His lips',
+        reference: 'Proverbs 13:3'
+    },
+    {
+        id: 531,
+        question: 'What does a sluggard get from what he craves (Prov 13:4)?',
+        options: [
+            'Nothing',
+            'An empty stomach',
+            'Disfavor',
+            'Poverty'
+        ],
+        answer: 'Nothing',
+        reference: 'Proverbs 13:4'
+    },
+    {
+        id: 532,
+        question: 'What describes what happens to the desires of the diligent (Prov 13:4)?',
+        options: [
+            'They are fully satisfied',
+            'They result in a joyful heart',
+            'They are not always realized',
+            'They are solid as a rock'
+        ],
+        answer: 'They are fully satisfied',
+        reference: 'Proverbs 13:4'
+    },
+    {
+        id: 533,
+        question: 'What do the wicked bring (Prov 13:5)?',
+        options: [
+            'Resentment and violence',
+            'Rebuke and bloodshed',
+            'Rejection and folly',
+            'Shame and disgrace'
+        ],
+        answer: 'Shame and disgrace',
+        reference: 'Proverbs 13:5'
+    },
+    {
+        id: 534,
+        question: 'What do the righteous hate (Prov 13:5)?',
+        options: [
+            'The ways of the wicked',
+            'What is false',
+            'The shedding of innocent blood',
+            'The fool’s dreams'
+        ],
+        answer: 'What is false',
+        reference: 'Proverbs 13:5'
+    },
+    {
+        id: 535,
+        question: 'What/who guards the man of integrity (Prov 13:6)?',
+        options: [
+            'The LORD',
+            'Knowledge',
+            'Righteousness',
+            'Understanding'
+        ],
+        answer: 'Righteousness',
+        reference: 'Proverbs 13:6'
+    },
+    {
+        id: 536,
+        question: 'What overthrows the sinner (Prov 13:6)?',
+        options: [
+            'Folly',
+            'The righteous',
+            'Guilt',
+            'Wickedness'
+        ],
+        answer: 'Wickedness',
+        reference: 'Proverbs 13:6'
+    },
+    {
+        id: 537,
+        question: 'A person who pretends to be rich may actually have what (Prov 13:7)?',
+        options: [
+            'Wealth',
+            'Large herds',
+            'Nothing',
+            'Regrets'
+        ],
+        answer: 'Nothing',
+        reference: 'Proverbs 13:7'
+    },
+    {
+        id: 538,
+        question: 'One who pretends to be poor may actually have (Prov 13:7).',
+        options: [
+            'Great wealth',
+            'Lands and herds',
+            'Gold',
+            'Pearls'
+        ],
+        answer: 'Great wealth',
+        reference: 'Proverbs 13:7'
+    },
+    {
+        id: 539,
+        question: 'What can a rich man’s wealth be used for (Prov 13:8)?',
+        options: [
+            'Buying herds',
+            'Giving sacrifice',
+            'Lending to the poor',
+            'Ransom his life'
+        ],
+        answer: 'Ransom his life',
+        reference: 'Proverbs 13:8'
+    },
+    {
+        id: 540,
+        question: 'Who hears no threat (Prov 13:8)?',
+        options: [
+            'The fool',
+            'A wicked person',
+            'A poor person',
+            'The lazy'
+        ],
+        answer: 'A poor person',
+        reference: 'Proverbs 13:8'
+    },
+    {
+        id: 541,
+        question: 'What happens to the lamp of the wicked (Prov 13:9)?',
+        options: [
+            'It is blown in the wind',
+            'It is snuffed out',
+            'It lacks oil',
+            'It flickers'
+        ],
+        answer: 'It is snuffed out',
+        reference: 'Proverbs 13:9'
+    },
+    {
+        id: 542,
+        question: 'What shines brightly (Prov 13:9)?',
+        options: [
+            'The light of the righteous',
+            'The lamp of the wise',
+            'The candle of the poor',
+            'The lamp of the widow'
+        ],
+        answer: 'The light of the righteous',
+        reference: 'Proverbs 13:9'
+    },
+    {
+        id: 543,
+        question: 'What is found in those who take advice (Prov 13:10)?',
+        options: [
+            'Righteousness',
+            'Knowledge',
+            'Understanding',
+            'Wisdom'
+        ],
+        answer: 'Wisdom',
+        reference: 'Proverbs 13:10'
+    },
+    {
+        id: 544,
+        question: 'What breeds quarrels (Prov 13:10)?',
+        options: [
+            'Gossip',
+            'Wickedness',
+            'Pride',
+            'Folly'
+        ],
+        answer: 'Pride',
+        reference: 'Proverbs 13:10'
+    },
+    {
+        id: 545,
+        question: 'What dwindles away (Prov 13:11)?',
+        options: [
+            'Dishonest money',
+            'Stolen wine',
+            'Unjust ransom',
+            'Wicked wages'
+        ],
+        answer: 'Dishonest money',
+        reference: 'Proverbs 13:11'
+    },
+    {
+        id: 546,
+        question: 'Who makes money grow (Prov 13:11)?',
+        options: [
+            'The diligent',
+            'One who gathers little by little',
+            'The one who is generous to the poor',
+            'The one who does not accept bribes'
+        ],
+        answer: 'One who gathers little by little',
+        reference: 'Proverbs 13:11'
+    },
+    {
+        id: 547,
+        question: 'What happens with hope that is deferred (Prov 13:12)?',
+        options: [
+            'It is forgotten',
+            'It makes the heart sick',
+            'It turns into fear',
+            'It leads one astray'
+        ],
+        answer: 'It makes the heart sick',
+        reference: 'Proverbs 13:12'
+    },
+    {
+        id: 548,
+        question: 'A longing fulfilled is like a (Prov 13:12).',
+        options: [
+            'Kiss on the lips',
+            'Tree of life',
+            'Spring of water',
+            'Rain in summer'
+        ],
+        answer: 'Tree of life',
+        reference: 'Proverbs 13:12'
+    },
+    {
+        id: 549,
+        question: 'What becomes of the ones who respect a command (Prov 13:13)?',
+        options: [
+            'They are rewarded',
+            'They are promoted',
+            'They will serve in the king’s court',
+            'They will be favored by the LORD'
+        ],
+        answer: 'They are rewarded',
+        reference: 'Proverbs 13:13'
+    },
+    {
+        id: 550,
+        question: 'What happens to the ones who scorn instruction (Prov 13:13)?',
+        options: [
+            'They will wither as a leaf',
+            'They will reap nothing',
+            'They will pay for it',
+            'They will be considered a fool'
+        ],
+        answer: 'They will pay for it',
+        reference: 'Proverbs 13:13'
+    },
+    {
+        id: 551,
+        question: 'What can the teaching of the wise be compared to (Prov 13:14)?',
+        options: [
+            'A fresh stream',
+            'A fountain of life',
+            'A source of knowledge',
+            'Wisdom’s house'
+        ],
+        answer: 'A fountain of life',
+        reference: 'Proverbs 13:14'
+    },
+    {
+        id: 552,
+        question: 'What wins favor (Prov 13:15)?',
+        options: [
+            'Faithfulness',
+            'Loyalty',
+            'Good understanding',
+            'Proper wisdom'
+        ],
+        answer: 'Good understanding',
+        reference: 'Proverbs 13:15'
+    },
+    {
+        id: 553,
+        question: 'What is hard (Prov 13:15)?',
+        options: [
+            'The way of the unfaithful',
+            'The way of the wicked',
+            'The fool’s path',
+            'The path of the poor'
+        ],
+        answer: 'The way of the unfaithful',
+        reference: 'Proverbs 13:15'
+    },
+    {
+        id: 554,
+        question: 'What kind of man acts out of knowledge (Prov 13:16)?',
+        options: [
+            'A prudent man',
+            'A wise man',
+            'A loyal man',
+            'An honest man'
+        ],
+        answer: 'A prudent man',
+        reference: 'Proverbs 13:16'
+    },
+    {
+        id: 555,
+        question: 'What does a fool expose (Prov 13:16)?',
+        options: [
+            'His desire',
+            'His thoughts',
+            'His folly',
+            'His knowledge'
+        ],
+        answer: 'His thoughts',
+        reference: 'Proverbs 13:16'
+    },
+    {
+        id: 556,
+        question: 'Who falls into trouble (Prov 13:17)?',
+        options: [
+            'Evil woman',
+            'A treacherous judge',
+            'A wicked messenger',
+            'A slanderer'
+        ],
+        answer: 'A wicked messenger',
+        reference: 'Proverbs 13:17'
+    },
+    {
+        id: 557,
+        question: 'Who brings healing (Prov 13:17)?',
+        options: [
+            'A trustworthy envoy',
+            'A faithful friend',
+            'A diligent servant',
+            'A generous person'
+        ],
+        answer: 'A trustworthy envoy',
+        reference: 'Proverbs 13:17'
+    },
+    {
+        id: 558,
+        question: 'What happens to one who ignores discipline (Prov 13:18)?',
+        options: [
+            'He repeats his folly',
+            'He is punished',
+            'He comes into poverty',
+            'He forsakes the path'
+        ],
+        answer: 'He comes into poverty',
+        reference: 'Proverbs 13:18'
+    },
+    {
+        id: 559,
+        question: 'Who is honored (Prov 13:18)?',
+        options: [
+            'Whoever listens to wisdom',
+            'Whoever heeds correction',
+            'Whoever turns from unrighteousness',
+            'Whoever prays for the kingdom'
+        ],
+        answer: 'Whoever heeds correction',
+        reference: 'Proverbs 13:18'
+    },
+    {
+        id: 560,
+        question: 'What is a longing fulfilled (Prov 13:19)?',
+        options: [
+            'Sweet to the soul',
+            'Satisfying',
+            'Sinful',
+            'Full of pleasure'
+        ],
+        answer: 'Sweet to the soul',
+        reference: 'Proverbs 13:19'
+    },
+    {
+        id: 561,
+        question: 'What does a fool detest (Prov 13:19)?',
+        options: [
+            'Righteousness',
+            'Rebuke',
+            'Instruction',
+            'Turning from evil'
+        ],
+        answer: 'Turning from evil',
+        reference: 'Proverbs 13:19'
+    },
+    {
+        id: 562,
+        question: 'Who becomes wise (Prov 13:20)?',
+        options: [
+            'One who walks with the wise',
+            'One who does not listen to folly',
+            'One who pursues justice',
+            'One who cares for the poor'
+        ],
+        answer: 'One who walks with the wise',
+        reference: 'Proverbs 13:20'
+    },
+    {
+        id: 563,
+        question: 'Who will suffer harm (Prov 13:20)?',
+        options: [
+            'A wicked judge',
+            'A companion of fools',
+            'An evil messenger',
+            'A lazy person'
+        ],
+        answer: 'A companion of fools',
+        reference: 'Proverbs 13:20'
+    },
+    {
+        id: 564,
+        question: 'What pursues the sinner (Prov 13:21)?',
+        options: [
+            'Wild beasts',
+            'Evil deeds',
+            'Misfortune',
+            'Paths of doom'
+        ],
+        answer: 'Misfortune',
+        reference: 'Proverbs 13:21'
+    },
+    {
+        id: 565,
+        question: 'What is the reward of the righteous (Prov 13:21)?',
+        options: [
+            'Life eternal',
+            'Mercy',
+            'Hope',
+            'Prosperity'
+        ],
+        answer: 'Prosperity',
+        reference: 'Proverbs 13:21'
+    },
+    {
+        id: 566,
+        question: 'What does a good man leave for his children (Prov 13:22)?',
+        options: [
+            'Wisdom',
+            'Discipline',
+            'Protection',
+            'Inheritance'
+        ],
+        answer: 'Inheritance',
+        reference: 'Proverbs 13:22'
+    },
+    {
+        id: 567,
+        question: 'For whom is the wicked’s wealth stored up (Prov 13:22)?',
+        options: [
+            'The righteous',
+            'The wise',
+            'The diligent',
+            'The one walking in integrity'
+        ],
+        answer: 'The righteous',
+        reference: 'Proverbs 13:22'
+    },
+    {
+        id: 568,
+        question: 'What sweeps away a poor man’s crop (Prov 13:23)?',
+        options: [
+            'The rich',
+            'A flood',
+            'Injustice',
+            'The wicked'
+        ],
+        answer: 'Injustice',
+        reference: 'Proverbs 13:23'
+    },
+    {
+        id: 569,
+        question: 'Whose field may produce abundant food (Prov 13:23)?',
+        options: [
+            'The diligent',
+            'The righteous',
+            'The wise',
+            'The poor'
+        ],
+        answer: 'The poor',
+        reference: 'Proverbs 13:23'
+    },
+    {
+        id: 570,
+        question: 'What is a man doing if he spares the rod (Prov 13:24)?',
+        options: [
+            'Punishing his son',
+            'Spoiling his son',
+            'Hating his son',
+            'Neglecting his son'
+        ],
+        answer: 'Hating his son',
+        reference: 'Proverbs 13:24'
+    },
+    {
+        id: 571,
+        question: 'What do the righteous eat to (Prov 13:25)?',
+        options: [
+            'Health',
+            'Their heart’s content',
+            'To the king',
+            'To the LORD'
+        ],
+        answer: 'Their heart’s content',
+        reference: 'Proverbs 13:25'
+    },
+    {
+        id: 572,
+        question: 'Whose stomach goes hungry (Prov 13:25)?',
+        options: [
+            'The unrighteous',
+            'The unfaithful',
+            'The one who lacks integrity',
+            'The wicked'
+        ],
+        answer: 'The wicked',
+        reference: 'Proverbs 13:25'
+    }
+],
+'14': [
+  {
+    id: 573,
+    question: 'What does the wise woman do to her house (Prov14:1)?',
+    options: ['Rules it', 'Serves it', 'Builds it', 'Controls it'],
+    answer: 'Builds it',
+    reference: 'Proverbs 14:1'
+  },
+  {
+    id: 574,
+    question: 'What does a foolish woman do to her house (Prov 14:1)?',
+    options: ['Controls it', 'Tears it down', 'Abandons it', 'Does not care for it'],
+    answer: 'Tears it down',
+    reference: 'Proverbs 14:1'
+  },
+  {
+    id: 575,
+    question: 'He whose walk is upright does what (Prov 14:2)?',
+    options: ['Fears the Lord', 'Honors his parents', 'Respects the king', 'Worships God'],
+    answer: 'Fears the Lord',
+    reference: 'Proverbs 14:2'
+  },
+  {
+    id: 576,
+    question: 'Who despises the LORD (Prov 14:2)?',
+    options: ['One who walks on wicked paths', 'The sluggard', 'The quick tempered person', 'One whose ways are devious'],
+    answer: 'One whose ways are devious',
+    reference: 'Proverbs 14:2'
+  },
+  {
+    id: 577,
+    question: 'What protects the wise (Prov 14:3)?',
+    options: ['His weapons', 'His friends', 'The LORD', 'His lips'],
+    answer: 'His lips',
+    reference: 'Proverbs 14:3'
+  },
+  {
+    id: 578,
+    question: "What brings a rod to the fool's back (Prov 14:3)?",
+    options: ["A fool's laughter", "A fool's delight", "A fool's talk", "A fool's way"],
+    answer: "A fool's talk",
+    reference: 'Proverbs 14:3'
+  },
+  {
+    id: 579,
+    question: 'What comes from the strength of an ox (Prov 14:4)?',
+    options: ['Good meat', 'A good harvest', 'A lot of work', 'A plowed field'],
+    answer: 'A good harvest',
+    reference: 'Proverbs 14:4'
+  },
+  {
+    id: 580,
+    question: 'When is the manger empty (Prov 14:4)?',
+    options: ['When there are no oxen', 'When there are no servants', 'When one does not fear the LORD', 'When the sluggard plows the field'],
+    answer: 'When there are no oxen',
+    reference: 'Proverbs 14:4'
+  },
+  {
+    id: 581,
+    question: 'What does a false witness do (Prov 14:5)?',
+    options: ['Pours out lies', 'Deceives many', 'Fools only himself', 'Slips on the path of the righteous'],
+    answer: 'Pours out lies',
+    reference: 'Proverbs 14:5'
+  },
+  {
+    id: 582,
+    question: 'What comes easily to the discerning (Prov 14:6)?',
+    options: ['Wisdom', 'Understanding', 'Instruction', 'Knowledge'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 14:6'
+  },
+  {
+    id: 583,
+    question: 'Who seeks wisdom but cannot find it (Prov 14:6)?',
+    options: ['The sluggard', 'The wicked', 'The mocker', 'The simple'],
+    answer: 'The mocker',
+    reference: 'Proverbs 14:6'
+  },
+  {
+    id: 584,
+    question: 'What kind of person does not have knowledge on his lips (Prov 14:7)?',
+    options: ['A deceiver', 'A fool', 'A quick-tempered person', 'A sluggard'],
+    answer: 'A fool',
+    reference: 'Proverbs 14:7'
+  },
+  {
+    id: 585,
+    question: 'What is the folly of fools (Prov 14:8)?',
+    options: ['Destruction', 'Evil', 'Flattery', 'Deception'],
+    answer: 'Deception',
+    reference: 'Proverbs 14:8'
+  },
+  {
+    id: 586,
+    question: 'The wisdom of the prudent is to do what (Prov 14:8)?',
+    options: ['Listen to advice', 'Store up goods in the harvest', 'Give thought to their ways', 'Be kind to the needy'],
+    answer: 'Give thought to their ways',
+    reference: 'Proverbs 14:8'
+  },
+  {
+    id: 587,
+    question: 'What do fools mock at (Prov 14:9)?',
+    options: ['The wise', 'The just', 'Making amends for sin', 'Those who instruct them'],
+    answer: 'Making amends for sin',
+    reference: 'Proverbs 14:9'
+  },
+  {
+    id: 588,
+    question: 'What is found among the upright (Prov 14:9)?',
+    options: ['Good will', 'Blessedness', 'A full barn', 'Wisdom'],
+    answer: 'Good will',
+    reference: 'Proverbs 14:9'
+  },
+  {
+    id: 589,
+    question: "Who can share a heart's joy (Prov 14:10)?",
+    options: ['Another heart', 'Another joyful person', 'No one', 'True friends'],
+    answer: 'No one',
+    reference: 'Proverbs 14:10'
+  },
+  {
+    id: 590,
+    question: 'What will flourish (Prov 14:11)?',
+    options: ['The field of the righteous', 'The vine of the wise', 'The children of the diligent', 'The tent of the upright'],
+    answer: 'The tent of the upright',
+    reference: 'Proverbs 14:11'
+  },
+  {
+    id: 591,
+    question: 'What will happen to the tent of the upright (Prov 14:11)?',
+    options: ['It will flourish', 'It will give protection', 'It will last forever', 'It will be secure'],
+    answer: 'It will flourish',
+    reference: 'Proverbs 14:11'
+  },
+  {
+    id: 592,
+    question: 'What will happen to the house of the wicked (Prov 14:11)?',
+    options: ['It will be blown away', 'It will be destroyed', 'It will collapse', 'It will be eaten by moths'],
+    answer: 'It will be destroyed',
+    reference: 'Proverbs 14:11'
+  },
+  {
+    id: 593,
+    question: 'Where does the way that seems right to man end (Prov 14:12)?',
+    options: ['Destruction', 'Deception', 'Deprivation', 'Death'],
+    answer: 'Death',
+    reference: 'Proverbs 14:12'
+  },
+  {
+    id: 594,
+    question: 'What might joy end in (Prov 14:13)?',
+    options: ['Fear', 'Wrath', 'Grief', 'Death'],
+    answer: 'Grief',
+    reference: 'Proverbs 14:13'
+  },
+  {
+    id: 595,
+    question: 'When may the heart ache (Prov 14:13)?',
+    options: ['In laughter', 'In grief', 'In rage', 'In disappointment'],
+    answer: 'In laughter',
+    reference: 'Proverbs 14:13'
+  },
+  {
+    id: 596,
+    question: 'Who will get something back for the way that they act (Prov 14:14)?',
+    options: ['The faithless person and the foolish person', 'The foolish person and the good person', 'The good person and the faithless person', 'The wicked person and the righteous person'],
+    answer: 'The good person and the faithless person',
+    reference: 'Proverbs 14:14'
+  },
+  {
+    id: 597,
+    question: 'What does a simple man believe (Prov 14:15)?',
+    options: ['What his father tells him', 'He will live forever', 'Anything', 'Nothing'],
+    answer: 'Anything',
+    reference: 'Proverbs 14:15'
+  },
+  {
+    id: 598,
+    question: 'Who believes anything (Prov 14:15)?',
+    options: ['The wicked', 'The lazy', 'The unfaithful', 'The simple'],
+    answer: 'The simple',
+    reference: 'Proverbs 14:15'
+  },
+  {
+    id: 599,
+    question: 'What/who does a wise man fear (Prov 14:16)?',
+    options: ['The LORD', 'A bad harvest', 'A fool', 'The wicked in his path'],
+    answer: 'The LORD',
+    reference: 'Proverbs 14:16'
+  },
+  {
+    id: 600,
+    question: 'The wise man who fears the LORD does what (Prov 14:16)?',
+    options: ['Turns to wise paths', 'Shuns evil', 'Walks in the way of good people', 'Listens to advice'],
+    answer: 'Shuns evil',
+    reference: 'Proverbs 14:16'
+  },
+  {
+    id: 601,
+    question: 'A fool is hotheaded and (Prov 14:16)?',
+    options: ['Deceitful', 'Lazy', 'Reckless', 'Gullible'],
+    answer: 'Reckless',
+    reference: 'Proverbs 14:16'
+  },
+  {
+    id: 602,
+    question: 'Among his community, a crafty man is what (Prov 14:17)?',
+    options: ['Feared', 'Hated', 'Gossiped about', 'Loathed'],
+    answer: 'Hated',
+    reference: 'Proverbs 14:17'
+  },
+  {
+    id: 603,
+    question: 'Who does foolish things (Prov 14:17)?',
+    options: ['A quick-tempered person', 'A simpleton', 'The wicked', 'The one whose mouth is full of deceit'],
+    answer: 'A quick-tempered person',
+    reference: 'Proverbs 14:17'
+  },
+  {
+    id: 604,
+    question: 'What are the prudent crowned with (Prov 14:18)?',
+    options: ['Gold', 'Silver', 'Knowledge', 'Wisdom'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 14:18'
+  },
+  {
+    id: 605,
+    question: 'What do the simple inherit (Prov 14:18)?',
+    options: ['Destruction', 'Misfortune', 'Folly', 'Quarrels'],
+    answer: 'Folly',
+    reference: 'Proverbs 14:18'
+  },
+  {
+    id: 606,
+    question: 'Where will the wicked bow down (Prov 14:19)?',
+    options: ['Before the gates of heaven', 'Before the gates of the righteous', 'Before the king', 'Before the LORD'],
+    answer: 'Before the gates of the righteous',
+    reference: 'Proverbs 14:19'
+  },
+  {
+    id: 607,
+    question: 'Evil people will bow down before (Prov 14:19)?',
+    options: ['The wise', 'The righteous', 'The person of integrity', 'The good'],
+    answer: 'The good',
+    reference: 'Proverbs 14:19'
+  },
+  {
+    id: 608,
+    question: 'Who are shunned even by their neighbors (Prov 14:20)?',
+    options: ['The poor', 'Lepers', 'Wicked', 'Orphans'],
+    answer: 'The poor',
+    reference: 'Proverbs 14:20'
+  },
+  {
+    id: 609,
+    question: 'Who have many friends (Prov 14:20)?',
+    options: ['The wicked', 'The wealthy', 'The generous', 'The gossip'],
+    answer: 'The wealthy',
+    reference: 'Proverbs 14:20'
+  },
+  {
+    id: 610,
+    question: 'Who is blessed (Prov 14:21)?',
+    options: ['The one who gives bread to widows', 'The one who cares for the lepers', 'The one who is kind to the needy', 'The one who turns from iniquity'],
+    answer: 'The one who is kind to the needy',
+    reference: 'Proverbs 14:21'
+  },
+  {
+    id: 611,
+    question: 'Who sins (Prov 14:21)?',
+    options: ['One who leaves the straight paths', 'One who ignores discipline', 'One who speaks deceit from the heart', 'One who despises his neighbor'],
+    answer: 'One who despises his neighbor',
+    reference: 'Proverbs 14:21'
+  },
+  {
+    id: 612,
+    question: 'What do those who plan for the good find (Prov 14:22)?',
+    options: ['Love and faithfulness', 'Love and kindness', 'Faithfulness and wisdom', 'Kindness and friends'],
+    answer: 'Love and faithfulness',
+    reference: 'Proverbs 14:22'
+  },
+  {
+    id: 613,
+    question: 'Who go astray (Prov 14:22)?',
+    options: ['Those whose words pierce like a sword', 'Those who pretend to be poor', 'Those who plot evil', 'Those who set traps for the righteous'],
+    answer: 'Those who plot evil',
+    reference: 'Proverbs 14:22'
+  },
+  {
+    id: 614,
+    question: 'What does all hard work lead to (Prov 14:23)?',
+    options: ['A profit', 'A full barn', 'A field plowed', 'A blessing from the LORD'],
+    answer: 'A profit',
+    reference: 'Proverbs 14:23'
+  },
+  {
+    id: 615,
+    question: 'What leads to poverty (Prov 14:23)?',
+    options: ['Wickedness', 'Talk', 'Laziness', 'Folly'],
+    answer: 'Talk',
+    reference: 'Proverbs 14:23'
+  },
+  {
+    id: 616,
+    question: 'What is the crown of the wise (Prov 14:24)?',
+    options: ['Their wisdom', 'Their wealth', 'Their servants', 'Their wife'],
+    answer: 'Their wealth',
+    reference: 'Proverbs 14:24'
+  },
+  {
+    id: 617,
+    question: 'What does the folly of fools yield (Prov 14:24)?',
+    options: ['Evil', 'Deceit', 'Folly', 'Poverty'],
+    answer: 'Folly',
+    reference: 'Proverbs 14:24'
+  },
+  {
+    id: 618,
+    question: 'What does a truthful witness save (Prov 14:25)?',
+    options: ['Money', 'Time', 'Lives', 'A city'],
+    answer: 'Lives',
+    reference: 'Proverbs 14:25'
+  },
+  {
+    id: 619,
+    question: 'Who has a secure fortress (Prov 14:26)?',
+    options: ['A wise king', 'He who walks with the upright', 'He who sacrifices to God', 'He who fears the LORD'],
+    answer: 'He who fears the LORD',
+    reference: 'Proverbs 14:26'
+  },
+  {
+    id: 620,
+    question: 'The fear of the LORD is a (Prov 14:27).',
+    options: ['Tree of life', 'Path of life', 'Fountain of life', 'River of life'],
+    answer: 'Fountain of life',
+    reference: 'Proverbs 14:27'
+  },
+  {
+    id: 621,
+    question: 'What does the fear of the LORD turn a man from (Prov 14:27)?',
+    options: ['The snares of death', 'The pit set for him', 'Sinfulness', 'Foolishness'],
+    answer: 'The snares of death',
+    reference: 'Proverbs 14:27'
+  },
+  {
+    id: 622,
+    question: 'What does a prince need to keep from being ruined (Prov 14:28)?',
+    options: ['Wealth', 'Advisors', 'Subjects', 'Wisdom'],
+    answer: 'Subjects',
+    reference: 'Proverbs 14:28'
+  }
+],
+'15': [
+  {
+    id: 623,
+    question: 'What turns away wrath (Prov 15:1)?',
+    options: ['A gentle answer', 'A gift', 'A smooth word', 'The words of the wise'],
+    answer: 'A gentle answer',
+    reference: 'Proverbs 15:1'
+  },
+  {
+    id: 624,
+    question: 'What stirs up anger (Prov 15:1)?',
+    options: ['Violence', 'The tongue of the wicked', 'A gossip', 'Harsh words'],
+    answer: 'Harsh words',
+    reference: 'Proverbs 15:1'
+  },
+  {
+    id: 625,
+    question: 'What does the tongue of the wise commend (Prov 15:2)?',
+    options: ['A fool', 'A servant', 'Knowledge', 'Understanding'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 15:2'
+  },
+  {
+    id: 626,
+    question: 'What does the mouth of a fool do (Prov 15:2)?',
+    options: ['Says nothing', 'Gushes folly', 'Speaks lies and deceit', 'Lays a trap for the righteous'],
+    answer: 'Gushes folly',
+    reference: 'Proverbs 15:2'
+  },
+  {
+    id: 627,
+    question: 'Where are the eyes of the LORD (Prov 15:3)?',
+    options: ['In heaven', 'On earth', 'Everywhere', 'On the hearts of men'],
+    answer: 'Everywhere',
+    reference: 'Proverbs 15:3'
+  },
+  {
+    id: 628,
+    question: 'The eyes of the LORD keep watch on (Prov 15:3).',
+    options: ['The wise and the fool', 'The righteous and unrighteous', 'The faithful and the diligent', 'The wicked and the good'],
+    answer: 'The wicked and the good',
+    reference: 'Proverbs 15:3'
+  },
+  {
+    id: 629,
+    question: 'What does a deceitful tongue do (Prov 15:4)?',
+    options: ['Gathers lies', 'Expresses hatred', 'Crushes the spirit', 'Sends the innocent to death'],
+    answer: 'Crushes the spirit',
+    reference: 'Proverbs 15:4'
+  },
+  {
+    id: 630,
+    question: 'The tongue that brings healing is (Prov 15:4).',
+    options: ['A tree of life', 'A gentle breeze', 'A well of water', 'A desert rose'],
+    answer: 'A tree of life',
+    reference: 'Proverbs 15:4'
+  },
+  {
+    id: 631,
+    question: 'What does a fool spurn (Prov 15:5)?',
+    options: ["His mother's instruction", "His father's discipline", 'A wise rebuke', 'The fear of the LORD'],
+    answer: "His father's discipline",
+    reference: 'Proverbs 15:5'
+  },
+  {
+    id: 632,
+    question: 'Whoever heeds correction show their (Prov 15:5).',
+    options: ['Wisdom', 'Integrity', 'Righteousness', 'Prudence'],
+    answer: 'Prudence',
+    reference: 'Proverbs 15:5'
+  },
+  {
+    id: 633,
+    question: 'What does the house of a the righteous contain (Prov 15:6)?',
+    options: ['An altar to the LORD', 'A righteous man', 'Wisdom', 'Great treasure'],
+    answer: 'Great treasure',
+    reference: 'Proverbs 15:6'
+  },
+  {
+    id: 634,
+    question: 'What does the income of the wicked bring them (Prov 15:6)?',
+    options: ['Deceitful gain', 'Trouble', 'Poverty', 'The grave'],
+    answer: 'Trouble',
+    reference: 'Proverbs 15:6'
+  },
+  {
+    id: 635,
+    question: 'What do the hearts of fools not spread (Prov 15:7)?',
+    options: ['Knowledge', 'Wisdom', 'Understanding', 'Kindness'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 15:7'
+  },
+  {
+    id: 636,
+    question: 'What do the lips of the wise do (Prov 15:7)?',
+    options: ['Honor the LORD', 'Encourage the poor', 'Spread knowledge', 'Speak only what is fitting'],
+    answer: 'Spread knowledge',
+    reference: 'Proverbs 15:7'
+  },
+  {
+    id: 637,
+    question: 'Whose prayer pleases the LORD (Prov 15:8)?',
+    options: ['The prayer of the upright', 'The prayer of the poor', 'The prayer of the king', 'The prayer of the wise'],
+    answer: 'The prayer of the upright',
+    reference: 'Proverbs 15:8'
+  },
+  {
+    id: 638,
+    question: 'What does the LORD detest (Prov 15:8)?',
+    options: ['The prayers of the proud', 'The vows of the foolish', 'The slander of the arrogant', 'The sacrifice of the wicked'],
+    answer: 'The sacrifice of the wicked',
+    reference: 'Proverbs 15:8'
+  },
+  {
+    id: 639,
+    question: "Whose way does the LORD detest (Prov 15:9)?",
+    options: ['The fool', 'The wicked', 'The deceiver', 'The haughty'],
+    answer: 'The wicked',
+    reference: 'Proverbs 15:9'
+  },
+  {
+    id: 640,
+    question: 'Who does the LORD love (Prov 15:9)?',
+    options: ['Those who help the poor', 'The one who believes in him', 'The patient person', 'The one who pursues righteousness'],
+    answer: 'The one who pursues righteousness',
+    reference: 'Proverbs 15:9'
+  },
+  {
+    id: 641,
+    question: 'What awaits him who leaves the path (Prov 15:10)?',
+    options: ['An ambush', 'A pit', 'Stern discipline', 'A viper'],
+    answer: 'Stern discipline',
+    reference: 'Proverbs 15:10'
+  },
+  {
+    id: 642,
+    question: 'The one who hates correction will (Prov 15:10)?',
+    options: ['Die', 'Become a fool', 'Suffer damage', 'Bring trouble on himself'],
+    answer: 'Die',
+    reference: 'Proverbs 15:10'
+  },
+  {
+    id: 643,
+    question: 'Complete the sentence--The heart of men… (Prov 15:11)?',
+    options: ['Is full of evil desires', 'Is deceitful', 'Lie open before the LORD', 'Pursues folly'],
+    answer: 'Lie open before the LORD',
+    reference: 'Proverbs 15:11'
+  },
+  {
+    id: 644,
+    question: 'What lies open before the LORD (Prov 15:11)?',
+    options: ['The wicked and the righteous', 'The king and the servant', 'Calamity and famine', 'Death and destruction'],
+    answer: 'Death and destruction',
+    reference: 'Proverbs 15:11'
+  },
+  {
+    id: 645,
+    question: 'Who will a mocker not consult (Prov 15:12)?',
+    options: ['The wise', 'The upright', 'His father', 'The LORD'],
+    answer: 'The wise',
+    reference: 'Proverbs 15:12'
+  },
+  {
+    id: 646,
+    question: 'What does a mocker resent (Prov 15:12)?',
+    options: ['The righteous', 'Truth', 'Correction', 'The advise of the wise'],
+    answer: 'Correction',
+    reference: 'Proverbs 15:12'
+  },
+  {
+    id: 647,
+    question: 'What does a happy heart do to the face (Prov 15:13)?',
+    options: ['Makes it cheerful', 'Makes it smile', 'Makes it brighten', 'Makes it laugh'],
+    answer: 'Makes it cheerful',
+    reference: 'Proverbs 15:13'
+  },
+  {
+    id: 648,
+    question: 'What does a heartache do to a person (Prov 15:13)?',
+    options: ['Saddens the face', 'Brings them to the grave', 'Crushes the spirit', 'Clothes them with sackcloth'],
+    answer: 'Crushes the spirit',
+    reference: 'Proverbs 15:13'
+  },
+  {
+    id: 649,
+    question: 'What does the discerning heart seek (Prov 15:14)?',
+    options: ['Wisdom', 'Knowledge', 'Truthfulness', 'Fulfilment'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 15:14'
+  },
+  {
+    id: 650,
+    question: 'What does the mouth of the fool feed on (Prov 15:14)?',
+    options: ['The blood of the innocent', 'Sour grapes', 'Slander', 'Folly'],
+    answer: 'Folly',
+    reference: 'Proverbs 15:14'
+  },
+  {
+    id: 651,
+    question: 'What does the cheerful heart have (Prov 15:15)?',
+    options: ['A fattened calf', 'Wisdom', 'A continual feast', 'An sweet odor to the LORD'],
+    answer: 'A continual feast',
+    reference: 'Proverbs 15:15'
+  },
+  {
+    id: 652,
+    question: 'Whose days are wretched (Prov 15:15)?',
+    options: ['The oppressed', 'The wicked', 'The unjust', 'The fool'],
+    answer: 'The oppressed',
+    reference: 'Proverbs 15:15'
+  },
+  {
+    id: 653,
+    question: 'What is better than great wealth with turmoil (Prov 15:16)?',
+    options: ['Little wealth with blessings', 'Little wealth with fear of the LORD', 'Little wealth with quietness', 'Little wealth with turmoil'],
+    answer: 'Little wealth with fear of the LORD',
+    reference: 'Proverbs 15:16'
+  },
+  {
+    id: 654,
+    question: 'A meal of vegetables with love is better than what (Prov 15:17)?',
+    options: ['A sacrifice with hatred', 'A fattened calf with hatred', 'A meal of vegetables with discontent', 'A meal with a fool'],
+    answer: 'A fattened calf with hatred',
+    reference: 'Proverbs 15:17'
+  },
+  {
+    id: 655,
+    question: 'What is better than a fattened calf with hatred (Prov 15:17)?',
+    options: ['A goat with kindness', 'A grasshopper with peace', 'A milk and honey with harmony', 'A meal of vegetables with love'],
+    answer: 'A meal of vegetables with love',
+    reference: 'Proverbs 15:17'
+  },
+  {
+    id: 656,
+    question: 'What does a patient man do (Prov 15:18)?',
+    options: ['Instructs the impatient man', 'Soothes an angry wife', 'Comes before the king', 'Calms a quarrel'],
+    answer: 'Calms a quarrel',
+    reference: 'Proverbs 15:18'
+  },
+  {
+    id: 657,
+    question: 'What does a hot-tempered person do (Prov 15:18)?',
+    options: ['Stirs up dissension', 'Slanders his neighbor', 'Damages his family', 'Walks in foolish ways'],
+    answer: 'Stirs up dissension',
+    reference: 'Proverbs 15:18'
+  },
+  {
+    id: 658,
+    question: 'What blocks the way of a sluggard (Prov 15:19)?',
+    options: ['Lions', 'Thorns', 'A wall', 'Bars'],
+    answer: 'Thorns',
+    reference: 'Proverbs 15:19'
+  },
+  {
+    id: 659,
+    question: 'What is a highway (Prov 15:19)?',
+    options: ['The way of the faithful', 'The path of the righteous', 'The path of the upright', 'The way of the wise'],
+    answer: 'The path of the upright',
+    reference: 'Proverbs 15:19'
+  },
+  {
+    id: 660,
+    question: 'Who does a wise son bring joy to (Prov 15:20)?',
+    options: ['The LORD', 'His mother', 'His father', 'The king'],
+    answer: 'His father',
+    reference: 'Proverbs 15:20'
+  },
+  {
+    id: 661,
+    question: 'Who does a foolish man despise (Prov 15:20)?',
+    options: ['His father', 'His mother', 'The king', 'The wise'],
+    answer: 'His mother',
+    reference: 'Proverbs 15:20'
+  },
+  {
+    id: 662,
+    question: 'What delights a man who lacks judgment (Prov 15:21)?',
+    options: ['The downfall of the wicked', 'The downfall of the upright', 'Folly', 'Wisdom'],
+    answer: 'Folly',
+    reference: 'Proverbs 15:21'
+  },
+  {
+    id: 663,
+    question: 'What does a man of understanding keep (Prov 15:21)?',
+    options: ['His word', 'The precepts of his father', 'The commandments of the LORD', 'A straight course'],
+    answer: 'A straight course',
+    reference: 'Proverbs 15:21'
+  },
+  {
+    id: 664,
+    question: 'Why do plans fail (Prov 15:22)?',
+    options: ['For lack of wisdom', 'For lack of counsel', 'For lack of supporters', 'They lack the blessing of the LORD'],
+    answer: 'For lack of counsel',
+    reference: 'Proverbs 15:22'
+  },
+  {
+    id: 665,
+    question: 'When do plans succeed (Prov 15:22)?',
+    options: ['When there are many advisors', 'When the LORD prospers them', 'When wisdom rules', 'When they are guided by righteousness'],
+    answer: 'When there are many advisors',
+    reference: 'Proverbs 15:22'
+  },
+  {
+    id: 666,
+    question: 'What is good (Prov 15:23)?',
+    options: ['An honest scale', 'The instruction of the wise', 'A timely word', 'A friend in a time of need'],
+    answer: 'A timely word',
+    reference: 'Proverbs 15:23'
+  },
+  {
+    id: 667,
+    question: 'In what does a person find joy (Prov 15:23)?',
+    options: ['The ways of the righteous', 'Advise from a friend', 'When their plans succeed', 'In giving an apt reply'],
+    answer: 'In giving an apt reply',
+    reference: 'Proverbs 15:23'
+  },
+  {
+    id: 668,
+    question: 'Where does the path of the wise lead (Prov 15:24)?',
+    options: ['To the LORD', 'Upward', 'To the life', 'Away from folly'],
+    answer: 'Upward',
+    reference: 'Proverbs 15:24'
+  },
+  {
+    id: 669,
+    question: 'Whose boundaries does the LORD keep intact (Prov 15:25)?',
+    options: ["The widow's", 'The oppressed', "The wise person's", "The patient person's"],
+    answer: "The widow's",
+    reference: 'Proverbs 15:25'
+  },
+  {
+    id: 670,
+    question: "Whose house does the LORD tear down (Prov 15:25)?",
+    options: ["The wicked's", "The false witness'", "The proud's", "The deceitful's"],
+    answer: "The proud's",
+    reference: 'Proverbs 15:25'
+  },
+  {
+    id: 671,
+    question: 'Whose thoughts does the LORD detest (Prov 15:26)?',
+    options: ['The unjust', 'The fool', 'The corrupted man', 'The wicked man'],
+    answer: 'The wicked man',
+    reference: 'Proverbs 15:26'
+  },
+  {
+    id: 672,
+    question: 'What are pleasing to the LORD (Prov 15:26)?',
+    options: ['The way of the righteous', 'The thoughts of the pure', 'The sacrifice of the upright', 'The house of the wise'],
+    answer: 'The thoughts of the pure',
+    reference: 'Proverbs 15:26'
+  }
+],
+'16': [
+  {
+    id: 673,
+    question: 'Who do the plans of the heart belong to (Prov. 16:1)?',
+    options: ['Man', 'The LORD', 'Children', 'Wisdom'],
+    answer: 'Man',
+    reference: 'Proverbs 16:1'
+  },
+  {
+    id: 674,
+    question: 'Who does the reply of the tongue come from (Prov. 16:1)?',
+    options: ['Man', 'The LORD', 'The heart', 'Wisdom'],
+    answer: 'The LORD',
+    reference: 'Proverbs 16:1'
+  },
+  {
+    id: 675,
+    question: 'How do a man’s ways seem to him (Prov. 16:2)?',
+    options: ['Good', 'Pleasing', 'Innocent', 'Wise'],
+    answer: 'Innocent',
+    reference: 'Proverbs 16:2'
+  },
+  {
+    id: 676,
+    question: 'What are weighed by the LORD (Prov. 16:2)?',
+    options: ["One's actions", "One's thoughts", "One's words", "One's motives"],
+    answer: "One's motives",
+    reference: 'Proverbs 16:2'
+  },
+  {
+    id: 677,
+    question: 'What will happen if you commit to the LORD whatever you do (Prov. 16:3)?',
+    options: ['You will gain riches', 'Your plans will succeed', 'Your life will be blessed', 'Your crops will not fail'],
+    answer: 'Your plans will succeed',
+    reference: 'Proverbs 16:3'
+  },
+  {
+    id: 678,
+    question: "One's plans will succeed if (Prov. 16:3).",
+    options: ['They are committed to the LORD', 'They are righteous', 'They are holy and just', 'They are wise'],
+    answer: 'They are committed to the LORD',
+    reference: 'Proverbs 16:3'
+  },
+  {
+    id: 679,
+    question: 'What does the LORD work out the wicked for (Prov. 16:4)?',
+    options: ['A day of violence', 'An hour of trouble', 'A day of disaster', 'The mouth of the sword'],
+    answer: 'A day of disaster',
+    reference: 'Proverbs 16:4'
+  },
+  {
+    id: 680,
+    question: 'What does the LORD work out everything for (Prov. 16:4)?',
+    options: ['The good', 'Justice', 'Plans of wisdom', 'His own ends'],
+    answer: 'His own ends',
+    reference: 'Proverbs 16:4'
+  },
+  {
+    id: 681,
+    question: 'The Lord detests all the (Prov. 16:5)?',
+    options: ['Wicked', 'Foolish', 'Unrighteous', 'Proud of heart'],
+    answer: 'Proud of heart',
+    reference: 'Proverbs 16:5'
+  },
+  {
+    id: 682,
+    question: 'Who will surely not go unpunished (Prov. 16:5)?',
+    options: ['The wicked', 'The proud', 'The foolish', 'The unrighteous'],
+    answer: 'The proud',
+    reference: 'Proverbs 16:5'
+  },
+  {
+    id: 683,
+    question: 'What is sin atoned through (Prov. 16:6)?',
+    options: ['Love and faithfulness', 'Blood and fire', 'Sacrifice and offering', 'Prayer and petition'],
+    answer: 'Love and faithfulness',
+    reference: 'Proverbs 16:6'
+  },
+  {
+    id: 684,
+    question: 'How does the a man avoid evil (Prov. 16:6)?',
+    options: ['Through his conscious', 'Through wisdom', 'Through the fear of the LORD', 'Through his heart'],
+    answer: 'Through the fear of the LORD',
+    reference: 'Proverbs 16:6'
+  },
+  {
+    id: 685,
+    question: "Even a person's enemies live at peace with him when (Prov. 16:7).",
+    options: ['He has a forgiving heart', 'He embraces righteousness', 'He seeks wisdom', 'His ways are pleasing to the LORD'],
+    answer: 'His ways are pleasing to the LORD',
+    reference: 'Proverbs 16:7'
+  },
+  {
+    id: 686,
+    question: 'One is better off having little with (Prov. 16:8).',
+    options: ['Wisdom', 'Hope', 'Righteousness', 'Faith'],
+    answer: 'Righteousness',
+    reference: 'Proverbs 16:8'
+  },
+  {
+    id: 687,
+    question: 'A little with righteousness is better than much gain with (Prov. 16:8).',
+    options: ['Folly', 'Injustice', 'Slander', 'Unfaithfulness'],
+    answer: 'Injustice',
+    reference: 'Proverbs 16:8'
+  },
+  {
+    id: 688,
+    question: 'A person plans their course but what does the LORD determine (Prov. 16:9)?',
+    options: ['Their steps', 'Their way', 'Everything', 'Their end'],
+    answer: 'Their steps',
+    reference: 'Proverbs 16:9'
+  },
+  {
+    id: 689,
+    question: 'Whose lips speak as an oracle (Prov. 16:10)?',
+    options: ['The LORD', 'The wise', 'The prophet', 'The king'],
+    answer: 'The king',
+    reference: 'Proverbs 16:10'
+  },
+  {
+    id: 690,
+    question: "What should a king's mouth not betray (Prov. 16:10)?",
+    options: ['Wisdom', 'Righteousness', 'Justice', 'Kindness'],
+    answer: 'Justice',
+    reference: 'Proverbs 16:10'
+  },
+  {
+    id: 691,
+    question: 'What is from the LORD (Prov. 16:11)?',
+    options: ['Wealth', 'Honest scales', 'Land', 'Forgiveness'],
+    answer: 'Honest scales',
+    reference: 'Proverbs 16:11'
+  },
+  {
+    id: 692,
+    question: 'What is it that kings detest (Prov. 16:12)?',
+    options: ['Wickedness', 'Disloyalty', 'Slander', 'Wrongdoing'],
+    answer: 'Wrongdoing',
+    reference: 'Proverbs 16:12'
+  },
+  {
+    id: 693,
+    question: 'What is a throne established through (Prov. 16:12)?',
+    options: ['Power', 'Wisdom', 'Righteousness', 'Honesty'],
+    answer: 'Righteousness',
+    reference: 'Proverbs 16:12'
+  },
+  {
+    id: 694,
+    question: 'What kind of person do kings value (Prov. 16:13)?',
+    options: ['One loyal to the throne', 'One who speaks the truth', 'One who works diligently', 'One who desires wisdom'],
+    answer: 'One who speaks the truth',
+    reference: 'Proverbs 16:13'
+  },
+  {
+    id: 695,
+    question: 'In what do kings take pleasure (Prov. 16:13)?',
+    options: ['A wise tongue', 'A loyal heart', 'A strong arm', 'Honest lips'],
+    answer: 'Honest lips',
+    reference: 'Proverbs 16:13'
+  },
+  {
+    id: 696,
+    question: "The king's wrath is (Prov. 16:14).",
+    options: ['Not a pretty sight', 'Just', 'To be avoided', 'A Messenger of death'],
+    answer: 'A Messenger of death',
+    reference: 'Proverbs 16:14'
+  },
+  {
+    id: 697,
+    question: "What does a wise person do when faced with the king's wrath (Prov. 16:14)?",
+    options: ['Appease it', 'Avoid it', 'Flee from it', 'Quench it'],
+    answer: 'Appease it',
+    reference: 'Proverbs 16:14'
+  },
+  {
+    id: 698,
+    question: 'What does it mean when a king’s face brightens (Prov. 16:15)?',
+    options: ['Life', 'Blessing', 'Forgiveness', 'Understanding'],
+    answer: 'Life',
+    reference: 'Proverbs 16:15'
+  },
+  {
+    id: 699,
+    question: "What is the king's favor like (Prov 16:15)?",
+    options: ['A kiss on the lips', 'A rain cloud in the spring', 'Dew in the summer', 'A cool breeze'],
+    answer: 'A rain cloud in the spring',
+    reference: 'Proverbs 16:15'
+  },
+  {
+    id: 700,
+    question: 'What is better to get or chose than gold or silver (Prov. 16:16)?',
+    options: ['Truth and Love', 'Hope and Honesty', 'Righteousness and Grace', 'Wisdom and Understanding'],
+    answer: 'Wisdom and Understanding',
+    reference: 'Proverbs 16:16'
+  },
+  {
+    id: 701,
+    question: 'What does the highway of the upright avoid (Prov. 16:17)?',
+    options: ['Violence', 'Slander', 'Evil', 'Stumbling'],
+    answer: 'Evil',
+    reference: 'Proverbs 16:17'
+  },
+  {
+    id: 702,
+    question: 'Who guard their soul (Prov. 16:17)?',
+    options: ['The one who guards their way', 'The one who guards their thoughts', 'The one who are generous to the needy', 'The one who guards his neighbor'],
+    answer: 'The one who guards their way',
+    reference: 'Proverbs 16:17'
+  },
+  {
+    id: 703,
+    question: 'What two things go before destruction and a fall (Prov. 16:18)?',
+    options: ['Selfishness and Dishonesty', 'A Wicked heart and a lying tongue', 'Pride and a haughty spirit', 'Evil and Idolatry'],
+    answer: 'Pride and a haughty spirit',
+    reference: 'Proverbs 16:18'
+  },
+  {
+    id: 704,
+    question: 'Whose plunder is it not good to share (Prov. 16:19)?',
+    options: ['The wicked', 'The proud', 'The poor', 'The unjust'],
+    answer: 'The proud',
+    reference: 'Proverbs 16:19'
+  },
+  {
+    id: 705,
+    question: 'It is better to be lowly in spirit among the (Prov. 16:19)?',
+    options: ['Wise', 'Righteous', 'Poor', 'Oppressed'],
+    answer: 'Oppressed',
+    reference: 'Proverbs 16:19'
+  },
+  {
+    id: 706,
+    question: 'The one giving heed to what will prosper (Prov. 16:20)?',
+    options: ['Wisdom', 'Understanding', 'Instruction', 'Righteousness'],
+    answer: 'Instruction',
+    reference: 'Proverbs 16:20'
+  },
+  {
+    id: 707,
+    question: 'Who is described as blessed (Prov. 16:20)?',
+    options: ['One who pursues wisdom', 'One who listens to instruction', 'One who does not spread gossip', 'One who trusts in the LORD'],
+    answer: 'One who trusts in the LORD',
+    reference: 'Proverbs 16:20'
+  },
+  {
+    id: 708,
+    question: 'What kinds of words promote instruction (Prov. 16:21)?',
+    options: ['Wise', 'Pleasant', 'Honest', 'Just'],
+    answer: 'Pleasant',
+    reference: 'Proverbs 16:21'
+  },
+  {
+    id: 709,
+    question: 'What are the wise in heart called (Prov. 16:21)?',
+    options: ['Understanding', 'Kind', 'Discerning', 'Faithful'],
+    answer: 'Discerning',
+    reference: 'Proverbs 16:21'
+  },
+  {
+    id: 710,
+    question: '_____ is a fountain of life to those who have it (Prov. 16:22)?',
+    options: ['Truth', 'Understanding', 'Wisdom', 'Peace'],
+    answer: 'Understanding',
+    reference: 'Proverbs 16:22'
+  },
+  {
+    id: 711,
+    question: 'What brings punishment to fools (Prov. 16:22)?',
+    options: ['Folly', 'Rash judgments', 'A lying tongue', 'Anger'],
+    answer: 'Folly',
+    reference: 'Proverbs 16:22'
+  },
+  {
+    id: 712,
+    question: "What does a wise person's heart guide (Prov. 16:23)?",
+    options: ['Their mouth', 'Their hand', 'Their thoughts', 'Their way'],
+    answer: 'Their mouth',
+    reference: 'Proverbs 16:23'
+  },
+  {
+    id: 713,
+    question: "What does a wise person's lips promote (Prov. 16:23)?",
+    options: ['Learning', 'Instruction', 'Faithfulness', 'Justice'],
+    answer: 'Instruction',
+    reference: 'Proverbs 16:23'
+  },
+  {
+    id: 714,
+    question: 'What are described as a honeycomb (Prov. 16:24)?',
+    options: ['Wise words', 'Discerning words', 'Pleasant words', 'Righteous words'],
+    answer: 'Pleasant words',
+    reference: 'Proverbs 16:24'
+  },
+  {
+    id: 715,
+    question: 'What are said to be healing to the bones (Prov. 16:24)?',
+    options: ['Wise words', 'Discerning words', 'Pleasant words', 'Righteous words'],
+    answer: 'Pleasant words',
+    reference: 'Proverbs 16:24'
+  },
+  {
+    id: 716,
+    question: 'In the end the way that seems right to a man ends in (Prov. 16:24).',
+    options: ['Happiness', 'Perfection', 'Life', 'Death'],
+    answer: 'Death',
+    reference: 'Proverbs 16:24'
+  },
+  {
+    id: 717,
+    question: 'What works for a laborer (Prov. 16:26)?',
+    options: ['Their hands', 'Their appetite', 'Their generosity', 'Their diligence'],
+    answer: 'Their appetite',
+    reference: 'Proverbs 16:26'
+  },
+  {
+    id: 718,
+    question: 'What drives a laborer on (Prov. 16:26)?',
+    options: ['Hunger', 'Sleep', 'Reward', 'Diligence'],
+    answer: 'Hunger',
+    reference: 'Proverbs 16:26'
+  },
+  {
+    id: 719,
+    question: 'Who’s speech is like a scorching fire (Prov. 16:27)?',
+    options: ['A righteous man', 'A scoundrel', 'A prophet', 'The LORD'],
+    answer: 'A scoundrel',
+    reference: 'Proverbs 16:27'
+  },
+  {
+    id: 720,
+    question: 'Who plots evil (Prov. 16:27)?',
+    options: ['A scoundrel', 'The wicked', 'The oppressor', 'The sluggard'],
+    answer: 'A scoundrel',
+    reference: 'Proverbs 16:27'
+  },
+  {
+    id: 721,
+    question: 'Who stirs up dissension (Prov. 16:28)?',
+    options: ['A wicked person', 'An unfaithful person', 'A perverse person', 'The sluggard'],
+    answer: 'A perverse person',
+    reference: 'Proverbs 16:28'
+  },
+  {
+    id: 722,
+    question: 'Who separates close friends (Prov 16:28)?',
+    options: ['A sluggard', 'The wicked', 'The king', 'A gossip'],
+    answer: 'A gossip',
+    reference: 'Proverbs 16:28'
+  }
+],
+'17': [
+  {
+    id: 723,
+    question: 'What is better with peace and quiet than a feast with strife (Prov. 17:1)?',
+    options: ['Moldy bread', 'Sour milk', 'Crumbles under the table', 'A dry crust'],
+    answer: 'A dry crust',
+    reference: 'Proverbs 17:1'
+  },
+  {
+    id: 724,
+    question: 'A dry crust with and is better than a house full of feasting (Prov. 17:1).',
+    options: ['Wisdom and Understanding', 'Truth and Love', 'Joy and Knowledge', 'Peace and quiet'],
+    answer: 'Peace and quiet',
+    reference: 'Proverbs 17:1'
+  },
+  {
+    id: 725,
+    question: 'A dry crust is better than feasting if one has to endure (Prov. 17:1).',
+    options: ['Evil', 'Disrespect', 'Strife', 'Violence'],
+    answer: 'Strife',
+    reference: 'Proverbs 17:1'
+  },
+  {
+    id: 726,
+    question: 'Who will a wise servant rule over (Prov. 17:2)?',
+    options: ['A foolish child', 'A wicked kingdom', 'A disgraceful son', 'A lying master'],
+    answer: 'A disgraceful son',
+    reference: 'Proverbs 17:2'
+  },
+  {
+    id: 727,
+    question: 'What will a wise servant share in (Prov. 17:2)?',
+    options: ['The harvest', 'The inheritance as a son', 'A portion of the land', 'The palace'],
+    answer: 'The inheritance as a son',
+    reference: 'Proverbs 17:2'
+  },
+  {
+    id: 728,
+    question: 'What is it that the LORD Tests (Prov. 17:3)?',
+    options: ['Faith', 'The heart', 'The motives', 'The thoughts'],
+    answer: 'The heart',
+    reference: 'Proverbs 17:3'
+  },
+  {
+    id: 729,
+    question: 'What is a crucible used to produce (Prov. 17:3)?',
+    options: ['Gold', 'Bronze', 'Copper', 'Silver'],
+    answer: 'Silver',
+    reference: 'Proverbs 17:3'
+  },
+  {
+    id: 730,
+    question: 'What does a wicked person listen to (Prov. 17:4)?',
+    options: ['Evil lips', 'Foolish thoughts', 'Lies', 'Deceptive words'],
+    answer: 'Evil lips',
+    reference: 'Proverbs 17:4'
+  },
+  {
+    id: 731,
+    question: 'Who pays attention to a malicious tongue (Prov. 17:4)?',
+    options: ['An adulteress', 'A fool', 'A liar', 'A perverse king'],
+    answer: 'A liar',
+    reference: 'Proverbs 17:4'
+  },
+  {
+    id: 732,
+    question: 'Who shows contempt for the Maker (Prov. 17:5)?',
+    options: ['One who mocks the poor', 'One who oppresses the widow', 'One who destroys the vineyard', 'The sluggard'],
+    answer: 'One who mocks the poor',
+    reference: 'Proverbs 17:5'
+  },
+  {
+    id: 733,
+    question: 'Who will not go unpunished (Prov. 17:5)?',
+    options: ['One who plots violence', 'One who sets a trap', 'One who deceives their neighbor', 'One who gloats over disaster'],
+    answer: 'One who gloats over disaster',
+    reference: 'Proverbs 17:5'
+  },
+  {
+    id: 734,
+    question: "Children's children are what to the aged (Prov. 17:6)?",
+    options: ['A string of beads', 'Olive branches', 'A crown', 'An answer'],
+    answer: 'A crown',
+    reference: 'Proverbs 17:6'
+  },
+  {
+    id: 735,
+    question: 'Who is/are the pride of children (Prov. 17:6)?',
+    options: ['The king', 'Parents', 'Their friends', 'The sluggard'],
+    answer: 'Parents',
+    reference: 'Proverbs 17:6'
+  },
+  {
+    id: 736,
+    question: 'For whom are arrogant lips unsuited (Prov. 17:7)?',
+    options: ['A fool', 'The wicked', 'The undisciplined', 'A child'],
+    answer: 'A fool',
+    reference: 'Proverbs 17:7'
+  },
+  {
+    id: 737,
+    question: 'What are not suited for a ruler (Prov. 17:7)?',
+    options: ['Lazy hands', 'Covetous eyes', 'Lying lips', 'Feet that run to evil'],
+    answer: 'Lying lips',
+    reference: 'Proverbs 17:7'
+  },
+  {
+    id: 738,
+    question: 'What is a charm to the one who gives it (Prov. 17:8)?',
+    options: ['Love', 'A piece of silver', 'Wisdom', 'A bribe'],
+    answer: 'A bribe',
+    reference: 'Proverbs 17:8'
+  },
+  {
+    id: 739,
+    question: 'Who promotes love (Prov. 17:9)?',
+    options: ['The one who gives to the poor', 'The one who covers an offense', 'The one who confesses their sin', 'The patient'],
+    answer: 'The one who covers an offense',
+    reference: 'Proverbs 17:9'
+  },
+  {
+    id: 740,
+    question: 'Who separates close friends (Prov. 17:9)?',
+    options: ['One who repeats a matter', 'One who deceives', 'A jealous wife', 'One who will not work'],
+    answer: 'One who repeats a matter',
+    reference: 'Proverbs 17:9'
+  },
+  {
+    id: 741,
+    question: 'Who does a rebuke impress (Prov. 17:10)?',
+    options: ['A fool', 'The naive', 'A person of discernment', 'The wise'],
+    answer: 'A person of discernment',
+    reference: 'Proverbs 17:10'
+  },
+  {
+    id: 742,
+    question: 'What fails to impress a fool (Prov. 17:10)?',
+    options: ['The rebuke of a king', 'One hundred lashes', 'The advice of the wise', 'The rebuke of the righteous'],
+    answer: 'One hundred lashes',
+    reference: 'Proverbs 17:10'
+  },
+  {
+    id: 743,
+    question: 'What impresses a man of discernment more than a hundred lashes to a fool (Prov. 17:10)?',
+    options: ['Wisdom', 'Love', 'Rebuke', 'Understanding'],
+    answer: 'Love',
+    reference: 'Proverbs 17:10'
+  },
+  {
+    id: 744,
+    question: 'What is an evil person bent on (Prov. 17:11)?',
+    options: ['Rebellion', 'Deception', 'Violence', 'Folly'],
+    answer: 'Rebellion',
+    reference: 'Proverbs 17:11'
+  },
+  {
+    id: 745,
+    question: 'Who will a merciless official be sent against (Prov. 17:11)?',
+    options: ['The wicked', 'An evil person', 'The unrighteous', 'The treacherous'],
+    answer: 'An evil person',
+    reference: 'Proverbs 17:11'
+  },
+  {
+    id: 746,
+    question: 'What is better to meet than a fool in his folly (Prov. 17:12)?',
+    options: ['A bear robbed of her cubs', 'A hungry lion', 'A rampaging elephant', 'A poisonous snake'],
+    answer: 'A bear robbed of her cubs',
+    reference: 'Proverbs 17:12'
+  },
+  {
+    id: 747,
+    question: 'What will happen to the person that pays back evil for good (Prov. 17:13)?',
+    options: ['Evil with come upon them', 'The good will become evil', 'The wicked with triumph', 'Evil will never leave their house'],
+    answer: 'Evil will never leave their house',
+    reference: 'Proverbs 17:13'
+  },
+  {
+    id: 748,
+    question: 'Whose house will evil never leave (Prov. 17:13)?',
+    options: ['One who offers a bribe', 'One who oppresses the poor', 'One who pays back evil for good', 'One who will not listen to advice'],
+    answer: 'One who pays back evil for good',
+    reference: 'Proverbs 17:13'
+  },
+  {
+    id: 749,
+    question: 'What is starting a quarrel like (Prov. 17:14)?',
+    options: ['Breaking a glass', 'Jumping into a fire', 'Breaching a dam', 'Falling down stairs'],
+    answer: 'Breaching a dam',
+    reference: 'Proverbs 17:14'
+  },
+  {
+    id: 750,
+    question: 'What does the sage advise should be done to avoid a dispute (Prov. 17:14)?',
+    options: ['A tongue should be silenced', 'The matter should be dropped', 'A wise counselor should be consulted', 'Flee'],
+    answer: 'The matter should be dropped',
+    reference: 'Proverbs 17:14'
+  },
+  {
+    id: 751,
+    question: 'Which of the following pairs does the LORD detest (Prov. 17:15)?',
+    options: ['Acquitting of the guilty and condemning of the innocent', 'A lying tongue and a wicked heart', 'A foolish son and an adulteress wife', 'An ungrateful servant and an oppressive king'],
+    answer: 'Acquitting of the guilty and condemning of the innocent',
+    reference: 'Proverbs 17:15'
+  },
+  {
+    id: 752,
+    question: 'What is useless to a fool (Prov. 17:16)?',
+    options: ['Wisdom', 'Discipline', 'Rebuke', 'Money'],
+    answer: 'Money',
+    reference: 'Proverbs 17:16'
+  },
+  {
+    id: 753,
+    question: 'What does the fool not desire (Prov. 17:16)?',
+    options: ['Righteousness', 'Diligence', 'Quietness', 'Wisdom'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 17:16'
+  },
+  {
+    id: 754,
+    question: 'What is a brother born for (Prov. 17:17)?',
+    options: ['Friendship', 'Adversity', 'Playing', 'Joy'],
+    answer: 'Adversity',
+    reference: 'Proverbs 17:17'
+  },
+  {
+    id: 755,
+    question: 'Who loves at all times (Prov. 17:17)?',
+    options: ['A brother', 'A mother', 'A friend', 'A wife'],
+    answer: 'A friend',
+    reference: 'Proverbs 17:17'
+  },
+  {
+    id: 756,
+    question: 'Who strikes hands in a pledge (Prov. 17:18)?',
+    options: ['A fool', 'An honest partner', 'A wise judge', 'A person who lacks judgment'],
+    answer: 'A person who lacks judgment',
+    reference: 'Proverbs 17:18'
+  },
+  {
+    id: 757,
+    question: 'Who puts up security for his neighbor (Prov. 17:18)?',
+    options: ['A person who lacks judgment', 'A fool', 'An honest partner', 'A wise judge'],
+    answer: 'A person who lacks judgment',
+    reference: 'Proverbs 17:18'
+  },
+  {
+    id: 758,
+    question: 'He who loves a(n) _____ loves sin (Prov. 17:19).',
+    options: ['Bribe', 'Fool', 'Wicked heart', 'Quarrel'],
+    answer: 'Quarrel',
+    reference: 'Proverbs 17:19'
+  },
+  {
+    id: 759,
+    question: 'Who invites destruction (Prov. 17:19)?',
+    options: ['One who builds a high fence', 'One who builds a high gate', 'One who builds a thick wall', 'One who trusts in riches'],
+    answer: 'One who builds a high gate',
+    reference: 'Proverbs 17:19'
+  },
+  {
+    id: 760,
+    question: 'A person of _____ does not prosper (Prov. 17:20).',
+    options: ['Foolish thoughts', 'Wicked ways', 'Perverse heart', 'Deceptive tongue'],
+    answer: 'Perverse heart',
+    reference: 'Proverbs 17:20'
+  },
+  {
+    id: 761,
+    question: 'For whom is there no joy (Prov. 17:21)?',
+    options: ['The father of a fool', 'The mother of the wicked', 'The friend of the sluggard', 'The neighbor of the oppressor'],
+    answer: 'The father of a fool',
+    reference: 'Proverbs 17:21'
+  },
+  {
+    id: 762,
+    question: 'What is good medicine (Prov. 17:22)?',
+    options: ['The work of the diligent', 'A cheerful heart', 'A little of wine', 'A bowl of kindness'],
+    answer: 'A cheerful heart',
+    reference: 'Proverbs 17:22'
+  },
+  {
+    id: 763,
+    question: 'What is a cheerful heart said to be (Prov. 17:22)?',
+    options: ['The key to happiness', 'Good medicine', 'A solution to grief', 'The root of joy'],
+    answer: 'Good medicine',
+    reference: 'Proverbs 17:22'
+  },
+  {
+    id: 764,
+    question: 'What dries up the bones (Prov. 17:22)?',
+    options: ['Deceptive deeds', 'A lying tongue', 'A treacherous promise', 'A crushed spirit'],
+    answer: 'A crushed spirit',
+    reference: 'Proverbs 17:22'
+  },
+  {
+    id: 765,
+    question: 'What does a wicked person accept in secret (Prov. 17:23)?',
+    options: ['The harvest of the poor', 'A bribe', 'A lie', 'A reward from the oppressor'],
+    answer: 'A bribe',
+    reference: 'Proverbs 17:23'
+  },
+  {
+    id: 766,
+    question: 'What perverts the course of justice (Prov. 17:23)?',
+    options: ['A bribe', 'The plans of the wicked', 'A foolish king', 'The snare of the treacherous'],
+    answer: 'A bribe',
+    reference: 'Proverbs 17:23'
+  },
+  {
+    id: 767,
+    question: 'What does a discerning man keep in view (Prov. 17:24)?',
+    options: ['Truth', 'Hope', 'Wisdom', 'Future plans'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 17:24'
+  },
+  {
+    id: 768,
+    question: "What do the fool's eyes do (Prov. 17:24)?",
+    options: ['Gaze on wine', 'Look on what is not theirs', 'Lust on a woman', 'Wander to the end of the earth'],
+    answer: 'Wander to the end of the earth',
+    reference: 'Proverbs 17:24'
+  },
+  {
+    id: 769,
+    question: 'What does the foolish son bring to his Father (Prov. 17:25)?',
+    options: ['Trouble', 'Grief', 'A broken heart', 'Adversity'],
+    answer: 'Grief',
+    reference: 'Proverbs 17:25'
+  },
+  {
+    id: 770,
+    question: 'To whom does a foolish son bring bitterness (Prov. 17:25)?',
+    options: ['To the one that bore him', 'To his faithful friends', 'To his father', 'To his teacher'],
+    answer: 'To the one that bore him',
+    reference: 'Proverbs 17:25'
+  },
+  {
+    id: 771,
+    question: 'Who should not be flogged for their integrity (Prov. 17:26)?',
+    options: ['Servants', 'Warriors', 'Officials', 'A son'],
+    answer: 'Officials',
+    reference: 'Proverbs 17:26'
+  },
+  {
+    id: 772,
+    question: 'Who is it not good to punish (Prov. 17:26)?',
+    options: ['The righteous', 'The wise', 'The poor', 'The innocent'],
+    answer: 'The innocent',
+    reference: 'Proverbs 17:26'
+  }
+],
+'18': [
+  {
+    id: 773,
+    question: 'What type of man pursues selfish ends and defies all sound judgment (Prov. 18:1)?',
+    options: ['A Foolish man', 'An Unfriendly man', 'A Selfish man', 'A Wicked man'],
+    answer: 'An Unfriendly man',
+    reference: 'Proverbs 18:1'
+  },
+  {
+    id: 774,
+    question: 'Who defies all sound judgment (Prov. 18:1)?',
+    options: ['An unfriendly person', 'The unyielding neighbor', 'One who is greedy', 'The laborer who is hungry'],
+    answer: 'An unfriendly person',
+    reference: 'Proverbs 18:1'
+  },
+  {
+    id: 775,
+    question: 'In what does a fool find no pleasure (Prov. 18:2)?',
+    options: ['Understanding', 'Knowledge', 'Wisdom', 'Truth'],
+    answer: 'Understanding',
+    reference: 'Proverbs 18:2'
+  },
+  {
+    id: 776,
+    question: 'What does a fool delight in (Prov. 18:2)?',
+    options: ['His folly', 'The path of the wicked', 'Airing his own opinion', 'A mouth that speaks lies'],
+    answer: 'Airing his own opinion',
+    reference: 'Proverbs 18:2'
+  },
+  {
+    id: 777,
+    question: 'What comes with wickedness and shame (Prov. 18:3)?',
+    options: ['Unhappiness and folly', 'Condemnation and punishment', 'Hatred and Isolation', 'Contempt and disgrace'],
+    answer: 'Contempt and disgrace',
+    reference: 'Proverbs 18:3'
+  },
+  {
+    id: 778,
+    question: "What are the word of a person's mouth (Prov. 18:4)?",
+    options: ['A rain cloud in summer', 'Bubbling springs', 'A well in the desert', 'Deep waters'],
+    answer: 'Deep waters',
+    reference: 'Proverbs 18:4'
+  },
+  {
+    id: 779,
+    question: 'What is described as a bubbling brook (Prov. 18:4)?',
+    options: ['The fountain of wisdom', 'The well of understanding', 'The hands of the diligent', 'The proverbs of the wise'],
+    answer: 'The fountain of wisdom',
+    reference: 'Proverbs 18:4'
+  },
+  {
+    id: 780,
+    question: 'What is not good to deprive the innocent of (Prov. 18:5)?',
+    options: ['Justice', 'Truth', 'Wisdom', 'Innocence'],
+    answer: 'Justice',
+    reference: 'Proverbs 18:5'
+  },
+  {
+    id: 781,
+    question: 'To whom should one not be partial (Prov. 18:5)?',
+    options: ['The wealthy', 'The poor', 'The wicked', 'The rulers'],
+    answer: 'The wicked',
+    reference: 'Proverbs 18:5'
+  },
+  {
+    id: 782,
+    question: "What does a fool's lips bring him (Prov. 18:6)?",
+    options: ['Trouble', 'Shame', 'Wickedness', 'Strife'],
+    answer: 'Strife',
+    reference: 'Proverbs 18:6'
+  },
+  {
+    id: 783,
+    question: "What does a fool's mouth invite (Prov. 18:6)?",
+    options: ['False friends', 'Discipline', 'A beating', 'Failure'],
+    answer: 'A beating',
+    reference: 'Proverbs 18:6'
+  },
+  {
+    id: 784,
+    question: 'What is the undoing of a fool (Prov. 18:7)?',
+    options: ['Their stupidity', 'Rashness', 'Their mouth', 'Their lack of wisdom'],
+    answer: 'Their mouth',
+    reference: 'Proverbs 18:7'
+  },
+  {
+    id: 785,
+    question: "What are the fool's lips (Prov. 18:7)?",
+    options: ['A snare to their soul', 'A trap for their friends', 'A hot wind', 'A harvest of wind'],
+    answer: 'A snare to their soul',
+    reference: 'Proverbs 18:7'
+  },
+  {
+    id: 786,
+    question: 'What are the words of gossip like (Prov. 18:8)?',
+    options: ['Choice morsels', 'Daggers', 'Poison', 'A raging fire'],
+    answer: 'Choice morsels',
+    reference: 'Proverbs 18:8'
+  },
+  {
+    id: 787,
+    question: "What goes down to a person's inmost parts (Prov. 18:8)?",
+    options: ['The food of the stingy person', 'The bread of the wicked', 'The wine of the unfaithful', 'The words of a gossip'],
+    answer: 'The words of a gossip',
+    reference: 'Proverbs 18:8'
+  },
+  {
+    id: 788,
+    question: 'Who is the brother of one who destroys (Prov. 18:9)?',
+    options: ['Those who plot evil', 'Those who is slack in their work', 'Those who deceive their neighbors', 'The gossip'],
+    answer: 'Those who is slack in their work',
+    reference: 'Proverbs 18:9'
+  },
+  {
+    id: 789,
+    question: 'What is the name of the LORD (Prov. 18:10)?',
+    options: ['A steadfast rock', 'A strong tower', 'An impenetrable fortress', 'An water giving stone'],
+    answer: 'A strong tower',
+    reference: 'Proverbs 18:10'
+  },
+  {
+    id: 790,
+    question: "Who run to the LORD's protection and are safe (Prov. 18:10)?",
+    options: ['The wise', 'The poor', 'The discerning', 'The righteous'],
+    answer: 'The righteous',
+    reference: 'Proverbs 18:10'
+  },
+  {
+    id: 791,
+    question: 'What is the wealth of the rich for them (Prov. 18:11)?',
+    options: ['A steadfast rock', 'A strong tower', 'A barred gate', 'Fortified city'],
+    answer: 'Fortified city',
+    reference: 'Proverbs 18:11'
+  },
+  {
+    id: 792,
+    question: 'What do the rich imagine their wealth being for them (Prov. 18:11)?',
+    options: ['A barred gate', 'An unscalable wall', 'A secure resting place', 'A fortified palace'],
+    answer: 'An unscalable wall',
+    reference: 'Proverbs 18:11'
+  },
+  {
+    id: 793,
+    question: "What is a person's heart before their downfall (Prov. 18:12)?",
+    options: ['Proud', 'Wicked', 'Deceitful', 'Hardened'],
+    answer: 'Proud',
+    reference: 'Proverbs 18:12'
+  },
+  {
+    id: 794,
+    question: 'What comes before honor (Prov. 18:12)?',
+    options: ['Truth', 'Humility', 'Wisdom', 'Understanding'],
+    answer: 'Humility',
+    reference: 'Proverbs 18:12'
+  },
+  {
+    id: 795,
+    question: 'What is a person’s folly and shame (Prov. 18:13)?',
+    options: ['Airing their own folly', 'Robbing the poor', 'Speaking before listening', 'A proud and arrogant heart'],
+    answer: 'Speaking before listening',
+    reference: 'Proverbs 18:13'
+  },
+  {
+    id: 796,
+    question: 'What sustains a person in sickness (Prov. 18:14)?',
+    options: ['Their wisdom', 'Their understanding', 'Their humility', 'Their spirit'],
+    answer: 'Their spirit',
+    reference: 'Proverbs 18:14'
+  },
+  {
+    id: 797,
+    question: 'What is unbearable (Prov. 18:14)?',
+    options: ['A judge who takes a bribe', 'A king that listens to lies', 'A crushed spirit', 'An evil eye'],
+    answer: 'A crushed spirit',
+    reference: 'Proverbs 18:14'
+  },
+  {
+    id: 798,
+    question: 'What acquires knowledge (Prov. 18:15)?',
+    options: ['The heart of the discerning', 'The ears of the righteous', 'The hands of the diligent', 'The heart of the humble'],
+    answer: 'The heart of the discerning',
+    reference: 'Proverbs 18:15'
+  },
+  {
+    id: 799,
+    question: 'What do the ears of the wise seek out (Prov. 18:15)?',
+    options: ['Wisdom', 'Knowledge', 'Diligence', 'Understanding'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 18:15'
+  },
+  {
+    id: 800,
+    question: 'What is it that the heart of the discerning acquires (Prov. 18:15)?',
+    options: ['Peace', 'Understanding', 'Knowledge', 'Truth'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 18:15'
+  },
+  {
+    id: 801,
+    question: 'What will usher someone into the presence of the great (Prov. 18:16)?',
+    options: ['Wisdom', 'A bribe', 'A gift', 'Understanding'],
+    answer: 'A gift',
+    reference: 'Proverbs 18:16'
+  },
+  {
+    id: 802,
+    question: 'Who seems right (Prov. 18:17)?',
+    options: ['The wise', 'The first to present their case', 'The fool spouting out his folly', 'The treacherous'],
+    answer: 'The first to present their case',
+    reference: 'Proverbs 18:17'
+  },
+  {
+    id: 803,
+    question: 'One seems right presenting a case until (Prov. 18:17)?',
+    options: ['Another questions him', 'Another presents another side', 'The wise rebuke him', 'The understanding refuse to answer'],
+    answer: 'Another questions him',
+    reference: 'Proverbs 18:17'
+  },
+  {
+    id: 804,
+    question: 'What settles disputes (Prov. 18:18)?',
+    options: ['Kindness', 'Wisdom', 'Seeking counsel', 'Casting lots'],
+    answer: 'Casting lots',
+    reference: 'Proverbs 18:18'
+  },
+  {
+    id: 805,
+    question: 'Who is more unyielding than a fortified city (Prov. 18:19)?',
+    options: ['An offended brother', 'A foolish son', 'An adulterous woman', 'A pesky neighbor'],
+    answer: 'An offended brother',
+    reference: 'Proverbs 18:19'
+  },
+  {
+    id: 806,
+    question: 'What are disputes like (Prov. 18:19)?',
+    options: ['Fortified walls', 'A strong tower', 'Barred gates of a citadel', "A warrior's shield"],
+    answer: 'Barred gates of a citadel',
+    reference: 'Proverbs 18:19'
+  },
+  {
+    id: 807,
+    question: "From what is a person's stomach filled (Prov. 18:20)?",
+    options: ['The fruit of diligence', 'The fruit of the tongue', 'The harvest of the righteous', 'The candy of the kind'],
+    answer: 'The fruit of the tongue',
+    reference: 'Proverbs 18:20'
+  },
+  {
+    id: 808,
+    question: 'What does the tongue have the power of (Prov. 18:21)?',
+    options: ['Slander and Deceit', 'Gossip and Dissension', 'Love and hate', 'Life and death'],
+    answer: 'Life and death',
+    reference: 'Proverbs 18:21'
+  },
+  {
+    id: 809,
+    question: 'What has the power of life and death (Prov. 18:21)?',
+    options: ['A bribe', 'The king', 'The tongue', 'Wisdom'],
+    answer: 'The tongue',
+    reference: 'Proverbs 18:21'
+  },
+  {
+    id: 810,
+    question: 'He who finds ______ finds what is good and receives favor from the LORD (Prov. 18:22).',
+    options: ['A wife', 'Wisdom', 'Truth', 'Forgiveness'],
+    answer: 'A wife',
+    reference: 'Proverbs 18:22'
+  },
+  {
+    id: 811,
+    question: 'What does a poor man plead for (Prov. 18:23)?',
+    options: ['Money', 'Mercy', 'Food', 'Compassion'],
+    answer: 'Mercy',
+    reference: 'Proverbs 18:23'
+  },
+  {
+    id: 812,
+    question: 'Who answers harshly (Prov. 18:23)?',
+    options: ['The wicked', 'The fool', 'The rich', 'The poor'],
+    answer: 'The rich',
+    reference: 'Proverbs 18:23'
+  },
+  {
+    id: 813,
+    question: 'Who may come to ruin (Prov. 18:24)?',
+    options: ['The one pursuing wickedness', 'A fool in his folly', 'The gossip', 'A person of many companions'],
+    answer: 'A person of many companions',
+    reference: 'Proverbs 18:24'
+  },
+  {
+    id: 814,
+    question: 'Who sticks closer than a brother (Prov. 18:24)?',
+    options: ['A friend', 'A mother', 'A father', 'The wise'],
+    answer: 'A friend',
+    reference: 'Proverbs 18:24'
+  }
+],
+'19': [
+  {
+    id: 815,
+    question: 'A poor person whose walk is blameless is better than (Prov. 19:1).',
+    options: ['A sluggard who is wise in his own eyes', 'A fool in his folly', 'A mocker pouring out insults', 'A fool whose lips are perverse'],
+    answer: 'A fool whose lips are perverse',
+    reference: 'Proverbs 19:1'
+  },
+  {
+    id: 816,
+    question: 'What is it not good to have zeal without (Prov. 19:2)?',
+    options: ['Purpose', 'Knowledge', 'Concern', 'Action'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 19:2'
+  },
+  {
+    id: 817,
+    question: 'What may cause one to miss the way (Prov. 19:2)?',
+    options: ['The snare of the wicked', 'Listening to a fool', 'Being hasty', 'Sleeping in the harvest'],
+    answer: 'Being hasty',
+    reference: 'Proverbs 19:2'
+  },
+  {
+    id: 818,
+    question: 'What ruins a person’s life (Prov. 19:3)?',
+    options: ['Carelessness', 'Riches', 'Greed', 'Folly'],
+    answer: 'Folly',
+    reference: 'Proverbs 19:3'
+  },
+  {
+    id: 819,
+    question: 'Those whose lives are ruined by folly respond in what manner (Prov. 19:3)?',
+    options: ['Rage against the LORD', 'Pour out lies', 'Oppress the poor without a cause', 'Still remain wise in their own eyes'],
+    answer: 'Rage against the LORD',
+    reference: 'Proverbs 19:3'
+  },
+  {
+    id: 820,
+    question: 'What is it that wealth can bring (Prov. 19:4)?',
+    options: ['Many Friends', 'Happiness', 'Trouble', 'Greed'],
+    answer: 'Many Friends',
+    reference: 'Proverbs 19:4'
+  },
+  {
+    id: 821,
+    question: 'Whose friends desert him (Prov. 19:4)?',
+    options: ['The sluggard', 'The fool caught in his own folly', "A poor person's", 'The righteous'],
+    answer: "A poor person's",
+    reference: 'Proverbs 19:4'
+  },
+  {
+    id: 822,
+    question: 'Who will not go unpunished (Prov. 19:5)?',
+    options: ['Wicked men', 'A fool', 'A false witness', 'An adulteress'],
+    answer: 'A false witness',
+    reference: 'Proverbs 19:5'
+  },
+  {
+    id: 823,
+    question: 'Everyone is a friend with a person who ______ (Prov. 19:6).',
+    options: ['Gives gifts', 'Is honest', 'Has riches', 'Imparts wisdom'],
+    answer: 'Gives gifts',
+    reference: 'Proverbs 19:6'
+  },
+  {
+    id: 824,
+    question: 'Whose favor do many curry (Prov. 19:6)?',
+    options: ['A judge', 'A ruler', 'The wealthy', 'The gatekeeper'],
+    answer: 'A ruler',
+    reference: 'Proverbs 19:6'
+  },
+  {
+    id: 825,
+    question: 'Who is shunned by their relatives (Prov. 19:7)?',
+    options: ['The innocent', 'The fool', 'The poor', 'The sluggard'],
+    answer: 'The poor',
+    reference: 'Proverbs 19:7'
+  },
+  {
+    id: 826,
+    question: 'Who do friends avoid (Prov. 19:7)?',
+    options: ['The sluggard', 'The fool', 'The wicked', 'The poor'],
+    answer: 'The poor',
+    reference: 'Proverbs 19:7'
+  },
+  {
+    id: 827,
+    question: 'Who loves his own soul (Prov. 19:8)?',
+    options: ['The one who gets riches', 'The one who gets wisdom', 'The one who rules', 'The one who has many friends'],
+    answer: 'The one who gets wisdom',
+    reference: 'Proverbs 19:8'
+  },
+  {
+    id: 828,
+    question: 'What happens to the one who cherishes understanding (Prov. 19:8)?',
+    options: ['They are successful', 'They are never ashamed', 'They prosper', 'They rule over the fools'],
+    answer: 'They prosper',
+    reference: 'Proverbs 19:8'
+  },
+  {
+    id: 829,
+    question: 'Who should not go unpunished (Prov. 19:9)?',
+    options: ['A false witness', 'One who oppresses the poor', 'A sluggard', 'An unjust judge'],
+    answer: 'A false witness',
+    reference: 'Proverbs 19:9'
+  },
+  {
+    id: 830,
+    question: 'Who will perish (Prov. 19:9)?',
+    options: ['One who sets a trap for the righteous', 'One who pours out lies', 'One who sleeps in the harvest', 'One who leads others astray'],
+    answer: 'One who pours out lies',
+    reference: 'Proverbs 19:9'
+  },
+  {
+    id: 831,
+    question: 'What is worse than a fool living in luxury (Prov. 19:10)?',
+    options: ['A poor man gaining riches', 'A wicked man going unpunished', 'An ungrateful son', 'A slave who rules over princes'],
+    answer: 'A slave who rules over princes',
+    reference: 'Proverbs 19:10'
+  },
+  {
+    id: 832,
+    question: 'What is not fitting (Prov. 19:10)?',
+    options: ['A fool to live in luxury', 'The wicked to rule the righteous', 'The sluggard to have a bountiful harvest', 'Flattery in the mouth of a deceiver'],
+    answer: 'A fool to live in luxury',
+    reference: 'Proverbs 19:10'
+  },
+  {
+    id: 833,
+    question: 'What does a man’s wisdom give him (Prov. 19:11)?',
+    options: ['Life', 'Riches', 'Patience', 'Understanding'],
+    answer: 'Patience',
+    reference: 'Proverbs 19:11'
+  },
+  {
+    id: 834,
+    question: 'What is the glory of a wise person (Prov. 19:11)?',
+    options: ['To instruct the young', 'To succeed in all his ways', 'To fear the LORD', 'To overlook an offence'],
+    answer: 'To overlook an offence',
+    reference: 'Proverbs 19:11'
+  },
+  {
+    id: 835,
+    question: 'What is a king’s rage like (Prov. 19:12)?',
+    options: ['A roar of a lion', 'A bear robbed of her cubs', 'A burning wind', 'A locust plague'],
+    answer: 'A roar of a lion',
+    reference: 'Proverbs 19:12'
+  },
+  {
+    id: 836,
+    question: "What is a king's favor like (Prov. 19:12)?",
+    options: ['Rain in the summer', 'Dew on the grass', 'Honey from the honeycomb', 'Cool wine on a hot day'],
+    answer: 'Dew on the grass',
+    reference: 'Proverbs 19:12'
+  },
+  {
+    id: 837,
+    question: 'What is a quarrelsome wife like (Prov. 19:13)?',
+    options: ['A thorn in the flesh', 'A nightmare that never ends', 'A constant dripping', 'A poisonous snake'],
+    answer: 'A constant dripping',
+    reference: 'Proverbs 19:13'
+  },
+  {
+    id: 838,
+    question: 'Who may a foolish son ruin (Prov. 19:13)?',
+    options: ['A father', 'A mother', 'A brother', 'A friend'],
+    answer: 'A father',
+    reference: 'Proverbs 19:13'
+  },
+  {
+    id: 839,
+    question: 'What is from the Lord (Prov. 19:14)?',
+    options: ['Wisdom', 'A prudent wife', 'Righteousness', 'A compassionate heart'],
+    answer: 'A prudent wife',
+    reference: 'Proverbs 19:14'
+  },
+  {
+    id: 840,
+    question: 'What may be inherited from parents (Prov. 19:14)?',
+    options: ['Wisdom', 'Houses', 'A vineyard', 'Land'],
+    answer: 'Houses',
+    reference: 'Proverbs 19:14'
+  },
+  {
+    id: 841,
+    question: 'What brings on deep sleep (Prov. 19:15)?',
+    options: ['Hunger', 'Striving for riches', 'Hard work', 'Laziness'],
+    answer: 'Laziness',
+    reference: 'Proverbs 19:15'
+  },
+  {
+    id: 842,
+    question: 'What type of person goes hungry (Prov. 19:15)?',
+    options: ['A shiftless man', 'A poor man', 'A Foolish man', 'A lazy man'],
+    answer: 'A shiftless man',
+    reference: 'Proverbs 19:15'
+  },
+  {
+    id: 843,
+    question: 'Who guards their soul (Prov. 19:16)?',
+    options: ['Those that pursue wisdom', 'The discerning', 'The one who obeys instructions', 'The one who listens'],
+    answer: 'The one who obeys instructions',
+    reference: 'Proverbs 19:16'
+  },
+  {
+    id: 844,
+    question: 'Who lends to the LORD (Prov. 19:17)?',
+    options: ['The righteous in action', 'Those kind to the poor', 'Those who listen to wisdom', 'Those who are honorable in deed'],
+    answer: 'Those kind to the poor',
+    reference: 'Proverbs 19:17'
+  },
+  {
+    id: 845,
+    question: 'What is found in disciplining a son (Prov. 19:18)?',
+    options: ['Patience', 'Wisdom', 'Faith', 'Hope'],
+    answer: 'Hope',
+    reference: 'Proverbs 19:18'
+  },
+  {
+    id: 846,
+    question: 'In whose death should one not be a willing party (Prov. 19:18)?',
+    options: ['The wise', 'The poor', 'A son', 'The righteous'],
+    answer: 'A son',
+    reference: 'Proverbs 19:18'
+  },
+  {
+    id: 847,
+    question: 'Who must pay a penalty (Prov. 19:19)?',
+    options: ['The one wandering from the way', 'A hot-tempered person', 'The wicked', 'The one pursuing folly'],
+    answer: 'A hot-tempered person',
+    reference: 'Proverbs 19:19'
+  },
+  {
+    id: 848,
+    question: 'Who will one have to rescue again and again (Prov. 19:19)?',
+    options: ['The one wandering from the way', 'The wicked', 'The one pursuing folly', 'A hot-tempered person'],
+    answer: 'A hot-tempered person',
+    reference: 'Proverbs 19:19'
+  },
+  {
+    id: 849,
+    question: 'If one listens to advice, what will result (Prov. 19:20)?',
+    options: ['In the end they will be wise', 'Wealth, health and prosperity', 'Their ways will be pleasant', 'Honor and respect'],
+    answer: 'In the end they will be wise',
+    reference: 'Proverbs 19:20'
+  },
+  {
+    id: 850,
+    question: 'Who will be wise in the end (Prov. 19:20)?',
+    options: ['One who fears the LORD', 'One who pursues wisdom', 'One who disciplines their son', 'One who accepts instruction'],
+    answer: 'One who accepts instruction',
+    reference: 'Proverbs 19:20'
+  },
+  {
+    id: 851,
+    question: 'While the plans of human hearts are many, what prevails (Prov. 19:21)?',
+    options: ["The LORD's commands", "The LORD's purpose", "The LORD's wisdom", "The LORD's rule"],
+    answer: "The LORD's purpose",
+    reference: 'Proverbs 19:21'
+  },
+  {
+    id: 852,
+    question: 'What is it that people desire (Prov. 19:22)?',
+    options: ['Riches', 'Knowledge', 'Wickedness', 'Unfailing Love'],
+    answer: 'Unfailing Love',
+    reference: 'Proverbs 19:22'
+  },
+  {
+    id: 853,
+    question: 'It is better to be ______ than a liar (Prov. 19:22).',
+    options: ['Poor', 'Outcast', 'A fool', 'A money changer'],
+    answer: 'Poor',
+    reference: 'Proverbs 19:22'
+  },
+  {
+    id: 854,
+    question: 'What is it that leads to life (Prov. 19:23)?',
+    options: ['Prosperity', 'Hope in the future', 'The fear of the LORD', 'Love'],
+    answer: 'The fear of the LORD',
+    reference: 'Proverbs 19:23'
+  },
+  {
+    id: 855,
+    question: 'If one fears the LORD and rests content, what will they not be touched by (Prov. 19:23)?',
+    options: ['Poverty', 'Shame', 'Calamity', 'Trouble'],
+    answer: 'Trouble',
+    reference: 'Proverbs 19:23'
+  },
+  {
+    id: 856,
+    question: 'Who buries their hand in a dish (Prov. 19:24)?',
+    options: ['The rich', 'The king', 'The sluggard', 'The mocker'],
+    answer: 'The sluggard',
+    reference: 'Proverbs 19:24'
+  },
+  {
+    id: 857,
+    question: 'The simple will learn prudence if one ______ (Prov. 19:25).',
+    options: ['Flogs a mocker', 'Instructs them in the ways of the wise', 'Rebukes them', 'Leads by example'],
+    answer: 'Flogs a mocker',
+    reference: 'Proverbs 19:25'
+  },
+  {
+    id: 858,
+    question: 'Who will gain knowledge from being rebuked (Prov. 19:25)?',
+    options: ['The wise', 'The fool', 'The discerning', 'The understanding'],
+    answer: 'The discerning',
+    reference: 'Proverbs 19:25'
+  },
+  {
+    id: 859,
+    question: 'What does a son who robs his father bring (Prov. 19:26)?',
+    options: ['Grief', 'Poverty', 'Rebuke', 'Shame'],
+    answer: 'Shame',
+    reference: 'Proverbs 19:26'
+  },
+  {
+    id: 860,
+    question: 'What type of son brings shame and disgrace (Prov. 19:26)?',
+    options: ['One who drives out his mother', 'One who rebukes his father', 'One who will not listen to his parents', 'One who rejects discipline'],
+    answer: 'One who drives out his mother',
+    reference: 'Proverbs 19:26'
+  },
+  {
+    id: 861,
+    question: 'Who will stray from knowledge (Prov. 19:27)?',
+    options: ['One who robs his father', 'One who stops listening to instruction', 'One who is wise in their own eyes', 'One who pursues folly'],
+    answer: 'One who stops listening to instruction',
+    reference: 'Proverbs 19:27'
+  },
+  {
+    id: 862,
+    question: 'What is it that the mouth of the wicked does (Prov. 19:28)?',
+    options: ['Spread lies', 'Spurts out nonsense', 'Pours out deception', 'Gulps down evil'],
+    answer: 'Gulps down evil',
+    reference: 'Proverbs 19:28'
+  },
+  {
+    id: 863,
+    question: 'Who mocks at justice (Prov. 19:28)?',
+    options: ['A fool', 'A Shameful son', 'A corrupt witness', 'A thief'],
+    answer: 'A corrupt witness',
+    reference: 'Proverbs 19:28'
+  },
+  {
+    id: 864,
+    question: 'For whom are penalties prepared (Prov. 19:29)?',
+    options: ['The sluggard', 'The mockers', 'The fool', 'The gossip'],
+    answer: 'The mockers',
+    reference: 'Proverbs 19:29'
+  }
+],
+'20': [
+  {
+    id: 865,
+    question: 'Whoever is led astray by ______ and ______ is not wise (Prov. 20:1).',
+    options: ['Beer and Wine', 'Riches and power', 'Wickedness and dishonesty', 'Deceit and lies'],
+    answer: 'Beer and Wine',
+    reference: 'Proverbs 20:1'
+  },
+  {
+    id: 866,
+    question: 'What is a mocker (Prov. 20:1)?',
+    options: ['The fool', 'The gossip', 'Riches', 'Wine'],
+    answer: 'Wine',
+    reference: 'Proverbs 20:1'
+  },
+  {
+    id: 867,
+    question: 'What is a brawler (Prov. 20:1)?',
+    options: ['A foolish king', 'The sluggard', 'Beer', 'Bribes'],
+    answer: 'Beer',
+    reference: 'Proverbs 20:1'
+  },
+  {
+    id: 868,
+    question: "What is the king's wrath like (Prov. 20:2)?",
+    options: ['A furious storm', 'The roar of a lion', 'The howl of a wolf', 'A piercing arrow'],
+    answer: 'The roar of a lion',
+    reference: 'Proverbs 20:2'
+  },
+  {
+    id: 869,
+    question: 'What is a fool quick to do (Prov. 20:3)?',
+    options: ['Quarrel', 'Lie to a friend', 'Mock the simple', 'Sleep'],
+    answer: 'Quarrel',
+    reference: 'Proverbs 20:3'
+  },
+  {
+    id: 870,
+    question: "What is to a person's honor to avoid (Prov. 20:3)?",
+    options: ['Adultery', 'Foolishness', 'Strife', 'Selfishness'],
+    answer: 'Strife',
+    reference: 'Proverbs 20:3'
+  },
+  {
+    id: 871,
+    question: 'Who at harvest time looks but finds nothing (Prov. 20:4)?',
+    options: ['The wicked', 'A Sluggard', 'A Fool', 'The adulterer'],
+    answer: 'A Sluggard',
+    reference: 'Proverbs 20:4'
+  },
+  {
+    id: 872,
+    question: 'What are deep waters (Prov. 20:5)?',
+    options: ['The snares of the wicked', 'The anger and strife', 'The slumber of the sluggard', "The purposes of a man's heart"],
+    answer: "The purposes of a man's heart",
+    reference: 'Proverbs 20:5'
+  },
+  {
+    id: 873,
+    question: 'What does a man of understanding draw out (Prov. 20:5)?',
+    options: ['The evil of the wicked', 'The intentions of the wicked', "The purposes of a person's heart", 'The ways of the LORD'],
+    answer: "The purposes of a person's heart",
+    reference: 'Proverbs 20:5'
+  },
+  {
+    id: 874,
+    question: 'What does many a person claim to have (Prov. 20:6)?',
+    options: ['Prosperity', 'Wisdom', 'Understanding', 'Unfailing Love'],
+    answer: 'Unfailing Love',
+    reference: 'Proverbs 20:6'
+  },
+  {
+    id: 875,
+    question: 'What kind of person is hard to find (Prov. 20:6)?',
+    options: ['A faithful person', 'A righteous person', 'A diligent person', 'A just person'],
+    answer: 'A faithful person',
+    reference: 'Proverbs 20:6'
+  },
+  {
+    id: 876,
+    question: 'Who leads a blameless life (Prov. 20:7)?',
+    options: ['The faithful', 'The righteous', 'The wise', 'The prudent'],
+    answer: 'The righteous',
+    reference: 'Proverbs 20:7'
+  },
+  {
+    id: 877,
+    question: 'Whose children are blessed after them (Prov. 20:7)?',
+    options: ['The wise', 'The diligent', 'The righteous', 'The loving'],
+    answer: 'The righteous',
+    reference: 'Proverbs 20:7'
+  },
+  {
+    id: 878,
+    question: 'With what does the King winnow out all evil (Prov. 20:8)?',
+    options: ['His eyes', 'His scepter', 'His sword', 'His Wisdom'],
+    answer: 'His eyes',
+    reference: 'Proverbs 20:8'
+  },
+  {
+    id: 879,
+    question: 'What does the king do when he sits on his throne (Prov. 20:8)?',
+    options: ['Give decrees', 'Teaches wisdom', 'Offers prayers for his people', 'Judges'],
+    answer: 'Judges',
+    reference: 'Proverbs 20:8'
+  },
+  {
+    id: 880,
+    question: 'No one can say that they ______ (Prov. 20:9).',
+    options: ['Have loved their enemies', 'Have kept their heart pure', 'Have followed the way of wisdom', 'Have controlled their mouth'],
+    answer: 'Have kept their heart pure',
+    reference: 'Proverbs 20:9'
+  },
+  {
+    id: 881,
+    question: 'What does the Lord detest (Prov. 20:10)?',
+    options: ['Perverse thoughts', 'Deceitful plans', 'Differing weights', 'Stealing from the poor'],
+    answer: 'Differing weights',
+    reference: 'Proverbs 20:10'
+  },
+  {
+    id: 882,
+    question: 'By what is even a child known (Prov. 20:11)?',
+    options: ['Its faith', 'Its actions', 'Its love', 'Its understanding'],
+    answer: 'Its actions',
+    reference: 'Proverbs 20:11'
+  },
+  {
+    id: 883,
+    question: "A child's conduct is evaluated if it is ______ (Prov. 20:11)?",
+    options: ['Pure', 'Wise', 'Wicked', 'Deceitful'],
+    answer: 'Pure',
+    reference: 'Proverbs 20:11'
+  },
+  {
+    id: 884,
+    question: 'What was the LORD said to have made (Prov. 20:12)?',
+    options: ['Ears to hear', 'Hands to work', 'Feet to walk in righteousness', 'Mouth to speak wisdom'],
+    answer: 'Ears to hear',
+    reference: 'Proverbs 20:12'
+  },
+  {
+    id: 885,
+    question: 'What is one not to love or they will grow poor (Prov. 20:13)?',
+    options: ['Wickedness', 'Wealth', 'Slander', 'Sleep'],
+    answer: 'Sleep',
+    reference: 'Proverbs 20:13'
+  },
+  {
+    id: 886,
+    question: 'What will be the benefit of staying awake (Prov. 20:13)?',
+    options: ['Opportunities will not be missed', 'Having food to spare', 'Plowing before the rain comes', 'Bountiful harvests'],
+    answer: 'Having food to spare',
+    reference: 'Proverbs 20:13'
+  },
+  {
+    id: 887,
+    question: 'Who says "it’s no good" (Prov. 20:14)?',
+    options: ['The envious one', 'The enemy', 'The buyer', 'The righteous'],
+    answer: 'The buyer',
+    reference: 'Proverbs 20:14'
+  },
+  {
+    id: 888,
+    question: 'What did the one who later boasts of a purchase say (Prov. 20:14)?',
+    options: ['It is no good', 'I have no money', 'It is too expensive', 'It is cheaper on the Internet'],
+    answer: 'It is no good',
+    reference: 'Proverbs 20:14'
+  },
+  {
+    id: 889,
+    question: 'What is considered a rare jewel (Prov. 20:15)?',
+    options: ['A prudent wife', 'An obedient son', 'Lips that speak knowledge', 'An obedient child'],
+    answer: 'Lips that speak knowledge',
+    reference: 'Proverbs 20:15'
+  },
+  {
+    id: 890,
+    question: 'In contrast to the rare jewel of one speaking knowledge, what is there in abundance (Prov. 20:15)?',
+    options: ['Diamonds', 'Onyx', 'Sapphires', 'Rubies'],
+    answer: 'Rubies',
+    reference: 'Proverbs 20:15'
+  },
+  {
+    id: 891,
+    question: "A person's garment should be held in pledge if they (Prov. 20:16)?",
+    options: ['Loan money to a fool', 'Put up security for a stranger', 'Use violence against their neighbor', 'Sleep during the harvest'],
+    answer: 'Put up security for a stranger',
+    reference: 'Proverbs 20:16'
+  },
+  {
+    id: 892,
+    question: 'What is one advised to do to one who puts up security for a stranger (Prov. 20:16)?',
+    options: ['Take their Garment', 'Confront their action', 'Treat them like a fool', 'Shake hands with them'],
+    answer: 'Take their Garment',
+    reference: 'Proverbs 20:16'
+  },
+  {
+    id: 893,
+    question: 'What should be held in pledge if someone puts up security for a wayward woman (Prov. 20:16)?',
+    options: ['Their garment', 'A diamond ring', 'Rubies', 'Their house'],
+    answer: 'Their garment',
+    reference: 'Proverbs 20:16'
+  },
+  {
+    id: 894,
+    question: 'What kind of food initially tastes sweet (Prov. 20:17)?',
+    options: ['Stolen wine', 'The food of unrighteousness', 'The bread of the wicked', 'Food gained by fraud'],
+    answer: 'Food gained by fraud',
+    reference: 'Proverbs 20:17'
+  },
+  {
+    id: 895,
+    question: 'What does food gained by fraud end up tasting like (Prov. 20:17)?',
+    options: ['Spoiled milk', 'Gravel', 'Dirt', 'Excrement'],
+    answer: 'Gravel',
+    reference: 'Proverbs 20:17'
+  },
+  {
+    id: 896,
+    question: 'When making plans what should one seek (Prov. 20:18)?',
+    options: ['Kindness', 'The way of wisdom', 'Advice', 'Justice'],
+    answer: 'Advice',
+    reference: 'Proverbs 20:18'
+  },
+  {
+    id: 897,
+    question: 'What activity should be done only after obtaining guidance (Prov. 20:18)?',
+    options: ['Waging war', 'Making plans', 'Lending money', 'Purchasing a field'],
+    answer: 'Waging war',
+    reference: 'Proverbs 20:18'
+  },
+  {
+    id: 898,
+    question: 'Who should a person avoid (Prov. 20:19)?',
+    options: ['One who makes company with robbers', 'One who talks too much', 'One who seeks riches', 'One who bares false witness'],
+    answer: 'One who talks too much',
+    reference: 'Proverbs 20:19'
+  },
+  {
+    id: 899,
+    question: 'Who betrays a confidence (Prov. 20:19)?',
+    options: ['The deceitful', 'The wicked', 'The gossip', 'The sluggard'],
+    answer: 'The gossip',
+    reference: 'Proverbs 20:19'
+  },
+  {
+    id: 900,
+    question: 'Whose lamp will be snuffed out (Prov. 20:20)?',
+    options: ['The person who curses their parents', 'The person who sets a trap for the righteous', 'The person who steals from the widow', 'The person who deceives the king'],
+    answer: 'The person who curses their parents',
+    reference: 'Proverbs 20:20'
+  },
+  {
+    id: 901,
+    question: 'What will happen to the one who curses a parent (Prov. 20:20)?',
+    options: ['Their food will turn to gravel', 'Enemies will destroy their home', 'Their lamp will be snuffed out', 'Their harvest will turn to dust'],
+    answer: 'Their lamp will be snuffed out',
+    reference: 'Proverbs 20:20'
+  },
+  {
+    id: 902,
+    question: 'What will not be blessed in the end (Prov. 20:21)?',
+    options: ['The plunder of the wicked', 'A field of the sluggard', 'The head of the treacherous', 'An inheritance quickly gained'],
+    answer: 'An inheritance quickly gained',
+    reference: 'Proverbs 20:21'
+  },
+  {
+    id: 903,
+    question: 'One should not say "I’ll pay you back for this wrong" but rather (Prov. 20:22)?',
+    options: ['Forgive as they had been forgiven', 'Wait for the LORD', 'Listen to the voice of justice', 'Seek the counsel of a king'],
+    answer: 'Wait for the LORD',
+    reference: 'Proverbs 20:22'
+  },
+  {
+    id: 904,
+    question: 'What does not please the LORD (Prov. 20:23)?',
+    options: ['Dishonest scales', 'The rubies of the wicked', 'The gate of the unrighteous', 'The slanderous tongue'],
+    answer: 'Dishonest scales',
+    reference: 'Proverbs 20:23'
+  },
+  {
+    id: 905,
+    question: 'What are directed by the LORD (Prov. 20:24)?',
+    options: ["A person's thoughts", "A person's rewards", "A person's steps", "A person's children"],
+    answer: "A person's steps",
+    reference: 'Proverbs 20:24'
+  },
+  {
+    id: 906,
+    question: 'What can no one understand (Prov. 20:24)?',
+    options: ['The wonders of the LORD', 'Their own way', 'The way of the wicked', 'The sayings of the wise'],
+    answer: 'Their own way',
+    reference: 'Proverbs 20:24'
+  },
+  {
+    id: 907,
+    question: 'What is a trap (Prov. 20:25)?',
+    options: ['The way of the wicked', 'The mouth of an adulteress', "To slander one's neighbor", 'To dedicate something rashly'],
+    answer: 'To dedicate something rashly',
+    reference: 'Proverbs 20:25'
+  },
+  {
+    id: 908,
+    question: 'What does a wise king winnow (Prov. 20:26)?',
+    options: ['The oppressors', 'Those with unjust scales', 'The wicked', 'The righteous'],
+    answer: 'The wicked',
+    reference: 'Proverbs 20:26'
+  },
+  {
+    id: 909,
+    question: 'What does the king drive over the wicked (Prov. 20:26)?',
+    options: ['The threshing wheel', 'The millstone of justice', 'The wagon of the LORD', 'His chariot'],
+    answer: 'The threshing wheel',
+    reference: 'Proverbs 20:26'
+  },
+  {
+    id: 910,
+    question: 'What does the lamp of the LORD search (Prov. 20:27)?',
+    options: ['The thoughts of the wicked', 'The spirit of a person', 'The plans of the heart', 'The needs of the poor'],
+    answer: 'The spirit of a person',
+    reference: 'Proverbs 20:27'
+  },
+  {
+    id: 911,
+    question: 'What two things keep a king safe (Prov. 20:28)?',
+    options: ['Love and Faithfulness', 'Justice and kindness', 'Loyalty and Guards', 'Wisdom and righteousness'],
+    answer: 'Love and Faithfulness',
+    reference: 'Proverbs 20:28'
+  },
+  {
+    id: 912,
+    question: 'Through what is a throne secured (Prov. 20:28)?',
+    options: ['Faithfulness', 'Justice', 'Love', 'Wisdom'],
+    answer: 'Love',
+    reference: 'Proverbs 20:28'
+  },
+  {
+    id: 913,
+    question: 'What is the glory of young men (Prov. 20:29)?',
+    options: ['Youthfulness', 'Freedom', 'Strength', 'Riches'],
+    answer: 'Strength',
+    reference: 'Proverbs 20:29'
+  },
+  {
+    id: 914,
+    question: 'What is the splendor of the old (Prov. 20:29)?',
+    options: ['Long life', 'Gray hair', 'Wisdom', 'Acquired Understanding'],
+    answer: 'Gray hair',
+    reference: 'Proverbs 20:29'
+  }
+],
+'21': [
+  {
+    id: 915,
+    question: "Whose heart is in the hand of the LORD (Prov. 21:1)?",
+    options: ["The king's", "The wise man's", "The fool's", "The wicked man's"],
+    answer: "The king's",
+    reference: 'Proverbs 21:1'
+  },
+  {
+    id: 916,
+    question: "The king's heart was likened to a ______ (Prov. 21:1).",
+    options: ['Rain cloud', 'A secure fortress', 'A watercourse', 'A winnowing fork'],
+    answer: 'A watercourse',
+    reference: 'Proverbs 21:1'
+  },
+  {
+    id: 917,
+    question: "All a man's ways seem right to whom (Prov. 21:2)?",
+    options: ['The LORD', 'The proud', 'Himself', 'The world'],
+    answer: 'Himself',
+    reference: 'Proverbs 21:2'
+  },
+  {
+    id: 918,
+    question: 'What does the LORD weigh (Prov. 21:2)?',
+    options: ['The deeds of all', 'The heart', 'The thoughts of the wicked', 'The words of the mocker'],
+    answer: 'The thoughts of the wicked',
+    reference: 'Proverbs 21:2'
+  },
+  {
+    id: 919,
+    question: 'To do what is right and just is more acceptable to the LORD than what (Prov. 21:3)?',
+    options: ['To do what is wrong', 'Sacrifice', 'Prayer', 'Fasting'],
+    answer: 'Sacrifice',
+    reference: 'Proverbs 21:3'
+  },
+  {
+    id: 920,
+    question: 'What is more acceptable to the LORD than sacrifice (Prov. 21:3)?',
+    options: ['To do what is just', 'To pursue wisdom', 'To have a humble heart', 'To walk in righteousness'],
+    answer: 'To do what is just',
+    reference: 'Proverbs 21:3'
+  },
+  {
+    id: 921,
+    question: 'All of the following are listed as sin EXCEPT (Prov. 21:4).',
+    options: ['Haughty eyes', 'A proud heart', 'The lamp of the wicked', 'The mouth of an adulteress'],
+    answer: 'The mouth of an adulteress',
+    reference: 'Proverbs 21:4'
+  },
+  {
+    id: 922,
+    question: 'What kind of heart does Proverbs label as sin (Prov. 21:4)?',
+    options: ['Treacherous', 'Wicked', 'Proud', 'Deceitful'],
+    answer: 'Proud',
+    reference: 'Proverbs 21:4'
+  },
+  {
+    id: 923,
+    question: 'What item of the wicked does Proverbs label as sin (Prov. 21:4)?',
+    options: ['Wine', 'Lamp', 'Chair', 'Door'],
+    answer: 'Lamp',
+    reference: 'Proverbs 21:4'
+  },
+  {
+    id: 924,
+    question: 'What do the plans of the diligent lead to (Prov. 21:5)?',
+    options: ['Success', 'Poverty', 'Profit', 'Righteousness'],
+    answer: 'Profit',
+    reference: 'Proverbs 21:5'
+  },
+  {
+    id: 925,
+    question: 'To what does haste lead (Prov. 21:5)?',
+    options: ['Destruction', 'Transgression', 'Waste', 'Poverty'],
+    answer: 'Poverty',
+    reference: 'Proverbs 21:5'
+  },
+  {
+    id: 926,
+    question: 'What leads to poverty (Prov. 21:5)?',
+    options: ['Haste', 'Unfaithfulness', 'A lying tongue', 'Wickedness'],
+    answer: 'Haste',
+    reference: 'Proverbs 21:5'
+  },
+  {
+    id: 927,
+    question: 'What does the fortune made by a lying tongue become (Prov. 21:6)?',
+    options: ['A deadly snare', 'A slippery path', 'A destructive storm', 'A highway to the grave'],
+    answer: 'A deadly snare',
+    reference: 'Proverbs 21:6'
+  },
+  {
+    id: 928,
+    question: 'What is a fleeting vapor (Prov. 21:6)?',
+    options: ['The work of lazy hands', 'The harvest of the wicked', 'The fortune made by a lying tongue', 'The success of the unfaithful'],
+    answer: 'The fortune made by a lying tongue',
+    reference: 'Proverbs 21:6'
+  },
+  {
+    id: 929,
+    question: 'What will drag the wicked away (Prov. 21:7)?',
+    options: ['Sin', 'Violence', 'Pride', 'Greed'],
+    answer: 'Violence',
+    reference: 'Proverbs 21:7'
+  },
+  {
+    id: 930,
+    question: 'What do the wicked refuse to do (Prov. 21:7)?',
+    options: ['What is just', 'Fear the LORD', 'Walk in straight paths', 'What is right'],
+    answer: 'What is right',
+    reference: 'Proverbs 21:7'
+  },
+  {
+    id: 931,
+    question: 'Whose way is devious (Prov. 21:8)?',
+    options: ['The wicked', 'Every one', 'The adulteress', 'The guilty'],
+    answer: 'The guilty',
+    reference: 'Proverbs 21:8'
+  },
+  {
+    id: 932,
+    question: 'What is considered upright (Prov. 21:8)?',
+    options: ['The conduct of the innocent', 'The way of the righteous', 'The pure in heart', 'The plans of the blameless'],
+    answer: 'The conduct of the innocent',
+    reference: 'Proverbs 21:8'
+  },
+  {
+    id: 933,
+    question: 'With whom is it bad to share a house (Prov. 21:9)?',
+    options: ['A treacherous man', 'A unfaithful son', 'A quarrelsome wife', 'A wicked king'],
+    answer: 'A quarrelsome wife',
+    reference: 'Proverbs 21:9'
+  },
+  {
+    id: 934,
+    question: 'Where is better to dwell than in a house with a quarrelsome wife (Prov. 21:9)?',
+    options: ['In the basement', 'Up on the roof', 'Out in the street', 'In a cave'],
+    answer: 'Up on the roof',
+    reference: 'Proverbs 21:9'
+  },
+  {
+    id: 935,
+    question: 'What does the wicked man crave (Prov. 21:10)?',
+    options: ['Evil', 'Pride', 'Success', 'Power'],
+    answer: 'Evil',
+    reference: 'Proverbs 21:10'
+  },
+  {
+    id: 936,
+    question: 'What does a neighbor not receive from a wicked person (Prov. 21:10)?',
+    options: ['Payment', 'Kindness', 'Justice', 'Mercy'],
+    answer: 'Mercy',
+    reference: 'Proverbs 21:10'
+  },
+  {
+    id: 937,
+    question: 'Who gains wisdom when a mocker is punished (Prov. 21:11)?',
+    options: ['The wise', 'The mocker', 'The simple', 'Everyone who watches'],
+    answer: 'The simple',
+    reference: 'Proverbs 21:11'
+  },
+  {
+    id: 938,
+    question: 'When does the simple gain wisdom (Prov. 21:11)?',
+    options: ['When the mocker is punished', 'When he listens to the wise', 'When he walks in righteous paths', 'They cannot'],
+    answer: 'When the mocker is punished',
+    reference: 'Proverbs 21:11'
+  },
+  {
+    id: 939,
+    question: 'How does the wise person get knowledge (Prov. 21:11)?',
+    options: ['They listen', 'They seek it out', 'By walking in the way with it', 'They are instructed'],
+    answer: 'They are instructed',
+    reference: 'Proverbs 21:11'
+  },
+  {
+    id: 940,
+    question: 'Who brings the wicked to ruin (Prov. 21:12)?',
+    options: ['The upright', 'The Righteous One', 'The Holy One', 'The wicked bring themselves to ruin'],
+    answer: 'The Righteous One',
+    reference: 'Proverbs 21:12'
+  },
+  {
+    id: 941,
+    question: 'Of what does the Righteous One take note (Prov. 21:12)?',
+    options: ['The way of the diligent', 'The lies of the treacherous', 'The house of the wicked', 'The field of the lazy'],
+    answer: 'The house of the wicked',
+    reference: 'Proverbs 21:12'
+  },
+  {
+    id: 942,
+    question: 'Who will not be answered when he cries (Prov. 21:13)?',
+    options: ['The one who shuts his ears to the poor', 'The one who follows the path of the wicked', 'The one who cries out for wisdom', 'The one who does not answer others'],
+    answer: 'The one who shuts his ears to the poor',
+    reference: 'Proverbs 21:13'
+  },
+  {
+    id: 943,
+    question: 'To whose cry is one not to shut their ears (Prov. 21:13)?',
+    options: ['The righteous', 'The poor', 'The diligent', 'A friend in need'],
+    answer: 'The poor',
+    reference: 'Proverbs 21:13'
+  },
+  {
+    id: 944,
+    question: 'What pacifies great wrath (Prov. 21:14)?',
+    options: ['A reward', 'Hidden Love', 'A concealed bribe', 'Honesty of heart'],
+    answer: 'A concealed bribe',
+    reference: 'Proverbs 21:14'
+  },
+  {
+    id: 945,
+    question: 'What does a gift given in secret soothe (Prov. 21:14)?',
+    options: ['Anger', 'A damaged heart', 'A jealous friend', 'Guilt'],
+    answer: 'Anger',
+    reference: 'Proverbs 21:14'
+  },
+  {
+    id: 946,
+    question: 'What brings joy to the righteous (Prov. 21:15)?',
+    options: ['Justice', 'Mercy', 'The LORD', 'Good works'],
+    answer: 'Justice',
+    reference: 'Proverbs 21:15'
+  },
+  {
+    id: 947,
+    question: 'What does justice bring to evildoers (Prov. 21:15)?',
+    options: ['Destruction', 'Poverty', 'Wisdom', 'Terror'],
+    answer: 'Terror',
+    reference: 'Proverbs 21:15'
+  },
+  {
+    id: 948,
+    question: 'With whom does the person rest who strayed from the path of understanding (Prov. 21:16)?',
+    options: ['The simple', 'The dead', 'The wicked', 'All of the above'],
+    answer: 'The dead',
+    reference: 'Proverbs 21:16'
+  },
+  {
+    id: 949,
+    question: 'Who rests in the company of the dead (Prov. 21:16)?',
+    options: ['One forsaking wisdom', 'One plotting evil against the righteous', 'One slandering a neighbor', 'One straying from the path of understanding'],
+    answer: 'One straying from the path of understanding',
+    reference: 'Proverbs 21:16'
+  },
+  {
+    id: 950,
+    question: 'Whoever loves wine and oil will never be what (Prov. 21:17)?',
+    options: ['Happy', 'Righteous', 'Rich', 'Satisfied'],
+    answer: 'Rich',
+    reference: 'Proverbs 21:17'
+  },
+  {
+    id: 951,
+    question: 'Who will become poor (Prov. 21:17)?',
+    options: ['One loving pleasure', 'One plotting evil', 'One giving bribes', 'One using unjust scales'],
+    answer: 'One loving pleasure',
+    reference: 'Proverbs 21:17'
+  },
+  {
+    id: 952,
+    question: 'Who will never become rich (Prov. 21:17)?',
+    options: ['One loving violence and injustice', 'One loving wine and oil', 'One loving the way of the wicked', 'One loving the milk and honey'],
+    answer: 'One loving wine and oil',
+    reference: 'Proverbs 21:17'
+  },
+  {
+    id: 953,
+    question: 'What does the wicked man become for the righteous (Prov. 21:18)?',
+    options: ['An enemy', 'A friend', 'A stepping stone', 'A ransom'],
+    answer: 'A ransom',
+    reference: 'Proverbs 21:18'
+  },
+  {
+    id: 954,
+    question: 'Who become a ransom for the upright (Prov. 21:18)?',
+    options: ['The wicked', 'The sluggard', 'The unfaithful', 'The rich'],
+    answer: 'The unfaithful',
+    reference: 'Proverbs 21:18'
+  },
+  {
+    id: 955,
+    question: 'Where is it better to live than with an ill-tempered wife (Prov. 21:19)?',
+    options: ['In the ground', 'In the desert', 'On a mountain', 'In the street'],
+    answer: 'In the desert',
+    reference: 'Proverbs 21:19'
+  },
+  {
+    id: 956,
+    question: 'It is better to live in the desert than live with a (Prov. 21:19)?',
+    options: ['Ill-tempered wife', 'A wicked son', 'A unfaithful wife', 'An unloved wife'],
+    answer: 'Ill-tempered wife',
+    reference: 'Proverbs 21:19'
+  },
+  {
+    id: 957,
+    question: 'The person who pursues righteousness finds all of the following EXCEPT (Prov. 21:21).',
+    options: ['Life', 'Prosperity', 'Honor', 'Peace'],
+    answer: 'Peace',
+    reference: 'Proverbs 21:21'
+  },
+  {
+    id: 958,
+    question: 'What are found in the house of the wise (Prov. 21:20)?',
+    options: ['Gold and silver', 'Riches and honor', 'Food and oil', 'Milk and honey'],
+    answer: 'Food and oil',
+    reference: 'Proverbs 21:20'
+  },
+  {
+    id: 959,
+    question: 'Who devours all they have (Prov. 21:20)?',
+    options: ['The wicked', 'The fool', 'The sluggard', 'The unfaithful'],
+    answer: 'The fool',
+    reference: 'Proverbs 21:20'
+  },
+  {
+    id: 960,
+    question: 'Whose city does the wise man attack (Prov. 21:22)?',
+    options: ['The weak', 'The wicked', 'The mighty', 'The foolish'],
+    answer: 'The mighty',
+    reference: 'Proverbs 21:22'
+  },
+  {
+    id: 961,
+    question: 'Who pulls down the stronghold in which the mighty trust (Prov. 21:22)?',
+    options: ['The righteous', 'The kind', 'The diligent', 'The wise'],
+    answer: 'The wise',
+    reference: 'Proverbs 21:22'
+  },
+  {
+    id: 962,
+    question: 'What does a man need to guard in order to keep himself from calamity (Prov. 21:23)?',
+    options: ['His mind', 'His tongue', 'His heart', 'His actions'],
+    answer: 'His tongue',
+    reference: 'Proverbs 21:23'
+  },
+  {
+    id: 963,
+    question: 'One who guards his mouth keeps themselves from (Prov. 21:23).',
+    options: ['Destruction', 'The grave', 'Calamity', 'Poverty'],
+    answer: 'Calamity',
+    reference: 'Proverbs 21:23'
+  },
+  {
+    id: 964,
+    question: 'What is the name of the proud and arrogant man (Prov. 21:24)?',
+    options: ['Mocker', 'Deceiver', 'Haughty', 'Death'],
+    answer: 'Mocker',
+    reference: 'Proverbs 21:24'
+  }
+],
+'22': [
+  {
+    id: 965,
+    question: 'What is more desirable than great riches (Prov 22:1)?',
+    options: ['Wisdom', 'Purity and holiness', 'A good name', 'A loving wife'],
+    answer: 'A good name',
+    reference: 'Proverbs 22:1'
+  },
+  {
+    id: 966,
+    question: 'What is better than silver or gold (Prov 22:1)?',
+    options: ['To be esteemed', 'Righteousness', 'Justice', 'Purity of heart'],
+    answer: 'To be esteemed',
+    reference: 'Proverbs 22:1'
+  },
+  {
+    id: 967,
+    question: 'What do the rich have in common with the poor (Prov 22:2)?',
+    options: ['God loves them both', 'The LORD is their maker', 'They face death alike', 'They both walk on the way'],
+    answer: 'The LORD is their maker',
+    reference: 'Proverbs 22:2'
+  },
+  {
+    id: 968,
+    question: 'What does the prudent man do when he sees danger (Prov 22:3)?',
+    options: ['Gets ready to fight', 'Avoids it', 'Laughs', 'Takes refuge'],
+    answer: 'Takes refuge',
+    reference: 'Proverbs 22:3'
+  },
+  {
+    id: 969,
+    question: 'How do the simple respond to danger (Prov 22:3)?',
+    options: ['They flee', 'They sleep through it', 'They keep going', 'They avoid it'],
+    answer: 'They keep going',
+    reference: 'Proverbs 22:3'
+  },
+  {
+    id: 970,
+    question: 'What, in addition to fear of the LORD, brings wealth, honor, and life (Prov 22:4)?',
+    options: ['Humility', 'Virtue', 'Wisdom', 'All of the above'],
+    answer: 'Humility',
+    reference: 'Proverbs 22:4'
+  },
+  {
+    id: 971,
+    question: 'All of the following are listed as being brought by the fear of the LORD EXCEPT (Prov 22:4).',
+    options: ['Wealth', 'Honor', 'Life', 'Joy'],
+    answer: 'Joy',
+    reference: 'Proverbs 22:4'
+  },
+  {
+    id: 972,
+    question: 'Where do thorns and snares lie (Prov 22:5)?',
+    options: ['Under the foot of the evil man', 'On the path of the wicked', 'On the road to Hell', 'Everywhere'],
+    answer: 'On the path of the wicked',
+    reference: 'Proverbs 22:5'
+  },
+  {
+    id: 973,
+    question: 'What lie in the path of the wicked (Prov 22:5)?',
+    options: ['Calamity and failure', 'Death and destruction', 'Pits and ruin', 'Thorns and snares'],
+    answer: 'Thorns and snares',
+    reference: 'Proverbs 22:5'
+  },
+  {
+    id: 974,
+    question: 'What must you do to avoid the thorns and snares (Prov 22:5)?',
+    options: ['Avoid the path of the wicked', 'Follow the path of the righteous', 'Guard your soul', 'Make wise choices'],
+    answer: 'Guard your soul',
+    reference: 'Proverbs 22:5'
+  },
+  {
+    id: 975,
+    question: 'Who is to be trained in the way he should go (Prov 22:6)?',
+    options: ['A student', 'A believer', 'A wise man', 'A child'],
+    answer: 'A child',
+    reference: 'Proverbs 22:6'
+  },
+  {
+    id: 976,
+    question: 'What will happen when a trained child is old (Prov 22:6)?',
+    options: ['He will not turn from his training', 'He will not suffer loss', 'He will become wise', 'He will not stumble'],
+    answer: 'He will not turn from his training',
+    reference: 'Proverbs 22:6'
+  },
+  {
+    id: 977,
+    question: 'What is the borrower, in relation to the lender (Prov 22:7)?',
+    options: ['A benefactor', 'A servant', 'An object of mercy', 'Grateful'],
+    answer: 'A servant',
+    reference: 'Proverbs 22:7'
+  },
+  {
+    id: 978,
+    question: 'Who rules over the poor (Prov 22:7)?',
+    options: ['The righteous', 'The just', 'The rich', 'The LORD'],
+    answer: 'The rich',
+    reference: 'Proverbs 22:7'
+  },
+  {
+    id: 979,
+    question: 'What does he who sows wickedness reap (Prov 22:8)?',
+    options: ['Trouble', 'Death', 'Fury', 'Wickedness'],
+    answer: 'Trouble',
+    reference: 'Proverbs 22:8'
+  },
+  {
+    id: 980,
+    question: 'What of the one sowing wickedness will be destroyed (Prov 22:9)?',
+    options: ['The sickle', 'The harvest', 'The treachery of his mouth', 'The rod of his fury'],
+    answer: 'The rod of his fury',
+    reference: 'Proverbs 22:9'
+  },
+  {
+    id: 981,
+    question: 'What will happen to the generous man (Prov 22:9)?',
+    options: ['He will receive much', 'He will please the LORD', 'He will be blessed', 'All of the above'],
+    answer: 'He will be blessed',
+    reference: 'Proverbs 22:9'
+  },
+  {
+    id: 982,
+    question: 'With whom do generous people share their food (Prov 22:9)?',
+    options: ['Their family', 'Everyone', 'Their enemies', 'The poor'],
+    answer: 'The poor',
+    reference: 'Proverbs 22:9'
+  },
+  {
+    id: 983,
+    question: 'Quarrels and strife are ended when who is driven out (Prov 22:10)?',
+    options: ['The wicked man', 'The mocker', 'The fool', 'The Adulteress'],
+    answer: 'The mocker',
+    reference: 'Proverbs 22:10'
+  },
+  {
+    id: 984,
+    question: 'When the mocker is driven out all of the following end EXCEPT (Prov 22:10).',
+    options: ['Deception', 'Insults', 'Quarrels', 'Strife'],
+    answer: 'Deception',
+    reference: 'Proverbs 22:10'
+  },
+  {
+    id: 985,
+    question: 'Who does the one who loves a pure heart have for a friend (Prov 22:11)?',
+    options: ['The LORD', 'His neighbor', 'The wise man', 'A king'],
+    answer: 'A king',
+    reference: 'Proverbs 22:11'
+  },
+  {
+    id: 986,
+    question: 'Who will have the king for a friend (Prov 22:11)?',
+    options: ['One who walks in wisdom', 'One who has gracious speech', 'One who has a diligent hand', 'One who is generous to the poor'],
+    answer: 'One who has gracious speech',
+    reference: 'Proverbs 22:11'
+  },
+  {
+    id: 987,
+    question: 'What do the eyes of the LORD watch over (Prov 22:12)?',
+    options: ['The righteous', 'The wicked', 'Wisdom', 'Knowledge'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 22:12'
+  },
+  {
+    id: 988,
+    question: 'Whose words does the LORD frustrate (Prov 22:12)?',
+    options: ['The mocker', 'The wicked', 'The unfaithful', 'The Fool'],
+    answer: 'The unfaithful',
+    reference: 'Proverbs 22:12'
+  },
+  {
+    id: 989,
+    question: 'Who says "There is a lion outside!" (Prov 22:13)?',
+    options: ['The coward', 'The sluggard', 'The fool', 'The wicked'],
+    answer: 'The sluggard',
+    reference: 'Proverbs 22:13'
+  },
+  {
+    id: 990,
+    question: 'What does the sluggard fear will happen in the street (Prov 22:13)?',
+    options: ['He will be beaten', 'He will be exposed to a storm', 'He will have to work', 'He will be murdered'],
+    answer: 'He will be murdered',
+    reference: 'Proverbs 22:13'
+  },
+  {
+    id: 991,
+    question: 'What is like a pit (Prov 22:14)?',
+    options: ["The adulteress' mouth", "The sluggard's mouth", "The liar's mouth", "The fool's words"],
+    answer: "The adulteress' mouth",
+    reference: 'Proverbs 22:14'
+  },
+  {
+    id: 992,
+    question: 'Who will fall into the mouth of the adulteress (Prov 22:14)?',
+    options: ['The wicked', 'Those under the wrath of the LORD', 'Those pursuing folly', 'The unfaithful'],
+    answer: 'Those under the wrath of the LORD',
+    reference: 'Proverbs 22:14'
+  },
+  {
+    id: 993,
+    question: 'What is bound up in the heart of a child (Prov 22:15)?',
+    options: ['Wonder', 'Love', 'Folly', 'Life'],
+    answer: 'Folly',
+    reference: 'Proverbs 22:15'
+  },
+  {
+    id: 994,
+    question: 'What will remove folly from the heart of a child (Prov 22:15)?',
+    options: ['Instruction', 'A pure heart', 'Listening', 'The rod'],
+    answer: 'The rod',
+    reference: 'Proverbs 22:15'
+  },
+  {
+    id: 995,
+    question: 'What happens to the man that gives gifts to the rich (Prov 22:16)?',
+    options: ['He receives a reward', 'He increases his own wealth', 'He oppresses the poor', 'He comes to poverty'],
+    answer: 'He comes to poverty',
+    reference: 'Proverbs 22:16'
+  },
+  {
+    id: 996,
+    question: 'Who comes to poverty (Prov 22:16)?',
+    options: ['One who oppresses the poor to get rich', 'One who tries to get rich quickly', 'One who tramples on the rights of the widow', 'One who sets a trap for the righteous'],
+    answer: 'One who oppresses the poor to get rich',
+    reference: 'Proverbs 22:16'
+  },
+  {
+    id: 997,
+    question: 'To what should one listen (Prov 22:17)?',
+    options: ['The sayings of the wise', "The father's instruction", "The LORD's counsel", "The teacher's rebuke"],
+    answer: 'The sayings of the wise',
+    reference: 'Proverbs 22:17'
+  },
+  {
+    id: 998,
+    question: 'What should be applied to the heart (Prov 22:17)?',
+    options: ['The words of the righteous', 'The insights of the discerning', 'What the sage teaches', 'The way of the sage'],
+    answer: 'What the sage teaches',
+    reference: 'Proverbs 22:17'
+  },
+  {
+    id: 999,
+    question: 'What is it when you keep the sayings of the wise on your lips (Prov 22:18)?',
+    options: ['Holy', 'Pleasing', 'Faithful', 'Beautiful'],
+    answer: 'Pleasing',
+    reference: 'Proverbs 22:18'
+  },
+  {
+    id: 1000,
+    question: 'Where should the sayings of the wise be kept (Prov 22:18)?',
+    options: ["In one's house", 'On the way', 'In the mind', 'In the heart'],
+    answer: 'In the heart',
+    reference: 'Proverbs 22:18'
+  },
+  {
+    id: 1001,
+    question: 'The wise teach so that the young may ______ the LORD (Prov 22:19).',
+    options: ['Trust', 'Fear', 'Love', 'Honor'],
+    answer: 'Trust',
+    reference: 'Proverbs 22:19'
+  },
+  {
+    id: 1002,
+    question: 'How many sayings of council and knowledge has the author written (Prov 22:20)?',
+    options: ['Ten', 'Thirty', 'One hundred', 'Seven'],
+    answer: 'Thirty',
+    reference: 'Proverbs 22:20'
+  },
+  {
+    id: 1003,
+    question: 'What kind of sayings did the sage write (Prov 22:20)?',
+    options: ['Righteous', 'Just', 'Knowledge', 'Honorable'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 22:20'
+  },
+  {
+    id: 1004,
+    question: 'What does one need to give to the one sending them (Prov 22:21)?',
+    options: ['Generous gifts', 'Our heart', 'Sound answers', 'Praise and honor'],
+    answer: 'Sound answers',
+    reference: 'Proverbs 22:21'
+  },
+  {
+    id: 1005,
+    question: "What kind of words does the sage's instruction teach (Prov 22:21)?",
+    options: ['Reliable words', 'Gentle words', 'Just words', 'Righteous words'],
+    answer: 'Reliable words',
+    reference: 'Proverbs 22:21'
+  },
+  {
+    id: 1006,
+    question: "Who shouldn't be crushed in court (Prov 22:22)?",
+    options: ['The wicked', 'The needy', "One's neighbor", "One's servants"],
+    answer: 'The needy',
+    reference: 'Proverbs 22:22'
+  },
+  {
+    id: 1007,
+    question: 'Who should not be exploited (Prov 22:22)?',
+    options: ['The wicked', "One's neighbor", 'The poor', "One's servants"],
+    answer: 'The poor',
+    reference: 'Proverbs 22:22'
+  },
+  {
+    id: 1008,
+    question: "Who will take up the needy's case (Prov 22:23)?",
+    options: ['The LORD', 'The mighty', 'The judge', 'The righteous'],
+    answer: 'The LORD',
+    reference: 'Proverbs 22:23'
+  },
+  {
+    id: 1009,
+    question: 'What will the LORD do to the one exploiting the poor (Prov 22:23)?',
+    options: ['Bring them down to the pit', 'Plunder them', 'Judge them', 'Bring calamity upon them'],
+    answer: 'Plunder them',
+    reference: 'Proverbs 22:23'
+  },
+  {
+    id: 1010,
+    question: "What shouldn't you do with a hot-tempered man (Prov 22:24)?",
+    options: ['Anger him', 'Mock', 'Make friends', 'Rebuke'],
+    answer: 'Make friends',
+    reference: 'Proverbs 22:24'
+  },
+  {
+    id: 1011,
+    question: 'With whom should one not associate (Prov 22:24)?',
+    options: ['The wicked', 'One oppressing the poor', 'A gossip', 'One easily angered'],
+    answer: 'One easily angered',
+    reference: 'Proverbs 22:24'
+  },
+  {
+    id: 1012,
+    question: 'What might happen if you associate with someone easily angered (Prov 22:25)?',
+    options: ['You may lose your temper', 'You may get hurt', 'You may fall', 'You may get ensnared'],
+    answer: 'You may get ensnared',
+    reference: 'Proverbs 22:25'
+  },
+  {
+    id: 1013,
+    question: 'How may one learn the ways of one easily angered (Prov 22:25f)?',
+    options: ['By associating with him', 'By agreeing with him', 'By listening to him', 'By watching him'],
+    answer: 'By associating with him',
+    reference: 'Proverbs 22:25'
+  },
+  {
+    id: 1014,
+    question: 'What should one not put up security for (Prov 22:26)?',
+    options: ['The simple', 'Debt', 'His home', 'The unstable'],
+    answer: 'Debt',
+    reference: 'Proverbs 22:26'
+  }
+],
+'23': [
+  {
+    id: 1015,
+    question: 'What should you note when you dine with a ruler (Prov 23:1)?',
+    options: ['What is before you', 'What the ruler likes', 'What the ruler says', 'What he drinks'],
+    answer: 'What is before you',
+    reference: 'Proverbs 23:1'
+  },
+  {
+    id: 1016,
+    question: 'You should put a knife to your throat if you are given to what (Prov 23:2)?',
+    options: ['Evil', 'Lust', 'Gluttony', 'Greed'],
+    answer: 'Gluttony',
+    reference: 'Proverbs 23:2'
+  },
+  {
+    id: 1017,
+    question: 'When eating with a king what should one do if one is a glutton (Prov 23:2)?',
+    options: ["Put a muzzle on one's mouth", 'Eat only a morsel', 'Only eat what is offered', 'Put a knife to your throat'],
+    answer: 'Put a knife to your throat',
+    reference: 'Proverbs 23:2'
+  },
+  {
+    id: 1018,
+    question: 'What of the ruler should one not crave (Prov 23:3)?',
+    options: ['Power', 'Delicacies', 'Honor', 'Wealth'],
+    answer: 'Delicacies',
+    reference: 'Proverbs 23:3'
+  },
+  {
+    id: 1019,
+    question: 'For what should one not wear themselves out (Prov 23:4)?',
+    options: ['To have fun', 'To get rich', 'To eat delicacies', 'To hear gossip'],
+    answer: 'To get rich',
+    reference: 'Proverbs 23:4'
+  },
+  {
+    id: 1020,
+    question: 'What should one have the wisdom to show (Prov 23:4)?',
+    options: ['Maturity', 'Prudence', 'Mercy', 'Restraint'],
+    answer: 'Restraint',
+    reference: 'Proverbs 23:4'
+  },
+  {
+    id: 1021,
+    question: 'What will sprout wings and fly off to the sky (Prov 23:5)?',
+    options: ['Trouble', 'Riches', 'Plunder', 'The praise of men'],
+    answer: 'Riches',
+    reference: 'Proverbs 23:5'
+  },
+  {
+    id: 1022,
+    question: 'What should a person cast just a glance at (Prov 23:5)?',
+    options: ['Violence', 'Plunder', 'The praise of men', 'Riches'],
+    answer: 'Riches',
+    reference: 'Proverbs 23:5'
+  },
+  {
+    id: 1023,
+    question: 'Like what will riches fly off (Prov 23:5)?',
+    options: ['Like a sparrow', 'Like a summer breeze', 'Like an eagle', 'Like a vulture'],
+    answer: 'Like an eagle',
+    reference: 'Proverbs 23:5'
+  },
+  {
+    id: 1024,
+    question: 'Do not eat the food of what type of man (Prov 23:6)?',
+    options: ['Stingy', 'Wicked', 'Gluttonous', 'Drunk'],
+    answer: 'Stingy',
+    reference: 'Proverbs 23:6'
+  },
+  {
+    id: 1025,
+    question: 'What does the stingy man say to you (Prov 23:7)?',
+    options: ['You owe me', 'Come and rest', 'Eat and drink', 'Harsh words'],
+    answer: 'Eat and drink',
+    reference: 'Proverbs 23:7'
+  },
+  {
+    id: 1026,
+    question: 'What is the stingy person always thinking about (Prov 23:7)?',
+    options: ['His wealth', 'The cost', "A neighbor's wealth", 'Gold and silver'],
+    answer: 'The cost',
+    reference: 'Proverbs 23:7'
+  },
+  {
+    id: 1027,
+    question: 'What will happen to the food one eats from the stingy person (Prov 23:8)?',
+    options: ["It will rot one's stomach", 'It will cause sickness', 'It will be bitter to the soul', 'It will be vomited up'],
+    answer: 'It will be vomited up',
+    reference: 'Proverbs 23:8'
+  },
+  {
+    id: 1028,
+    question: "What type of person will scorn the wisdom of one's words (Prov 23:9)?",
+    options: ['A fool', 'A wicked man', 'A stingy man', 'A mocker'],
+    answer: 'A fool',
+    reference: 'Proverbs 23:9'
+  },
+  {
+    id: 1029,
+    question: 'To whom should one not speak (Prov 23:9)?',
+    options: ['A wicked man', 'A stingy man', 'A mocker', 'A fool'],
+    answer: 'A wicked man',
+    reference: 'Proverbs 23:9'
+  },
+  {
+    id: 1030,
+    question: "Whose fields should one not encroach on (Prov 23:10)?",
+    options: ["The widow's", "The poor's", "The wicked's", "The fatherless'"],
+    answer: "The fatherless'",
+    reference: 'Proverbs 23:10'
+  },
+  {
+    id: 1031,
+    question: 'What should not be moved (Prov 23:10)?',
+    options: ['The house of wisdom', 'The mouth of the gossip', 'The ancient boundary stone', 'The grain of the poor'],
+    answer: 'The ancient boundary stone',
+    reference: 'Proverbs 23:10'
+  },
+  {
+    id: 1032,
+    question: 'Who will take up the case of the fatherless (Prov 23:11)?',
+    options: ['The wise', 'Their Defender', 'Their Strong One', 'Their Advocate'],
+    answer: 'Their Defender',
+    reference: 'Proverbs 23:11'
+  },
+  {
+    id: 1033,
+    question: 'To what type of words should one apply their ears (Prov 23:12)?',
+    options: ['Purity', 'Honesty', 'Instruction', 'Knowledge'],
+    answer: 'Knowledge',
+    reference: 'Proverbs 23:12'
+  },
+  {
+    id: 1034,
+    question: 'What should be applied to instruction (Prov 23:12)?',
+    options: ["One's heart", "One's soul", "One's wealth", "One's ears"],
+    answer: "One's heart",
+    reference: 'Proverbs 23:12'
+  },
+  {
+    id: 1035,
+    question: 'From whom should one not withhold discipline (Prov 23:13)?',
+    options: ['A sinner', 'A student', 'A child', 'A ruler'],
+    answer: 'A child',
+    reference: 'Proverbs 23:13'
+  },
+  {
+    id: 1036,
+    question: 'When will a child not die (Prov 23:13)?',
+    options: ['If they walk in the way of wisdom', 'If they are punished with a rod', 'If they are rebuked in their folly', 'If they are protected by the wise'],
+    answer: 'If they are punished with a rod',
+    reference: 'Proverbs 23:13'
+  },
+  {
+    id: 1037,
+    question: 'Who should be punished in order to save them from death (Prov 23:14)?',
+    options: ['A sinner', 'A student', 'A child', 'A ruler'],
+    answer: 'A child',
+    reference: 'Proverbs 23:14'
+  },
+  {
+    id: 1038,
+    question: 'From what may punishment save a child (Prov 23:14)?',
+    options: ['Evil', 'Calamity', 'Poverty', 'Death'],
+    answer: 'Death',
+    reference: 'Proverbs 23:14'
+  },
+  {
+    id: 1039,
+    question: "If the son's heart is wise, the father's will be (Prov 23:15)?",
+    options: ['Glad', 'Satisfied', 'Proud', 'Broken'],
+    answer: 'Glad',
+    reference: 'Proverbs 23:15'
+  },
+  {
+    id: 1040,
+    question: 'When will a father be glad (Prov 23:15)?',
+    options: ["If a son's heart is wise", 'If a son follows his instruction', 'If a son walks in righteousness', 'If a son listens'],
+    answer: "If a son's heart is wise",
+    reference: 'Proverbs 23:15'
+  },
+  {
+    id: 1041,
+    question: "When will a father's innermost being rejoice (Prov 23:16)?",
+    options: ["When the son's eyes are fixed on justice", "When the son's lips speak what is right", "When the son's heart is humble", "When the son's feet walk in the way of wisdom"],
+    answer: "When the son's lips speak what is right",
+    reference: 'Proverbs 23:16'
+  },
+  {
+    id: 1042,
+    question: 'Who should one’s heart not envy (Prov 23:17)?',
+    options: ['The greedy', 'The sinner', 'The ruler', 'Your neighbor'],
+    answer: 'The sinner',
+    reference: 'Proverbs 23:17'
+  },
+  {
+    id: 1043,
+    question: 'For what should one always be zealous (Prov 23:17)?',
+    options: ['Righteousness', 'Justice', 'Faithfulness', 'The fear of the LORD'],
+    answer: 'The fear of the LORD',
+    reference: 'Proverbs 23:17'
+  },
+  {
+    id: 1044,
+    question: 'What will not be cut off if one fears the LORD (Prov 23:18)?',
+    options: ['Life', 'Salvation', 'Peace', 'Hope'],
+    answer: 'Hope',
+    reference: 'Proverbs 23:18'
+  },
+  {
+    id: 1045,
+    question: 'Where should the son keep his heart (Prov 23:19)?',
+    options: ['On the right path', 'On the path of the wise', 'Hidden', 'On the LORD'],
+    answer: 'On the right path',
+    reference: 'Proverbs 23:19'
+  },
+  {
+    id: 1046,
+    question: 'With whom should the son not join (Prov 23:20)?',
+    options: ['Those who have no fear of the LORD', 'Those who consort in wickedness', 'Those who drink too much wine', 'Those who curse the poor'],
+    answer: 'Those who drink too much wine',
+    reference: 'Proverbs 23:20'
+  },
+  {
+    id: 1047,
+    question: 'What happens to drunkards and gluttons (Prov 23:21)?',
+    options: ['They destroy their bodies', 'They become lazy', 'They become poor', 'They are punished by the LORD'],
+    answer: 'They become poor',
+    reference: 'Proverbs 23:21'
+  },
+  {
+    id: 1048,
+    question: 'What clothes the drunkards and gluttons in rags (Prov 23:21)?',
+    options: ['Their cravings', 'Drowsiness', 'Vomit', 'Their stomachs'],
+    answer: 'Drowsiness',
+    reference: 'Proverbs 23:21'
+  },
+  {
+    id: 1049,
+    question: 'What did the father give to the son (Prov 23:22)?',
+    options: ['Discipline', 'Truth', 'Wisdom', 'Life'],
+    answer: 'Life',
+    reference: 'Proverbs 23:22'
+  },
+  {
+    id: 1050,
+    question: 'Who should not be despised when they are old (Prov 23:22)?',
+    options: ['A brother', 'A mother', 'A grand-father', 'The poor'],
+    answer: 'A mother',
+    reference: 'Proverbs 23:22'
+  },
+  {
+    id: 1051,
+    question: 'What should one do with truth (Prov 23:23)?',
+    options: ['Speak it', 'Buy it', 'Sell it', 'Trade it'],
+    answer: 'Buy it',
+    reference: 'Proverbs 23:23'
+  },
+  {
+    id: 1052,
+    question: 'The father recommends the son buy or get all of the following EXCEPT (Prov 23:23)?',
+    options: ['Wisdom', 'Discipline', 'Truth', 'Justice'],
+    answer: 'Justice',
+    reference: 'Proverbs 23:23'
+  },
+  {
+    id: 1053,
+    question: 'What kind of son does a father delight in (Prov 23:24)?',
+    options: ['Handsome', 'Faithful', 'Loving', 'Wise'],
+    answer: 'Wise',
+    reference: 'Proverbs 23:24'
+  },
+  {
+    id: 1054,
+    question: 'The father of what kind of son has great joy (Prov 23:24)?',
+    options: ['Righteous', 'Kind', 'Wise', 'Disciplined'],
+    answer: 'Righteous',
+    reference: 'Proverbs 23:24'
+  },
+  {
+    id: 1055,
+    question: 'What is a prostitute (Prov 23:27)?',
+    options: ['A lion ready to devour', 'A deceptive rain cloud', 'A deep pit', 'A snare on the way'],
+    answer: 'A deep pit',
+    reference: 'Proverbs 23:27'
+  },
+  {
+    id: 1056,
+    question: 'What is a wayward wife like (Prov 23:27)?',
+    options: ['A narrow well', 'A deep pit', 'A dark tunnel', 'A dog chasing its tail'],
+    answer: 'A narrow well',
+    reference: 'Proverbs 23:27'
+  },
+  {
+    id: 1057,
+    question: 'Who lies in wait like a bandit (Prov 23:28)?',
+    options: ['A wicked friend', 'A wayward wife', 'Madame folly', 'Laziness'],
+    answer: 'A wayward wife',
+    reference: 'Proverbs 23:28'
+  },
+  {
+    id: 1058,
+    question: 'What does a wayward wife multiply (Prov 23:28)?',
+    options: ['Injustice and shame', 'Jealousy and treachery among neighbors', 'Violence and death among her victims', 'The unfaithful among men'],
+    answer: 'The unfaithful among men',
+    reference: 'Proverbs 23:28'
+  },
+  {
+    id: 1059,
+    question: 'Those who linger over wine have all of the following EXCEPT (Prov 23:29)?',
+    options: ['Woe', 'Bruises', 'Headaches', 'Bloodshot eyes'],
+    answer: 'Headaches',
+    reference: 'Proverbs 23:29'
+  },
+  {
+    id: 1060,
+    question: 'What should one not linger over (Prov 23:30)?',
+    options: ['Beer', 'Wine', 'Meat', 'Delicacies'],
+    answer: 'Wine',
+    reference: 'Proverbs 23:30'
+  },
+  {
+    id: 1061,
+    question: 'What should one not sample (Prov 23:30)?',
+    options: ['Trays of delicacies', 'Banquet tables of the king', 'Bowls of mixed wine', 'Platters of meat'],
+    answer: 'Bowls of mixed wine',
+    reference: 'Proverbs 23:30'
+  },
+  {
+    id: 1062,
+    question: 'What should not be gazed at when it is red (Prov 23:31)?',
+    options: ['Wine', 'Blood', 'The sun', "A man's face"],
+    answer: 'Wine',
+    reference: 'Proverbs 23:31'
+  },
+  {
+    id: 1063,
+    question: 'What sparkles in the cup (Prov 23:31)?',
+    options: ['Blood', 'The sun', "A man's face", 'Wine'],
+    answer: 'Wine',
+    reference: 'Proverbs 23:31'
+  },
+  {
+    id: 1064,
+    question: 'How does wine go down (Prov 23:31)?',
+    options: ['Like a snake', 'Quickly', 'Smoothly', 'Gently'],
+    answer: 'Smoothly',
+    reference: 'Proverbs 23:31'
+  }
+],
+'24': [
+  {
+    id: 1065,
+    question: 'Whose company should one not desire (Prov 24:1)?',
+    options: ['The adulteress', 'Wicked men', 'Strangers', 'Violent men'],
+    answer: 'Wicked men',
+    reference: 'Proverbs 24:1'
+  },
+  {
+    id: 1066,
+    question: 'Who should one not envy (Prov 24:1)?',
+    options: ['A mocker', 'Wicked men', 'The sluggard', 'A fool'],
+    answer: 'Wicked men',
+    reference: 'Proverbs 24:1'
+  },
+  {
+    id: 1067,
+    question: 'What do the hearts of the wicked plot (Prov 24:2)?',
+    options: ['Evil', 'Trouble', 'Violence', 'Death'],
+    answer: 'Evil',
+    reference: 'Proverbs 24:2'
+  },
+  {
+    id: 1068,
+    question: 'What do the lips of the wicked talk about (Prov 24:2)?',
+    options: ['Shameful things', 'Robbing the righteous', 'Lying in wait for the unsuspecting', 'Making trouble'],
+    answer: 'Making trouble',
+    reference: 'Proverbs 24:2'
+  },
+  {
+    id: 1069,
+    question: 'By what is a house built (Prov 24:3)?',
+    options: ['Righteousness', 'Diligence', 'Wisdom', 'Patience'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 24:3'
+  },
+  {
+    id: 1070,
+    question: 'By what is a house established (Prov 24:3)?',
+    options: ['Righteousness', 'Diligence', 'Justice', 'Understanding'],
+    answer: 'Understanding',
+    reference: 'Proverbs 24:3'
+  },
+  {
+    id: 1071,
+    question: 'What does knowledge fill a house with (Prov 24:4)?',
+    options: ['Unending joy', 'Honor', 'Peace and security', 'Rare treasures'],
+    answer: 'Rare treasures',
+    reference: 'Proverbs 24:4'
+  },
+  {
+    id: 1072,
+    question: 'Who has great power (Prov 24:5)?',
+    options: ['A ruler', 'A king', 'A wise man', 'A selfish man'],
+    answer: 'A wise man',
+    reference: 'Proverbs 24:5'
+  },
+  {
+    id: 1073,
+    question: 'What does a person of understanding increase (Prov 24:5)?',
+    options: ['Strength', 'Wealth', 'Peace', 'Blessings'],
+    answer: 'Strength',
+    reference: 'Proverbs 24:5'
+  },
+  {
+    id: 1074,
+    question: 'What do you need for waging war (Prov 24:6)?',
+    options: ['Wisdom', 'Guidance', 'Patience', 'Chariots'],
+    answer: 'Guidance',
+    reference: 'Proverbs 24:6'
+  },
+  {
+    id: 1075,
+    question: 'What is needed for a victory (Prov 24:6)?',
+    options: ['Many warriors', 'Disciplined hands', 'Many advisers', 'Courage'],
+    answer: 'Many advisers',
+    reference: 'Proverbs 24:6'
+  },
+  {
+    id: 1076,
+    question: 'For whom is wisdom too high (Prov 24:7)?',
+    options: ['The fool', 'The sinner', 'The son', 'The proud man'],
+    answer: 'The fool',
+    reference: 'Proverbs 24:7'
+  },
+  {
+    id: 1077,
+    question: 'Where does the fool have nothing to say (Prov 24:7)?',
+    options: ['Among the priests of the temple', 'Among the elders of the land', 'In the presence of the king', 'In the assembly at the gate'],
+    answer: 'In the assembly at the gate',
+    reference: 'Proverbs 24:7'
+  },
+  {
+    id: 1078,
+    question: 'What is the one who plots evil known as (Prov 24:8)?',
+    options: ['A mocker', 'A schemer', 'A sluggard', 'A fool'],
+    answer: 'A schemer',
+    reference: 'Proverbs 24:8'
+  },
+  {
+    id: 1079,
+    question: 'What are the schemes of folly (Prov 24:9)?',
+    options: ['Only violence', 'A deep pit', 'Sin', 'Trouble'],
+    answer: 'Sin',
+    reference: 'Proverbs 24:9'
+  },
+  {
+    id: 1080,
+    question: 'Who do people detest (Prov 24:9)?',
+    options: ['A proud man', 'A fool', 'A mocker', 'An adulteress'],
+    answer: 'A mocker',
+    reference: 'Proverbs 24:9'
+  },
+  {
+    id: 1081,
+    question: 'Who has small strength (Prov 24:10)?',
+    options: ['One who slips when the wind blows', 'One who sleeps during the harvest', 'One who falls into the snare of the wicked', 'One who falters in times of trouble'],
+    answer: 'One who falters in times of trouble',
+    reference: 'Proverbs 24:10'
+  },
+  {
+    id: 1082,
+    question: 'Who are to be rescued (Prov 24:11)?',
+    options: ['Those who pursue folly', 'Those who are being led away to death', 'Those who are trapped by the wicked', 'Those who have not defender'],
+    answer: 'Those who are being led away to death',
+    reference: 'Proverbs 24:11'
+  },
+  {
+    id: 1083,
+    question: 'Who knows if one knew nothing about a matter (Prov 24:12)?',
+    options: ['The maker of the heavens and the earth', 'The Defender of your soul', 'The One who guards your life', 'The One who is to be feared'],
+    answer: 'The One who guards your life',
+    reference: 'Proverbs 24:12'
+  },
+  {
+    id: 1084,
+    question: 'To what will the one who guards life repay each person (Prov 24:12)?',
+    options: ['According to their deeds', 'According to their wisdom', 'According to their faith', 'According to the motives of their hearts'],
+    answer: 'According to their deeds',
+    reference: 'Proverbs 24:12'
+  },
+  {
+    id: 1085,
+    question: "What is sweet to the son's taste (Prov 24:13)?",
+    options: ['Honey', 'Sugar', "His wife's lips", "The father's words"],
+    answer: 'Honey',
+    reference: 'Proverbs 24:13'
+  },
+  {
+    id: 1086,
+    question: 'What is sweet to your soul (Prov 24:14)?',
+    options: ['Insight', 'Discipline', 'Understanding', 'Wisdom'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 24:14'
+  },
+  {
+    id: 1087,
+    question: 'What waits for you when you find wisdom (Prov 24:14)?',
+    options: ['Life', 'Peace', 'Hope', 'Comfort'],
+    answer: 'Hope',
+    reference: 'Proverbs 24:14'
+  },
+  {
+    id: 1088,
+    question: "Whose dwelling should one not raid (Prov 24:15)?",
+    options: ["The sinner's", "The righteous man's", "Your neighbor's", "Any man's"],
+    answer: "The righteous man's",
+    reference: 'Proverbs 24:15'
+  },
+  {
+    id: 1089,
+    question: 'One should not lie in wait like a(n) ______ (Prov 24:15)?',
+    options: ['Evil person', 'Viper', 'Outlaw', 'Lion'],
+    answer: 'Outlaw',
+    reference: 'Proverbs 24:15'
+  },
+  {
+    id: 1090,
+    question: 'The righteous man will rise even after falling how many times (Prov 24:16)?',
+    options: ['3', '7', '10', '40'],
+    answer: '7',
+    reference: 'Proverbs 24:16'
+  },
+  {
+    id: 1091,
+    question: 'What brings the wicked down (Prov 24:16)?',
+    options: ['Justice', 'Kindness', 'Righteousness', 'Calamity'],
+    answer: 'Calamity',
+    reference: 'Proverbs 24:16'
+  },
+  {
+    id: 1092,
+    question: 'When who stumbles should you not rejoice (Prov 24:17)?',
+    options: ['A righteous man', 'A brother', 'A wicked man', 'An enemy'],
+    answer: 'An enemy',
+    reference: 'Proverbs 24:17'
+  },
+  {
+    id: 1093,
+    question: 'When should one not let their heart rejoice (Prov 24:17)?',
+    options: ['When an enemy stumbles', 'When the wicked are devoured', 'When the fool falls by his folly', 'When justice strikes the evil one'],
+    answer: 'When an enemy stumbles',
+    reference: 'Proverbs 24:17'
+  },
+  {
+    id: 1094,
+    question: 'What will the LORD see and disapprove of (Prov 24:18)?',
+    options: ['One who uses violence to overpower the innocent', 'The fool who triumphs over the righteous', 'One rejoicing over an enemy who has stumbled', 'The innocent stumbling in their way'],
+    answer: 'One rejoicing over an enemy who has stumbled',
+    reference: 'Proverbs 24:18'
+  },
+  {
+    id: 1095,
+    question: 'What should one not fret over (Prov 24:19)?',
+    options: ['Evil men', 'Money', 'What to say', 'Violence'],
+    answer: 'Evil men',
+    reference: 'Proverbs 24:19'
+  },
+  {
+    id: 1096,
+    question: 'What does the evil man lack (Prov 24:20)?',
+    options: ['A future direction', 'A life', 'A future hope', 'A future joy'],
+    answer: 'A future hope',
+    reference: 'Proverbs 24:20'
+  },
+  {
+    id: 1097,
+    question: 'What will be snuffed out (Prov 24:20)?',
+    options: ['The candle of the deceiver', 'The fire of the gossip', 'The sacrifice of the unjust', 'The lamp of the wicked'],
+    answer: 'The lamp of the wicked',
+    reference: 'Proverbs 24:20'
+  },
+  {
+    id: 1098,
+    question: 'Besides the LORD, who is the son told to fear (Prov 24:21)?',
+    options: ['The judge', 'The king', 'The wise', 'The poor'],
+    answer: 'The king',
+    reference: 'Proverbs 24:21'
+  },
+  {
+    id: 1099,
+    question: 'With whom should the son not join (Prov 24:21)?',
+    options: ['The wicked', 'The stubborn', 'The rebellious', 'The fools'],
+    answer: 'The rebellious',
+    reference: 'Proverbs 24:21'
+  },
+  {
+    id: 1100,
+    question: 'What will come on the rebellious (Prov 24:22)?',
+    options: ['Sudden destruction', 'A swarm of locusts', 'A strong armed man', 'The end'],
+    answer: 'Sudden destruction',
+    reference: 'Proverbs 24:22'
+  },
+  {
+    id: 1101,
+    question: 'Who can bring unknown calamities (Prov 24:22)?',
+    options: ['The Evil One and the wicked', 'The righteous and the just', 'The wine and song', 'The LORD and the king'],
+    answer: 'The LORD and the king',
+    reference: 'Proverbs 24:22'
+  },
+  {
+    id: 1102,
+    question: 'What is not good (Prov 24:23)?',
+    options: ["To harbor evil in one's heart", 'To show partiality in judging', 'To pursue the innocent without a cause', 'To steal from the poor'],
+    answer: 'To show partiality in judging',
+    reference: 'Proverbs 24:23'
+  },
+  {
+    id: 1103,
+    question: 'Who will the people curse (Prov 24:24)?',
+    options: ['One who declares the guilty innocent', 'One who sues without a cause', 'One who deceives the king', 'One who goes to war for revenge'],
+    answer: 'One who declares the guilty innocent',
+    reference: 'Proverbs 24:24'
+  },
+  {
+    id: 1104,
+    question: 'Rich blessing will come upon those who ______ (Prov 24:25)?',
+    options: ['Give an honest answer', 'Convict the guilty', 'Show mercy', 'Give to the poor'],
+    answer: 'Convict the guilty',
+    reference: 'Proverbs 24:25'
+  },
+  {
+    id: 1105,
+    question: 'What is an honest answer like (Prov 24:26)?',
+    options: ['A kiss on the lips', 'A refreshing breeze', 'A taste of honey', 'A gentle rain'],
+    answer: 'A kiss on the lips',
+    reference: 'Proverbs 24:26'
+  },
+  {
+    id: 1106,
+    question: 'One should build their house only after they have finished (Prov 24:27)?',
+    options: ['Planning', 'Paying their debts', 'Their outdoor work', 'Giving to the LORD'],
+    answer: 'Their outdoor work',
+    reference: 'Proverbs 24:27'
+  },
+  {
+    id: 1107,
+    question: 'Who should one not testify against without cause (Prov 24:28)?',
+    options: ['An enemy', 'A friend', 'A brother', 'A neighbor'],
+    answer: 'A neighbor',
+    reference: 'Proverbs 24:28'
+  },
+  {
+    id: 1108,
+    question: 'What should one not do to another person (Prov 24:29)?',
+    options: ['What he did to them', 'Take him to court', 'Kill them in the city gate', 'Shame them before their family'],
+    answer: 'What he did to them',
+    reference: 'Proverbs 24:29'
+  },
+  {
+    id: 1109,
+    question: "Thorns and weeds are plentiful in whose fields (Prov 24:30f)?",
+    options: ["The wicked's", "The fool's", "The sluggard's", "The adulteress'"],
+    answer: "The sluggard's",
+    reference: 'Proverbs 24:30-31'
+  },
+  {
+    id: 1110,
+    question: 'Whose vineyard has thorns and weeds (Prov 24:30f)?',
+    options: ['One who pursues folly', 'One who lacks judgment', 'One who sleeps in the harvest', 'One who denies the needs of the poor'],
+    answer: 'One who lacks judgment',
+    reference: 'Proverbs 24:30-31'
+  },
+  {
+    id: 1111,
+    question: 'In the field of the sluggard what is in ruins (Prov 24:31)?',
+    options: ["The shepherd's tower", 'The rock terraces', 'The stone wall', 'The blade of the plow'],
+    answer: 'The stone wall',
+    reference: 'Proverbs 24:31'
+  },
+  {
+    id: 1112,
+    question: 'What did the wise man apply to what he saw (Prov 24:32)?',
+    options: ['Wisdom', 'His heart', 'His eyes', 'Understanding'],
+    answer: 'His heart',
+    reference: 'Proverbs 24:32'
+  },
+  {
+    id: 1113,
+    question: 'From what did the sage learn a lesson (Prov 24:32)?',
+    options: ['From listening to the voice of his teacher', 'From the sayings of his wife', 'From the mouth of babes', 'From what he saw'],
+    answer: 'From what he saw',
+    reference: 'Proverbs 24:32'
+  },
+  {
+    id: 1114,
+    question: 'What will come on you with a little slumber and folding the hands (Prov 24:33f)?',
+    options: ['Poverty', 'Calamity', 'Sickness', 'Death'],
+    answer: 'Poverty',
+    reference: 'Proverbs 24:33-34'
+  }
+],
+'25': [
+  {
+    id: 1115,
+    question: "Which king's men copied/collected the proverbs of Solomon (Prov 25:1)?",
+    options: ['Hezekiah', 'Josiah', 'Jehoiakim', 'Jehosaphat'],
+    answer: 'Hezekiah',
+    reference: 'Proverbs 25:1'
+  },
+  {
+    id: 1116,
+    question: 'What was Hezekiah the king of (Prov 25:1)?',
+    options: ['Israel', 'Ephraim', 'Judah', 'Benjamin'],
+    answer: 'Judah',
+    reference: 'Proverbs 25:1'
+  },
+  {
+    id: 1117,
+    question: 'It is the glory of God to do what with a matter (Prov 25:2)?',
+    options: ['Seek it out', 'Reveal it', 'Conceal it', 'Create it'],
+    answer: 'Conceal it',
+    reference: 'Proverbs 25:2'
+  },
+  {
+    id: 1118,
+    question: 'What is the glory of a king (Prov 25:2)?',
+    options: ['To conceal a matter', 'To reveal a matter', 'To bring a matter to justice', 'To search out a matter'],
+    answer: 'To search out a matter',
+    reference: 'Proverbs 25:2'
+  },
+  {
+    id: 1119,
+    question: 'What is unique about the hearts of kings (Prov 25:3)?',
+    options: ['They are noble', 'They are exceptionally wise', 'They are impressionable', 'They are unsearchable'],
+    answer: 'They are unsearchable',
+    reference: 'Proverbs 25:3'
+  },
+  {
+    id: 1120,
+    question: "The king's heart was compared to the ______ (Prov 25:3).",
+    options: ['The strength of a tree', 'Height of the heavens', 'The vastness of the ocean', 'The depths of a valley'],
+    answer: 'Height of the heavens',
+    reference: 'Proverbs 25:3'
+  },
+  {
+    id: 1121,
+    question: 'From what is dross removed (Prov 25:4)?',
+    options: ['Gold', 'Silver', 'Bronze', 'Iron'],
+    answer: 'Silver',
+    reference: 'Proverbs 25:4'
+  },
+  {
+    id: 1122,
+    question: "Who should be removed from the king's presence (Prov 25:5)?",
+    options: ['The foolish', 'The common man', 'The wicked', 'Sin'],
+    answer: 'The wicked',
+    reference: 'Proverbs 25:5'
+  },
+  {
+    id: 1123,
+    question: "The king's throne should be established through (Prov 25:5)?",
+    options: ['Kindness', 'Justice', 'Wisdom', 'Righteousness'],
+    answer: 'Righteousness',
+    reference: 'Proverbs 25:5'
+  },
+  {
+    id: 1124,
+    question: 'Among whom should you not try to claim a place (Prov 25:6)?',
+    options: ['Great men', 'Wise men', 'Kings', 'The angels'],
+    answer: 'Great men',
+    reference: 'Proverbs 25:6'
+  },
+  {
+    id: 1125,
+    question: 'What should one not do in the king’s presence (Prov 25:6)?',
+    options: ['Go to sleep', 'Drink wine', 'Exalt oneself', 'Speak rashly'],
+    answer: 'Exalt oneself',
+    reference: 'Proverbs 25:6'
+  },
+  {
+    id: 1126,
+    question: 'If one exalts himself, what might the king do before a nobleman (Prov 25:7)?',
+    options: ['Take his land', 'Humiliate him', 'Drive him out of his presence', 'Put him into prison'],
+    answer: 'Humiliate him',
+    reference: 'Proverbs 25:7'
+  },
+  {
+    id: 1127,
+    question: 'Who might be put to shame if you take them to court (Prov 25:8)?',
+    options: ['A king', 'An enemy', 'A brother', 'A neighbor'],
+    answer: 'A neighbor',
+    reference: 'Proverbs 25:8'
+  },
+  {
+    id: 1128,
+    question: 'What should one not bring hastily to court (Prov 25:8)?',
+    options: ['What one has seen', 'What one has heard', 'What one has been shown', 'Slander'],
+    answer: 'What one has seen',
+    reference: 'Proverbs 25:8'
+  },
+  {
+    id: 1129,
+    question: 'What should not be betrayed (Prov 25:9)?',
+    options: ["Another man's wife", "One's country", 'A friendship', 'A confidence'],
+    answer: 'A confidence',
+    reference: 'Proverbs 25:9'
+  },
+  {
+    id: 1130,
+    question: "What will you never lose if you betray another person's confidence (Prov 25:10)?",
+    options: ['Fear', 'Your shame', 'Your bad reputation', 'Your wickedness'],
+    answer: 'Your bad reputation',
+    reference: 'Proverbs 25:10'
+  },
+  {
+    id: 1131,
+    question: 'One who hears of a betrayal of a confidence may ______ the person (Prov 25:10)?',
+    options: ['Disgrace', 'Shame', 'Reject', 'Discipline'],
+    answer: 'Shame',
+    reference: 'Proverbs 25:10'
+  },
+  {
+    id: 1132,
+    question: 'Apples of gold are set in what kind of setting (Prov 25:11)?',
+    options: ['Silver', 'Cedar', 'Turquoise', 'Bronze'],
+    answer: 'Silver',
+    reference: 'Proverbs 25:11'
+  },
+  {
+    id: 1133,
+    question: 'What is like an apple of gold (Prov 25:11)?',
+    options: ['A friend in need', 'A just decree', 'A word aptly spoken', 'Help from a generous heart'],
+    answer: 'A word aptly spoken',
+    reference: 'Proverbs 25:11'
+  },
+  {
+    id: 1134,
+    question: "A wise man's ______ is like a gold earring (Prov 25:12)?",
+    options: ['Word', 'Rebuke', 'Discipline', 'Instruction'],
+    answer: 'Rebuke',
+    reference: 'Proverbs 25:12'
+  },
+  {
+    id: 1135,
+    question: "A wise person's rebuke is like a gold earring to what (Prov 25:12)?",
+    options: ['A discerning heart', 'A humble spirit', 'A listening ear', 'An open mind'],
+    answer: 'A listening ear',
+    reference: 'Proverbs 25:12'
+  },
+  {
+    id: 1136,
+    question: 'Who refreshes the spirits of his masters (Prov 25:13)?',
+    options: ['A diligent servant', 'A strong soldier', 'A trustworthy messenger', 'A wise student'],
+    answer: 'A trustworthy messenger',
+    reference: 'Proverbs 25:13'
+  },
+  {
+    id: 1137,
+    question: 'A trustworthy messenger is like ______ (Prov 25:13)?',
+    options: ['A kiss on the lips', 'A bountiful harvest', 'A cool stream', 'Snow in the harvest'],
+    answer: 'Snow in the harvest',
+    reference: 'Proverbs 25:13'
+  },
+  {
+    id: 1138,
+    question: 'The man who boasts of gifts and does not give them is like (Prov 25:14)?',
+    options: ['A well without water', 'A stream without water', 'A destroying wind', 'A cloud without rain'],
+    answer: 'A cloud without rain',
+    reference: 'Proverbs 25:14'
+  },
+  {
+    id: 1139,
+    question: 'What can persuade a ruler (Prov 25:15)?',
+    options: ['Patience', 'Love', 'A silver tongue', 'Riches'],
+    answer: 'Patience',
+    reference: 'Proverbs 25:15'
+  },
+  {
+    id: 1140,
+    question: 'What can break a bone (Prov 25:15)?',
+    options: ['The sword of the wicked', "A gossip's lips", 'A gentle tongue', "The king's wrath"],
+    answer: 'A gentle tongue',
+    reference: 'Proverbs 25:15'
+  },
+  {
+    id: 1141,
+    question: "What shouldn't you consume too much of (Prov 25:16)?",
+    options: ['Wine', 'Pride', 'Honey', 'Yourself'],
+    answer: 'Honey',
+    reference: 'Proverbs 25:16'
+  },
+  {
+    id: 1142,
+    question: 'If one eats too much honey what will happen (Prov 25:16)?',
+    options: ['Poverty will come', 'They will not enjoy meat any more', "One's tongue will stick in the mouth", 'Vomiting will follow'],
+    answer: 'Vomiting will follow',
+    reference: 'Proverbs 25:16'
+  },
+  {
+    id: 1143,
+    question: 'In whose house should one seldom set foot (Prov 25:17)?',
+    options: ["An enemy's", "A neighbor's", "A king's", "A wicked man's"],
+    answer: "A neighbor's",
+    reference: 'Proverbs 25:17'
+  },
+  {
+    id: 1144,
+    question: 'What will be the response of one who has had too much of a neighbor (Prov 25:17)?',
+    options: ['He will hate the neighbor', 'He will be jealous of the neighbor', 'He will despise the neighbor', 'He will not help the neighbor in time of need'],
+    answer: 'He will hate the neighbor',
+    reference: 'Proverbs 25:17'
+  },
+  {
+    id: 1145,
+    question: 'One who gives false testimony against a neighbor is like all of the following EXCEPT (Prov 25:18).',
+    options: ['An arrow', 'A club', 'An arrow', 'A spear'],
+    answer: 'A spear',
+    reference: 'Proverbs 25:18'
+  },
+  {
+    id: 1146,
+    question: 'Who should one not rely on in times of trouble (Prov 25:19)?',
+    options: ['The fool', 'The unfaithful', 'The sluggard', 'The wicked'],
+    answer: 'The unfaithful',
+    reference: 'Proverbs 25:19'
+  },
+  {
+    id: 1147,
+    question: 'What is reliance on the unfaithful in times of trouble like (Prov 25:19)?',
+    options: ['A bad tooth', 'A withered hand', 'A blind eye', 'A broken leg'],
+    answer: 'A bad tooth',
+    reference: 'Proverbs 25:19'
+  },
+  {
+    id: 1148,
+    question: 'Someone who sings songs to a heavy heart is like what (Prov 25:20)?',
+    options: ['Vinegar on soda', 'Rotten meat in the mouth', 'Snow on a summer day', 'Rain in the harvest'],
+    answer: 'Vinegar on soda',
+    reference: 'Proverbs 25:20'
+  },
+  {
+    id: 1149,
+    question: 'What should not be taken away on a cold day (Prov 25:21)?',
+    options: ['A fire', 'Shelter', 'A garment', 'A hat'],
+    answer: 'A garment',
+    reference: 'Proverbs 25:21'
+  },
+  {
+    id: 1150,
+    question: 'When should you give your enemy food (Prov 25:21)?',
+    options: ['Never', 'Whenever he asks', 'When he is hungry', 'When you have too much'],
+    answer: 'When he is hungry',
+    reference: 'Proverbs 25:21'
+  },
+  {
+    id: 1151,
+    question: 'Who should one give water to when they are thirsty (Prov 25:21)?',
+    options: ['A friend', 'A mother', 'The needy', 'An enemy'],
+    answer: 'An enemy',
+    reference: 'Proverbs 25:21'
+  },
+  {
+    id: 1152,
+    question: 'What will feeding enemies heap on their head (Prov 25:22)?',
+    options: ['Dung', 'Water', 'Shame', 'Burning coals'],
+    answer: 'Burning coals',
+    reference: 'Proverbs 25:22'
+  },
+  {
+    id: 1153,
+    question: 'What brings angry looks (Prov 25:23)?',
+    options: ['A sly tongue', 'An evil eye', 'A foolish man', 'Obscene words'],
+    answer: 'A sly tongue',
+    reference: 'Proverbs 25:23'
+  },
+  {
+    id: 1154,
+    question: 'What kind of wind brings rain (Prov 25:23)?',
+    options: ['South', 'West', 'East', 'North'],
+    answer: 'North',
+    reference: 'Proverbs 25:23'
+  },
+  {
+    id: 1155,
+    question: 'It is better to live on the roof than with ______ (Prov 25:24).',
+    options: ['A foolish child', 'A wicked father', 'An unfaithful wife', 'A quarrelsome wife'],
+    answer: 'A quarrelsome wife',
+    reference: 'Proverbs 25:24'
+  },
+  {
+    id: 1156,
+    question: 'What is like cold water to the weary soul (Prov 25:25)?',
+    options: ['A loving wife on a cold night', 'A faithful messenger of the king', 'Good news from a distant land', "The LORD's protection"],
+    answer: 'Good news from a distant land',
+    reference: 'Proverbs 25:25'
+  },
+  {
+    id: 1157,
+    question: 'What is good news from a distant land like (Prov 25:25)?',
+    options: ['A kiss on the lips', 'Cold water to a weary soul', 'A refreshing rain on thirsty soil', 'Snow in the harvest'],
+    answer: 'Cold water to a weary soul',
+    reference: 'Proverbs 25:25'
+  },
+  {
+    id: 1158,
+    question: 'What is a righteous man who gives way to the wicked like (Prov 25:26)?',
+    options: ['A whitewashed tomb', 'A muddy spring', 'A house built on sand', 'A broken gate'],
+    answer: 'A muddy spring',
+    reference: 'Proverbs 25:26'
+  },
+  {
+    id: 1159,
+    question: 'What is like a muddied spring (Prov 25:26)?',
+    options: ['A righteous man who gives way to the wicked', 'A just judge that accepts a bribe against the righteous', 'A king that rules by deception', "The wicked's violence on the innocent"],
+    answer: 'A righteous man who gives way to the wicked',
+    reference: 'Proverbs 25:26'
+  },
+  {
+    id: 1160,
+    question: 'What is it not honorable to seek for oneself (Prov 25:27)?',
+    options: ['Honor', 'Wisdom', 'Riches', 'Power'],
+    answer: 'Honor',
+    reference: 'Proverbs 25:27'
+  },
+  {
+    id: 1161,
+    question: 'What is it not good to eat too much of (Prov 25:27)?',
+    options: ['Grapes', 'Wine', 'Honey', 'Olive oil'],
+    answer: 'Honey',
+    reference: 'Proverbs 25:27'
+  },
+  {
+    id: 1162,
+    question: 'What is a man who lacks self-control like (Prov 25:28)?',
+    options: ['A whitewashed tomb', 'A muddy spring', 'A house built on sand', 'A city with no gate'],
+    answer: 'A city with no gate',
+    reference: 'Proverbs 25:28'
+  },
+  {
+    id: 1163,
+    question: 'Who is like a city with broken walls (Prov 25:28)?',
+    options: ['The wicked', 'The sluggard', 'An unjust judge', 'One who lacks self-control'],
+    answer: 'One who lacks self-control',
+    reference: 'Proverbs 25:28'
+  }
+],
+'26': [
+  {
+    id: 1164,
+    question: 'What is not fitting for a fool (Prov 26:1)?',
+    options: ['Blessings', 'Rewards', 'Honor', 'Respect'],
+    answer: 'C',
+    reference: 'Proverbs 26:1'
+  },
+  {
+    id: 1165,
+    question: 'What is like honor to a fool (Prov 26:1)?',
+    options: ['Snow on a flower', 'Rain in the harvest', 'Hail during planting', 'Sun when there is no water'],
+    answer: 'B',
+    reference: 'Proverbs 26:1'
+  },
+  {
+    id: 1166,
+    question: 'What is an undeserved curse compared to (Prov 26:2)?',
+    options: ['A fluttering sparrow', 'A soaring eagle', 'A hawk diving on its prey', 'A mother bird protecting its young'],
+    answer: 'A',
+    reference: 'Proverbs 26:2'
+  },
+  {
+    id: 1167,
+    question: 'Where does the undeserved curse not come to rest (Prov 26:2)?',
+    options: ['On the person who cast it', 'On the person it was meant for', 'Anywhere', 'Upon whomever God wishes it to'],
+    answer: 'C',
+    reference: 'Proverbs 26:2'
+  },
+  {
+    id: 1168,
+    question: 'For what/whom is a whip (Prov 26:2)?',
+    options: ['A donkey', 'A horse', 'A fool', 'The wicked'],
+    answer: 'B',
+    reference: 'Proverbs 26:2'
+  },
+  {
+    id: 1169,
+    question: 'On what should a halter be used (Prov 26:2)?',
+    options: ['A donkey', 'A horse', 'A fool', 'The wicked'],
+    answer: 'A',
+    reference: 'Proverbs 26:2'
+  },
+  {
+    id: 1170,
+    question: 'What is used on the backs of fools (Prov 26:3)?',
+    options: ['A whip', 'Thorns and briers', 'Rocks', 'A rod'],
+    answer: 'D',
+    reference: 'Proverbs 26:3'
+  },
+  {
+    id: 1171,
+    question: 'If you take the risk of answering a fool according to his folly, what possible consequence do you face (Prov 26:4)?',
+    options: ['Being considered conceited', 'Being verbally abused by the fool', 'Becoming like the fool', 'There is no consequence'],
+    answer: 'C',
+    reference: 'Proverbs 26:4'
+  },
+  {
+    id: 1172,
+    question: 'If you do not answer a fool according to his folly, what consequence are you risking (Prov 26:5)?',
+    options: ['There is no consequence', 'Others thinking you agree with the fool', 'The fool will go on thinking he is wise', 'The wrath of the LORD'],
+    answer: 'C',
+    reference: 'Proverbs 26:5'
+  },
+  {
+    id: 1173,
+    question: 'What is sending a message by the hand of a fool likened to (Prov 26:6)?',
+    options: ['Not sending the message at all', 'Casting it into the wind', 'Walking on potsherds', 'Cutting off your own feet'],
+    answer: 'D',
+    reference: 'Proverbs 26:6'
+  },
+  {
+    id: 1174,
+    question: 'Drinking violence is like (Prov 26:6)?',
+    options: ['Answering a fool according to his folly', 'Sending a message by the hand of a fool', 'A proverb in the mouth of a wicked person', 'One who is wise in their own eyes'],
+    answer: 'B',
+    reference: 'Proverbs 26:6'
+  },
+  {
+    id: 1175,
+    question: 'A proverb in the mouth of a fool is as useless as which of the following (Prov 26:7)?',
+    options: ['A goat that doesn’t give milk', 'A mute man’s tongue', 'A lame man’s legs', 'A deaf man’s ears'],
+    answer: 'C',
+    reference: 'Proverbs 26:7'
+  },
+  {
+    id: 1176,
+    question: 'What in the mouth of a fool is like a lame man’s leg (Prov 26:7)?',
+    options: ['Gossip', 'Deceit', 'Flattering words', 'A proverb'],
+    answer: 'D',
+    reference: 'Proverbs 26:7'
+  },
+  {
+    id: 1177,
+    question: 'What is a metaphor for giving honor to a fool (Prov 26:8)?',
+    options: ['Tying a spear to a soldier’s hand', 'Tying stone to a sling', 'Tying a bird to the ground', 'Tying a sheep to the shepherd'],
+    answer: 'B',
+    reference: 'Proverbs 26:8'
+  },
+  {
+    id: 1178,
+    question: 'What is like tying a stone in a sling (Prov 26:8)?',
+    options: ['A fool who speaks a proverbs', 'One who sends a message by the hand of a fool', 'Giving honor to a fool', 'One who listens to a fool’s flattery'],
+    answer: 'C',
+    reference: 'Proverbs 26:8'
+  },
+  {
+    id: 1179,
+    question: 'What is similar to a proverb in the mouth of a fool (Prov 26:9)?',
+    options: ['A sword in the hand of a treacherous person', 'A sacrifice in the hand of an insincere person', 'A thorn bush in the hand of a drunken person', 'A whip in the hand of a cruel master'],
+    answer: 'C',
+    reference: 'Proverbs 26:9'
+  },
+  {
+    id: 1180,
+    question: 'What is like a thorn bush in the hand of a drunken person (Prov 26:9)?',
+    options: ['Flattery on a fool’s tongue', 'A parable in the mouth of the wicked', 'The wicked triumphing over the poor', 'A proverb in the mouth of a fool'],
+    answer: 'D',
+    reference: 'Proverbs 26:9'
+  },
+  {
+    id: 1181,
+    question: 'What is an archer who wounds at random similar to (Prov 26:10)?',
+    options: ['A person who hires a fool', 'A person who hires a sluggard', 'A fool shouting insults', 'A sluggard who does not provide for his family'],
+    answer: 'A',
+    reference: 'Proverbs 26:10'
+  },
+  {
+    id: 1182,
+    question: 'One who hires a fool is like (Prov 26:10).',
+    options: ['Snow in the summer', 'An archer who wounds at random', 'One walking on a broken leg', 'A child riding a chariot'],
+    answer: 'B',
+    reference: 'Proverbs 26:10'
+  },
+  {
+    id: 1183,
+    question: 'What is a fool returning to his folly compared to (Prov 26:13)?',
+    options: ['A cow chewing its cud', 'A bird eating worms', 'A dog returning to its vomit', 'Goat eating manure'],
+    answer: 'C',
+    reference: 'Proverbs 26:13'
+  },
+  {
+    id: 1184,
+    question: 'What does a fool do with his folly (Prov 26:13)?',
+    options: ['He chews on it', 'He spreads it', 'He follows it', 'He repeats it'],
+    answer: 'D',
+    reference: 'Proverbs 26:13'
+  },
+  {
+    id: 1185,
+    question: 'Which of the following is true about a man who is wise in his own eyes (Prov 26:12)?',
+    options: ['He will prove himself wise', 'He will prove himself a fool', 'There is more hope for a fool than for him', 'There is more hope for him than for the wicked'],
+    answer: 'C',
+    reference: 'Proverbs 26:12'
+  },
+  {
+    id: 1186,
+    question: 'For whom does a fool have more hope (Prov 26:12)?',
+    options: ['The wicked who plots violence', 'One wise in his own eyes', 'The sluggard who refuses to listen', 'The unjust to take advantage of the poor'],
+    answer: 'B',
+    reference: 'Proverbs 26:12'
+  },
+  {
+    id: 1187,
+    question: 'What is the sluggard’s excuse for not leaving his house (Prov 26:13)?',
+    options: ['He says his foot is lame', 'He says there is a lion in the street', 'He says that his enemy is outside waiting for him', 'He says he will tomorrow'],
+    answer: 'B',
+    reference: 'Proverbs 26:13'
+  },
+  {
+    id: 1188,
+    question: 'What is a sluggard turning on his bed compared to (Prov 26:14)?',
+    options: ['A door on its hinges', 'A boat turning over', 'The turning of a wagon’s wheels', 'The turning of seasons'],
+    answer: 'A',
+    reference: 'Proverbs 26:14'
+  },
+  {
+    id: 1189,
+    question: 'A door on its hinges is like (Prov 26:14)?',
+    options: ['Fool returning to his folly', 'The wicked plotting violence', 'A curse returning to a fool', 'Sluggard on his bed'],
+    answer: 'D',
+    reference: 'Proverbs 26:14'
+  },
+  {
+    id: 1190,
+    question: 'What is the sluggard too lazy to do (Prov 26:15)?',
+    options: ['But is too lazy to serve the food', 'Blow on hot food', 'Find his own food', 'Put food into his own mouth'],
+    answer: 'D',
+    reference: 'Proverbs 26:15'
+  },
+  {
+    id: 1191,
+    question: 'In his own eyes, a sluggard is wiser than how many men that answer discreetly (Prov 26:16)?',
+    options: ['Three', 'Seven', 'Forty', 'Seventy'],
+    answer: 'B',
+    reference: 'Proverbs 26:16'
+  },
+  {
+    id: 1192,
+    question: 'Who does a sluggard think he is wiser than (Prov 26:16)?',
+    options: ['People that answer discreetly', 'People who offer counsel', 'Everyone he talks to', 'A father who urges him to work'],
+    answer: 'A',
+    reference: 'Proverbs 26:16'
+  },
+  {
+    id: 1193,
+    question: 'What is metaphorical of a man who interferes in the quarrels of others (Prov 26:17)?',
+    options: ['Grabbing a bull by the horns', 'Grabbing a dog by the ears', 'Breaking up a fight between two rams', 'Grabbing a snake by the tail'],
+    answer: 'B',
+    reference: 'Proverbs 26:17'
+  },
+  {
+    id: 1194,
+    question: 'What is like grabbing a dog by its ears (Prov 26:17)?',
+    options: ['One following the advice of a fool', 'One urging a sluggard to work', 'One interfering in the quarrels of others', 'One trying to stop the violence of the wicked'],
+    answer: 'C',
+    reference: 'Proverbs 26:17'
+  },
+  {
+    id: 1195,
+    question: 'Which of the following is similar to a man who deceives his neighbor and then says, “I was only joking” (Prov 26:18-19)?',
+    options: ['A person who grabs a dog by the ears', 'A person shooting deadly arrows', 'A person who taunts a bull', 'A bird that darts into a snare'],
+    answer: 'B',
+    reference: 'Proverbs 26:18-19'
+  },
+  {
+    id: 1196,
+    question: 'If you take away the wood, the fire goes out. What do you take away for quarreling to stop (Prov 26:20)?',
+    options: ['A loose tongue', 'Gossiping', 'The fool', 'The sluggard'],
+    answer: 'B',
+    reference: 'Proverbs 26:20'
+  },
+  {
+    id: 1197,
+    question: 'Without gossip a quarrel dies down like (Prov 26:20).',
+    options: ['A tree without fruit', 'A bee without honey', 'A fire without wood', 'A stream without water'],
+    answer: 'C',
+    reference: 'Proverbs 26:20'
+  },
+  {
+    id: 1198,
+    question: 'What does a quarrelsome man kindle (Prov 26:21)?',
+    options: ['Calamity', 'Deceit', 'Strife', 'Fights'],
+    answer: 'C',
+    reference: 'Proverbs 26:21'
+  },
+  {
+    id: 1199,
+    question: 'A quarrelsome person kindles strife like (Prov 26:21).',
+    options: ['Water quenches thirst', 'A flood destroys houses', 'Sluggard turning on his bed', 'Wood to a fire'],
+    answer: 'D',
+    reference: 'Proverbs 26:21'
+  },
+  {
+    id: 1200,
+    question: 'How are the words of a gossip like choice morsels (Prov 26:22)?',
+    options: ['They are enjoyable to hear', 'They are unhealthy to take ingest', 'Both eating and gossiping are done at the table', 'They go deep within a person'],
+    answer: 'D',
+    reference: 'Proverbs 26:22'
+  },
+  {
+    id: 1201,
+    question: 'What are the words of a gossip like (Prov 26:22)?',
+    options: ['Choice morsels', 'Apples of gold in settings of silver', 'The bite of a viper', 'The charcoal in a fire'],
+    answer: 'A',
+    reference: 'Proverbs 26:22'
+  },
+  {
+    id: 1202,
+    question: 'What is a metaphor for fervent lips with an evil heart (Prov 26:23)?',
+    options: ['The icing on the cake', 'A calm bull', 'The glazing on a clay pot', 'A cart axel about to break'],
+    answer: 'C',
+    reference: 'Proverbs 26:23'
+  },
+  {
+    id: 1203,
+    question: 'What is like a coating of glaze over an earthen pot (Prov 26:23)?',
+    options: ['The tongue of a gossip who speaks the truth', 'The lips of a friend who deceives', 'The mouth of the wicked plotting violence', 'Fervent lips with an evil heart'],
+    answer: 'D',
+    reference: 'Proverbs 26:23'
+  },
+  {
+    id: 1204,
+    question: 'What does a malicious person use to disguise themselves (Prov 26:24)?',
+    options: ['The darkness of night', 'Their lips', 'Their hair', 'Clothes that are not their own'],
+    answer: 'B',
+    reference: 'Proverbs 26:24'
+  },
+  {
+    id: 1205,
+    question: 'What is harbored in the heart of a malicious person (Prov 26:24)?',
+    options: ['Deceit', 'Plots', 'Violence', 'Folly'],
+    answer: 'A',
+    reference: 'Proverbs 26:24'
+  },
+  {
+    id: 1206,
+    question: 'How many abominations fill the heart of a malicious person (Prov 26:25)?',
+    options: ['Seven', 'Twelve', 'Twenty-five', 'Forty-seven'],
+    answer: 'A',
+    reference: 'Proverbs 26:25'
+  },
+  {
+    id: 1207,
+    question: 'Who has charming but untrustworthy speech (Prov 26:25)?',
+    options: ['The fool', 'The wicked', 'A malicious person', 'The gossip'],
+    answer: 'C',
+    reference: 'Proverbs 26:25'
+  },
+  {
+    id: 1208,
+    question: 'Whose speech should one not believe (Prov 26:24f)?',
+    options: ['The fool’s', 'The wicked’s', 'A malicious person’s', 'The gossip’s'],
+    answer: 'C',
+    reference: 'Proverbs 26:24f'
+  },
+  {
+    id: 1209,
+    question: 'Where will a malicious man’s wickedness be exposed (Prov 26:26)?',
+    options: ['Before the Sanhedrin', 'Before the elders', 'Before the assembly', 'Before the LORD'],
+    answer: 'C',
+    reference: 'Proverbs 26:26'
+  },
+  {
+    id: 1210,
+    question: 'How will malice be concealed (Prov 26:26)?',
+    options: ['By folly', 'By love', 'By fervent lips', 'By deception'],
+    answer: 'D',
+    reference: 'Proverbs 26:26'
+  },
+  {
+    id: 1211,
+    question: 'What will happen when a person digs a pit (Prov 26:27)?',
+    options: ['They will fill it back in', 'They will trap a lion', 'They will fall in', 'They will establish a firm foundation'],
+    answer: 'C',
+    reference: 'Proverbs 26:27'
+  },
+  {
+    id: 1212,
+    question: 'If a person rolls a stone, what will happen to them (Prov 26:27)?',
+    options: ['It may roll down on their own family', 'He will grow weak without help', 'It will roll the other way', 'It will roll back on him'],
+    answer: 'D',
+    reference: 'Proverbs 26:27'
+  },
+  {
+    id: 1213,
+    question: 'What of the following hates those it hurts (Prov 26:28)?',
+    options: ['A malicious heart', 'A fool’s folly', 'A lying tongue', 'Deceitful lips'],
+    answer: 'C',
+    reference: 'Proverbs 26:28'
+  }
+],
+'27': [
+  {
+    id: 1214,
+    question: 'Because you do not know what a day will bring forth, what should a person not do (Prov 27:1)?',
+    options: ['Make plans', 'Avoid making plans', 'Be prepared for unexpected events', 'Boast about what you are going to do tomorrow'],
+    answer: 'D',
+    reference: 'Proverbs 27:1'
+  },
+  {
+    id: 1215,
+    question: 'What should a person not boast about (Prov 27:1)?',
+    options: ['Themselves', 'Tomorrow', 'Wealth', 'Wisdom'],
+    answer: 'B',
+    reference: 'Proverbs 27:1'
+  },
+  {
+    id: 1216,
+    question: 'What should one not let praise them (Prov 27:2)?',
+    options: ['An enemy', 'A gossip', 'One’s own mouth', 'One’s own heart'],
+    answer: 'C',
+    reference: 'Proverbs 27:2'
+  },
+  {
+    id: 1217,
+    question: 'What is heavier than a stone or sand (Prov 27:3)?',
+    options: ['The words of a fool who thinks himself wise', 'The complaints of a sluggard', 'The excuses of a sluggard', 'Provocation by a fool'],
+    answer: 'D',
+    reference: 'Proverbs 27:3'
+  },
+  {
+    id: 1218,
+    question: 'What is not as heavy as a provocation by a fool (Prov 27:3)?',
+    options: ['Water', 'Bricks', 'Stone', 'Lead'],
+    answer: 'C',
+    reference: 'Proverbs 27:3'
+  },
+  {
+    id: 1219,
+    question: 'Which of the following is described as cruel (Prov 27:4)?',
+    options: ['Anger', 'Fury', 'Jealousy', 'Loathing'],
+    answer: 'A',
+    reference: 'Proverbs 27:4'
+  },
+  {
+    id: 1220,
+    question: 'Which of the following cannot be withstood (Prov 27:4)?',
+    options: ['Anger', 'Fury', 'Jealousy', 'Loathing'],
+    answer: 'C',
+    reference: 'Proverbs 27:4'
+  },
+  {
+    id: 1221,
+    question: 'What is overwhelming (Prov 27:4)?',
+    options: ['Anger', 'Fury', 'Jealousy', 'Loathing'],
+    answer: 'B',
+    reference: 'Proverbs 27:4'
+  },
+  {
+    id: 1222,
+    question: 'What is open rebuke better than (Prov 27:5)?',
+    options: ['A flattering tongue', 'A deceitful heart', 'A friend who does not speak', 'Hidden love'],
+    answer: 'D',
+    reference: 'Proverbs 27:5'
+  },
+  {
+    id: 1223,
+    question: 'What is better than hidden love (Prov 27:5)?',
+    options: ['A friendship revealed', 'Open friendship', 'Open rebuke', 'Open strife'],
+    answer: 'C',
+    reference: 'Proverbs 27:5'
+  },
+  {
+    id: 1224,
+    question: 'What from a friend is/are faithful (Prov 27:6)?',
+    options: ['Praises', 'Wounds', 'Attacks', 'Protection'],
+    answer: 'B',
+    reference: 'Proverbs 27:6'
+  },
+  {
+    id: 1225,
+    question: 'What may be profuse (Prov 27:6)?',
+    options: ['The gifts of the wicked', 'The words of a fool', 'The requests of the poor', 'The kisses of an enemy'],
+    answer: 'D',
+    reference: 'Proverbs 27:6'
+  },
+  {
+    id: 1226,
+    question: 'What does an enemy give a lot of (Prov 27:6)?',
+    options: ['Wounds', 'Kisses', 'Empty promises', 'Praise'],
+    answer: 'B',
+    reference: 'Proverbs 27:6'
+  },
+  {
+    id: 1227,
+    question: 'What does he who is full loathe (Prov 27:7)?',
+    options: ['Beggars at his door', 'He who is fasting', 'Sweet honey', 'The king’s delicacies'],
+    answer: 'C',
+    reference: 'Proverbs 27:7'
+  },
+  {
+    id: 1228,
+    question: 'What tastes sweet to the hungry (Prov 27:7)?',
+    options: ['The bitter', 'Everything', 'Honey', 'Even a drop of water'],
+    answer: 'A',
+    reference: 'Proverbs 27:7'
+  },
+  {
+    id: 1229,
+    question: 'What is similar to a bird straying from its nest (Prov 27:8)?',
+    options: ['A fox straying from its den', 'A horse wandering from the stable', 'A son who squanders his inheritance', 'A man who wanders from his home'],
+    answer: 'D',
+    reference: 'Proverbs 27:8'
+  },
+  {
+    id: 1230,
+    question: 'A man who wanders from his home is like (Prov 27:8).',
+    options: ['A fox straying from its den', 'A horse wandering form its stable', 'A rabbit running from its hole', 'A bird straying from its nest'],
+    answer: 'D',
+    reference: 'Proverbs 27:8'
+  },
+  {
+    id: 1231,
+    question: 'What do perfume and incense bring to the heart (Prov 27:9)?',
+    options: ['Sweet aromas', 'Malice', 'Joy', 'Refreshment'],
+    answer: 'C',
+    reference: 'Proverbs 27:9'
+  },
+  {
+    id: 1232,
+    question: 'From what does pleasantness of a friend spring (Prov 27:9)?',
+    options: ['Strong rebuke', 'Earnest counsel', 'Necessary accountability', 'Trust'],
+    answer: 'B',
+    reference: 'Proverbs 27:9'
+  },
+  {
+    id: 1233,
+    question: 'Who should a person not forsake (Prov 27:10)?',
+    options: ['Neither his friend nor his enemy', 'Neither his friend nor his father’s friend', 'Neither his brother nor his father', 'Neither his wife nor his child'],
+    answer: 'B',
+    reference: 'Proverbs 27:10'
+  },
+  {
+    id: 1234,
+    question: 'Whose house should a man not go to when disaster strikes (Prov 27:10)?',
+    options: ['His brother’s', 'His father’s', 'His friend’s', 'His neighbor’s'],
+    answer: 'A',
+    reference: 'Proverbs 27:10'
+  },
+  {
+    id: 1235,
+    question: 'What is a neighbor nearby better than (Prov 27:10)?',
+    options: ['A wife far from home', 'A man who strays from his home', 'A brother far away', 'A sister in the palace'],
+    answer: 'C',
+    reference: 'Proverbs 27:10'
+  },
+  {
+    id: 1236,
+    question: 'If a man’s son is wise, what can he do (Prov 27:11)?',
+    options: ['Have a celebration', 'Rejoice in the son of his youth', 'Defeat all of his foes', 'Answer those who treat him with contempt'],
+    answer: 'D',
+    reference: 'Proverbs 27:11'
+  },
+  {
+    id: 1237,
+    question: 'If the son is wise, what is the father’s response (Prov 27:11)?',
+    options: ['Praise', 'Honor', 'Joy', 'Satisfaction'],
+    answer: 'C',
+    reference: 'Proverbs 27:11'
+  },
+  {
+    id: 1238,
+    question: 'What do the prudent do when they see danger (Prov 27:12)?',
+    options: ['Help the person who is in danger', 'See it and take refuge', 'Warn others and flee', 'Prepare their families for it'],
+    answer: 'B',
+    reference: 'Proverbs 27:12'
+  },
+  {
+    id: 1239,
+    question: 'Who keep going and suffer when they see danger (Prov 27:12)?',
+    options: ['The fool', 'The one lacking judgment', 'The simple', 'The wicked'],
+    answer: 'C',
+    reference: 'Proverbs 27:12'
+  },
+  {
+    id: 1240,
+    question: 'What should one take from a man if he puts up security for a stranger (Prov 27:13)?',
+    options: ['His servants', 'His shoes', 'His garment', 'His house'],
+    answer: 'C',
+    reference: 'Proverbs 27:13'
+  },
+  {
+    id: 1241,
+    question: 'One should take the garment of one who puts up security for whom (Prov 27:13)?',
+    options: ['A wayward woman', 'A simpleton', 'A friend', 'The one who is full of deceit'],
+    answer: 'A',
+    reference: 'Proverbs 27:13'
+  },
+  {
+    id: 1242,
+    question: 'If a man loudly blesses his neighbor in the morning, how will it be taken (Prov 27:14)?',
+    options: ['As an insult', 'As a curse', 'As sarcasm', 'As rude'],
+    answer: 'A',
+    reference: 'Proverbs 27:14'
+  },
+  {
+    id: 1243,
+    question: 'What will be taken as a curse (Prov 27:14)?',
+    options: ['A deceitful tongue', 'One with flattering lips', 'Praise at midnight', 'A loud blessing in the morning'],
+    answer: 'D',
+    reference: 'Proverbs 27:14'
+  },
+  {
+    id: 1244,
+    question: 'What can a quarrelsome wife be compared to (Prov 27:15)?',
+    options: ['A squeaky wheel on a long trip', 'A fool continually spouting his folly', 'A baaing sheep in the night', 'A constant drip in the rain'],
+    answer: 'D',
+    reference: 'Proverbs 27:15'
+  },
+  {
+    id: 1245,
+    question: 'What is restraining a quarrelsome wife compared to (Prov 27:16)?',
+    options: ['Chasing the wind', 'Trying to catch the wind', 'Trying to direct the wind', 'Trying to restrain the wind'],
+    answer: 'D',
+    reference: 'Proverbs 27:16'
+  },
+  {
+    id: 1246,
+    question: 'What is restraining a quarrelsome wife compared to (Prov 27:16)?',
+    options: ['Grasping straws', 'Grasping oil', 'Grasping the wind', 'Chaining a bird to a tree'],
+    answer: 'B',
+    reference: 'Proverbs 27:16'
+  },
+  {
+    id: 1247,
+    question: 'Just as iron sharpens iron, so also (Prov 27:17)',
+    options: ['Two workers are better than one', 'A cord of three is better than one strand', 'One man sharpens another', 'So too love never fails'],
+    answer: 'C',
+    reference: 'Proverbs 27:17'
+  },
+  {
+    id: 1248,
+    question: 'Just as he who looks after his master will be honored, so also (Prov 27:18)',
+    options: ['He who tends his fig tree will eat its fruit', 'He who tends his sheep will have wool to stay warm', 'He who tends his cattle will have milk', 'He who tends his olive grove will have oil'],
+    answer: 'A',
+    reference: 'Proverbs 27:18'
+  },
+  {
+    id: 1249,
+    question: 'What will happen to the one who looks after his master (Prov 27:18)?',
+    options: ['They will receive provisions', 'They will be welcomed into the palace', 'They will be praised in the city gate', 'They will be honored'],
+    answer: 'D',
+    reference: 'Proverbs 27:18'
+  },
+  {
+    id: 1250,
+    question: 'Who will eat the fruit of a fig tree (Prov 27:18)?',
+    options: ['The one who tends it', 'The one who planted it', 'The owner of the tree', 'The one who waters it'],
+    answer: 'A',
+    reference: 'Proverbs 27:18'
+  },
+  {
+    id: 1251,
+    question: 'What reflects the person as water reflects the face (Prov 27:19)?',
+    options: ['A mirror', 'A child', 'One’s mind', 'One’s heart'],
+    answer: 'D',
+    reference: 'Proverbs 27:19'
+  },
+  {
+    id: 1252,
+    question: 'The heart reflects a person as what reflects the face (Prov 27:19)?',
+    options: ['A mirror', 'Water', 'Polished brass', 'Silver'],
+    answer: 'B',
+    reference: 'Proverbs 27:19'
+  },
+  {
+    id: 1253,
+    question: 'What three things are never satisfied (Prov 27:20)?',
+    options: ['A wife, the stomach, and wealth', 'A cruel master, the heart of the greedy, and the mind of the devious', 'Sin, satisfaction, and Satan', 'Death, destruction, and the eyes of man'],
+    answer: 'D',
+    reference: 'Proverbs 27:20'
+  },
+  {
+    id: 1254,
+    question: 'What to a person is similar to a crucible for silver (Prov 27:21)?',
+    options: ['The person’s actions', 'The praise the person receives', 'How he reacts to injustice', 'The wisdom he holds'],
+    answer: 'B',
+    reference: 'Proverbs 27:21'
+  },
+  {
+    id: 1255,
+    question: 'The furnace is for gold as the what is for silver (Prov 27:21)?',
+    options: ['Fire', 'Mold', 'Crucible', 'Hammer'],
+    answer: 'C',
+    reference: 'Proverbs 27:21'
+  },
+  {
+    id: 1256,
+    question: 'Even though a mill can grind grain into finer powder, what can it not do (Prov 17:22)?',
+    options: ['It cannot remove violence from the wicked', 'It cannot make a sluggard work', 'It cannot separate a fool from his folly', 'It cannot make a quarrelsome wife happy'],
+    answer: 'C',
+    reference: 'Proverbs 17:22'
+  },
+  {
+    id: 1257,
+    question: 'With what is grain ground (Prov 27:22)?',
+    options: ['A pestle', 'A grinding stone', 'A mixer', 'An anvil'],
+    answer: 'A',
+    reference: 'Proverbs 27:22'
+  },
+  {
+    id: 1258,
+    question: 'What should one be sure to know the condition of (Prov 27:23)?',
+    options: ['One’s herds and flocks', 'One’s house and business', 'One’s children and his wife', 'The condition of the heart'],
+    answer: 'A',
+    reference: 'Proverbs 27:23'
+  },
+  {
+    id: 1259,
+    question: 'What does not endure forever (Prov 27:24)?',
+    options: ['Life', 'Riches', 'The summer', 'Hope'],
+    answer: 'B',
+    reference: 'Proverbs 27:24'
+  },
+  {
+    id: 1260,
+    question: 'What is not secure for all generations (Prov 27:24)?',
+    options: ['An inheritance', 'A fortress', 'A crown', 'A gate'],
+    answer: 'C',
+    reference: 'Proverbs 27:24'
+  },
+  {
+    id: 1261,
+    question: 'What happens after the hay is removed from the field (Prov 27:25)?',
+    options: ['New growth appears', 'Winter comes', 'It is then baled and put in barns', 'It is fed to the sheep'],
+    answer: 'A',
+    reference: 'Proverbs 27:25'
+  },
+  {
+    id: 1262,
+    question: 'What do lambs provide (Prov 27:26)?',
+    options: ['A Passover meal', 'A sacrifice', 'Clothing', 'Joy for the heart'],
+    answer: 'C',
+    reference: 'Proverbs 27:26'
+  },
+  {
+    id: 1263,
+    question: 'What will the price of goats provide one with (Prov 27:26)?',
+    options: ['A wife', 'A house', 'A good meal', 'A field'],
+    answer: 'D',
+    reference: 'Proverbs 27:26'
+  }
+],
+'28': [
+    {
+        id: 1403,
+        question: 'What are the righteous as bold as (Prov 28:1)?',
+        options: [
+            'As bold as a lion',
+            'As bold as a warrior',
+            'As bold as a bull',
+            'As bold as an elephant'
+        ],
+        answer: 'As bold as a lion',
+        reference: 'Proverbs 28:1'
+    },
+    {
+        id: 1404,
+        question: 'When does the wicked flee (Prov 28:1)?',
+        options: [
+            'When faced with the righteous',
+            'When calamity strikes',
+            'When the end is near',
+            'When no one pursues'
+        ],
+        answer: 'When no one pursues',
+        reference: 'Proverbs 28:1'
+    },
+    {
+        id: 1405,
+        question: 'When a country is rebellious, what does it have (Prov 28:2)?',
+        options: [
+            'Many enemies',
+            'Many rulers',
+            'Much strife',
+            'No peace'
+        ],
+        answer: 'Many rulers',
+        reference: 'Proverbs 28:2'
+    },
+    {
+        id: 1406,
+        question: 'What kind of person can maintain order (Prov 28:2)?',
+        options: [
+            'A man of understanding and knowledge',
+            'A man of wisdom and understanding',
+            'A man of kindness and righteousness',
+            'A man of righteousness and wisdom'
+        ],
+        answer: 'A man of righteousness and wisdom',
+        reference: 'Proverbs 28:2'
+    },
+    {
+        id: 1407,
+        question: 'What is a ruler who oppresses the poor similar to (Prov 28:3)?',
+        options: [
+            'A soldier who kills without mercy',
+            'A fool who thinks his way is best',
+            'A lion that kills the flock of sheep',
+            'A driving rain that leaves no crops'
+        ],
+        answer: 'A driving rain that leaves no crops',
+        reference: 'Proverbs 28:3'
+    },
+    {
+        id: 1408,
+        question: 'What is like a driving rain that leaves no crops (Prov 28:3)?',
+        options: [
+            'The wicked who ensnare the innocent',
+            'A king who uses violence on his people',
+            'A ruler who oppresses the poor',
+            'A judge who accepts a bribe'
+        ],
+        answer: 'A ruler who oppresses the poor',
+        reference: 'Proverbs 28:3'
+    },
+    {
+        id: 1409,
+        question: 'Those who keep the law resist which kind of person (Prov 28:4)?',
+        options: [
+            'A foolish person',
+            'A sluggard',
+            'A wicked person',
+            'A self-righteous person'
+        ],
+        answer: 'A wicked person',
+        reference: 'Proverbs 28:4'
+    },
+    {
+        id: 1410,
+        question: 'Who praises the wicked (Prov 28:4)?',
+        options: [
+            'Fools who follow their advice',
+            'Those who do not fear the LORD',
+            'Those who are greedy of gain',
+            'Those who forsake the law'
+        ],
+        answer: 'Those who forsake the law',
+        reference: 'Proverbs 28:4'
+    },
+    {
+        id: 1411,
+        question: 'What do evil men not understand (Prov 28:5)?',
+        options: [
+            'Wisdom',
+            'Justice',
+            'Love',
+            'Knowledge'
+        ],
+        answer: 'Justice',
+        reference: 'Proverbs 28:5'
+    },
+    {
+        id: 1412,
+        question: 'Who fully understand justice (Prov 28:5)?',
+        options: [
+            'Those who listen to wisdom',
+            'Those who listen to advice',
+            'Those who are righteous',
+            'Those who seek the LORD'
+        ],
+        answer: 'Those who seek the LORD',
+        reference: 'Proverbs 28:5'
+    },
+    {
+        id: 1413,
+        question: 'What is a poor man whose walk is blameless better than (Prov 28:6)?',
+        options: [
+            'A rich man whose ways are perverse',
+            'A rich man who does not fear the LORD',
+            'A sluggard who sleeps through the harvest',
+            'A rich man whose walks in wickedness'
+        ],
+        answer: 'A rich man whose walks in wickedness',
+        reference: 'Proverbs 28:6'
+    },
+    {
+        id: 1414,
+        question: 'Who does the companion of gluttons disgrace (Prov 28:7)?',
+        options: [
+            'His father',
+            'His mother',
+            'His king',
+            'The LORD'
+        ],
+        answer: 'The LORD',
+        reference: 'Proverbs 28:7'
+    },
+    {
+        id: 1415,
+        question: 'What can be said about the one who keeps the law (Prov 28:7)?',
+        options: [
+            'He is a wise son',
+            'He is the favorite of his father',
+            'He is a faithful son',
+            'He is a discerning son'
+        ],
+        answer: 'He is a discerning son',
+        reference: 'Proverbs 28:7'
+    },
+    {
+        id: 1416,
+        question: 'Who disgraces their father (Prov 28:7)?',
+        options: [
+            'A son who sleeps in the harvest',
+            'One who is wise in their own eyes',
+            'A companion of gluttons',
+            'One who promotes strife and discord'
+        ],
+        answer: 'A companion of gluttons',
+        reference: 'Proverbs 28:7'
+    },
+    {
+        id: 1417,
+        question: 'What happens to the wealth of the man who increases his earnings by exorbitant interest (Prov 28:8)?',
+        options: [
+            'It will be dispersed on the wind',
+            'It will be detested by the LORD',
+            'It will go to another',
+            'It will be left to his sons'
+        ],
+        answer: 'It will be left to his sons',
+        reference: 'Proverbs 28:8'
+    },
+    {
+        id: 1418,
+        question: 'The one who gains wealth by exorbitant interest will end up giving it to what type of person (Prov 28:8)?',
+        options: [
+            'One who follows the ways of justice',
+            'One who gives freely',
+            'One who keeps the law',
+            'One who is kind to the poor'
+        ],
+        answer: 'One who is kind to the poor',
+        reference: 'Proverbs 28:8'
+    },
+    {
+        id: 1419,
+        question: 'The prayers of one who turns a deaf ear to the law can be described as what (Prov 28:9)?',
+        options: [
+            'Useless',
+            'Detestable',
+            'Self-centered',
+            'Misguided'
+        ],
+        answer: 'Detestable',
+        reference: 'Proverbs 28:9'
+    },
+    {
+        id: 1420,
+        question: "Who's prayers are detestable (Prov 28:9)?",
+        options: [
+            'The wicked who oppress the poor',
+            'The fool who is wise in his own eyes',
+            'The sluggard who prays instead of working',
+            'The one who turns a deaf ear to the law'
+        ],
+        answer: 'The one who turns a deaf ear to the law',
+        reference: 'Proverbs 28:9'
+    },
+    {
+        id: 1421,
+        question: 'What will happen to the person who leads the upright along an evil path (Prov 28:10)?',
+        options: [
+            'He will fall into his own trap',
+            'He will be found out',
+            'He will receive the wrath of the LORD',
+            'He will come to poverty'
+        ],
+        answer: 'He will come to poverty',
+        reference: 'Proverbs 28:10'
+    },
+    {
+        id: 1422,
+        question: 'Who will receive a good inheritance (Prov 28:10)?',
+        options: [
+            'The righteous',
+            'The blameless',
+            'The diligent',
+            'The one who keeps the law'
+        ],
+        answer: 'The blameless',
+        reference: 'Proverbs 28:10'
+    },
+    {
+        id: 1423,
+        question: 'What kind of man can a poor man with discernment see through (Prov 28:11)?',
+        options: [
+            'A sluggard who is wise in his own eyes',
+            'A fool who is wise in his own eyes',
+            'A rich man who is wise in his own eyes',
+            'A gossip who is wise in his own eyes'
+        ],
+        answer: 'A rich man who is wise in his own eyes',
+        reference: 'Proverbs 28:11'
+    },
+    {
+        id: 1424,
+        question: 'Who can see through a rich person wise in their own eyes (Prov 28:11)?',
+        options: [
+            'A poor person with discernment',
+            'A poor person with wisdom',
+            'A poor person with insight',
+            'A poor person who keeps the law'
+        ],
+        answer: 'A poor person with discernment',
+        reference: 'Proverbs 28:11'
+    },
+    {
+        id: 1425,
+        question: 'What happens when the righteous are triumphant (Prov 28:12)?',
+        options: [
+            'There is a sacrifice given',
+            'There is a feast',
+            'There is peace in the land',
+            'There is great elation'
+        ],
+        answer: 'There is great elation',
+        reference: 'Proverbs 28:12'
+    },
+    {
+        id: 1426,
+        question: 'What happens when the wicked rise to power (Prov 28:12)?',
+        options: [
+            'The righteous rise up to defeat them',
+            'There is no peace in the land',
+            'People go into hiding',
+            'The people are oppressed'
+        ],
+        answer: 'People go into hiding',
+        reference: 'Proverbs 28:12'
+    },
+    {
+        id: 1427,
+        question: 'What does he who confesses his sins and renounces them find (Prov 28:13)?',
+        options: [
+            'Justice',
+            'Friendship',
+            'A good neighbor',
+            'Mercy'
+        ],
+        answer: 'Mercy',
+        reference: 'Proverbs 28:13'
+    },
+    {
+        id: 1428,
+        question: 'Who does not prosper (Prov 28:13)?',
+        options: [
+            'One who oppresses the poor',
+            'One who pursues injustice',
+            'One who conceals sin',
+            'One who reveals secrets'
+        ],
+        answer: 'One who conceals sin',
+        reference: 'Proverbs 28:13'
+    },
+    {
+        id: 1429,
+        question: 'What is the man who always fears the LORD (Prov 28:14)?',
+        options: [
+            'Blessed',
+            'Righteous',
+            'Wise',
+            'Sinless'
+        ],
+        answer: 'Blessed',
+        reference: 'Proverbs 28:14'
+    },
+    {
+        id: 1430,
+        question: 'Who falls into trouble (Prov 28:14)?',
+        options: [
+            'One who runs after gain',
+            'One who hardens their heart',
+            'One who refuses to take counsel',
+            'One who digs a pit'
+        ],
+        answer: 'One who hardens their heart',
+        reference: 'Proverbs 28:14'
+    },
+    {
+        id: 1431,
+        question: 'Which of the following is similar to a wicked man ruling over a helpless people (Prov 28:15)?',
+        options: [
+            'A roaring lion',
+            'A howling wolf',
+            'A swooping hawk',
+            'A loud mocker'
+        ],
+        answer: 'A roaring lion',
+        reference: 'Proverbs 28:15'
+    },
+    {
+        id: 1432,
+        question: 'A charging bear is like (Prov 28:15).',
+        options: [
+            'An angry husband over a wayward wife',
+            'One pursuing dishonest gain',
+            'One who increases wealth by exorbitant interest',
+            'A wicked ruler over a helpless people'
+        ],
+        answer: 'A wicked ruler over a helpless people',
+        reference: 'Proverbs 28:15'
+    },
+    {
+        id: 1433,
+        question: 'What will he who hates ill-gotten gain enjoy (Prov 28:16)?',
+        options: [
+            'Good health',
+            'The benefits of wealth',
+            'A long life',
+            'Peace and contentment'
+        ],
+        answer: 'A long life',
+        reference: 'Proverbs 28:16'
+    },
+    {
+        id: 1434,
+        question: 'Who lacks judgment (Prov 28:16)?',
+        options: [
+            'A tyrannical ruler',
+            'One who oppresses the poor',
+            'A judge who accepts a bribe',
+            'A rich person who is wise in their own eyes'
+        ],
+        answer: 'A tyrannical ruler',
+        reference: 'Proverbs 28:16'
+    },
+    {
+        id: 1435,
+        question: 'Which is true about a man tormented by the guilt of murder (Prov 28:17)?',
+        options: [
+            'He will be forgiven',
+            'He will be a fugitive his whole life',
+            'He will never be satisfied',
+            'He will never be at peace'
+        ],
+        answer: 'He will be a fugitive his whole life',
+        reference: 'Proverbs 28:17'
+    },
+    {
+        id: 1436,
+        question: 'Who will be a fugitive till death (Prov 28:17)?',
+        options: [
+            'An adulterer',
+            'A wicked tyrant',
+            'A liar',
+            'A murderer'
+        ],
+        answer: 'A murderer',
+        reference: 'Proverbs 28:17'
+    },
+    {
+        id: 1437,
+        question: 'What will happen to the ones whose ways are perverse (Prov 28:18)?',
+        options: [
+            'They will always be looking over his shoulder',
+            'They will never be happy',
+            'They will live in fear all their lives',
+            'They will suddenly fall'
+        ],
+        answer: 'They will suddenly fall',
+        reference: 'Proverbs 28:18'
+    },
+    {
+        id: 1438,
+        question: 'Who will be kept safe (Prov 28:18)?',
+        options: [
+            'One whose walk is blameless',
+            'One who listens to advice',
+            'One who avoids the wicked',
+            'One who flatters an evil king'
+        ],
+        answer: 'One whose walk is blameless',
+        reference: 'Proverbs 28:18'
+    },
+    {
+        id: 1439,
+        question: 'What will he who works his land have (Prov 28:19)?',
+        options: [
+            'More wealth than a king',
+            'Abundant food',
+            'Many children',
+            'Crops left over to sell'
+        ],
+        answer: 'Abundant food',
+        reference: 'Proverbs 28:19'
+    },
+    {
+        id: 1440,
+        question: 'Who will have their fill of poverty (Prov 28:19)?',
+        options: [
+            'Those that pursue violence',
+            'Those that oppress the poor',
+            'Those that do not keep the law',
+            'Those who chase fantasies'
+        ],
+        answer: 'Those who chase fantasies',
+        reference: 'Proverbs 28:19'
+    },
+    {
+        id: 1441,
+        question: 'What will happen to a those who are eager to get rich (Prov 28:20)?',
+        options: [
+            'They will not go unpunished',
+            'They will have no inheritance to leave to his children',
+            'They will be hated by others',
+            'They will not be trusted'
+        ],
+        answer: 'They will not go unpunished',
+        reference: 'Proverbs 28:20'
+    },
+    {
+        id: 1442,
+        question: 'Who will be richly blessed (Prov 28:20)?',
+        options: [
+            'A righteous person',
+            'A poor yet honest person',
+            'A faithful person',
+            'A generous person'
+        ],
+        answer: 'A faithful person',
+        reference: 'Proverbs 28:20'
+    },
+    {
+        id: 1443,
+        question: 'What will a person do to get a piece of bread (Prov 28:21)?',
+        options: [
+            'Work for it',
+            'Do wrong for it',
+            'Sell themselves',
+            'Search for it'
+        ],
+        answer: 'Do wrong for it',
+        reference: 'Proverbs 28:21'
+    },
+    {
+        id: 1444,
+        question: 'To show partiality is (Prov 28:21).',
+        options: [
+            'Not good',
+            'Unjust',
+            'A breach against the law',
+            'The way of the oppressor'
+        ],
+        answer: 'Not good',
+        reference: 'Proverbs 28:21'
+    },
+    {
+        id: 1445,
+        question: 'What is a stingy man unaware of (Prov 28:22)?',
+        options: [
+            'Money cannot be taken into death',
+            'Money cannot buy love',
+            'Poverty awaits him',
+            'Wealth is not found in the way of the wicked'
+        ],
+        answer: 'Poverty awaits him',
+        reference: 'Proverbs 28:22'
+    },
+    {
+        id: 1446,
+        question: 'Who is eager to get rich (Prov 28:22)?',
+        options: [
+            'The wicked',
+            'The sluggard',
+            'The ruler',
+            'The stingy'
+        ],
+        answer: 'The stingy',
+        reference: 'Proverbs 28:22'
+    },
+    {
+        id: 1447,
+        question: 'Who will gain more favor than a man with a flattering tongue (Prov 28:23)?',
+        options: [
+            'A mocker',
+            'A fool',
+            'A sluggard',
+            'A rebuker'
+        ],
+        answer: 'A rebuker',
+        reference: 'Proverbs 28:23'
+    },
+    {
+        id: 1448,
+        question: 'One who rebukes will ultimately find more favor than (Prov 28:23)?',
+        options: [
+            'One who lies',
+            'One who flatters',
+            'One who ignores a problem',
+            'One who gives a soft answer'
+        ],
+        answer: 'One who flatters',
+        reference: 'Proverbs 28:23'
+    },
+    {
+        id: 1449,
+        question: 'He who robs his parents and says “it’s not wrong” is a partner with who (Prov 28:24)?',
+        options: [
+            'Thieves',
+            'A fool',
+            'A destroyer',
+            'A faithless man'
+        ],
+        answer: 'A destroyer',
+        reference: 'Proverbs 28:24'
+    },
+    {
+        id: 1450,
+        question: 'What will happen to those that trust the LORD (Prov 28:25)?',
+        options: [
+            'They will find favor',
+            'They will prosper',
+            'They will have many children',
+            'They will have success'
+        ],
+        answer: 'They will prosper',
+        reference: 'Proverbs 28:25'
+    },
+    {
+        id: 1451,
+        question: 'Who stirs up dissension (Prov 28:25)?',
+        options: [
+            'A greedy person',
+            'A violent person',
+            'A jealous person',
+            'A slanderous person'
+        ],
+        answer: 'A greedy person',
+        reference: 'Proverbs 28:25'
+    },
+    {
+        id: 1452,
+        question: 'What can be said about those who trust in themselves (Prov 28:26)?',
+        options: [
+            'They are fools',
+            'They are not wealthy',
+            'They are unwise',
+            'They are wicked'
+        ],
+        answer: 'They are fools',
+        reference: 'Proverbs 28:26'
+    }
+],
+'29': [
+{
+    id: 1457,
+    question: 'What will happen to a man that remains stiff-necked after many rebukes (Prov 29:1)?',
+    options: ['He will be overthrown', 'He will be beaten with rods', 'He will be destroyed without remedy', 'His name will be destroyed forever'],
+    answer: 'He will be destroyed without remedy',
+    reference: 'Proverbs 29:1'
+},
+{
+    id: 1458,
+    question: 'Who will be destroyed without remedy (Prov 29:1)?',
+    options: ['Those who trap the poor', 'A wicked person ruling over the helpless', 'A greedy swindler', 'One who remains stiff-necked after rebukes'],
+    answer: 'One who remains stiff-necked after rebukes',
+    reference: 'Proverbs 29:1'
+},
+{
+    id: 1459,
+    question: 'What happens when the righteous thrive (Prov 29:2)?',
+    options: ['People rejoice', 'People have abundant food', 'People prosper', 'People honor the king'],
+    answer: 'People rejoice',
+    reference: 'Proverbs 29:2'
+},
+{
+    id: 1460,
+    question: 'When do people groan (Prov 29:2)?',
+    options: ['When the greedy stir up dissension', 'When violence comes on the righteous', 'When the wicked rule', 'When the stingy person gains power'],
+    answer: 'When the wicked rule',
+    reference: 'Proverbs 29:2'
+},
+{
+    id: 1461,
+    question: 'What do people do when the wicked rule (Prov 29:2)?',
+    options: ['Become corrupt', 'Go into hiding', 'Do their best to please their ruler', 'Groan'],
+    answer: 'Groan',
+    reference: 'Proverbs 29:2'
+},
+{
+    id: 1462,
+    question: 'What does a companion of prostitutes do (Prov 29:3)?',
+    options: ['Grieves his mother', 'Disgraces his father', "Squanders his father's wealth", 'Disgraces his father'],
+    answer: "Squanders his father's wealth",
+    reference: 'Proverbs 29:3'
+},
+{
+    id: 1463,
+    question: 'Who brings joy to his father (Prov 29:3)?',
+    options: ['One who loves wisdom', 'One who pursues righteousness', 'One whose walk is blameless', 'One who provides for the needy'],
+    answer: 'One who loves wisdom',
+    reference: 'Proverbs 29:3'
+},
+{
+    id: 1464,
+    question: 'What does a king use to give a country stability (Prov 29:4)?',
+    options: ['Justice', 'Righteousness', 'Honor', 'Power'],
+    answer: 'Righteousness',
+    reference: 'Proverbs 29:4'
+},
+{
+    id: 1465,
+    question: 'Who tears a country down (Prov 29:4)?',
+    options: ['One who plots violence', 'One who makes the people fear', 'One who hoards food', 'One who is greedy for bribes'],
+    answer: 'One who is greedy for bribes',
+    reference: 'Proverbs 29:4'
+},
+{
+    id: 1466,
+    question: 'When someone flatters his neighbor, what is he actually doing (Prov 29:5)?',
+    options: ['Spreading a net for his feet', 'Deceiving him', 'Being a good neighbor', 'Trying to build a friendship'],
+    answer: 'Spreading a net for his feet',
+    reference: 'Proverbs 29:5'
+},
+{
+    id: 1467,
+    question: "Who spreads a net for their neighbor's feet (Prov 29:5)?",
+    options: ['A gossip', 'One who makes evil plots', 'One who is greedy', 'One who flatters'],
+    answer: 'One who flatters',
+    reference: 'Proverbs 29:5'
+},
+{
+    id: 1468,
+    question: 'What is an evil man snared by (Prov 29:6)?',
+    options: ['His own wickedness', 'His own folly', 'His own sin', 'His own mouth'],
+    answer: 'His own sin',
+    reference: 'Proverbs 29:6'
+},
+{
+    id: 1469,
+    question: 'What can the righteous do (Prov 29:6)?',
+    options: ['Help the needy', 'Sing and be glad', 'Establish justice', 'Rejoice'],
+    answer: 'Sing and be glad',
+    reference: 'Proverbs 29:6'
+},
+{
+    id: 1470,
+    question: 'What do the righteous want for the poor (Prov 29:7)?',
+    options: ['Mercy', 'Donations', 'Clothing', 'Justice'],
+    answer: 'Justice',
+    reference: 'Proverbs 29:7'
+},
+{
+    id: 1471,
+    question: 'What concern do the wicked not have (Prov 29:7)?',
+    options: ['That the poor have their needs met', 'That the widows find a home', 'That the poor receive justice', 'That the fatherless receive an inheritance'],
+    answer: 'That the poor receive justice',
+    reference: 'Proverbs 29:7'
+},
+{
+    id: 1472,
+    question: 'What do mockers do to a city (Prov 29:8)?',
+    options: ['Cause riots', 'Inflame anger', 'Stir it up', 'Bring it to ruin'],
+    answer: 'Stir it up',
+    reference: 'Proverbs 29:8'
+},
+{
+    id: 1473,
+    question: 'Who stir up a city (Prov 29:8)?',
+    options: ['A mocker', 'A gossip', '', 'The wicked'],
+    answer: 'A mocker',
+    reference: 'Proverbs 29:8'
+},
+{
+    id: 1474,
+    question: 'What does a wise man do about anger (Prov 29:8)?',
+    options: ['Avoid it', 'Turns it away', 'Calms it', 'Holds it back'],
+    answer: 'Turns it away',
+    reference: 'Proverbs 29:8'
+},
+{
+    id: 1475,
+    question: 'What does a fool do when a wise man takes him to court (Prov 29:9)?',
+    options: ['Rages and scoffs', 'Insults and mocks', 'Exposes his folly', 'Tries to bribe the judge'],
+    answer: 'Rages and scoffs',
+    reference: 'Proverbs 29:9'
+},
+{
+    id: 1476,
+    question: 'When is there no peace (Prov 29:9)?',
+    options: ['When the righteous are destroyed', 'When injustice triumphs', 'When a fool goes to court', 'When the wicked rule'],
+    answer: 'When a fool goes to court',
+    reference: 'Proverbs 29:9'
+},
+{
+    id: 1477,
+    question: 'Who do bloodthirsty men hate (Prov 29:10)?',
+    options: ['The king', 'The LORD', 'Their neighbor', 'A man of integrity'],
+    answer: 'A man of integrity',
+    reference: 'Proverbs 29:10'
+},
+{
+    id: 1478,
+    question: 'Who do the bloodthirsty seek to kill (Prov 29:10)?',
+    options: ['The wise', 'The upright', 'The righteous', 'The faithful'],
+    answer: 'The upright',
+    reference: 'Proverbs 29:10'
+},
+{
+    id: 1479,
+    question: 'What does a fool do with his anger (Prov 29:11)?',
+    options: ['Gives it full vent', 'Lets it control him', 'Makes a scene', 'Draws attention to himself'],
+    answer: 'Gives it full vent',
+    reference: 'Proverbs 29:11'
+},
+{
+    id: 1480,
+    question: 'What does a wise person keep under control (Prov 29:11)?',
+    options: ['Violence', 'Jealousy', 'Their mouth', 'Anger'],
+    answer: 'Anger',
+    reference: 'Proverbs 29:11'
+},
+{
+    id: 1481,
+    question: 'What does a wise man do with his anger (Prov 29:11)?',
+    options: ['Avoids it', 'Turns it away', 'Controls it', 'Hides it'],
+    answer: 'Controls it',
+    reference: 'Proverbs 29:11'
+},
+{
+    id: 1482,
+    question: "What happens to a ruler's officials if he listens to lies (Prov 29:12)?",
+    options: ['They are beaten', 'They become wicked', 'They fear for the kingdom', 'They go into hiding'],
+    answer: 'They become wicked',
+    reference: 'Proverbs 29:12'
+},
+{
+    id: 1483,
+    question: 'When do all the officials of a ruler become wicked (Prov 29:12)?',
+    options: ['If the ruler oppresses his people', 'If the ruler accepts a bribe', 'If the ruler listens to lies', 'If the ruler rewards the wicked'],
+    answer: 'If the ruler rewards the wicked',
+    reference: 'Proverbs 29:12'
+},
+{
+    id: 1484,
+    question: 'What do a poor man and his oppressor have in common (Prov 29:13)?',
+    options: ['They both must earn their grain', 'The LORD gave them both eyes', 'They both wear sandals', 'They both have sinned'],
+    answer: 'The LORD gave them both eyes',
+    reference: 'Proverbs 29:13'
+},
+{
+    id: 1485,
+    question: 'Who have in common that the LORD gives sight to their eyes (Prov 29:13)?',
+    options: ['The righteous and the wicked', 'The ruler and the servant', 'The wise and the fool', 'The poor and the oppressor'],
+    answer: 'The poor and the oppressor',
+    reference: 'Proverbs 29:13'
+},
+{
+    id: 1486,
+    question: 'What happens when a king judges the poor with fairness (Prov 29:14)?',
+    options: ['His throne will always be secure', 'His crown will not perish', 'His scepter will rule', 'His line will never perish'],
+    answer: 'His throne will always be secure',
+    reference: 'Proverbs 29:14'
+},
+{
+    id: 1487,
+    question: 'How can a king make sure his throne will be secure (Prov 29:14)?',
+    options: ['By promoting wisdom', 'By not accepting a bribe', 'By rewarding the righteous', 'By judging the poor with fairness'],
+    answer: 'By judging the poor with fairness',
+    reference: 'Proverbs 29:14'
+},
+{
+    id: 1488,
+    question: 'What does the rod of correction impart (Prov 29:15)?',
+    options: ['Instruction', 'Knowledge', 'Wisdom', 'Correction'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 29:15'
+},
+{
+    id: 1489,
+    question: 'Who will disgrace their mother (Prov 29:15)?',
+    options: ['An unloved child', 'An abused child', 'A foolish child', 'A child left to himself'],
+    answer: 'A child left to himself',
+    reference: 'Proverbs 29:15'
+},
+{
+    id: 1490,
+    question: 'When the wicked thrive, what else does as well (Prov 29:16)?',
+    options: ['Injustice', 'Evil', 'Fear', 'Sin'],
+    answer: 'Sin',
+    reference: 'Proverbs 29:16'
+},
+{
+    id: 1491,
+    question: 'Who will see the downfall of the wicked (Prov 29:16)?',
+    options: ['The oppressed', 'The righteous', 'The wise', 'The innocent'],
+    answer: 'The righteous',
+    reference: 'Proverbs 29:16'
+},
+{
+    id: 1492,
+    question: 'What will the disciplined son give the parent (Prov 29:17)?',
+    options: ['Honor', 'Peace', 'Satisfaction', 'Happiness'],
+    answer: 'Peace',
+    reference: 'Proverbs 29:17'
+},
+{
+    id: 1493,
+    question: "What will bring delight to one's soul (Prov 29:17)?",
+    options: ['A disciplined child', 'A wise child', 'A righteous king', 'A just judge'],
+    answer: 'A just judge',
+    reference: 'Proverbs 29:17'
+},
+{
+    id: 1494,
+    question: 'What happens where there is no revelation (Prov 29:18)?',
+    options: ['People cast off restraint', 'People cast idols', 'People are disconnected from the LORD', 'People are without direction'],
+    answer: 'People cast off restraint',
+    reference: 'Proverbs 29:18'
+},
+{
+    id: 1495,
+    question: 'One who keeps the law is (Prov 29:18).',
+    options: ['Successful', 'Wise', 'Blessed', 'Righteous'],
+    answer: 'Blessed',
+    reference: 'Proverbs 29:18'
+},
+{
+    id: 1496,
+    question: 'Why can a servant not be corrected by mere words (Prov 29:19)?',
+    options: ['He will ignore them', 'He will not learn', 'He will not respond', 'He will become evil'],
+    answer: 'He will not respond',
+    reference: 'Proverbs 29:19'
+},
+{
+    id: 1497,
+    question: 'What kind of a person is there less hope for than for a fool (Prov 29:20)?',
+    options: ['A person who disobeys the king', 'A person who disobeys the LORD', 'A person who acts without thought', 'A person who speaks hastily'],
+    answer: 'A person who speaks hastily',
+    reference: 'Proverbs 29:20'
+},
+{
+    id: 1498,
+    question: 'If a man pampers his servant from youth, what will happen in the end (Prov 29:21)?',
+    options: ['He will bring his master grief', 'He will run away', 'He will ignore his master’s orders', 'He will bring ruin upon his master'],
+    answer: 'He will bring his master grief',
+    reference: 'Proverbs 29:21'
+},
+{
+    id: 1499,
+    question: 'What kind of servant will bring their master grief (Prov 29:21)?',
+    options: ['A foolish servant', 'A wicked servant', 'A pampered servant', 'A treacherous servant'],
+    answer: 'A pampered servant',
+    reference: 'Proverbs 29:21'
+},
+{
+    id: 1500,
+    question: 'What does an angry man stir up (Prov 29:22)?',
+    options: ['Jealousy', 'Quarrels', 'Strife', 'Dissension'],
+    answer: 'Dissension',
+    reference: 'Proverbs 29:22'
+},
+{
+    id: 1501,
+    question: 'Who commits many sins (Prov 29:22)?',
+    options: ['An evil person', 'A hot-tempered person', 'A jealous person', 'A lazy person'],
+    answer: 'A hot-tempered person',
+    reference: 'Proverbs 29:22'
+},
+{
+    id: 1502,
+    question: 'What does a person’s pride do to them (Prov 29:23)?',
+    options: ['Brings them disgrace', 'Brings them low', 'Makes them a fool', 'Makes them wicked'],
+    answer: 'Brings them low',
+    reference: 'Proverbs 29:23'
+},
+{
+    id: 1503,
+    question: 'What gains a person honor (Prov 29:23)?',
+    options: ['A wise decision', 'Listening ears', 'A lowly spirit', 'Lips that speak wisdom'],
+    answer: 'A lowly spirit',
+    reference: 'Proverbs 29:23'
+},
+{
+    id: 1504,
+    question: 'What is the accomplice of a thief (Prov 29:24)?',
+    options: ['A sinner', 'A thief himself', 'His own friend', 'His own enemy'],
+    answer: 'His own enemy',
+    reference: 'Proverbs 29:24'
+},
+{
+    id: 1505,
+    question: 'What happens to those who trust in the LORD (Prov 29:25)?',
+    options: ['They are kept safe', 'They are never in need', 'Their sins are forgiven', 'Their house stands strong forever'],
+    answer: 'They are kept safe',
+    reference: 'Proverbs 29:25'
+},
+{
+    id: 1506,
+    question: 'What will prove to be a snare (Prov 29:25)?',
+    options: ['Pursuing folly', 'Lying lips', 'A wicked heart', 'Trusting in man'],
+    answer: 'Trusting in man',
+    reference: 'Proverbs 29:25'
+}
+],
+'30': [
+{
+    id: 1511,
+    question: 'Who does the first line of Proverbs 30 attribute this chapter to (Prov 30:1)?',
+    options: ['Nahar', 'Agur', 'Jakeh', 'Johaz'],
+    answer: 'Johaz',
+    reference: 'Proverbs 30:1'
+},
+{
+    id: 1512,
+    question: 'Agur was the son of (Prov 30:1).',
+    options: ['Nahar', 'Lemuel', 'Jakeh', 'Johaz'],
+    answer: 'Jakeh',
+    reference: 'Proverbs 30:1'
+},
+{
+    id: 1513,
+    question: 'What were the sayings of Agur called (Prov 30:1)?',
+    options: ['A parable', 'A psalm', 'A dirge', 'An oracle'],
+    answer: 'An oracle',
+    reference: 'Proverbs 30:1'
+},
+{
+    id: 1514,
+    question: 'To whom did Agur declare his sayings (Prov 30:1)?',
+    options: ['Nahar', 'Johaz', 'Jakeh', 'Ithiel'],
+    answer: 'Ithiel',
+    reference: 'Proverbs 30:1'
+},
+{
+    id: 1515,
+    question: 'To whom did Ithiel declare the sayings of Agur (Prov 30:1)?',
+    options: ['Ucal', 'Johaz', 'Jakeh', 'Nahar'],
+    answer: 'Ucal',
+    reference: 'Proverbs 30:1'
+},
+{
+    id: 1516,
+    question: 'What does the writer claim he is among men (Prov 30:2)?',
+    options: ['The lowest', 'The most ignorant', 'The most righteous', 'The most wise'],
+    answer: 'The most ignorant',
+    reference: 'Proverbs 30:2'
+},
+{
+    id: 1517,
+    question: 'What does the writer claim not to have knowledge of (Prov 30:3)?',
+    options: ['The ways of the wise', 'The fear of the LORD', 'The ways of the king of heaven', 'The Holy One'],
+    answer: 'The Holy One',
+    reference: 'Proverbs 30:3'
+},
+{
+    id: 1518,
+    question: 'What does the writer claim not to have learned (Prov 30:3)?',
+    options: ['Righteousness', 'Wisdom', 'Generosity', 'Patience'],
+    answer: 'Wisdom',
+    reference: 'Proverbs 30:3'
+},
+{
+    id: 1519,
+    question: 'Which is not a question that Agur asks (Prov 30:4)?',
+    options: ['Who has wrapped up the waters in his cloak?', 'Who has gone up to heaven and come down?', 'Who has named the stars and made the moon?', 'Who has established the ends of the earth?'],
+    answer: 'Who has named the stars and made the moon?',
+    reference: 'Proverbs 30:4'
+},
+{
+    id: 1520,
+    question: 'What is every word of God described as (Prov 30:5)?',
+    options: ['Perfect', 'A just decree', 'Loud', 'Flawless'],
+    answer: 'Flawless',
+    reference: 'Proverbs 30:5'
+},
+{
+    id: 1521,
+    question: 'What is God to those who take refuge in him (Prov 30:5)?',
+    options: ['A fortress', 'A shield', 'A rock', 'A wall of protection'],
+    answer: 'A shield',
+    reference: 'Proverbs 30:5'
+},
+{
+    id: 1522,
+    question: 'What should one not do with the words of God (Prov 30:6)?',
+    options: ['Ignore them', 'Twist them', 'Call them lies', 'Add to them'],
+    answer: 'Add to them',
+    reference: 'Proverbs 30:6'
+},
+{
+    id: 1523,
+    question: "If one adds to God's words, how will God respond (Prov 30:6)?",
+    options: ['God will prove him a liar', 'God will bring calamity upon him', 'God will not listen to his prayers', 'God will expose his folly'],
+    answer: 'God will prove him a liar',
+    reference: 'Proverbs 30:6'
+},
+{
+    id: 1524,
+    question: 'How many things does the writer ask of the LORD (Prov 30:7)?',
+    options: ['One', 'Two', 'Three', 'Four'],
+    answer: 'Two',
+    reference: 'Proverbs 30:7'
+},
+{
+    id: 1525,
+    question: 'What does Agur ask God to keep far from him (Prov 30:7)?',
+    options: ['The wicked', 'Folly', 'Falsehood', 'Jealousy'],
+    answer: 'Falsehood',
+    reference: 'Proverbs 30:7'
+},
+{
+    id: 1526,
+    question: 'What extremes does the writer ask to be kept from (Prov 30:8)?',
+    options: ['Wisdom and folly', 'Hard work and sloth', 'Poverty and riches', 'Feasts and famine'],
+    answer: 'Poverty and riches',
+    reference: 'Proverbs 30:8'
+},
+{
+    id: 1527,
+    question: 'What does Agur ask God to provide for him daily (Prov 30:8)?',
+    options: ['Water', 'Bread', 'Forgiveness', 'Wisdom'],
+    answer: 'Bread',
+    reference: 'Proverbs 30:8'
+},
+{
+    id: 1528,
+    question: 'If a person has too much more than they need, what may happen (Prov 30:9)?',
+    options: ['They may become wicked', 'They may disown the LORD', 'They may lead others astray', 'They may oppress the poor'],
+    answer: 'They may disown the LORD',
+    reference: 'Proverbs 30:9'
+},
+{
+    id: 1529,
+    question: 'What does one who disowns the LORD say (Prov 30:9)?',
+    options: ['I do not fear the LORD', 'The LORD does not know', 'Who is the LORD', 'There is no God'],
+    answer: 'Who is the LORD',
+    reference: 'Proverbs 30:9'
+},
+{
+    id: 1530,
+    question: 'If a person is poor, what may they do (Prov 30:9)?',
+    options: ['Disown the LORD', 'Lie', 'Embrace folly', 'Steal'],
+    answer: 'Steal',
+    reference: 'Proverbs 30:9'
+},
+{
+    id: 1531,
+    question: 'What may happen if one slanders a servant to his master (Prov 30:10)?',
+    options: ['The owner may place a curse on them', 'The owner may beat them with a rod', 'The owner may hate them', 'The owner may slander them'],
+    answer: 'The owner may place a curse on them',
+    reference: 'Proverbs 30:10'
+},
+{
+    id: 1532,
+    question: 'What goes with “there are those who do not bless their mothers” (Prov 30:11)?',
+    options: ['There are those who are a disgrace to their fathers', 'There are those who hate their fathers', 'There are those who slander their fathers', 'There are those who curse their fathers'],
+    answer: 'There are those who curse their fathers',
+    reference: 'Proverbs 30:11'
+},
+{
+    id: 1533,
+    question: 'Some are _____ in their own eyes (Prov 30:12)?',
+    options: ['Wise', 'Right', 'Just', 'Pure'],
+    answer: 'Pure',
+    reference: 'Proverbs 30:12'
+},
+{
+    id: 1534,
+    question: 'What has not yet happened to those who are pure in their own eyes (Prov 30:12)?',
+    options: ['The LORD has not yet put the rod to their back', 'They are not yet wise', 'They are not yet cleansed from their filth', 'They are not yet forgiven of their sin'],
+    answer: 'They are not yet cleansed from their filth',
+    reference: 'Proverbs 30:12'
+},
+{
+    id: 1535,
+    question: 'There are those whose eyes are ever so haughty, and those whose glances are what (Prov 30:13)?',
+    options: ['Evil', 'Lustful', 'Disdainful', 'Harmful'],
+    answer: 'Harmful',
+    reference: 'Proverbs 30:13'
+},
+{
+    id: 1536,
+    question: 'There are those whose teeth are swords and whose jaws are what (Prov 30:14)?',
+    options: ['Like spears', 'Are daggers', 'Are set with knives', 'Are full of hatred'],
+    answer: 'Are full of hatred',
+    reference: 'Proverbs 30:14'
+},
+{
+    id: 1537,
+    question: 'There are those who seek to devour what from the earth (Prov 30:14)?',
+    options: ['The righteous', 'The upright', 'The wise', 'The poor'],
+    answer: 'The poor',
+    reference: 'Proverbs 30:14'
+},
+{
+    id: 1538,
+    question: 'What do the two daughters of a leech cry (Prov 30:15)?',
+    options: ['Give, give', 'Feed, feed', 'Mercy, mercy', 'Share, share'],
+    answer: 'Give, give',
+    reference: 'Proverbs 30:15'
+},
+{
+    id: 1539,
+    question: 'The three things that are never satisfied never say _____ (Prov 30:15)?',
+    options: ['Full', 'Enough', 'Stop', 'Thank you'],
+    answer: 'Enough',
+    reference: 'Proverbs 30:15'
+},
+{
+    id: 1540,
+    question: 'Which of the following are not from the list of things that never say “Enough!” (Prov 30:16)?',
+    options: ['Fire', 'The greedy', 'The grave', 'The barren womb'],
+    answer: 'The greedy',
+    reference: 'Proverbs 30:16'
+},
+{
+    id: 1541,
+    question: 'What will happen to the eye that mocks a father (Prov 30:17)?',
+    options: ['It will be closed', '', 'It will be pecked out by ravens', 'It will be eaten by dogs'],
+    answer: 'It will be pecked out by ravens',
+    reference: 'Proverbs 30:17'
+},
+{
+    id: 1542,
+    question: 'What will be eaten by vultures (Prov 30:17)?',
+    options: ['The eye that scorns obedience to a mother', 'The hand that will not help a friend in need', 'A back that will not work for a father', 'A tongue that pours forth lies'],
+    answer: 'A tongue that pours forth lies',
+    reference: 'Proverbs 30:17'
+},
+{
+    id: 1543,
+    question: 'How many things are there that are too amazing for the writer (Prov 30:18)?',
+    options: ['Two', 'Three', 'Six', 'Ten'],
+    answer: 'Three',
+    reference: 'Proverbs 30:18'
+},
+{
+    id: 1544,
+    question: 'Which of the following is not one of the things that were too amazing for the writer (Prov 30:19)?',
+    options: ['The way of a shepherd among sheep', 'The way of a snake on a rock', 'The way of a man with a maiden', 'The way of an eagle in the sky'],
+    answer: 'The way of a shepherd among sheep',
+    reference: 'Proverbs 30:19'
+},
+{
+    id: 1545,
+    question: 'What does an adulteress say after eating and wiping her mouth (Prov 30:20)?',
+    options: ['“It is not my fault”', '“I have done nothing wrong”', '“I am sinless”', '“I am innocent”'],
+    answer: '“I have done nothing wrong”',
+    reference: 'Proverbs 30:20'
+},
+{
+    id: 1546,
+    question: 'Under how many things can the earth not bear up (Prov 30:21)?',
+    options: ['Four', 'Five', 'Seven', 'Ten'],
+    answer: 'Four',
+    reference: 'Proverbs 30:21'
+},
+{
+    id: 1547,
+    question: 'Which of the following is one of the things that the earth cannot bear up (Prov 30:22)?',
+    options: ['A servant with his own land', 'A servant who is his own master', 'A servant who becomes king', 'A servant who rebels'],
+    answer: 'A servant who rebels',
+    reference: 'Proverbs 30:22'
+},
+{
+    id: 1548,
+    question: 'Which of the following is one of the things that the earth cannot bear up (Prov 30:23)?',
+    options: ['An unloved woman who is married', 'A servant that refuses his master', 'The conquering of the temple', 'Blasphemy of the Holy Spirit'],
+    answer: 'An unloved woman who is married',
+    reference: 'Proverbs 30:23'
+},
+{
+    id: 1549,
+    question: 'Things that are small can also be extremely _____ (Prov 30:24).',
+    options: ['Powerful', 'Wise', 'Important', 'Oppressive'],
+    answer: 'Wise',
+    reference: 'Proverbs 30:24'
+},
+{
+    id: 1550,
+    question: 'What do ants do in the summer (Prov 30:25)?',
+    options: ['Bite', 'Invade houses', 'March in armies', 'Store up food'],
+    answer: 'Store up food',
+    reference: 'Proverbs 30:25'
+},
+{
+    id: 1551,
+    question: 'Where do rock badgers make their home (Prov 30:26)?',
+    options: ['On the mountains', 'On the hills', 'In the crags', 'By the sea'],
+    answer: 'In the crags',
+    reference: 'Proverbs 30:26'
+},
+{
+    id: 1552,
+    question: 'Even though locusts have no king, what do they do (Prov 30:27)?',
+    options: ['Plunder whole fields', '', 'Sound like an army marching', 'Advance together in ranks'],
+    answer: 'Advance together in ranks',
+    reference: 'Proverbs 30:27'
+},
+{
+    id: 1553,
+    question: 'What do locusts not have (Prov 30:27)?',
+    options: ['Wisdom', 'A king', 'Patience', 'Any boundary'],
+    answer: 'A king',
+    reference: 'Proverbs 30:27'
+},
+{
+    id: 1554,
+    question: 'Even though a lizard can be caught by hand, where can it still be found (Prov 30:28)?',
+    options: ['In the temple', 'In the city gate', "In the king's palace", 'In the carts of travelers'],
+    answer: "In the king's palace",
+    reference: 'Proverbs 30:28'
+},
+{
+    id: 1555,
+    question: 'How many things are there that are stately in their stride (Prov 30:29)?',
+    options: ['One', 'Two', 'Three', 'Five'],
+    answer: 'Three',
+    reference: 'Proverbs 30:29'
+},
+{
+    id: 1556,
+    question: 'What will make a lion retreat (Prov 30:30)?',
+    options: ['A clanging gong', 'A loud trumpet', 'A fierce army', 'Nothing at all'],
+    answer: 'Nothing at all',
+    reference: 'Proverbs 30:30'
+},
+{
+    id: 1557,
+    question: 'What animal will not retreat (Prov 30:30)?',
+    options: ['Ants', 'Locusts', 'A lion', 'A lizard'],
+    answer: 'A lion',
+    reference: 'Proverbs 30:30'
+},
+{
+    id: 1558,
+    question: 'All of the following are stately in their stride EXCEPT (Prov 30:31)?',
+    options: ['A king with his army', 'A strutting rooster', 'A he-goat', 'An Arabian horse'],
+    answer: 'An Arabian horse',
+    reference: 'Proverbs 30:31'
+},
+{
+    id: 1559,
+    question: 'What should one do if they have exalted themselves and play the fool (Prov 30:32)?',
+    options: ['Repent in sackcloth', 'Place their hand over their mouth', 'Seek to repay those they have harmed', 'Cover their heads with dust and ashes'],
+    answer: 'Place their hand over their mouth',
+    reference: 'Proverbs 30:32'
+},
+{
+    id: 1560,
+    question: 'What produces butter (Prov 30:33)?',
+    options: ['A fattened calf', 'A well-fed cow', 'Churning milk', 'Milk that is chilled'],
+    answer: 'Churning milk',
+    reference: 'Proverbs 30:33'
+}
+],
+'31': [
+{
+    id: 1563,
+    question: "What did Lemuel's mother teach him (Prov 31:1)?",
+    options: ['An oracle', 'Sayings', 'Proverbs', 'A riddle'],
+    answer: 'An oracle',
+    reference: 'Proverbs 31:1'
+},
+{
+    id: 1564,
+    question: 'Who taught King Lemuel (Prov 31:1)?',
+    options: ['His father', 'His mother', 'The sages', 'Solomon'],
+    answer: 'His mother',
+    reference: 'Proverbs 31:1'
+},
+{
+    id: 1565,
+    question: "Lemuel's mother addressed him as (Prov 31:2).",
+    options: ['Son of her first love', 'Son of old age', 'Son of her vows', 'Son of the sages'],
+    answer: 'Son of her vows',
+    reference: 'Proverbs 31:2'
+},
+{
+    id: 1566,
+    question: "What did Lemuel's mother advise him not to spend on women (Prov 31:3)?",
+    options: ['His money', 'His love', 'His rubies', 'His strength'],
+    answer: 'His strength',
+    reference: 'Proverbs 31:3'
+},
+{
+    id: 1567,
+    question: "Lemuel's mother advised Lemuel should not spend his vigor on those who do what (Prov 31:3)?",
+    options: ['Deceive', 'Ruin kings', 'Lead others astray', 'Move the boundaries of widows'],
+    answer: 'Ruin kings',
+    reference: 'Proverbs 31:3'
+},
+{
+    id: 1568,
+    question: "What did Lemuel's mother say was not for kings (Prov 31:4)?",
+    options: ['To make unjust laws', 'To pervert justice', 'To drink wine', 'To pursue folly'],
+    answer: 'To drink wine',
+    reference: 'Proverbs 31:4'
+},
+{
+    id: 1569,
+    question: "What did Lemuel's mother say rulers were not to crave (Prov 31:4)?",
+    options: ['Beer', 'Wine', 'Women', 'Pleasure'],
+    answer: 'Beer',
+    reference: 'Proverbs 31:4'
+},
+{
+    id: 1570,
+    question: 'What will rulers that drink forget (Prov 31:5)?',
+    options: ['The needs of the widows', 'What the law decrees', 'The way of wisdom', 'The discipline of understanding'],
+    answer: 'What the law decrees',
+    reference: 'Proverbs 31:5'
+},
+{
+    id: 1571,
+    question: 'If the king drinks, who may be deprived (Prov 31:5)?',
+    options: ['The elderly', 'The wise', 'The needy', 'The oppressed'],
+    answer: 'The oppressed',
+    reference: 'Proverbs 31:5'
+},
+{
+    id: 1572,
+    question: 'What should be given to those who are perishing (Prov 31:6)?',
+    options: ['Kindness', 'Justice', 'Beer', 'Mercy'],
+    answer: 'Beer',
+    reference: 'Proverbs 31:6'
+},
+{
+    id: 1573,
+    question: 'To whom should beer be given (Prov 31:6)?',
+    options: ['To those who are perishing', 'To those who are pursuing folly', 'To those who plot against the king', 'To those who are angry'],
+    answer: 'To those who are perishing',
+    reference: 'Proverbs 31:6'
+},
+{
+    id: 1574,
+    question: 'Who should be given wine (Prov 31:6)?',
+    options: ['Those who are poor', 'Those who deceive the righteous', 'Those who turn aside from wisdom', 'Those who are in anguish'],
+    answer: 'Those who are in anguish',
+    reference: 'Proverbs 31:6'
+},
+{
+    id: 1575,
+    question: 'What should those that drink wine forget (Prov 31:7)?',
+    options: ['The way of folly', 'Their wicked plots', 'Their poverty', "Their father's instruction"],
+    answer: 'Their poverty',
+    reference: 'Proverbs 31:7'
+},
+{
+    id: 1576,
+    question: 'What should those that drink wine not remember (Prov 31:7)?',
+    options: ['Their misery', 'Their wicked plots', 'Their way of folly', "Their father's instruction"],
+    answer: 'Their misery',
+    reference: 'Proverbs 31:7'
+},
+{
+    id: 1578,
+    question: "Whose rights should be defended (Prov 31:9)?",
+    options: ['Women and children', 'Widows and orphans', 'Helpless and victims', 'Poor and needy'],
+    answer: 'Poor and needy',
+    reference: 'Proverbs 31:9'
+},
+{
+    id: 1579,
+    question: 'What kind of wife does the sage seek to find (Prov 31:10)?',
+    options: ['Wise heart', 'Discerning', 'Noble character', 'Beautiful of soul'],
+    answer: 'Noble character',
+    reference: 'Proverbs 31:10'
+},
+{
+    id: 1580,
+    question: 'What is a wife of noble character worth more than (Prov 31:10)?',
+    options: ['Rubies', 'Gold', 'Diamonds', 'Silver'],
+    answer: 'Rubies',
+    reference: 'Proverbs 31:10'
+},
+{
+    id: 1581,
+    question: 'What does the husband of the wife of noble character have in her (Prov 31:11)?',
+    options: ['A gift of the LORD', 'Full confidence', 'Respect', 'A great treasure'],
+    answer: 'Full confidence',
+    reference: 'Proverbs 31:11'
+},
+{
+    id: 1582,
+    question: 'What does the husband of the wife of noble character not lack (Prov 31:11)?',
+    options: ['Wisdom', 'Land and riches', 'Respect', 'Anything of value'],
+    answer: 'Anything of value',
+    reference: 'Proverbs 31:11'
+},
+{
+    id: 1583,
+    question: 'What does the wife of noble character not bring her husband (Prov 31:12)?',
+    options: ['Folly', 'Calamity', 'Harm', 'Disrespect'],
+    answer: 'Harm',
+    reference: 'Proverbs 31:12'
+},
+{
+    id: 1584,
+    question: 'What does the wife of noble character select (Prov 31:13)?',
+    options: ['Wool and flax', 'Grapes and figs', 'Rubies and diamonds', 'Gold and silver'],
+    answer: 'Wool and flax',
+    reference: 'Proverbs 31:13'
+},
+{
+    id: 1585,
+    question: 'What is the wife of noble character like (Prov 31:14)?',
+    options: ['A hidden treasure', 'A merchant ship', 'An eagle in the sky', 'A palace of silver'],
+    answer: 'A merchant ship',
+    reference: 'Proverbs 31:14'
+},
+{
+    id: 1586,
+    question: 'What does the wife of noble character bring from afar (Prov 31:14)?',
+    options: ['Wisdom', 'Wine', 'Cloth', 'Food'],
+    answer: 'Food',
+    reference: 'Proverbs 31:14'
+},
+{
+    id: 1587,
+    question: 'What does the virtuous woman do while it is still dark (Prov 31:15)?',
+    options: ['Sells her goods', 'Teaches her children', 'Gets up', 'Plows her fields'],
+    answer: 'Gets up',
+    reference: 'Proverbs 31:15'
+},
+{
+    id: 1588,
+    question: 'For whom does the virtuous woman provide portions (Prov 31:15)?',
+    options: ['Her children', 'Her servant girls', 'Her husband', 'Her parents'],
+    answer: 'Her servant girls',
+    reference: 'Proverbs 31:15'
+},
+{
+    id: 1589,
+    question: 'What does the virtuous woman provide for her family (Prov 31:15)?',
+    options: ['Food', 'Wealth', 'Clothes', 'Gifts'],
+    answer: 'Food',
+    reference: 'Proverbs 31:15'
+},
+{
+    id: 1590,
+    question: 'What does the virtuous woman consider and buy (Prov 31:16)?',
+    options: ['Rich robes', 'Food', 'A field', 'A house'],
+    answer: 'A field',
+    reference: 'Proverbs 31:16'
+},
+{
+    id: 1591,
+    question: "What are the virtuous woman's arms strong for (Prov 31:17)?",
+    options: ['The rights of the poor', 'Her tasks', 'Her family', 'Her husband'],
+    answer: 'Her tasks',
+    reference: 'Proverbs 31:17'
+},
+{
+    id: 1592,
+    question: 'What does the virtuous woman do out of her earnings (Prov 31:16)?',
+    options: ['Plants a vineyard', 'Harvests the wheat', 'Hires servants', 'Buys robes for her family'],
+    answer: 'Plants a vineyard',
+    reference: 'Proverbs 31:16'
+},
+{
+    id: 1593,
+    question: 'How does the virtuous woman do her work (Prov 31:17)?',
+    options: ['Wisely', 'Quickly', 'Perfectly', 'Vigorously'],
+    answer: 'Vigorously',
+    reference: 'Proverbs 31:17'
+},
+{
+    id: 1594,
+    question: 'What does the virtuous woman not allow to go out (Prov 31:18)?',
+    options: ['Her servants', 'Her kindness', 'Her lamp', 'Her strength'],
+    answer: 'Her lamp',
+    reference: 'Proverbs 31:18'
+},
+{
+    id: 1595,
+    question: 'What does the virtuous woman see that is profitable (Prov 31:18)?',
+    options: ['Her work', 'Her trading', 'Her harvesting', 'Her planting'],
+    answer: 'Her trading',
+    reference: 'Proverbs 31:18'
+},
+{
+    id: 1596,
+    question: 'What does the hand of the virtuous woman hold (Prov 31:19)?',
+    options: ['The sword', 'The sickle', 'The distaff', 'The needle'],
+    answer: 'The distaff',
+    reference: 'Proverbs 31:19'
+},
+{
+    id: 1597,
+    question: 'What do the fingers of the virtuous woman grasp (Prov 31:19)?',
+    options: ['The plow', 'The sickle', "The weaver's beam", 'The spindle'],
+    answer: 'The spindle',
+    reference: 'Proverbs 31:19'
+},
+{
+    id: 1598,
+    question: 'To whom does the virtuous woman open her arms (Prov 31:20)?',
+    options: ['Her husband', 'The poor', 'The wise', 'Everyone'],
+    answer: 'The poor',
+    reference: 'Proverbs 31:20'
+},
+{
+    id: 1599,
+    question: 'To whom does the virtuous woman extend a hand (Prov 31:20)?',
+    options: ['The needy', 'Her husband', 'Her children', 'The wise'],
+    answer: 'The needy',
+    reference: 'Proverbs 31:20'
+},
+{
+    id: 1600,
+    question: 'When does the virtuous woman have no fear for her family (Prov 31:21)?',
+    options: ['When disaster strikes', 'When locusts infest', 'When it snows', 'When a storm passes by'],
+    answer: 'When it snows',
+    reference: 'Proverbs 31:21'
+},
+{
+    id: 1601,
+    question: 'With what are the family of the virtuous woman clothed (Prov 31:21)?',
+    options: ['Crowns of gold', 'Royal robes', 'Many colored robes', 'Scarlet'],
+    answer: 'Scarlet',
+    reference: 'Proverbs 31:21'
+},
+{
+    id: 1602,
+    question: 'With what is the virtuous woman clothed (Prov 31:22)?',
+    options: ['Gold and silver', 'Wreath of honor', 'Respect and dignity', 'Fine linen and purple'],
+    answer: 'Fine linen and purple',
+    reference: 'Proverbs 31:22'
+},
+{
+    id: 1603,
+    question: 'Where is the husband of the virtuous woman respected (Prov 31:23)?',
+    options: ['In the city gate', "Before the king's throne", 'In the palace', 'Everywhere'],
+    answer: 'In the city gate',
+    reference: 'Proverbs 31:23'
+},
+{
+    id: 1604,
+    question: 'With whom does the husband of the virtuous woman sit in the gate (Prov 31:23)?',
+    options: ['The king', 'The elders of the land', 'The priests of the temple', 'The rulers of the city'],
+    answer: 'The elders of the land',
+    reference: 'Proverbs 31:23'
+},
+{
+    id: 1605,
+    question: 'With what does the virtuous woman supply the merchants (Prov 31:24)?',
+    options: ['Pomegranates and figs', 'Sashes', 'Tables', 'Couches'],
+    answer: 'Sashes',
+    reference: 'Proverbs 31:24'
+},
+{
+    id: 1606,
+    question: 'What kind of garments does the virtuous woman make (Prov 31:24)?',
+    options: ['Wool', 'Cotton', 'Linen', 'Silk'],
+    answer: 'Linen',
+    reference: 'Proverbs 31:24'
+},
+{
+    id: 1607,
+    question: 'With what is the virtuous woman clothed (Prov 31:25)?',
+    options: ['Wisdom and understanding', 'Compassion and mercy', 'Dignity and strength', 'Honor and respect'],
+    answer: 'Dignity and strength',
+    reference: 'Proverbs 31:25'
+},
+{
+    id: 1608,
+    question: 'What can the virtuous woman do concerning the days to come (Prov 31:25)?',
+    options: ['Laugh', 'Rest', 'Enjoy', 'Rejoice'],
+    answer: 'Laugh',
+    reference: 'Proverbs 31:25'
+},
+{
+    id: 1609,
+    question: 'What is on the tongue of the virtuous woman (Prov 31:26)?',
+    options: ['Discerning lips', 'Wise sayings', 'Truth and justice', 'Faithful instruction'],
+    answer: 'Faithful instruction',
+    reference: 'Proverbs 31:26'
+},
+{
+    id: 1610,
+    question: 'What type of bread does the virtuous woman not eat (Prov 31:27)?',
+    options: ['Others', 'Idleness', 'Wickedness', 'Deception'],
+    answer: 'Idleness',
+    reference: 'Proverbs 31:27'
+},
+{
+    id: 1611,
+    question: 'Who praises the virtuous woman (Prov 31:28)?',
+    options: ['Everyone', 'The kings of Israel', 'Her husband', 'The women of the land'],
+    answer: 'Her husband',
+    reference: 'Proverbs 31:28'
+},
+{
+    id: 1612,
+    question: 'Who call the virtuous woman "Blessed" (Prov 31:28)?',
+    options: ['All the people of Israel', 'Her husband', 'Her friends', 'Her children'],
+    answer: 'Her children',
+    reference: 'Proverbs 31:28'
+}
+]
+}
+
+export const Books = {
+    "Proverbs": Proverbs,
+}
