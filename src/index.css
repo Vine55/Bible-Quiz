@@ -32,11 +32,10 @@ body {
   background-color: white;
   border-radius: 0.5rem;
   width: 90%;
-  height: 80dvh;
+  min-height: 80dvh;
   padding: 2rem;
   margin: auto;
   margin-top: 1rem;
-  overflow-y:scroll;
 }
 
 .header {
