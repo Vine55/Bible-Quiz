@@ -155,7 +155,7 @@ export default function Landing({QuestionList, setQuestionList}) {
     You will be answering {amount || 0} questions
   </span>
   </div>
-          <Link disabled={chapter to=="Select Chapter" } to='/quiz' className="button button-primary start">Start Quiz</Link>
+          <Link to={chapterTo == "Select Chapter" && '/quiz'} className="button button-primary start">Start Quiz</Link>
         </div>
       </main>
     </>
