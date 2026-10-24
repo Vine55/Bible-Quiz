@@ -3,6 +3,7 @@ import './Quiz.css'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
+import LZString from 'lz-string'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
@@ -74,8 +75,8 @@ export default function Quiz({ questions = [] }) {
     const answeredCount = Object.keys(answers).filter((key) => Number(key) < total).length
     const progress = (answeredCount / total) * 100
 
-    const resultsParam = encodeURIComponent(btoa(JSON.stringify(answers)))
-    const questsParam = encodeURIComponent(btoa(JSON.stringify(questions.map((q) => q.id))))
+    const resultsParam = LZString.compressToEncodedURIComponent(JSON.stringify(answers))
+    const questsParam = LZString.compressToEncodedURIComponent(JSON.stringify(questions.map((q) => q.id)))
 
     return (
         <main className="modal main">

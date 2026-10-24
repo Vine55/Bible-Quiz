@@ -7,6 +7,8 @@ import {Books} from '../Questions/Questions'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+import LZString from 'lz-string'
+
 export default function Results() {
     const params = new URLSearchParams(window.location.search)
     const navigate = useNavigate()
@@ -20,7 +22,7 @@ export default function Results() {
         if (!encodedResults) return
 
         try {
-            return JSON.parse(atob(encodedResults))
+            return JSON.parse(LZString.decompressFromEncodedURIComponent(encodedResults))
         } catch {
             return {}
         }
@@ -28,7 +30,7 @@ export default function Results() {
 
     const [questions, setQuestions] = useState(() => {
         if (!params.get('quests')) return null
-        const questIdList = JSON.parse(atob(params.get('quests')))
+        const questIdList = JSON.parse(LZString.decompressFromEncodedURIComponent(params.get('quests')))
         let list = []
 
 
