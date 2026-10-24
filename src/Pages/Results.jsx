@@ -48,7 +48,7 @@ export default function Results({questions}) {
             }
         })
         setWrong(total-tmpScore)
-        setPercent(tmpScore/total*100)
+        setPercent(Math.round(tmpScore/total*100))
     }, [])
 
 
