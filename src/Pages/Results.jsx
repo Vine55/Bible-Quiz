@@ -2,26 +2,43 @@
 import './Results.css'
 import '../index.css'
 
+import {Books} from '../Questions/Questions'
+
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-export default function Results({ questions }) {
+export default function Results() {
     const params = new URLSearchParams(window.location.search)
     const navigate = useNavigate()
-    const url = `${window.location.host}/result${window.location.search}`
-
+    const url = window.location.href
+    
     let tmpScore = 0
 
     const [results, setResults] = useState(() => {
         const encodedResults = params.get('results')
 
-        if (!encodedResults) return {}
+        if (!encodedResults) return
 
         try {
             return JSON.parse(atob(encodedResults))
         } catch {
             return {}
         }
+    })
+
+    const [questions, setQuestions] = useState(() => {
+        if (!params.get('quests')) return null
+        const questIdList = JSON.parse(atob(params.get('quests')))
+        let list = []
+
+
+        questIdList.forEach(id => {
+            const data = JSON.parse(atob(id))
+            const question = Books[data["book"]][data["chapter"]][data["index"]]
+            list.push(question)
+        })
+
+        return list
     })
 
     const [score, setScore] = useState(0)
@@ -45,6 +62,8 @@ export default function Results({ questions }) {
             navigate('/')
             return
         }
+
+        if (!questions) navigate('/')
 
         tmpScore = 0
 
@@ -259,7 +278,7 @@ export default function Results({ questions }) {
                             Copy th link below to share
                         </p>
 
-                        <span>{url}</span>
+                        <span className='url'>{url}</span>
 
                         <div className="share-modal-footer">
                             <button

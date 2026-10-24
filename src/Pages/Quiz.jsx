@@ -3,6 +3,7 @@ import './Quiz.css'
 import { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
+import {Books} from '../Questions/Questions'
 
 
 export default function Quiz({questions=[]}) {
@@ -10,6 +11,13 @@ export default function Quiz({questions=[]}) {
     const [answers, setAnswers] = useState(JSON.parse(localStorage.getItem('answers')) || {})
     const [selected, setSelected] = useState(JSON.parse(localStorage.getItem('answers'))[number])
     const [progress, setProgress] = useState(0)
+    let questionId = []
+
+    questions.forEach(quest => {
+        const id = quest["id"]
+        questionId.push(id)
+    })
+    
     
     function Option({arr=[], value}) {
         const pos = arr.indexOf(value)
@@ -69,7 +77,7 @@ export default function Quiz({questions=[]}) {
                             setNumber(newNumber)
                             setSelected(answers[newNumber])
                     }}>Next <ArrowRight/></button>:
-                    <Link className='button btn button-primary action' to={`/result?results=${btoa(JSON.stringify(answers))}`}>Submit</Link>}
+                    <Link className='button btn button-primary action' to={`/result?results=${btoa(JSON.stringify(answers))}&quests=${btoa(JSON.stringify(questionId))}`}>Submit</Link>}
                 </section>
             </main>
         </>

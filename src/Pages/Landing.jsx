@@ -51,6 +51,12 @@ export default function Landing({ QuestionList, setQuestionList }) {
     localStorage.setItem("number", 0);
   }, [chapterFrom, chapterTo, amount]);
 
+  useEffect(() => {
+    if (book=='Select a book') return
+    setChapterTo(1)
+    setChapterFrom(1)
+  }, [book])
+
   return (
     <main className="modal">
       <h1 className="header">Set up Quiz</h1>

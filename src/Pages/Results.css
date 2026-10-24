@@ -259,25 +259,14 @@
     color: var(--color-text-light);
 }
 
-.share-modal-textarea {
-    display: block;
-    width: 100%;
-    min-height: 150px;
-    resize: vertical;
-    padding: 0.85rem;
-    border: 1px solid var(--color-border);
-    border-radius: var(--border-radius);
-    background-color: white;
-    color: inherit;
-    font: inherit;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    outline: none;
-}
-
-.share-modal-textarea:focus {
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 2px var(--color-primary-lighter);
+.url {
+    display: inline-block;
+    background-color: var(--color-background);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 0;
 }
 
 .share-modal-footer {
