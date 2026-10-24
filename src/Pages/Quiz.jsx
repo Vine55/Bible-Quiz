@@ -1,85 +1,141 @@
 import '../index.css'
 import './Quiz.css'
 import { useState, useEffect } from 'react'
-import {Link} from 'react-router-dom'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
-import {Books} from '../Questions/Questions'
+import { Link } from 'react-router-dom'
+import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
 
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
-export default function Quiz({questions=[]}) {
-    const [number, setNumber] = useState(eval(localStorage.getItem('number')) || 0)
-    const [answers, setAnswers] = useState(JSON.parse(localStorage.getItem('answers')) || {})
-    const [selected, setSelected] = useState(JSON.parse(localStorage.getItem('answers'))[number])
-    const [progress, setProgress] = useState(0)
-    let questionId = []
+function readStored(key, fallback) {
+    try {
+        const raw = localStorage.getItem(key)
+        return raw === null ? fallback : JSON.parse(raw)
+    } catch {
+        return fallback
+    }
+}
 
-    questions.forEach(quest => {
-        const id = quest["id"]
-        questionId.push(id)
+function Option({ index, label, selected, onSelect }) {
+    return (
+        <button
+            type="button"
+            role="radio"
+            aria-checked={selected}
+            className={`option ${selected ? 'active' : ''}`}
+            onClick={() => onSelect(index)}
+        >
+            <span className="letter">{LETTERS[index]}</span>
+            <span className="content">{label}</span>
+            {selected && <Check className="option-check" size={18} aria-hidden="true" />}
+        </button>
+    )
+}
+
+export default function Quiz({ questions = [] }) {
+    const total = questions.length
+
+    const [number, setNumber] = useState(() => {
+        const stored = Number(readStored('number', 0))
+        return Number.isInteger(stored) && stored >= 0 ? stored : 0
     })
-    
-    
-    function Option({arr=[], value}) {
-        const pos = arr.indexOf(value)
-        const poses = ['A', 'B', 'C', 'D', 'E']
+    const [answers, setAnswers] = useState(() => {
+        const stored = readStored('answers', {})
+        return stored && typeof stored === 'object' ? stored : {}
+    })
+
+    // Never index past the end, even if saved progress is stale or questions load late
+    const current = Math.min(number, Math.max(total - 1, 0))
+
+    useEffect(() => {
+        if (total === 0) return
+        localStorage.setItem('number', current)
+    }, [current, total])
+
+    useEffect(() => {
+        localStorage.setItem('answers', JSON.stringify(answers))
+    }, [answers])
+
+    const selectAnswer = (index) =>
+        setAnswers((prev) => ({ ...prev, [current]: index }))
+
+    if (total === 0) {
         return (
-            <div className={`${answers[number]==pos && 'active'} option`} onClick={() => {
-                setSelected(pos)
-            }}>
-                <span className='letter'>{poses[pos]}</span>
-                <span className='content'>{value}</span>
-            </div>
+            <main className="modal main main-empty">
+                <p className="prompt">No questions available.</p>
+            </main>
         )
     }
-    
-    useEffect(() => {
-        localStorage.setItem('number', number)
-    }, [number])
 
-    useEffect (() => {
-        if (selected || selected==0){
-            const tmpObj = {
-                ...answers, [number]: selected
-            }
-            setProgress((Object.entries(tmpObj).length/questions.length)*100)
+    const question = questions[current]
+    const selectedIndex = answers[current]
+    const isFirst = current === 0
+    const isLast = current === total - 1
 
-            setAnswers(tmpObj)
-            localStorage.setItem('answers', JSON.stringify(tmpObj))
-        }
-    }, [selected])
+    const answeredCount = Object.keys(answers).filter((key) => Number(key) < total).length
+    const progress = (answeredCount / total) * 100
+
+    const resultsParam = encodeURIComponent(btoa(JSON.stringify(answers)))
+    const questsParam = encodeURIComponent(btoa(JSON.stringify(questions.map((q) => q.id))))
 
     return (
-        <>
-            <main className="modal main">
-                <section className="top section">
-                    <span className='count'>Question {number+1} out of {questions.length}</span>
-                    <span>Choose one answer</span>
-                    <div className='progress-container'>
-                        <div className='progress-value' style={{width: `${progress}%`}}></div>
-                    </div>
-                </section> 
-                <section className='section mid'>
-                    <span className='question'>{questions[number].question}</span>
-                    <div className='choices'>
-                        {questions[number].options.map((option) => {
-                            return <Option key={option} arr={questions[number].options} value={option}/>
-                        })}
-                    </div>
-                </section>
-                <section className='section footer'>
-                    <button className={`button btn ${number > 0 ? 'action' : 'disabled'}`} onClick={() => {
-                        if (number == 0) return
-                        setNumber(number-1)
-                        }}><ArrowLeft /> Prev</button>
-                    {number+1<questions.length ?
-                    <button className='button btn button-primary action'  onClick={() => {
-                            const newNumber = number+1
-                            setNumber(newNumber)
-                            setSelected(answers[newNumber])
-                    }}>Next <ArrowRight/></button>:
-                    <Link className='button btn button-primary action' to={`/result?results=${btoa(JSON.stringify(answers))}&quests=${btoa(JSON.stringify(questionId))}`}>Submit</Link>}
-                </section>
-            </main>
-        </>
+        <main className="modal main">
+            <header className="section top">
+                <span className="count">Question {current + 1} of {total}</span>
+                <span className="prompt">Choose one answer</span>
+                <div
+                    className="progress-container"
+                    role="progressbar"
+                    aria-label="Questions answered"
+                    aria-valuemin={0}
+                    aria-valuemax={total}
+                    aria-valuenow={answeredCount}
+                >
+                    <div className="progress-value" style={{ width: `${progress}%` }} />
+                </div>
+            </header>
+
+            <section className="section mid" key={current}>
+                <h2 className="question" id="question-text">{question.question}</h2>
+                <div className="choices" role="radiogroup" aria-labelledby="question-text">
+                    {question.options.map((option, i) => (
+                        <Option
+                            key={i}
+                            index={i}
+                            label={option}
+                            selected={selectedIndex === i}
+                            onSelect={selectAnswer}
+                        />
+                    ))}
+                </div>
+            </section>
+
+            <footer className="section footer">
+                <button
+                    type="button"
+                    className="button btn button-ghost action"
+                    disabled={isFirst}
+                    onClick={() => setNumber(current - 1)}
+                >
+                    <ArrowLeft size={18} /> Prev
+                </button>
+
+                {isLast ? (
+                    <Link
+                        className="button btn button-primary action"
+                        to={`/result?results=${resultsParam}&quests=${questsParam}`}
+                    >
+                        Submit
+                    </Link>
+                ) : (
+                    <button
+                        type="button"
+                        className="button btn button-primary action"
+                        onClick={() => setNumber(current + 1)}
+                    >
+                        Next <ArrowRight size={18} />
+                    </button>
+                )}
+            </footer>
+        </main>
     )
 }

@@ -1,17 +1,66 @@
 .top-bar {
-    background-color: white;
-    border-bottom: 1px solid var(--color-background-dark);
+    position: sticky;
+    top: 0;
+    z-index: 20;
     display: flex;
-    padding: 1rem;
-    width: 100dvw;
-    justify-content: start;
-    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.75rem clamp(1rem, 4vw, 2rem);
+    background-color: color-mix(in srgb, var(--color-surface) 85%, transparent);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-background-dark);
+    animation: top-bar-in 400ms var(--ease-out) backwards;
 }
 
 .title {
-    color:var(--color-text-light);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--color-text-light);
+    transition: color 200ms;
 }
 
 .title-icon {
+    flex: none;
+    width: 1.25rem;
+    height: 1.25rem;
     color: var(--color-primary);
+    transition: transform 300ms var(--ease-spring);
+}
+
+@media (hover: hover) {
+    .title:hover {
+        color: var(--color-text);
+    }
+
+    .title:hover .title-icon {
+        transform: rotate(-8deg) scale(1.15);
+    }
+}
+
+@keyframes top-bar-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .top-bar {
+        animation: none;
+    }
+
+    .title,
+    .title-icon {
+        transition: none;
+    }
 }

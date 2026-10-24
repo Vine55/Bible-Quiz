@@ -54,6 +54,12 @@ export default function Results() {
         const answer = questions[index]?.answer
         const choice = questions[index]?.options?.[answers[index]]
 
+        if (answer.length == 1) {
+            const optMap = {"A": 0, "B":1, "C":2, "D":3}
+            const option = questions[index]?.options?.[optMap[answer]]
+            return option == choice
+        }
+
         return answer === choice
     }
 
@@ -139,7 +145,7 @@ export default function Results() {
 
     return (
         <>
-            <main className="main">
+            <main className="results-page">
                 <header className="head section">
                     <div className="score-container heading">
                         <span className="subtext">Your Score</span>
@@ -208,9 +214,13 @@ export default function Results() {
                         </div>
                     </div>
 
-                    <div className="questions">
+                    <div className="questions" key={tab}>
                         {questions.map((quest, index) => {
-                            const ans = quest.answer
+                            const optMap = {"A": 0, "B":1, "C":2, "D":3}
+                            let ans = quest.answer
+                            if (ans.length == 1) {
+                                ans = quest.options[optMap[ans]]
+                            }
                             const pick = quest.options[results[index]]
                             const correct = ans === pick
 

@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing QuestionList={questions} setQuestionList={setQuestions} />}/>
         <Route path="/quiz" element={<Quiz questions={questions}/>}/>
-        <Route path='/result' element={<Results questions={questions}/>}/>
+        <Route path='/result' element={<Results/>}/>
       </Routes>
     </>
   )

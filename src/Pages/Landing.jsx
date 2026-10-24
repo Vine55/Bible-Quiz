@@ -1,8 +1,9 @@
+
 import "../index.css";
 import "./Landing.css";
 import { Books } from "../Questions/Questions";
 import Select from "../Components/Select";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 
 export default function Landing({ QuestionList, setQuestionList }) {
@@ -18,48 +19,129 @@ export default function Landing({ QuestionList, setQuestionList }) {
   const [max, setMax] = useState(0);
   const [amount, setAmount] = useState(20);
 
-  let questions = [];
-  let finalList = [];
+  const chapterOptions = useMemo(() => {
+    if (!Books[book]) return [];
+    return Object.keys(Books[book]).sort((a, b) => Number(a) - Number(b));
+  }, [book]);
+
+  const isReady =
+    book !== "Select a book" &&
+    chapterFrom !== "Select Chapter" &&
+    chapterTo !== "Select Chapter" &&
+    max > 0 &&
+    QuestionList?.length > 0;
 
   useEffect(() => {
-    if (chapterFrom > chapterTo) setChapterTo(chapterFrom);
-  }, [chapterFrom]);
+    if (
+      chapterFrom === "Select Chapter" ||
+      chapterTo === "Select Chapter"
+    ) {
+      return;
+    }
+
+    const from = Number(chapterFrom);
+    const to = Number(chapterTo);
+
+    if (Number.isNaN(from) || Number.isNaN(to)) return;
+
+    if (from > to) {
+      setChapterTo(chapterFrom);
+    }
+  }, [chapterFrom, chapterTo]);
 
   useEffect(() => {
-    if (chapterTo == "Select Chapter") return;
-    questions = [];
-
-    const to = eval(chapterTo);
-    const from = eval(chapterFrom);
-
-    for (let i = from; i <= to; i++) {
-      Books[book][`${i}`].forEach((question) => {
-        questions.push(question);
-      });
+    if (!Books[book]) {
+      setMax(0);
+      setQuestionList([]);
+      return;
     }
-    setMax(Math.min(100, questions.length));
 
-    for (let i = 0; i < amount; i++) {
-      let rand = Math.round(Math.random()* (questions.length - 1));
-      finalList.push(questions[rand]);
-      questions.pop(rand);
-      console.log(questions.length);
+    if (
+      chapterFrom === "Select Chapter" ||
+      chapterTo === "Select Chapter"
+    ) {
+      setMax(0);
+      setQuestionList([]);
+      return;
     }
+
+    const from = Number(chapterFrom);
+    const to = Number(chapterTo);
+
+    if (
+      Number.isNaN(from) ||
+      Number.isNaN(to) ||
+      from > to
+    ) {
+      return;
+    }
+
+    const questions = [];
+
+    for (let chapter = from; chapter <= to; chapter++) {
+      const chapterQuestions = Books[book][String(chapter)];
+
+      if (Array.isArray(chapterQuestions)) {
+        questions.push(...chapterQuestions);
+      }
+    }
+
+    const questionLimit = Math.min(100, questions.length);
+    setMax(questionLimit);
+
+    if (questionLimit === 0) {
+      setQuestionList([]);
+      return;
+    }
+
+    const requestedAmount = Math.min(
+      questionLimit,
+      Math.max(1, Number(amount) || 1)
+    );
+
+    if (Number(amount) !== requestedAmount) {
+      setAmount(requestedAmount);
+    }
+
+    const shuffledQuestions = [...questions];
+
+    for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+      const randomIndex = Math.floor(Math.random() * (i + 1));
+
+      [
+        shuffledQuestions[i],
+        shuffledQuestions[randomIndex],
+      ] = [
+        shuffledQuestions[randomIndex],
+        shuffledQuestions[i],
+      ];
+    }
+
+    const finalList = shuffledQuestions.slice(0, requestedAmount);
+
     setQuestionList(finalList);
+
     localStorage.setItem("questions", JSON.stringify(finalList));
     localStorage.setItem("answers", JSON.stringify({}));
-    localStorage.setItem("number", 0);
-  }, [chapterFrom, chapterTo, amount]);
+    localStorage.setItem("number", "0");
+  }, [book, chapterFrom, chapterTo, amount, setQuestionList]);
 
   useEffect(() => {
-    if (book=='Select a book') return
-    setChapterTo(1)
-    setChapterFrom(1)
-  }, [book])
+    if (!Books[book]) return;
+
+    const firstChapter = chapterOptions[0];
+
+    setChapterFrom(firstChapter ?? "Select Chapter");
+    setChapterTo(firstChapter ?? "Select Chapter");
+    setDropDownBook(false);
+    setDropDownChapterFrom(false);
+    setDropDownChapterTo(false);
+  }, [book, chapterOptions]);
 
   return (
-    <main className="modal">
+    <main className="modal landing-modal">
       <h1 className="header">Set up Quiz</h1>
+
       <div className="form">
         <div className="question">
           <Select
@@ -69,14 +151,21 @@ export default function Landing({ QuestionList, setQuestionList }) {
             setDropDown={setDropDownBook}
             array={Object.keys(Books)}
             label="Select a Book"
-            dropDownList={[setDropDownChapterFrom, setDropDownChapterTo]}
+            dropDownList={[
+              setDropDownChapterFrom,
+              setDropDownChapterTo,
+            ]}
           />
+
           <span
-            className={`preview ${book != "" && book != "Select a book" ? "show-preview" : ""}`}
+            className={`preview ${
+              book !== "Select a book" ? "show-preview" : ""
+            }`}
           >
             You will receive questions from the book of {book}
           </span>
         </div>
+
         <div className="question">
           <div className="select-container">
             <Select
@@ -86,12 +175,16 @@ export default function Landing({ QuestionList, setQuestionList }) {
               dropDown={dropDownChapterFrom}
               setDropDown={setDropDownChapterFrom}
               array={
-                book != "" && book != "Select a book"
-                  ? Object.keys(Books[book])
+                Books[book]
+                  ? chapterOptions
                   : ["Select a book First"]
               }
-              dropDownList={[setDropDownBook, setDropDownChapterTo]}
+              dropDownList={[
+                setDropDownBook,
+                setDropDownChapterTo,
+              ]}
             />
+
             <Select
               label="To Chapter"
               selected={chapterTo}
@@ -99,42 +192,61 @@ export default function Landing({ QuestionList, setQuestionList }) {
               dropDown={dropDownChapterTo}
               setDropDown={setDropDownChapterTo}
               array={
-                book != "" && book != "Select a book"
-                  ? Object.keys(Books[book])
+                Books[book]
+                  ? chapterOptions
                   : ["Select a book First"]
               }
               disabled={
-                chapterFrom != "Select Chapter" ? eval(chapterFrom) : 200
+                chapterFrom !== "Select Chapter"
+                  ? Number(chapterFrom)
+                  : 200
               }
-              dropDownList={[setDropDownBook, setDropDownChapterFrom]}
+              dropDownList={[
+                setDropDownBook,
+                setDropDownChapterFrom,
+              ]}
             />
           </div>
+
           <span
-            className={`preview ${chapterTo != "Select Chapter" ? "show-preview" : ""}`}
+            className={`preview ${
+              chapterTo !== "Select Chapter" &&
+              chapterFrom !== "Select Chapter"
+                ? "show-preview"
+                : ""
+            }`}
           >
             Questions will come from {book}{" "}
-            {chapterFrom == chapterTo
+            {chapterFrom === chapterTo
               ? `${chapterFrom}`
               : `${chapterFrom} - ${chapterTo}`}
           </span>
         </div>
+
         <div className="question">
           <div className="question-header">
             <h2 className="label">Number of Questions</h2>
+
             <input
               type="number"
               className="amount-input"
-              min={1}
+              min={max > 0 ? 1 : 0}
               max={max}
               value={amount}
               onChange={(e) => {
                 const value = e.target.value;
+
                 if (value === "") {
                   setAmount("");
                   return;
                 }
 
-                setAmount(Math.min(max, Math.max(1, Number(value))));
+                setAmount(
+                  Math.min(
+                    max,
+                    Math.max(1, Number(value) || 1)
+                  )
+                );
               }}
               onBlur={() => {
                 if (amount === "" || max === 0) {
@@ -142,29 +254,43 @@ export default function Landing({ QuestionList, setQuestionList }) {
                 }
               }}
               disabled={max === 0}
+              aria-label="Number of quiz questions"
             />
           </div>
 
           <input
             type="range"
             min={1}
-            max={max}
-            value={amount}
+            max={Math.max(1, max)}
+            value={Math.min(max, Math.max(1, Number(amount) || 1))}
             onChange={(e) => setAmount(Number(e.target.value))}
             disabled={max === 0}
+            aria-label="Adjust number of quiz questions"
           />
 
           <span
             className={`preview ${
-              chapterTo !== "Select Chapter" ? "show-preview" : ""
+              chapterTo !== "Select Chapter" &&
+              chapterFrom !== "Select Chapter" &&
+              max > 0
+                ? "show-preview"
+                : ""
             }`}
           >
             You will be answering {amount || 0} questions
+            {max > 0 ? ` out of ${max} available` : ""}
           </span>
         </div>
+
         <Link
-          to={chapterTo != "Select Chapter" && "/quiz"}
-          className="button button-primary start"
+          to={isReady ? "/quiz" : "#"}
+          onClick={(e) => {
+            if (!isReady) e.preventDefault();
+          }}
+          aria-disabled={!isReady}
+          className={`button button-primary start ${
+            isReady ? "" : "start-disabled"
+          }`}
         >
           Start Quiz
         </Link>
