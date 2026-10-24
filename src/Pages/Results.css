@@ -140,7 +140,25 @@
     min-width: 0;
     box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
     border: 1px solid var(--color-border);
+    transform: translateY(10px);
+    opacity: 0;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
+    animation: up 500ms ease-out forwards;
+    animation-delay: calc(sibling-index() * 250ms);
+}
+
+@keyframes up {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+        transform: rotateX('-30deg');
+    }
+    
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+        transform: rotateX('0deg');
+    }
 }
 
 .result:hover {

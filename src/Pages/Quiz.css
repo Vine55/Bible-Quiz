@@ -1,10 +1,8 @@
 .main {
-    flex-direction: column;
-    display: flex;
-    gap: 2rem;
-    width: min(100dvw, 450px);
+    display: grid !important;
+    grid-template-rows: auto 1fr auto;
+    gap: 5rem;
     border: 0;
-    height: 100%;
 }
 
 .section {

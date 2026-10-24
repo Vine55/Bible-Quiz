@@ -63,8 +63,15 @@ export default function Results({questions}) {
                         <span className='subtext'>{score} out of {total} correct</span>
                     </div>
                     <div className='actions'>
-                        <button className='button button-primary'>Try again</button>
-                        <button className='button'>Change Settings</button>
+                        <button className='button button-primary' onClick={() => {
+                            localStorage.setItem('answers', '{}')
+                            localStorage.setItem('number', 0)
+                            navigate('/quiz')
+                        }}>Try again</button>
+                        <button className='button' onClick={() => {
+                            localStorage.setItem('answers', '{}')
+                            navigate('/')
+                        }}>Change Settings</button>
                     </div>
                 </header>
                 <section className='section body'>
@@ -92,7 +99,7 @@ export default function Results({questions}) {
                                 <div key={index} className='result'>
                                     <p className='quest'>{index+1}. {quest.question}</p>
                                     <p className={`pick ${!correct && 'wrong'}`}>Your answer: {pick}</p>
-                                    {!correct && <p>Correct answer {ans}</p>}
+                                    {!correct && <p>Correct answer: {ans}</p>}
                                 </div>
                             )}
                         })}

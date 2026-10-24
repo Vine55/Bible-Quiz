@@ -1,3 +1,4 @@
+import '../index.css'
 import './Quiz.css'
 import { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
